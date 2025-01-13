@@ -1,3 +1,3 @@
 # ES-DDReflections_Demo
 
-Hola
+Traducción al español del mod Doki Doki Reflections - Demo.
