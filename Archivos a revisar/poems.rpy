@@ -27,93 +27,96 @@ init python:
     author = "yuri",
     title = "Ghost Under the Light",
     text = """\
-The tendrils of my hair illuminate beneath the amber glow.
-Bathing.
-It must be this one.
-The last remaining streetlight to have withstood the test of time.
-the last yet to be replaced by the sickening blue-green hue of the future.
-I bathe. Calm; breathing air of the present but living in the past.
-The light flickers.
-I flicker back."""
+Los rizos de mi cabello se iluminan bajo el ámbar que resplandece,
+bañando.
+Debe ser este el que permanece.
+El último farol que el tiempo no logró derribar,
+el único que aún no cambian por el frío azul verdemar.
+Me baño en su calma, respiro el presente, vivo el ayer.
+La luz parpadea.
+Parpadeo con él."""
     )
 
     poem_y2 = Poem(
     author = "yuri",
     title = "The Raccoon",
     text = """\
-It happened in the dead of night while I was slicing bread for a guilty snack.
-My attention was caught by the scuttering of a raccoon outside my window.
-That was, I believe, the first time I noticed my strange tendencies as an unordinary human.
-I gave the raccoon a piece of bread, my subconscious well aware of the consequences.
-Well aware that a raccoon that is fed will always come back for more.
-The enticing beauty of my cutting knife was the symptom.
-The bread, my hungry curiosity.
-The raccoon, an urge.
+Sucedió en plena noche mientras cortaba pan para un tentempié culpable.
+Mi atención fue capturada por el ruido de un mapache fuera de mi ventana.
+Esa fue, creo, la primera vez que noté mis extrañas inclinaciones como un humano poco ordinario.
+Le di al mapache un trozo de pan, mi subconsciente plenamente consciente de las consecuencias.
+Bien sabía que un mapache alimentado siempre volverá por más.
 
-The moon increments its phase and reflects that much more light off of my cutting knife.
-The very same light that glistens in the eyes of my raccoon friend.
-I slice the bread, fresh and soft. The raccoon becomes excited.
-Or perhaps I'm merely projecting my emotions onto the newly-satisfied animal.
+La belleza tentadora de mi cuchillo fue el síntoma.
+El pan, mi curiosidad hambrienta.
+El mapache, un impulso.
 
-The raccoon has taken to following me.
-You could say that we've gotten quite used to each other.
-The raccoon becomes hungry more and more frequently, so my bread is always handy.
-Every time I brandish my cutting knife, the raccoon shows me its excitement.
-A rush of blood. Classic Pavlovian conditioning. I slice the bread.
-And I feed myself again."""
+La luna avanza en su fase y refleja aún más luz en mi cuchillo.
+La misma luz que brilla en los ojos de mi amigo mapache.
+Corto el pan, fresco y suave. El mapache se emociona.
+O tal vez solo proyecto mis emociones en el animal recién satisfecho.
+
+El mapache ha comenzado a seguirme.
+Podría decirse que ya nos hemos acostumbrado el uno al otro.
+El mapache tiene hambre cada vez más a menudo, así que siempre tengo pan a la mano.
+Cada vez que levanto mi cuchillo, el mapache muestra su emoción.
+Un torrente de sangre. El clásico condicionamiento pavloviano. Corto el pan.
+Y vuelvo a alimentarme."""
     )
 
     poem_y3 = Poem(
     author = "yuri",
     title = "Beach",
     text = """\
-A marvel millions of years in the making.
-Where the womb of Earth chaotically meets the surface.
-Under a clear blue sky, an expanse of bliss--
-But beneath gray rolling clouds, an endless enigma.
-The easiest world to get lost in
-Is one where everything can be found.
+Un milagro creado durante millones de años.
+Donde el vientre de la Tierra se encuentra caóticamente con la superficie.
+Bajo un cielo azul y despejado, una vasta dicha;
+pero bajo nubes grises y ondulantes, un enigma infinito.
+El mundo más fácil para perderse
+es aquel donde todo puede encontrarse.
 
-One can only build a sand castle where the sand is wet.
-But where the sand is wet, the tide comes.
-Will it gently lick at your foundations until you give in?
-Or will a sudden wave send you crashing down in the blink of an eye?
-Either way, the outcome is the same.
-Yet we still build sand castles.
+Solo se pueden construir castillos de arena donde la arena está húmeda.
+Pero donde la arena está húmeda, llega la marea.
+¿Lamerá suavemente tus cimientos hasta que te rindas?
+¿O una ola repentina te derribará en un abrir y cerrar de ojos?
+De cualquier forma, el desenlace es el mismo.
+Aun así, seguimos construyendo castillos de arena.
 
-I stand where the foam wraps around my ankles.
-Where my toes squish into the sand.
-The salty air is therapeutic.
-The breeze is gentle, yet powerful.
-I sink my toes into the ultimate boundary line, tempted by the foamy tendrils.
-Turn back, and I abandon my peace to erode at the shore.
-Drift forward, and I return to Earth forevermore."""
+Estoy de pie donde la espuma rodea mis tobillos,
+donde mis pies se hunden en la arena.
+El aire salado es terapéutico.
+La brisa es suave, pero poderosa.
+Hundiendo los pies en el límite último, tentado por los hilos espumosos,
+si retrocedo, abandono mi paz para erosionarme en la orilla.
+Si avanzo, regreso a la Tierra para siempre."""
     )
 
     poem_y3b = Poem(
     author = "yuri",
     title = "Ghost Under the Light pt. 2",
     text = """\
-The tendrils of my hair illuminate beneath the amber glow.
-Bathing.
-In the distance, a blue-green light flickers.
-A lone figure crosses its path - a silhouette obstructing the eerie glow.
-My heart pounds. The silhouette grows. Closer. Closer.
-I open my umbrella, casting a shadow to shield me from visibility.
-But I am too late.
-He steps into the streetlight. I gasp and drop my umbrella.
-The light flickers. My heart pounds. He raises his arm.
+Los rizos de mi cabello se iluminan bajo el resplandor ámbar.
+Bañándome.
+A lo lejos, una luz azul verdosa parpadea.
+Una figura solitaria cruza su camino: una silueta que obstruye su extraño fulgor.
+Mi corazón late con fuerza. La silueta crece. Más cerca. Más cerca.
+Abro mi paraguas, proyectando una sombra para ocultarme de la vista.
+Pero ya es demasiado tarde.
 
-Time stops.
+Él entra en el haz de la farola.
+Jadeo y dejo caer mi paraguas.
+La luz parpadea. Mi corazón late. Él levanta su brazo.
 
-The only indication of movement is the amber light flickering against his outstretched arm.
-The flickering light is in rhythm with the pounding of my heart.
-Teasing me for succumbing to this forbidden emotion.
-Have you ever heard of a ghost feeling warmth before?
-Giving up on understanding, I laugh.
-Understanding is overrated.
-I touch his hand. The flickering stops.
-Ghosts are blue-green. My heart is amber."""
+El tiempo se detiene.
+
+El único indicio de movimiento es la luz ámbar parpadeando contra su brazo extendido.
+La luz parpadeante sigue el ritmo de los latidos de mi corazón,
+burlándose de mí por ceder a esta emoción prohibida.
+¿Has oído alguna vez que un fantasma sienta calidez?
+Rindiéndome al misterio, río.
+Entender está sobrevalorado.
+Toco su mano. El parpadeo se detiene.
+Los fantasmas son azul verdoso. Mi corazón es ámbar."""
     )
 
 
