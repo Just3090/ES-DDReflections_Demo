@@ -126,20 +126,7 @@ Los fantasmas son azul verdoso. Mi corazón es ámbar."""
     author = "yuri",
     title = "An hectic night",
     text = """\
-Stormy, windy, and dark nights are common. 
-
-The city's streets were lit by street lamps that were broken, this made it difficult to see the road. 
-Dark and void of any form of illumination. 
-Storms are characterized by distress and weakness. 
-Winds are characterized by haste. 
-Dark nights inspire sinister behavior. 
-Without hope, a more profound image is created. 
-
-When I traversed the metaphorical center. I experienced the pain. 
-My shivers and goosebumps were evident of my uneasiness.
-
-However, upon closer inspection - listening and communicating - a lot of darkness is felt and seen. 
-Inner darkness is preferable to an assumed inner brightness, which is based on the exterior."""
+"""
     )
 
 
@@ -148,18 +135,21 @@ Inner darkness is preferable to an assumed inner brightness, which is based on t
     yuri_2 = True,
     title = "Wheel",
     text = """\
-A rotating wheel. Turning an axle. Grinding. Bolthead. Linear gearbox. Falling sky. Seven holy stakes. \
-A docked ship. A portal to another world. A thin rope tied to a thick rope. A torn harness. Parabolic gearbox. \
-Expanding universe. Time controlled by slipping cogwheels. Existence of God. Swimming with open water in all directions. \
-Drowning. A prayer written in blood. A prayer written in time-devouring snakes with human eyes. \
-A thread connecting all living human eyes. A kaleidoscope of holy stakes. Exponential gearbox. \
-A sky of exploding stars. God disproving the existence of God. A wheel rotating in six dimensions. \
-Forty gears and a ticking clock. A clock that ticks one second for every rotation of the planet. \
-A clock that ticks forty times every time it ticks every second time. A bolthead of holy stakes tied to \
-the existence of a docked ship to another world. A kaleidoscope of blood written in clocks. A time-devouring \
-prayer connecting a sky of forty gears and open human eyes in all directions. Breathing gearbox. Breathing bolthead. \
-Breathing ship. Breathing portal. Breathing snakes. Breathing God. Breathing blood. Breathing holy stakes. \
-Breathing human eyes. Breathing time. Breathing prayer. Breathing sky. Breathing wheel."""
+Noches tormentosas, ventosas y oscuras son algo común.
+
+Las calles de la ciudad estaban iluminadas por farolas rotas, lo que dificultaba ver el camino.
+Oscuras y vacías de cualquier forma de luz.
+Las tormentas se caracterizan por la angustia y la debilidad.
+Los vientos, por su prisa.
+Las noches oscuras inspiran comportamientos siniestros.
+Sin esperanza, se crea una imagen más profunda.
+
+Al atravesar el centro metafórico, sentí el dolor.
+Mis escalofríos y la piel erizada eran prueba de mi inquietud.
+
+Sin embargo, al observar más de cerca, al escuchar y comunicarme,
+se percibe y se ve mucha oscuridad.
+La oscuridad interior es preferible a una supuesta claridad interior basada en lo exterior."""
     )
 
     poem_y23 = Poem(
@@ -219,54 +209,54 @@ unreleased tension experienced by my entire body. Her Third Eye is drawing me cl
 
     poem_n1 = Poem(
     author = "natsuki",
-    title = "Eagles Can Fly",
+    title = "Eagles can fly",
     text = """\
-Monkeys can climb
-Crickets can leap
-Horses can race
-Owls can seek
-Cheetahs can run
-Eagles can fly
-People can try
-But that's about it."""
+Los monos pueden trepar
+Los grillos pueden saltar
+Los caballos pueden correr
+Las lechuzas pueden buscar
+Los guepardos pueden correr
+Las águilas pueden volar
+Las personas pueden intentar
+Y no mucho más."""
     )
 
     poem_n2 = Poem(
     author = "natsuki",
     title = "Amy Likes Spiders",
     text = """\
-You know what I heard about Amy?
-Amy likes spiders.
-Icky, wriggly, hairy, ugly spiders!
-That's why I'm not friends with her.
+¿Sabes lo que escuché sobre Amy?
+A Amy le gustan las arañas.
+¡Asquerosas, retorcidas, peludas, feas arañas!
+Por eso no soy su amiga.
 
-Amy has a cute singing voice.
-I heard her singing my favorite love song.
-Every time she sang the chorus, my heart would pound to the rhythm of the words.
-But she likes spiders.
-That's why I'm not friends with her.
+Amy tiene una voz linda para cantar.
+La escuché cantar mi canción de amor favorita.
+Cada vez que cantaba el estribillo, mi corazón latía al ritmo de sus palabras.
+Pero le gustan las arañas.
+Por eso no soy su amiga.
 
-One time, I hurt my leg really bad.
-Amy helped me up and took me to the nurse.
-I tried not to let her touch me.
-She likes spiders, so her hands are probably gross.
-That's why I'm not friends with her.
+Una vez, me lastimé mucho la pierna.
+Amy me ayudó a levantarme y me llevó a la enfermería.
+Intenté que no me tocara.
+Le gustan las arañas, así que sus manos deben ser asquerosas.
+Por eso no soy su amiga.
 
-Amy has a lot of friends.
-I always see her talking to people.
-She probably talks about spiders.
-What if her friends start to like spiders too?
-That's why I'm not friends with her.
+Amy tiene muchos amigos.
+Siempre la veo hablando con la gente.
+Probablemente habla de arañas.
+¿Y si sus amigos empiezan a gustarles las arañas también?
+Por eso no soy su amiga.
 
-It doesn't matter if she has other hobbies.
-It doesn't matter if she keeps it private.
-It doesn't matter if it doesn't hurt anyone.
+No importa si tiene otros pasatiempos.
+No importa si lo guarda en privado.
+No importa si no hace daño a nadie.
 
-It's gross.
-She's gross.
-The world is better off without spider lovers.
+Es asqueroso.
+Ella es asquerosa.
+El mundo sería mejor sin los amantes de las arañas.
 
-And I'm gonna tell everyone."""
+Y voy a contárselo a todos."""
     )
 
     poem_n2b = Poem(
@@ -293,97 +283,87 @@ b3AgbXlzZWxmLg=="""
     author = "natsuki",
     title = "I'll Be Your Beach",
     text = """\
-Your mind is so full of troubles and fears
-That diminished your wonder over the years
-But today I have a special place
-A beach for us to go.
+Tu mente está llena de miedos y pesar,
+que apagaron tu asombro con el pasar.
+Pero hoy tengo un lugar especial,
+una playa para ir los dos.
 
-A shore reaching beyond your sight
-A sea that sparkles with brilliant light
-The walls in your mind will melt away
-Before the sunny glow.
+Una orilla que se extiende más allá de tu mirar,
+un mar que brilla con luz sin igual.
+Los muros en tu mente se derretirán
+ante el cálido resplandor.
 
-I'll be the beach that washes your worries away
-I'll be the beach that you daydream about each day
-I'll be the beach that makes your heart leap
-In a way you thought had left you long ago.
+Seré la playa que tus penas borrará,
+seré la playa con la que cada día soñarás,
+seré la playa que hará tu corazón saltar
+como creíste que ya nunca pasará.
 
-Let's bury your heavy thoughts in a pile of sand
-Bathe in sunbeams and hold my hand
-Wash your insecurities in the salty sea
-And let me see you shine.
+Enterremos tus pesares en un montón de arena,
+bañémonos en rayos de sol mientras mi mano estrechas.
+Lava tus inseguridades en el salado mar,
+y déjame verte brillar.
 
-Let's leave your memories in a footprint trail
-Set you free in my windy sail
-And remember the reasons you're wonderful
-When you press your lips to mine.
+Deja tus memorias en una huella al andar,
+libérate en mis velas al viento y vuela sin mirar.
+Recuerda por qué eres maravilloso
+cuando tus labios busquen los míos al reposar.
 
-I'll be the beach that washes your worries away
-I'll be the beach that you daydream about each day
-I'll be the beach that makes your heart leap
-In a way you thought had left you long ago.
+Seré la playa que tus penas borrará,
+seré la playa con la que cada día soñarás,
+seré la playa que hará tu corazón saltar
+como creíste que ya nunca pasará.
 
-But if you let me by your side
-Your own beach, your own escape
-You'll learn to love yourself again."""
+Pero si me dejas estar a tu lado,
+tu propia playa, tu propio remanso,
+aprenderás a amarte de nuevo."""
     )
 
     poem_n3b = Poem(
     author = "natsuki",
     title = "Because You",
     text = """\
-Tomorrow will be brighter with me around
-But when today is dim, I can only look down.
-My looking is a little more forward
-Because you look at me.
+El mañana será más brillante si estás junto a mí,
+pero cuando hoy es oscuro, solo puedo mirar hacia abajo aquí.
+Mi mirada va un poco más adelante
+porque tú me miras a mí.
 
-When I want to say something, I say it with a shout!
-But my truest feelings can never come out.
-My words are a little less empty
-Because you listen to me.
+Cuando quiero decir algo, lo grito sin dudar,
+pero mis sentimientos más sinceros nunca logran escapar.
+Mis palabras son un poco menos vacías
+porque tú me escuchas a mí.
 
-When something is above me, I reach for the stars.
-But when I feel small, I don't get very far.
-My standing is a little bit taller
-Because you sit with me.
+Cuando algo está lejos, intento alcanzar las estrellas,
+pero cuando me siento pequeño, no llego a ellas.
+Me sostengo un poco más alto
+porque te sientas conmigo.
 
-I believe in myself with all of my heart.
-But what do I do when it's torn all apart?
-My faith is a little bit stronger
-Because you trusted me.
+Creo en mí con todo mi corazón,
+pero ¿qué hago cuando estoy roto sin razón?
+Mi fe es un poco más fuerte
+porque tú confías en mí.
 
-My pen always puts my feelings to the test.
-I'm not a good writer, but my best is my best.
-My poems are a little bit dearer
-Because you think of me.
+Mi pluma siempre pone mis sentimientos a prueba,
+no soy buen escritor, pero mi mejor esfuerzo cuenta.
+Mis poemas son un poco más valiosos
+porque piensas en mí.
 
-Because you, because you, because you."""
+Por ti, por ti, por ti."""
     )
 
     poem_n23 = Poem(
     author = "natsuki",
     title = "",
     text = """\
-I don't know how else to bring this up. But there's been something I've been worried about. \
-Yuri has been acting kind of strange lately. You've only been here a few days, so you may \
-not know what I mean. But she's not normally like this. She's always been quiet and polite \
-and attentive...things like that.
+No sé cómo sacar este tema, pero hay algo que me preocupa mucho.
+Yuri ha estado actuando de forma extraña últimamente. Solo llevas aquí unos días, así que quizá no sepas a qué me refiero. Pero ella no suele ser así. Siempre ha sido tranquila, educada y atenta... cosas así.
 
-Okay... This is really embarrassing, but I'm forcing myself to suck it up. The truth is, I'm REALLY \
-worried about her. But if I try talking to her, she'll just get mad at me again. I don't \
-know what to do. I think you're the only person that she'll listen to. I don't know why. \
-But please try to do something. Maybe you can convince her to talk to a therapist.
+Esto es realmente embarazoso, pero me estoy obligando a afrontarlo. La verdad es que estoy REALMENTE preocupada por ella. Pero si intento hablar con ella, solo se enfadará conmigo otra vez. No sé qué hacer. Creo que eres la única persona a la que ella escucharía. No sé por qué, pero por favor, intenta hacer algo. Quizá puedas convencerla de que hable con un terapeuta.
 
-I've always wanted to try being better friends with Yuri, and it really hurts me to see \
-this happening. I know I'm going to hate myself later for admitting that, but right now \
-I don't care. I just feel so helpless. So please see if you can do something to help. \
-I don't want anything bad to happen to her. I'll make you cupcakes if I have to. Just please \
-try to do something.
+Siempre he querido intentar ser mejor amiga de Yuri, y me duele mucho verla así. Sé que me odiaré más tarde por admitir esto, pero ahora mismo no me importa. Me siento tan impotente. Por favor, mira si puedes hacer algo para ayudarla. No quiero que le pase nada malo. Haré cupcakes si es necesario. Solo, por favor, intenta hacer algo.
 
-As for Monika... I don't know why, but she's been really dismissive about this. It's like she just wants us \
-to ignore it. So I'm mad at her right now, and that's why I'm coming to you about this. \
-DON'T LET HER KNOW I WROTE THIS!!!! Just pretend like I gave you a really good poem, okay? \
-I'm counting on you. Thanks for reading."""
+En cuanto a Monika... No sé por qué, pero ha estado muy indiferente sobre esto. Es como si quisiera que lo ignoremos. Estoy enfadada con ella ahora mismo, y por eso vengo a ti con esto.
+
+¡¡¡NO LE DIGAS QUE TE ESCRIBÍ ESTO!!! Solo finge que te di un poema realmente bueno, ¿de acuerdo? Confío en ti. Gracias por leer."""
     )
 
     poem_s1 = Poem(
