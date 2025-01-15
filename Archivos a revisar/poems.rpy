@@ -25,7 +25,7 @@ init python:
 
     poem_y1 = Poem(
     author = "yuri",
-    title = "Ghost Under the Light",
+    title = "El fantasma bajo la luz.",
     text = """\
 Los rizos de mi cabello se iluminan bajo el ámbar que resplandece,
 bañando.
@@ -39,7 +39,7 @@ Parpadeo con él."""
 
     poem_y2 = Poem(
     author = "yuri",
-    title = "The Raccoon",
+    title = "El mapache.",
     text = """\
 Sucedió en plena noche mientras cortaba pan para un tentempié culpable.
 Mi atención fue capturada por el ruido de un mapache fuera de mi ventana.
@@ -66,7 +66,7 @@ Y vuelvo a alimentarme."""
 
     poem_y3 = Poem(
     author = "yuri",
-    title = "Beach",
+    title = "Playa.",
     text = """\
 Un milagro creado durante millones de años.
 Donde el vientre de la Tierra se encuentra caóticamente con la superficie.
@@ -93,7 +93,7 @@ Si avanzo, regreso a la Tierra para siempre."""
 
     poem_y3b = Poem(
     author = "yuri",
-    title = "Ghost Under the Light pt. 2",
+    title = "El fantasma bajo la luz pt. 2",
     text = """\
 Los rizos de mi cabello se iluminan bajo el resplandor ámbar.
 Bañándome.
@@ -133,7 +133,7 @@ Los fantasmas son azul verdoso. Mi corazón es ámbar."""
     poem_y22 = Poem(
     author = "yuri",
     yuri_2 = True,
-    title = "Wheel",
+    title = "Rueda.",
     text = """\
 Noches tormentosas, ventosas y oscuras son algo común.
 
@@ -197,19 +197,20 @@ etiary tranquillizing,,uniparental droogs,,allotropous,,forzati abiogenetic,,obd
 ion exempted unifaces,,epilating calisaya dispiteously coggles,,vestmented flukily\
  ignifying complished hiccupy municipalize,,pentagraphs parcels sutler excavates,,\
 stardust miscited thankfulness,,fouter pertused,,overpacks,,guarishes hylotheism,,pi
-Fresh blood seeps through the line parting her skin and slowly colors her breast red.\
- I begin to hyperventilate as my compulsion grows. The images won’t go away. Images of\
- me driving the knife into her flesh continuously, fucking her body with the blade, \
-making a mess of her. My head starts going crazy as my thoughts start to return. \
-Shooting pain assaults my mind along with my thoughts. This is disgusting. Absolutely\
- disgusting. How could I ever let myself think these things? But it’s unmistakable. \
-The lust continues to linger through my veins. An ache in my muscles stems from the \
-unreleased tension experienced by my entire body. Her Third Eye is drawing me closer."""
+El flujo fresco de sangre se desliza a través de la línea que divide su piel, tiñendo lentamente su pecho de rojo.
+Comienzo a hiperventilar mientras la compulsión crece. Las imágenes no se desvanecen.
+Imágenes de mí hundiendo el cuchillo en su carne una y otra vez, penetrando su cuerpo con la hoja,
+convirtiéndolo en un caos. Mi cabeza se siente al borde del colapso mientras los pensamientos regresan.
+Un dolor punzante asalta mi mente junto con mis ideas. Esto es repugnante. Absolutamente repugnante.
+¿Cómo pude permitirme pensar algo así? Pero es innegable.
+La lujuria sigue fluyendo por mis venas.
+Un dolor en mis músculos nace de la tensión no liberada que domina todo mi cuerpo.
+Su Tercer Ojo me atrae cada vez más.""
     )
 
     poem_n1 = Poem(
     author = "natsuki",
-    title = "Eagles can fly",
+    title = "Las águilas pueden volar.",
     text = """\
 Los monos pueden trepar
 Los grillos pueden saltar
@@ -223,7 +224,7 @@ Y no mucho más."""
 
     poem_n2 = Poem(
     author = "natsuki",
-    title = "Amy Likes Spiders",
+    title = "A Amy le gustan las arañas.",
     text = """\
 ¿Sabes lo que escuché sobre Amy?
 A Amy le gustan las arañas.
@@ -281,7 +282,7 @@ b3AgbXlzZWxmLg=="""
 
     poem_n3 = Poem(
     author = "natsuki",
-    title = "I'll Be Your Beach",
+    title = "Seré tu playa.",
     text = """\
 Tu mente está llena de miedos y pesar,
 que apagaron tu asombro con el pasar.
@@ -320,7 +321,7 @@ aprenderás a amarte de nuevo."""
 
     poem_n3b = Poem(
     author = "natsuki",
-    title = "Because You",
+    title = "Por ti.",
     text = """\
 El mañana será más brillante si estás junto a mí,
 pero cuando hoy es oscuro, solo puedo mirar hacia abajo aquí.
