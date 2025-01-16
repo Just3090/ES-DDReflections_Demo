@@ -369,22 +369,22 @@ En cuanto a Monika... No sé por qué, pero ha estado muy indiferente sobre esto
 
     poem_s1 = Poem(
     author = "sayori",
-    title = "Dear Sunshine",
+    title = "Querido Sol.",
     text = """\
-The way you glow through my blinds in the morning
-It makes me feel like you missed me.
-Kissing my forehead to help me out of bed.
-Making me rub the sleepy from my eyes.
+La forma en que brillas a través de mis persianas por la mañana
+me hace sentir que me has echado de menos.
+Besas mi frente para ayudarme a salir de la cama.
+Haces que me frote el sueño de los ojos.
 
-Are you asking me to come out and play?
-Are you trusting me to wish away a rainy day?
-I look above. The sky is blue.
-It's a secret, but I trust you too.
+¿Me estás pidiendo que salga a jugar?
+¿Confías en mí para desear que desaparezca un día lluvioso?
+Miro hacia arriba. El cielo es azul.
+Es un secreto, pero yo también confío en ti.
 
-If it wasn't for you, I could sleep forever.
-But I'm not mad.
+Si no fuera por ti, podría dormir para siempre.
+Pero no estoy enfadado.
 
-I want breakfast."""
+Quiero desayunar."""
     )
 
 
@@ -392,25 +392,22 @@ I want breakfast."""
 
     poem_s11 = Poem(
     author = "sayori",
-    title = "Good Morning, Sunshine",
+    title = "Buenos días, Sol.",
     text = """\
-A beautiful morning that forces me to wake up handsomely. 
+Una hermosa mañana que me obliga a despertar radiante.
 
-There are no clouds in the sky. 
-The weekend is coming, it's time to have fun! 
+No hay nubes en el cielo.
+El fin de semana se acerca, ¡es hora de divertirse!
 
+¡Oh, buenos días, sol brillante! Te veo todos los días dondequiera que voy.
+Haces que mis días sean mucho más divertidos cuando brillas con fuerza.
+Estás ahí, listo para correr como un soldado.
 
-Oh, good morning, sunshine! I see you every day everywhere I go. 
-You make my days so much more fun when you're shining brightly.
-You stand there, ready to sprint like a soldier.
+Te miro y veo,
 
+Un cielo despejado, tan azul.
 
-I look at you and I see,
-
-A clear sky, oh so blue.
-
-
-Will you make me promise to keep the rainclouds away from me?"""
+¿Me harás prometer mantener las nubes de lluvia lejos de mí?"""
     )
 
     poem_s2 = Poem(
