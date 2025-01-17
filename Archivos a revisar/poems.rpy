@@ -412,108 +412,110 @@ Un cielo despejado, tan azul.
 
     poem_s2 = Poem(
     author = "sayori",
-    title = "Bottles",
+    title = "Botellas.",
     text = """\
-I pop off my scalp like the lid of a cookie jar.
-It's the secret place where I keep all my dreams.
-Little balls of sunshine, all rubbing together like a bundle of kittens.
-I reach inside with my thumb and forefinger and pluck one out.
-It's warm and tingly.
-But there's no time to waste! I put it in a bottle to keep it safe.
-And I put the bottle on the shelf with all of the other bottles.
-Happy thoughts, happy thoughts, happy thoughts in bottles, all in a row.
+Abro mi cráneo como si fuera la tapa de un tarro de galletas.
+Es el lugar secreto donde guardo todos mis sueños.
+Pequeñas bolas de luz, todas juntas, como un montón de gatitos.
+Metiendo el pulgar y el índice, saco uno.
+Es cálido y vibrante.
+¡Pero no hay tiempo que perder! Lo guardo en una botella para mantenerlo a salvo.
+Y coloco la botella en la estantería, junto a todas las demás.
+Pensamientos felices, pensamientos felices, pensamientos felices, todos alineados en sus botellas.
 
-My collection makes me lots of friends.
-Each bottle a starlight to make amends.
-Sometimes my friend feels a certain way.
-Down comes a bottle to save the day.
+Mi colección me llena de amigos.
+Cada botella, un rayo de luz para enmendar errores.
+A veces, un amigo necesita consuelo.
+Entonces saco una botella para salvar el momento.
 
-Night after night, more dreams.
-Friend after friend, more bottles.
-Deeper and deeper my fingers go.
-Like exploring a dark cave, discovering the secrets hiding in the nooks and crannies.
-Digging and digging.
-Scraping and scraping.
+Noche tras noche, más sueños.
+Amigo tras amigo, más botellas.
+Mis dedos se hunden cada vez más.
+Como quien explora una cueva oscura, descubriendo secretos en cada rincón.
+Cavo y cavo.
+Raspo y raspo.
 
-I blow dust off my bottle caps.
-It doesn't feel like time elapsed.
-My empty shelf could use some more.
-My friends look through my locked front door.
+Soplo el polvo de las tapas de las botellas.
+El tiempo parece haberse detenido.
+Mi estantería vacía pide más.
+Mis amigos miran a través de la puerta cerrada.
 
-Finally, all done. I open up, and in come my friends.
-In they come, in such a hurry. Do they want my bottles that much?
-I frantically pull them from the shelf, one after the other.
-Holding them out to each and every friend.
-Each and every bottle.
-But every time I let one go, it shatters against the tile between my feet.
-Happy thoughts, happy thoughts, happy thoughts in shards, all over the floor.
+Por fin, todo está listo. Abro la puerta, y mis amigos entran.
+Llegan con prisa, como si desearan mis botellas con desesperación.
+Las saco frenéticamente de la estantería, una tras otra.
+Las entrego a cada amigo.
+Cada una de mis botellas.
+Pero cada vez que dejo caer una, se estrella contra el suelo de baldosas.
+Pensamientos felices, pensamientos felices, pensamientos felices, hechos pedazos por el suelo.
 
-They were supposed to be for my friends, my friends who aren't smiling.
-They're all shouting, pleading. Something.
-But all I hear is echo, echo, echo, echo, echo
-Inside my head."""
+Se suponía que eran para mis amigos, esos amigos que ya no sonríen.
+Todos gritan, suplican algo.
+Pero lo único que escucho es eco, eco, eco, eco, eco
+Dentro de mi cabeza."""
     )
 
     poem_s3 = Poem(
     author = "sayori",
     title = "%",
     text = """\
-Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of
-Get.
-Out.
-Of.
-My.
-Head.\n\n\n
-Get out of my head before I do what I know is best for you.
-Get out of my head before I listen to everything she said to me.
-Get out of my head before I show you how much I love you.
-Get out of my head before I finish writing this poem.\n\n\n\n\n\n\n
-But a poem is never actually finished.
-It just stops moving."""
+Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza. Sal de mi cabeza.
+
+Sal.
+De.
+Mi.
+Cabeza.
+
+Sal de mi cabeza antes de que haga lo que sé que es mejor para ti.
+Sal de mi cabeza antes de que escuche todo lo que ella me dijo.
+Sal de mi cabeza antes de que te muestre cuánto te quiero.
+Sal de mi cabeza antes de que termine de escribir este poema.
+
+Pero un poema nunca se termina realmente.
+Solo deja de moverse."""
     )
 
     poem_m1 = Poem(
     author = "monika",
-    title = "Hole in Wall",
+    title = "Agujero en la pared.",
     text = """\
-It couldn't have been me.
-See, the direction the spackle protrudes.
-A noisy neighbor? An angry boyfriend? I'll never know. I wasn't home.
-I peer inside for a clue.
-No! I can't see. I reel, blind, like a film left out in the sun.
-But it's too late. My retinas.
-Already scorched with a permanent copy of the meaningless image.
-It's just a little hole. It wasn't too bright.
-It was too deep.
-Stretching forever into everything.
-A hole of infinite choices.
-I realize now, that I wasn't looking in.
-I was looking out.
-And he, on the other side, was looking in."""
+No podría haber sido yo.
+Mira, la dirección en la que se expande el yeso.
+¿Un vecino ruidoso? ¿Un novio enfadado? Nunca lo sabré. Yo no estaba en casa.
+Miro dentro, buscando una pista.
+¡No! No puedo ver. Me tambaleo, ciega, como una película expuesta al sol.
+Pero ya es demasiado tarde. Mis retinas,
+ya están marcadas con una copia permanente de la imagen sin sentido.
+Es solo un pequeño agujero. No era tan brillante.
+Era demasiado profundo.
+Estirándose para siempre hacia todo.
+Un agujero de infinitas posibilidades.
+Ahora me doy cuenta de que no estaba mirando hacia dentro.
+Estaba mirando hacia fuera.
+Y él, al otro lado, estaba mirando hacia dentro."""
     )
 
     poem_m21 = Poem(
     author = "monika",
-    title = "Hole in Wall",
+    title = "Agujero en la pared.",
     text = """\
-But he wasn't looking at me.
-Confused, I frantically glance at my surroundings.
-But my burned eyes can no longer see color.
-Are there others in this room? Are they talking?
-Or are they simply poems on flat sheets of paper,
-The sound of frantic scrawling playing tricks on my ears?
-The room begins to crinkle.
-Closing in on me.
-The air I breathe dissipates before it reaches my lungs.
-I panic. There must be a way out.
-It's right there. He's right there.
+Pero él no me estaba mirando.
+Confusa, miro frenéticamente a mi alrededor.
+Pero mis ojos quemados ya no pueden distinguir los colores.
+¿Hay otros en esta habitación? ¿Están hablando?
+¿O son simplemente poemas en hojas planas de papel,
+el sonido de un garabateo frenético jugando con mis oídos?
+La habitación empieza a arrugarse.
+A cerrarse sobre mí.
+El aire que respiro se desvanece antes de llegar a mis pulmones.
+Entro en pánico. Debe haber una salida.
+Está ahí. Él está ahí.
 
-Swallowing my fears, I brandish my pen."""
+Tragándome mis miedos, empuño mi pluma."""
     )
 
     poem_m2 = Poem(
     author = "monika",
-    title = "Save Me",
+    title = "Sálvame.",
     text = """\
 The colors, they won't stop.
 Bright, beautiful colors
