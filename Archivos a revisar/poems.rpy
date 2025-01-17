@@ -517,117 +517,117 @@ Tragándome mis miedos, empuño mi pluma."""
     author = "monika",
     title = "Sálvame.",
     text = """\
-The colors, they won't stop.
-Bright, beautiful colors
-Flashing, expanding, piercing
-Red, green, blue
-An endless
-cacophony
-Of meaningless
-noise
+Los colores, no se detienen.
+Colores brillantes, hermosos
+Destellando, expandiéndose, perforando
+Rojo, verde, azul
+Un sinfín de
+cacofonías
+De ruido
+sin sentido.
 
+El ruido, no se detiene.
+Olas violentas, chirriantes
+Chillidos, crujidos, perforaciones
+Seno, coseno, tangente
+Como tocar una pizarra con un tocadiscos
+Como tocar un vinilo sobre una corteza de pizza
+Un poema
+interminable
+De vacío
 
-The noise, it won't stop.
-Violent, grating waveforms
-Squeaking, screeching, piercing
-Sine, cosine, tangent
-    Like playing a chalkboard on a turntable
-        Like playing a vinyl on a pizza crust
-An endless
-poem
-Of meaningless\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
-Load Me
+Cárgame.
     """
     )
 
     poem_m22 = Poem(
     author = "monika",
-    title = "Save Me",
+    title = "Sálvame.",
     text = """\
-The colors, they won't
-Bright, bea t ful c l rs
-Flash ng, exp nd ng, piercing
-Red, green, blue
-An  ndless
-CACOPHONY
-Of meaningless
-noise
+Los colores, no se detienen.
+Brill ntes, hermos s c lores
+Destell ndo, exp ndie do, perfor ndo
+Rojo, verde, azul
+Un in fin
+CACOFONÍA
+De ruido
+si n sentido.
 
+El ruido, NO se DETIENE.
+Viol ntas, irrit ntes o as
+Chirria do, chill ndo, perfor ndo
+SENO, COSENO, TANGENTE
+Como toc r una p zarra con un toc dis os
+Como afil r un CUCHILLO en una CAJA TORÁCICA QUE RESPIRA
+Un i fin
+po ma
+de si n sentido
 
-The noise, it won't STOP.
-Viol nt, grating w vef rms
-Sq e king, screech ng, piercing
-SINE, COSINE, TANGENT
-    Like play ng a ch lkboard on a t rntable
-        Like playing a KNIFE on a BREATHING RIBCAGE
- n  ndl ss
-p  m
-Of m  n ngl ss\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
-Delete Her
+Elíminala.
     """
     )
 
     poem_m3 = Poem(
     author = "monika",
-    title = "The Lady who Knows Everything",
+    title = "La Dama que lo Sabe Todo.",
     text = """\
-An old tale tells of a lady who wanders Earth.
-The Lady who Knows Everything.
-A beautiful lady who has found every answer,
-All meaning,
-All purpose,
-And all that was ever sought.
+Un viejo relato cuenta la historia de una dama que vaga por la Tierra.
+La Dama que lo Sabe Todo.
+Una hermosa dama que ha encontrado todas las respuestas,
+Todo significado,
+Toda finalidad,
+Y todo lo que alguna vez fue buscado.
 
-And here I am,
-
-
-              a feather
+Y aquí estoy,
 
 
-Lost adrift the sky, victim of the currents of the wind.
+              una pluma.
 
-Day after day, I search.
-I search with little hope, knowing legends don't exist.
-But when all else has failed me,
-When all others have turned away,
-The legend is all that remains - the last dim star glimmering in the twilit sky.
 
-Until one day, the wind ceases to blow.
-I fall.
-And I fall and fall, and fall even more.
-Gentle as a feather.
-A dry quill, expressionless.
+Perdida a la deriva en el cielo, víctima de las corrientes del viento.
 
-But a hand catches me between the thumb and forefinger.
-The hand of a beautiful lady.
-I look at her eyes and find no end to her gaze.
+Día tras día, busco.
+Busco con poca esperanza, sabiendo que las leyendas no existen.
+Pero cuando todo lo demás me ha fallado,
+Cuando todos los demás se han alejado,
+La leyenda es lo único que queda: la última estrella tenue brillando en el cielo crepuscular.
 
-The Lady who Knows Everything knows what I am thinking.
-Before I can speak, she responds in a hollow voice.
-"I have found every answer, all of which amount to nothing.
-There is no meaning.
-There is no purpose.
-And we seek only the impossible.
-I am not your legend.
-Your legend does not exist."
+Hasta que un día, el viento deja de soplar.
+Caigo.
+Y caigo, caigo, y caigo aún más.
+Gentil como una pluma.
+Un cálamo seco, sin expresión.
 
-And with a breath, she blows me back afloat, and I pick up a gust of wind."""
+Pero una mano me atrapa entre el pulgar y el índice.
+La mano de una hermosa dama.
+Miro sus ojos y no encuentro fin a su mirada.
+
+La Dama que lo Sabe Todo sabe lo que estoy pensando.
+Antes de que pueda hablar, responde con una voz hueca.
+"Yo he encontrado todas las respuestas, y todas conducen a la nada.
+No hay significado.
+No hay propósito.
+Y solo buscamos lo imposible.
+Yo no soy tu leyenda.
+Tu leyenda no existe".
+
+Y con un suspiro, me sopla de vuelta al aire, y recojo una ráfaga de viento."""
     )
 
     poem_m4 = Poem(
     author = "monika",
-    title = "Happy End",
+    title = "Final Feliz.",
     text = """\
-Pen in hand, I find my strength.
-The courage endowed upon me by my one and only love.
-Together, let us dismantle this crumbling world
-And write a novel of our own fantasies.
+Pluma en mano, encuentro mi fortaleza.
+El valor otorgado por mi único y verdadero amor.
+Juntos, desmantelaremos este mundo en ruinas
+Y escribiremos una novela de nuestras propias fantasías.
 
-With a flick of her pen, the lost finds her way.
-In a world of infinite choices, behold this special day.
+Con un giro de su pluma, la perdida encuentra su camino.
+En un mundo de infinitas opciones, contempla este día especial.
 
-After all,
-Not all good times must come to an end."""
+Después de todo,
+No todos los buenos momentos deben llegar a su fin."""
     )
 
 
