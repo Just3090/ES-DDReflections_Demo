@@ -6,56 +6,56 @@ label prologue:
     pause 1
     play music alarm
     "{i}BIP BIP BIP BIP BIP BIP{/i}"
-    mc "Uggh... Here we go with another boring week of school."
+    mc "Uf... Aquí vamos otra vez con otra senana aburrida de clases."
     show bg bedroom
     with open_eyes
-    "I slowly opens my eyes, staring at the ceiling."
+    "Abro lentamente los ojos, mirando al techo."
     $ quick_menu = True
-    mc "I wish I could have stayed in my bed a little longer but..."
-    "I look over to my desk to see a single sheet of paper sitting on it, with some notes I wrote yesterday."
-    "Since Friday, I've been thinking about starting a club."
-    "A literature club."
+    mc "Ojalá pudiera haberme quedado un poco más en la cama, pero..."
+    "Miro hacia mi escritorio y veo una hoja de papel con algunas notas que escribí ayer."
+    "Desde el viernes, he estado pensando en formar un club."
+    "Un club de literatura."
     play music alarm2
     "{i}BIP BIP BIP BIP BIP BIP BIP BIP BIP BIP BIP BIP BIP BIP BIP BIP{/i}{fast}"
-    mc "Oh, shut up!"
+    mc "¡Eh, cállate!"
     stop music
     play sound slap
-    "{b}{i}SMACK!{/i}{/b}"
-    mc "{i}-sigh-{/i} There's something wrong with this fucking alarm, I really need to think about changing it."
-    "I get out of bed, heading to the bathroom starting the same morning routine."
+    "{b}{i}¡PLAF!{/i}{/b}"
+    mc "{i}-suspiro-{/i} Hay algo mal con esta puta alarma, realmente necesito pensar en cambiarla."
+    "Me levanto de la cama y voy al baño para comenzar mi rutina matutina."
     show bg kitchen
     with wiperight_scene
-    "Once I brush my hair, brush my teeth and put on my uniform, I head to the kitchen."
-    "I open one of the cupboards, taking out a bowl and a box of cereal before pouring the cereal into the bowl."
-    "I then open the fridge, taking out a carton of milk and pouring it into the bowl as well."
+    "Después de cepillarme el pelo, lavarme los dientes y ponerme el uniforme, voy a la cocina."
+    "Abro uno de los armarios, saco un bol y una caja de cereales, y los vierto en el bol."
+    "Luego abro la nevera, sacando un cartón de leche y virtiéndolo también."
     window hide
     scene bg residential_day
     with dissolve_scene_full
     play music morning
-    "After eating my breakfast and doing the dishes, I begin to make my way to school."
-    "Like every school day, I walk alone."
-    "On the way, I thought I'd ask the procedures for opening a club during lunch break."
-    "I heard that you have to ask to the staff in the staff's room."
+    "Tras desayunar y lavar los platos, comienzo mi camino a la escuela."
+    "Como todos los días, camino solo."
+    "En el camino, pensé en preguntar durante el almuerzo los procedimientos para abrir un club."
+    "Escuché que hay que preguntarlo en la sala de profesores."
     show bg school_front
     with wiperight_scene
     "Before I know it, I come across the front gate of the school."
-    mc "Come on... let's get this day over with."
+    mc "Vamos... terminemos con este día."
     scene bg class_day
     stop music fadeout 3.0
     with dissolve_scene_full
     pause 1
     play music t3
-    "The morning has been exceedingly ordinary and boring, so far..."
-    "The entire time I played with my pen on the table while looking out the window."
+    "Haata ahora, la mañana ha sido increíblemente ordinaria y aburrida."
+    "Estuve jugando con mi bolígrafo en la mesa todo el tiempo mientras miraba por la ventana."
     play sound bell
-    "After some time, the school bell rings, ending the morning classes and signaling the start of lunch break."
-    "I pack my things and head out into the hallway."
+    "Al cabo de un rato, suena la campana de la escuela, marcando el fin de las clases matutinas y el inicio del almuerzo."
+    "Recojo mis cosas y salgo al pasillo."
     scene bg corridor
     with wiperight_scene
     stop music fadeout 3.0
-    "Once I reach the staff's room, I knock gently on the door."
-    "It doesn't take long before a teacher shows up."
-    t "Hey there, how can I help you?"
+    "Una vez llego a la sala de profesores, golpeo suavemente la puerta."
+    "No pasa mucho tiempo antes de que un profesor aparezca."
+    t "Hola, ¿en qué puedo ayudarte?"
     mc "Hi, my name's [player]! I wanted to ask what the requirements were for opening up a club?"
     t "Well, you've come to the right place, [player]."
     t "All you have to do is ask, and we'll lead you through the process."
