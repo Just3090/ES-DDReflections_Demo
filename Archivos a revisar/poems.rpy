@@ -633,20 +633,20 @@ No todos los buenos momentos deben llegar a su fin."""
 
     poem_p1 = Poem(
     author = "mc",
-    title = "On  Its  Own",
+    title = "Por sí solo.",
     text = """\
-I am alone and tend to wander the streets, never at rest.
-The roads are paved with metal and I am surrounded by darkness, without any light.
+Estoy solo y suelo deambular por las calles, nunca en calma.
+Los caminos están pavimentados con metal y me rodea la oscuridad, sin luz alguna.
 
-A silk thread unraveling in the immense sky.
-A stream of eyes watching; annoying every day, the view lacks depth and variety.
+Un hilo de seda que se desenreda en el inmenso cielo.
+Un torrente de ojos observando; molestan cada día, la vista carece de profundidad y variedad.
 
-Women who move; men who travel.
-Children who seem indifferent to their environment.
+Mujeres que se mueven; hombres que viajan.
+Niños que parecen indiferentes a su entorno.
 
-They have no particular destination in mind.
+No tienen un destino en particular en mente.
 
-To me, this represents an infinite distance.
+Para mí, esto representa una distancia infinita.
 """
     )
 
@@ -655,33 +655,31 @@ To me, this represents an infinite distance.
 
     poem_p11 = Poem(
     author = "mc",
-    title = "Broken Jar",
+    title = "Jarrón Roto.",
     text = """\
-A day, I gave you a little jar with all my sincerity. Nothing fancy, just a shot glass. 
+Un día, te di un pequeño jarrón con toda mi sinceridad. Nada especial, solo un vaso pequeño.
 
-You said,  "What is that... an empty jar?"
+Dijiste: "¿Qué es esto... un jarrón vacío?"
 
-I said, "No, this is my token of sincerity... entrusted to my dearest, you."
+Yo respondí: "No, este es mi símbolo de sinceridad... confiado a mi más querido, tú."
 
-The jar slips from your hand; 
-Breaking into a thousand pieces. 
+El jarrón se resbala de tu mano;
+Rompiéndose en mil pedazos.
 
-I try to gather the broken fragments of the empty jar but cutting my finger;
-Blood ran down my hand. 
+Intento recoger los fragmentos rotos del jarrón vacío, pero me corto el dedo;
+La sangre corre por mi mano.
 
-I try to catch  my token of love before it flies away but in vain. 
+Intento atrapar mi símbolo de amor antes de que se pierda, pero es en vano.
 
-A day, you came back with a bandage in your hands and started to heal the cut on my finger.
+Un día, regresaste con una venda en tus manos y comenzaste a curar la herida en mi dedo.
 
-This day in question is... 
-
-
+Ese día en cuestión es...
 
 
 
 
 
-Today.
+Hoy.
 """
     )
 
@@ -692,72 +690,73 @@ Today.
 
     poem_m11 = Poem(
     author = "monika",
-    title = "A hole in the Sky",
+    title = "Un agujero en el cielo.",
     text = """\
-I stand on the roof, looking out over the deserted city.
-The sky is blue but there are no clouds on the horizon.
-When I look up, I see a hole
-in the sky
+Me paro en el tejado, mirando hacia la ciudad desierta.
+El cielo es azul, pero no hay nubes en el horizonte.
+Cuando miro hacia arriba, veo un agujero
+en el cielo.
 
-Scared, I look around,
+Asustado, miro a mi alrededor,
 
-the colors were slowly starting to disappear,
-I look again at the sky,
+los colores empiezan a desvanecerse lentamente.
+Vuelvo a mirar el cielo,
 
-The hole has become more massive.
+el agujero se ha hecho más grande.
 
-I see a white light through this 
-hole
-I squint my eyes to adjust to the brightness caused by this hole,
+A través de este
+agujero
+veo una luz blanca.
+Entrecierro los ojos para ajustarme al brillo que causa este agujero.
 
-My eyesight adjusts and I see a large, 
+Mi vista se adapta y veo una enorme,
 
-imposing
+imponente
 
-black silhouette looking at me from the hole.
+silueta negra mirándome desde el agujero.
 
-Who is it?
+¿Quién es?
 
-The world around me has started dissipating, showing a deep black void.
+El mundo a mi alrededor ha comenzado a disiparse, mostrando un profundo vacío negro.
 
+¿Estaba... todo mal?
 
-Was... it all wrong?
+¿Es este mundo falso?
 
-Is this world fake?
+Artefactos blancos destellan frente a mis ojos.
 
-Whites artifacts flash in front of my eyes.
+La falta de oxígeno empieza a llegar a mis pulmones.
 
-The lack of oxygen is starting to reach my lungs.
+Entro en pánico.
 
-I panic.
-
-And I close\n\n\n\n\n\n\n\n\nmy eyes."""
+Y cierro mis ojos.
+"""
     )
 
 
 
     poem_m12 = Poem(
     author = "monika",
-    title = "Rebirth",
+    title = "Renacer.",
     text = """\
-I awaken to find myself recreated. 
+Despierto y me encuentro renovada.
 
-From the depths of hell that I've escaped. 
-My fingertips are bleeding as I scrape the edge. 
+Desde las profundidades del infierno de donde he escapado.
+Mis dedos sangran al raspar el borde.
 
-To observe the rising sun; I bury the past's remains.
+Para observar el sol alzarse; entierro los restos del pasado.
 
-I celebrate, this is as an wonderful day. 
+Celebro, este es un día maravilloso.
 
-I've awakened to a new world that has already taken shape. 
+He despertado en un mundo nuevo que ya se ha formado.
 
-A new beginning for my weary heart; 
-I wash my hands in the spring. 
+Un nuevo comienzo para mi corazón cansado;
+me lavo las manos en el manantial.
 
-The red dissipating with a pleasant sigh. 
+El rojo se disuelve con un suspiro placentero.
 
-I sense his gaze penetrate me. 
-I finally feel..\n\n\n\n\n\n\n\n\n\n\nsecure."""
+Siento su mirada penetrándome.
+Finalmente siento... seguridad."""
     )
 
 
