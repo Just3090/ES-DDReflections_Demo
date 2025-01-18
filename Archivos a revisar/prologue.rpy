@@ -38,7 +38,7 @@ label prologue:
     "Escuché que hay que preguntarlo en la sala de profesores."
     show bg school_front
     with wiperight_scene
-    "Before I know it, I come across the front gate of the school."
+    "Antes de que lo supiese, me encuentro en la entrada principal de la escuela."
     mc "Vamos... terminemos con este día."
     scene bg class_day
     stop music fadeout 3.0
