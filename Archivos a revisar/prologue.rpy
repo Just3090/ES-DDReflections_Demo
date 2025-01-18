@@ -6,7 +6,7 @@ label prologue:
     pause 1
     play music alarm
     "{i}BIP BIP BIP BIP BIP BIP{/i}"
-    mc "Uf... Aquí vamos otra vez con otra senana aburrida de clases."
+    mc "Uf... Aquí vamos otra vez con otra semana aburrida de clases."
     show bg bedroom
     with open_eyes
     "Abro lentamente los ojos, mirando al techo."
