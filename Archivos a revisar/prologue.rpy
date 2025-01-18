@@ -21,7 +21,7 @@ label prologue:
     stop music
     play sound slap
     "{b}{i}¡PLAF!{/i}{/b}"
-    mc "{i}-suspiro-{/i} Hay algo mal con esta puta alarma, realmente necesito pensar en cambiarla."
+    mc "{i}-suspiro-{/i} Hay algo mal con esta puta alarma, tengo que pensar en cambiarla."
     "Me levanto de la cama y voy al baño para comenzar mi rutina matutina."
     show bg kitchen
     with wiperight_scene
