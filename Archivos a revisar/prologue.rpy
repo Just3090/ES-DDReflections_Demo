@@ -66,7 +66,7 @@ label prologue:
     t "Ajá... {w}Bueno, parece que tienes suerte."
     mc "¿En serio? ¿Por qué?"
     t "Bueno... Hace algunos años, alguien más fundó un club de literatura también."
-    t "Pero la semana pasada se disolvió poeque todos sus miembros lo abandonaron."
+    t "Pero la semana pasada se disolvió porque todos sus miembros lo abandonaron."
     mc "A-ah... de acuerdo...{w} ¿Eso significa que no puedo hacerlo?"
     t "¡Por supuesto que no! Siempre animamos a los estudiantes a formar nuevos clubes."
     t "Si quieres, tenemos un aula libre en el tercer piso que se acaba de desocupar. Podríamos prestártela, si te interesa."
@@ -99,76 +99,76 @@ label prologue:
     mc "Te escucho."
     t "A partir de ahora, estarás a cargo del aula."
     t "Eso significa que serás responsable de mantenerla limpia y en buen estado, al menos hasta que decidas devolvernos las llaves."
-    t "And... here's the paperwork you'll have to fill out. It's nothing hard, just enter some information about your club."
-    t "Once you’re done, you can come back to the staff’s room."
-    mc "Alright sir, I'll take care of the room, you can trust me."
-    t "Wonderful. I’ll be heading back to the staff room now."
-    t "If you have any further questions, feel free to come down at any time!"
-    mc "Okay, I’ll get started on it right away, then."
-    t "O-Oh yeah, I almost forgot again..."
-    t "As you know, the school sets up a festival with activities organized by all the official clubs of the school, each year."
-    t "This year’s festival is going to be on the Friday of next week."
-    t "In order for your club to be an {i}official{/i} club, and to be to able to organize a festival activity of your own, you will need to have a minimum of five members."
-    t "--Otherwise you won't be able to organize a festival activity of your own."
-    t "...You got all that?"
-    "I nod, with a determined look."
-    t "Alright, then. That should be everything…"
-    t "I have to head back to the staff room, now. Have a great afternoon, [player]!"
-    mc "Thanks, you too!"
-    "Once the teacher leaves the room, I sit down at the teacher's desk where some administrative papers he mentioned are located."
-    mc "Okay, here we go..."
+    t "Y... aquí tienes el papeleo que tendrás que rellenar. No es nada complicado, solo necesitas ingresar información sobre tu club."
+    t "Cuando termines, puedes volver a la sala de profesores."
+    mc "De acuerdo, señor. Me encargaré del aula, puede confiar en mí."
+    t "Excelente. Volveré a la sala de profesores ahora."
+    t "Si tienes más preguntas, no dudes en venir en cualquier momento."
+    mc "Entendido. Me pondré manos a la obra de inmediato."
+    t "A-ah, sí, casi se me olvida..."
+    t "Como sabes, la escuela organiza un festival anual con actividades de todos los clubes oficiales."
+    t "El festival de este año será el viernes de la semana que viene."
+    t "Para que tu club sea considerado {i}oficial{/i} y puedas participar en el festival, necesitas tener al menos cinco miembros."
+    t "... De todas maneras, no serías capaz de organizar nada solo."
+    t "... ¿Ha quedado todo claro?"
+    "Asiento con determinación."
+    t "Muy bien, eso sería todo entonces."
+    t "Tengo que volver a la sala de profesores. ¡Qué tengas una excelente tarde, [player]!"
+    mc "Gracias, igualmente."
+    "Una vez que el profesor deja el aula, me siento en el escritorio del profesor, donde están los papeles administrativos que mencionó."
+    mc "Bien, manos a la obra..."
     window hide
     scene bg corridor
     with dissolve_scene_full
     play music dccpa
     window show
-    "Once I had filled out the necessary administrative papers, I went to the staff's room."
-    "Afterwards, I continued my day as usual..."
+    "Después de rellenar los papeles administrativos necesarios, voy a la sala de profesores."
+    "Luego, continúo mi día como siempre..."
     show bg class_day
     with wiperight_scene
-    "The afternoon goes by and I simply did what I usually do."
-    "Take notes and pretend to listen to the teacher while she's up at the board."
+    "La tarde pasa, y simplemente hago lo que suelo hacer."
+    "Tomo notas y finjo escuchar a la profesora mientras escribe en la pizarra."
     play sound bell
-    "Soon enough the bell rings, signaling the end of the school day."
-    "I pack my things and start walking home."
+    "Pronto suena la campana, señalando el final del día escolar."
+    "Recojo mis cosas y comienzo a caminar de regreso a casa."
     stop music fadeout 2.0
     window hide
     scene bg bedroom
     with dissolve_scene_full
     window show 
-    "Once I get to my room, I put my things down and take off my uniform."
+    "Una vez en mi habitación, dejo mis cosas y me quito el uniforme."
     play music pc 
-    "After slipping into a more casual outfit, I sit down at my desk and turn on the computer."
-    "I look down at the paper I left on top of my desk this morning."
-    mc "Open a club... it's finally done..."
+    "Después de ponerme algo más cómodo, me siento en mi escritorio y enciendo el ordenador."
+    "Miro el papel que dejé esta mañana encima del escritorio."
+    mc "Abrir un club... finalmente está hecho..."
     mc "..."
-    mc "...Now it's time to make flyers so I can promote it."
-    "Once the computer is booted up, I head to the CANVA website and begin to edit."
+    mc "... Ahora es momento de crear folletos para promocionarlo."
+    "Cuando el ordenador se inicia, accedo a la página de CANVA y empiezo a editar."
     stop music fadeout 3.0
     window hide
     scene bg black
     with dissolve_scene_full
-    show text "3 hours later..."
+    show text "3 horas después..."
     with dissolve
     pause 2
     hide text
     show bg bedroom
     with dissolve_scene_full
     play music pc
-    "I move the mouse cursor to the « PRINT » button."
+    "Muevo el cursor hasta el botón « IMPRIMIR »."
     play sound click
-    "{i}CLICK{/i}"
-    "A few moments later, the printer starts up."
-    "One by one, about forty flyers printed onto A4 sheets come out of the printer."
-    "I stack the flyers as they come out before putting them all into my bag."
-    mc "Well now, it's time to read a little."
-    "I get up from my chair and head over to my own little library."
-    "I pull out a random book and begin to read it."
+    "{i}CLIC{/i}"
+    "Poco después, la impresora comienza a funcionar."
+    "Uno a uno, los cuarenta folletos en hojas A4 salen de la impresora."
+    "Apilo los folletos a medida que salen y los guardo en mi mochila."
+    mc "Bueno, ahora es momento de leer un poco."
+    "Me levanto de la silla y me acerco a mi pequeña biblioteca."
+    "Saco un libro al azar y comienzo a leer."
     stop music fadeout 3.0
     window hide
     show bg black
     with dissolve_scene_full
-    show text "The next day....\n\n\n\nApril, 18th 2023"
+    show text "Al día siguiente....\n\n\n\nn18 de abril de 2023."
     with dissolve
     pause 3
     hide text
@@ -177,66 +177,66 @@ label prologue:
     show bg school_front
     with dissolve_scene_full
     play music morning
-    "I stand in front of the school gate, my flyers in my bag."
-    "I look at the time on my phone."
+    "Estoy frente a la puerta de la escuela, con los folletos en mi mochila."
+    "Miro la hora en mi teléfono."
     "{i}7:58 AM{/i}"
-    "Class starts in just two minutes, I'm lucky I didn't wake up too late this morning..."
-    "I had originally planned to set up the flyers this morning, but unfortunately I don't think I'll have the time."
+    "Las clases empiezan en dos minutos... Menos mal que no me desperté tarde hoy."
+    "Tenía planeado colocar los folletos esta mañana, pero desgraciadamente no creo que tenga tiempo."
     stop music fadeout 2.0
-    "Upon reaching the main door, something catches my attention."
+    "Al llegar a la entrada principal, algo llama mi atención."
 
-    m "Heeeeeey, [player]!"
+    m "¡Eeeeeeeeey, [player]!"
 
     $ m_name = "Monika"
 
-    "I hear a voice come from behind me, calling my name."
-    "I immediately recognize this voice that can only be---"
+    "Una voz familiar llama mi nombre desde atrás."
+    "Reconozco de inmediato esa voz. No podría ser otra que..."
     play music her
     "Monika."
-    "Monika...{w=0.8} we were in the same class together last year, she was the most popular girl in the school."
-    "We had developed a strong friendship between me and her..."
-    "In fact, we often worked together in class whether in pairs or in group work."
-    "I had started to develop a crush on her, but I never had the courage to confess to her..."
-    "But since the beginning of this school year, that friendship started to fade every day."
-    "The first was simply because we weren't in the same class anymore, and the second was that she decided to join the debate club..."
-    "She also managed to be promoted to vice president within a month, even telling me how the previous vice president left the club soon after."
-    "Which doesn't really help our situation, to be honest..."
-    "As a result, for the past few months, we'd been talking quickly whenever we ran into each other."
-    "And, it seems this is one of those times..."
-    "While I was lost in my thoughts, Monika somehow managed to sneak in front of me."
+    "Monika...{w=0.8} estuvimos en la misma clase el año pasado, era la chica más popular del instituto."
+    "Hemos desarrollado una amistad muy fuerte entre ella y yo..."
+    "De hecho, solíamos trabajar juntos en clase, ya fuese en parejas o en trabajos grupales."
+    "Con el tiempo, empecé a desarrollar sentimientos hacia ella... pero nunca tuve el valor de confesárselos."
+    "Sin embargo, desde que comenzó este curso escolar, esa amistad se ha ido desvaneciendo poco a poco."
+    "Primero, porque ya no estábamos en la misma clase, y segundo, porque decidió unirse al club de debate..."
+    "No solo eso, sino que en menos de un mes consiguió ser promovida a vicepresidenta del club. Recuerdo que me contó cómo el antiguo vicepresidente había dejado el club poco después."
+    "Todo esto no ha ayudado precisamente a que mantengamos el contacto..."
+    "En los últimos meses, solo hemos intercambiado unas pocas palabras cuando nos cruzamos por casualidad."
+    "Y parece que hoy es uno de esos momentos..."
+    "Mientras estoy absorto en mis pensamientos, Monika aparece frente a mí."
     show monika 2l at l11
-    m "...Haaaaaaaaaahhh... ..Haaaaaahhh.."
-    "She places her right hand on her hip, catching her breath."
-    "Did she run all the way to school...?"
-    mc "Did you oversleep Monika?"
+    m "...Aaaaaaaahhhhh... ...Aaaaaahhhhh..."
+    "Monika jadea, con la mano en la cadera, mientras recupera el aliento."
+    "¿Ha corrido todo el camino hacia la escuela...?"
+    mc "¿Dormiste más de la cuenta, Monika?"
     show monika 1h at h11
-    "Monika straightens up, glaring at me."
+    "Monika se endereza y me mira con seriedad."
     show monika 2a
-    "I giggle nervously."
-    mc "Ahaha.. forget what I said.."
-    "Monika giggles."
+    "Río nerviosamente."
+    mc "Ajaja... olvida lo que dije."
+    "Monika ríe también."
     show monika 5a at h11
-    m "You're so easy to fluster, [player]."
-    m "Ehehehe~"
-    m 1l "I was just...{w=0.4} let's say...{w=0.4} really {i}busy{/i} with new activities for the debate club."
-    mc "Is that what you mean?"
-    "I point to Monika's left hand, where she holds a roll of paper."
+    m "Es muy fácil ponerte nervioso, [player]."
+    m "Jejejeje~"
+    m 1l "Solo...{w=0.4} digamos que estuve...{w=0.4} muy {i}ocupada{/i} con nuevas actividades para el club de debate."
+    mc "¿Te refieres a eso?"
+    "Señalo el rollo de papel que sostiene con la mano izquierda."
     show monika 2a at t11
-    m "Ehehe, yeah exactly..."
+    m "Jejeje, exactamente..."
     show monika 3b at t11
-    m "I think they'll like it!"
+    m "Creo que les encantará."
     show monika 1a at t11
-    mc "I bet you're right about that, Monika. Even though I'm not in that club, I know you've always had great ideas!"
+    mc "Estoy seguro de eso, Monika. Aunque no esté en tu club, sé que siempre tienes ideas geniales."
     show monika 1j at t11
-    m "Thanks [player]!"
+    m "¡Gracias, [player]!"
     show monika 1b
-    m "...We should go inside or else we might get in trouble."
-    mc "O-Oh, yeah. You're right..."
+    m "... Será mejor que entremos, o nos meteremos en problemas."
+    mc "A-ah, sí. Tienes razón..."
     show monika at thide
     hide monika
-    "...It's just as I predicted."
-    "Only a minute or so of talking before we're already heading our seperate ways..."
-    "{i}-sigh-{/i}"
+    "... Es tal y como lo predije."
+    "Solo unos minutos hablando y ya vamos por caminos separados..."
+    "{i}-suspiro-{/i}"
 
     window hide
     show bg class_day
