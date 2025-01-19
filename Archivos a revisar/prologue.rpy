@@ -109,7 +109,7 @@ label prologue:
     t "Como sabes, la escuela organiza un festival anual con actividades de todos los clubes oficiales."
     t "El festival de este año será el viernes de la semana que viene."
     t "Para que tu club sea considerado {i}oficial{/i} y puedas participar en el festival, necesitas tener al menos cinco miembros."
-    t "... De todas maneras, no serías capaz de organizar nada solo."
+    t "... De todas maneras, no serías capaz de organizar una actividad de festival tú solo."
     t "... ¿Ha quedado todo claro?"
     "Asiento con determinación."
     t "Muy bien, eso sería todo entonces."
