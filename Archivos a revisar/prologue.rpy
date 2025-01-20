@@ -243,8 +243,8 @@ label prologue:
     stop music fadeout 2.0
     with dissolve_scene_full
     play music dccpa
-    "It's already the end of the morning."
-    "Time passed by a little faster than I thought..."
+    "Ya casi es el final de la mañana."
+    "El tiempo ha transcurrido más rápido de lo que pensaba..."
     play sound bell
     "Soon enough, the bell rings to signify the beginning of our lunch break."
     "I grab my bag and heads for the entrance."
