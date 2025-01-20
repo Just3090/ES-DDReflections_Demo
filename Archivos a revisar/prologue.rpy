@@ -246,104 +246,104 @@ label prologue:
     "Ya casi es el final de la mañana."
     "El tiempo ha transcurrido más rápido de lo que pensaba..."
     play sound bell
-    "Soon enough, the bell rings to signify the beginning of our lunch break."
-    "I grab my bag and heads for the entrance."
+    "La campana suena, marcando el inicio del descanso para el almuerzo."
+    "Me cuelgo la mochila y me dirijo a la entrada del instituto."
     show bg locker
     with wiperight_scene
     pause 0.80
     scene bg locker with dissolve:
 
         zoom 1.5
-    "I pull out a roll of scotch that I brought from home, along with a flyer from my bag."
-    mc "Sooo..."
-    "I take a long look at the corkboard in front of me."
-    "Flyers from other clubs are already posted."
-    "I can't help but compare them to mine for a moment..."
-    "There's a small difference in the design quality compared to the others, but I say it still looks decent."
-    "I place the flyer against the cork board, taping it up and down."
-    "When finished, I step back to admire the result."
+    "Saco un rollo de cinta adhesiva junto con un folleto de mi mochila."
+    mc "Entonces..."
+    "Echo un buen vistazo al tablón de anuncios en frente mía."
+    "Está repleto de folletos llamativos de otros clubes."
+    "No puedo evitar comparar mi diseño con el de los demás."
+    "Hay una ligera diferencia en la calidad del diseño comparado con los otros folletos, pero diría que el mío sigue siendo decente."
+    "Coloco el folleto en el tablón, asegurándolo con cinta arriba y abajo."
+    "Cuando termino, retrocedo para admirar el resultado."
     scene bg locker with dissolve
-    mc "Not bad!"
-    "I retrieve the flyers from my bag, taking them with both hands."
-    mc "Now... It's time for a flyer distribution."
+    mc "Nada mal."
+    "Recojo los demás folletos de mi mochila, sosteniéndolos con ambas manos."
+    mc "Ahora... toca repartirlos."
     stop music fadeout 2.0
     show bg courtyard
     with wiperight_scene
     pause 0.50 
     play music morning
-    "I head to the courtyard."
-    "The weather is perfect. There's few clouds in the sky and the sun is shining brightly, making lunch breaks outside enjoyable."
-    "A lot of students are having lunch on the benches... I call out to each of them nicely, trying to be as diplomatic as possible."
+    "Me dirijo al patio."
+    "El tiempo es perfecto. Hay pocas nubes en el cielo y el sol brilla con fuerza, haciendo que los descansos para el almuerzo al aire libre sean muy agradables."
+    "Muchos estudiantes están comiendo en los bancos... Me acerco a cada uno de ellos, tratando de ser lo más amable y persuasivo posible."
     show bg black
     stop music fadeout 2.0
     with dissolve_scene_full
-    "{i}25 minutes later...{/i}"
+    "{i}25 minutos después...{/i}"
     show bg courtyard
     with dissolve_scene_full
     pause 0.50
     play music morning
-    mc "{i}Whew...{/i} That was harder than I thought..."
-    "I take a quick look around the courtyard."
-    "I was able to hand out about thirty flyers, which isn't bad."
-    "I still have about nine flyers on hand that I haven't been able to distribute, but I won't complain..."
-    mc "Now it's just a matter of waiting until the people come to check out the club."
-    "I go back to get my bag that was left on the floor at the entrance."
+    mc "{i}Uf...{/i} Ha sido más difícil de lo que pensaba..."
+    "Echo un vistazo rápido al patio."
+    "He conseguido repartir unos 30 folletos, lo cual no está nada mal."
+    "Aún me quedan unos nueve folletos en la mano que no he logrado repartir, pero no me voy a quejar..."
+    mc "Ahora solo queda esperar a que la gente venga a echar un vistazo al club."
+    "Vuelvo a por mi mochila, que dejé en el suelo junto a la entrada."
     show bg locker
     with wipeleft
-    "I put away the remaining flyers into my bag before heading back outside."
+    "Guardo los folletos restantes en mi mochila antes de volver al patio."
     show bg courtyard
     with wiperight
-    "I decide to take a seat on one of the benches in the courtyard to enjoy some of the sunshine."
-    "Dipping my hand back into my bag, I look for my snack."
-    mc "Ah, perfect! I deserve a good break..."
-    "I pull out a {i}jambon-beurre{/i} sandwich."
-    "My mom has made it a tradition to make me this kind of sandwich ever since she traveled to France on a business trip two years ago."
-    "She tasted different French traditions, and she was very seduced by this type of sandwich."
-    "Since then, every Tuesday morning before she goes to work, she makes me this sandwich."
+    "Decido sentarme en uno de los bancos del patio para disfrutar un poco del sol."
+    "Metiendo la mano en mi mochila, busco algo para picar."
+    mc "Ah, perfecto. Me merezco un buen descanso..."
+    "Saco un bocadillo de {i}jamón y mantequilla{/i}."
+    "Mi madre tiene la tradición de prepararme este tipo de bocadillo desde que viajó a Francia por trabajo hace dos años."
+    "Allí probó varias tradiciones culinarias francesas y quedó encantada con este bocadillo en particular."
+    "Desde entonces, cada martes por la mañana, antes de irse al trabajo, me prepara uno."
     "..."
     play sound bell
-    "As soon as I finish, the bell rings to signify the end of the lunch break as usual."
-    mc "{i}-sigh-{/i} Let's go. More endless hours of class await me."
+    "Justo al terminar, la campana suena para señalar el final del descanso, como de costumbre."
+    mc "{i}-suspiro-{/i} Vamos allá. Me esperan más horas interminables de clase."
     window hide
     show bg class_day
     stop music fadeout 1.5
     with dissolve_scene_full
     play music dccpa
     play sound bell
-    "The bell rings bringing the day to a close."
-    "I put my things in my bag before leaving the room."
+    "La campana suena, marcando el final del día."
+    "Recojo mis cosas y las guardo en mi mochila antes de salir del aula."
     show bg corridor
     with wiperight_scene
-    "Once in the hallway, I head straight for my club room."
-    "I eventually reach the third floor and quickly head inside the club room."
+    "Una vez en el pasillo, me dirijo directamente al aula del club."
+    "Finalmente llego al tercer piso y entro rápidamente en el aula."
     show bg club_day1
     with wipeleft_scene
-    mc "Ahh, finally."
-    "I set down my bag, hanging nearby one of the desks."
-    "People should be arriving soon, I should find something to do while I wait..."
-    "I pace around the room, eventually heading over to the open closet."
+    mc "Ahh, por fin."
+    "Dejo mi mochila colgada cerca de uno de los escritorios."
+    "La gente debería empezar a llegar pronto... debería buscar algo que hacer mientras espero."
+    "Me pongo a dar vueltas por la sala, hasta que termino acercándome al armario abierto."
     show bg closet
     with wiperight
-    "Mindlessly looking around, I can see a large, vacant spot at the top of the closet."
-    "I also see some filing cabinets and some huge books tucked away that appear to be textbooks belonging to the school."
-    "Nothing really that {i}notable{/i}, though..."
-    "I eventually decide to close up the closet and head back over to where I dropped off my stuff, earlier."
+    "Miro alrededor sin mucho interés y veo un espacio grande y vacío en la parte superior del armario."
+    "También hay algunos archivadores y libros enormes que parecen ser manuales pertenecientes al instituto."
+    "Aunque, realmente, no hay nada que {i}me llame especialmente la atención{/i}..."
+    "Finalmente, cierro el armario y vuelvo a donde había dejado mis cosas."
     play sound closet_close
     show bg club_day1
     with wipeleft
-    "I contemplate the flyers that lie on the table."
-    "And then I look in the direction of the door..."
-    mc "Just have to keep waiting..."
+    "Contemplo los folletos que hay sobre la mesa."
+    "Luego miro hacia la puerta..."
+    mc "Solo queda seguir esperando..."
     window hide
     show bg club_day1
     with dissolve_scene_full
-    "...The next two hours were silent."
-    "No one showed up at the club."
-    "Only the sound of doors shutting and footsteps of which I would assume are from other students in the hallway were audible to my ears."
-    mc "Well... let's go home, I guess."
+    "... Las siguientes dos horas fueron un completo silencio."
+    "Nadie apareció por el club."
+    "Solo se escuchaban las puertas cerrándose y los pasos de otros estudiantes en el pasillo."
+    mc "Bueno... Supongo que me voy a casa."
     show bg corridor_e
     with wipeleft_scene
-    "I leave the clubroom, locking the door behind me."
-    "I then start to walk home."
+    "Salgo del aula del club, cerrando la puerta con llave tras de mí."
+    "Empiezo a caminar hacia casa."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
