@@ -224,7 +224,7 @@ label ch1_y_end:
     mc "No del todo."
     y 1m "Estoy muy... agradecida de que te guste."
     y "Seré honesta..."
-    y 1a "Como es la primera vez que compartimos, quería escribir algo más suave."
+    y 1a "Como es la primera vez que compartimos poemas, quería escribir algo más suave."
     y "Algo fácil de digerir, supongo."
     mc "¿Te gustan los fantasmas, Yuri?"
     y 1m "Ujujuju."
