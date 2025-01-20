@@ -238,7 +238,7 @@ label ch1_y_end:
     y 2l "Aferrándose a su último lugar de confort, incapaz de dejar el pasado atrás."
     y "Y pronto podría quedarse sin nada..."
     mc "... Es mucho más serio, dicho de esa manera."
-    mc "Ni lo había pensado de esa manera..."
+    mc "Ni lo había pensado así..."
     mc "Es impresionante."
     if poemopinion == "good":
         y 2f "¿Eh?"
