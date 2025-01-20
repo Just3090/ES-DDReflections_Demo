@@ -46,9 +46,9 @@ label poemresponse_start:
 
 
         if poemsread == 0:
-            $ menutext = "Who should I show my poem to first?"
+            $ menutext = "¿A quién debería enseñarle mi poema primero?"
         else:
-            $ menutext = "Who should I show my poem to next?"
+            $ menutext = "¿A quién debería enseñarle mi poema ahora?"
 
 
         menu:
@@ -63,8 +63,8 @@ label poemresponse_start:
 
                 $ s_readpoem = True
                 if chapter == 1 and poemsread == 0:
-                    "I'm definitely most comfortable sharing it with Sayori first."
-                    "She's my good friend, after all."
+                    "Me siento más cómodo compartiéndolo con Sayori primero."
+                    "Es mi mejor amiga, después de todo."
 
                 call poemresponse_sayori from _call_poemresponse_sayori
 
@@ -73,8 +73,8 @@ label poemresponse_start:
             "Natsuki" if not n_readpoem:
                 $ n_readpoem = True
                 if chapter == 1 and poemsread == 0:
-                    "I told Natsuki I was interested in her poems yesterday."
-                    "It's probably only fair if I shared mine with her first."
+                    "Ayer le dije a Natsuki que estaba interesado en sus poemas."
+                    "Sería justo si comparto poemas con ella primero."
                 call poemresponse_natsuki from _call_poemresponse_natsuki
 
 
@@ -82,15 +82,15 @@ label poemresponse_start:
             "Yuri" if not y_readpoem and not y_ranaway:
                 $ y_readpoem = True
                 if chapter == 1 and poemsread == 0:
-                    "Yuri seems the most experienced, so I should start with her."
-                    "I can trust her opinion to be fair."
+                    "Yuri parece la más veterana, así que debería empezar con ella."
+                    "Confío en que su opinión sea justa."
                 call poemresponse_yuri from _call_poemresponse_yuri
 
             "Monika" if not m_readpoem:
                 $ m_readpoem = True
                 if chapter == 1 and poemsread == 0:
-                    "I should start with Monika."
-                    "Yesterday she seemed eager to read my poem, and I want her to know I'm putting in effort."
+                    "Podría empezar con Monika."
+                    "Ayer parecía entusiasmada por leer mi poema, y quiero que sepa que estoy poniendo esfuerzo."
                 call poemresponse_monika from _call_poemresponse_monika
 
 
