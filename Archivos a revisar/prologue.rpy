@@ -168,7 +168,7 @@ label prologue:
     window hide
     show bg black
     with dissolve_scene_full
-    show text "Al día siguiente...\n\n\n\n 18 de abril de 2023."
+    show text "Al día siguiente, 18 de abril de 2023"
     with dissolve
     pause 3
     hide text
