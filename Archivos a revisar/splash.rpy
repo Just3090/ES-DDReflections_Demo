@@ -5,20 +5,6 @@
 
 
 
-init -100 python:
-    import os
-
-    if not renpy.android:
-        for archive in ['audio','images','fonts']:
-            if archive not in config.archives:
-                raise DDLCRPAsMissing(archive)
-        
-        if renpy.windows:
-            onedrive_path = os.environ.get("OneDrive")
-            if onedrive_path is not None:
-                if onedrive_path in config.basedir:
-                    raise IllegalModLocation
-
 
 
 init python:
@@ -356,15 +342,7 @@ image warning:
 
 
 
-init python:
-    if not persistent.do_not_delete:
-        if renpy.android:
-            if not os.path.exists(os.path.join(os.environ['ANDROID_PUBLIC'], "characters")):
-                os.mkdir(os.path.join(os.environ['ANDROID_PUBLIC'], "characters"))
-        else:
-            if not os.path.exists(os.path.join(config.basedir, "characters")):
-                os.mkdir(os.path.join(config.basedir, "characters"))
-        restore_all_characters()
+
 
 
 image tos = "mod_assets/gui/warning.png"
@@ -398,11 +376,7 @@ label splashscreen:
                     for x in enumerate(process_list):
                         process_list[x] += ".exe"
                 except subprocess.CalledProcessError: pass            
-        else:
-            try: process_list = subprocess.check_output("ps -A --format cmd", shell=True).decode('utf-8').split("\n") 
-            except subprocess.CalledProcessError: process_list = subprocess.check_output("ps -A -o command", shell=True).decode('utf-8').split("\n") 
-            
-            process_list.pop(0)
+
 
         for name in ('LOGNAME', 'USER', 'LNAME', 'USERNAME'):
             user = os.environ.get(name)
@@ -770,7 +744,6 @@ label warningscreen:
 
 
 label after_load:
-    $ restore_all_characters()
     $ config.allow_skipping = allow_skipping
     $ _dismiss_pause = config.developer
     $ persistent.ghost_menu = False
