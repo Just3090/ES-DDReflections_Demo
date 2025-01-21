@@ -697,7 +697,7 @@ El cielo es azul, pero no hay nubes en el horizonte.
 Cuando miro hacia arriba, veo un agujero
 en el cielo.
 
-Asustado, miro a mi alrededor,
+Asustada, miro a mi alrededor,
 
 los colores empiezan a desvanecerse lentamente.
 Vuelvo a mirar el cielo,
