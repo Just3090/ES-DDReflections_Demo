@@ -297,8 +297,8 @@ label prologue:
     "Metiendo la mano en mi mochila, busco algo para picar."
     mc "Ah, perfecto. Me merezco un buen descanso..."
     "Saco un bocadillo de {i}jamón y mantequilla{/i}."
-    "Mi madre tiene la tradición de prepararme este tipo de bocadillo desde que viajó a Francia por trabajo hace dos años."
-    "Allí probó varias tradiciones culinarias francesas y quedó encantada con este bocadillo en particular."
+    "Mi madre tiene la tradición de prepararme este tipo de bocadillos desde que viajó a Francia por trabajo hace dos años."
+    "Allí probó varias tradiciones culinarias francesas y quedó encantada con éste en particular."
     "Desde entonces, cada martes por la mañana, antes de irse al trabajo, me prepara uno."
     "..."
     play sound bell
@@ -337,7 +337,7 @@ label prologue:
     window hide
     show bg club_day1
     with dissolve_scene_full
-    "... Las siguientes dos horas fueron un completo silencio."
+    "... Las siguientes dos horas fueron en completo silencio."
     "Nadie apareció por el club."
     "Solo se escuchaban las puertas cerrándose y los pasos de otros estudiantes en el pasillo."
     mc "Bueno... Supongo que me voy a casa."
