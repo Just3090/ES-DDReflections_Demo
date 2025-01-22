@@ -2,39 +2,39 @@ label ch1_main:
     stop music fadeout 3.0
     scene bg black
     with dissolve_scene_full
-    show text "2 DAYS LATER\n\n\n\n\n\n\n\nApril, 20th 2023"
+    show text "2 DÍAS DESPUÉS\n\n\n\n\n\n\n\n20 de abril de 2023"
     with dissolve
     pause 3
     hide text
     show bg class_day
     with dissolve_scene_full
     play music t3
-    "It's Thursday, the second last day of school before the weekend begins."
-    "The day has been more than ordinary and the classes always more or less boring."
+    "Es jueves, el penúltimo día de clases antes de que comience el fin de semana."
+    "El día ha sido más que ordinario, y las clases siempre son más o menos aburridas."
     play sound bell
-    "Once the bell rings, I pack up my things before heading to the clubroom."
+    "Una vez que suena la campana, recojo mis cosas antes de dirigirme al aula del club."
     show bg corridor
     with wipeleft_scene
-    "I take a breath of air, standing in front of the door."
+    "Tomo aire mientras me planto frente a la puerta."
     play sound closet_open
     show bg club_day
     with wipeleft_scene
-    "Finally, I enter the club room, saying hello to my club members."
-    mc "Hello everyone!"
-    mc "Is everyone here?"
-    mc "Great! We'll be able to start the meeting!"
+    "Finalmente, entro en el aula del club y saludo a los miembros del club."
+    mc "¡Hola, compis!"
+    mc "¿Está todo el mundo aquí?"
+    mc "¡Genial! ¡Podemos comenzar la reunión!"
     stop music fadeout 2.0
     mc "..."
-    "I stand in front of the clubroom, empty."
+    "Estoy de pie frente al aula del club, vacía."
     play music dccpa
-    "I sigh for a long time before slumping down on a desk."
-    "It's really hard to start a new club."
-    "Aren't my flyers good enough..?"
-    "I'm flipping through my flyers scattered on the desk."
-    "The ones I didn't hand out on Tuesday."
-    mc "{i}-sigh-...{/i}Were they poorly made after all?"
-    mc "I don't really know..."
-    "I bury my head in my arms, resting on the desk."
+    "Suspiro largamente antes de dejarme caer sobre un pupitre."
+    "Es muy difícil empezar un club nuevo."
+    "¿No son mis folletos lo suficientemente buenos...?"
+    "Estoy hojeando los folletos desperdigados sobre el pupitre."
+    "Esos que no repartí el martes."
+    mc "{i}-suspiro-...{/i}¿Estaban mal hechos después de todo?"
+    mc "No lo sé..."
+    "Apoyo la cabeza en mis brazos, descansando sobre el pupitre."
     window hide
     show bg black
     with close_eyes
