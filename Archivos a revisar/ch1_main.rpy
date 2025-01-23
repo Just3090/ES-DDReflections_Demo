@@ -67,7 +67,7 @@ label ch1_main:
     show monika base uniform neut awkw rhip n2 mb e4b at f21
     show sayori 2q at f22
     "{i}Ella{/i} y Monika se ríen."
-    "Al recordar rápidamente, es cierto que me pillaron echándome una siesta. ¡Pero no es así, en realidad!"
+    "Pensándolo rápidamente, es cierto que me pillaron echándome una siesta. ¡Pero no es así, en realidad!"
     "Hago todo lo posible por calmarme antes de echar un vistazo más serio."
     show monika 1a at t21
     show sayori 1a at t22
@@ -99,79 +99,79 @@ label ch1_main:
     mc "Ajaja...{w=0.5} bueno...{w=0.4} ya 'estáis' aquí."
     "Me encojo de hombros, avergonzado."
     show monika 1d
-    m "Oh?"
-    "Monika raises her eyebrows, trying to say something but quickly pulling back."
-    mc "Ahahaha... I didn't know it was that hard to open a club."
-    mc "I tried my best to recruit people but it was in vain."
+    m "¿Eh?"
+    "Monika levanta las cejas, como si fuera a decir algo, pero se contiene rápidamente."
+    mc "Ajajajaja... No sabía que abrir un club sería tan difícil."
+    mc "Hice lo mejor que pude para reclutar gente, pero fue en vano."
     show sayori base uniform mg e1a b1a
-    s "If it's just you... that means..."
+    s "Si solo estás tú... eso significa..."
     show sayori base uniform e4b mc rup lup at h22
-    s "... We'll be your first two members!"
+    s "... ¡Que somos tus dos primeros miembros!"
     show monika base uniform happ lpoint e4b
-    m "Ahahaha, right."
-    mc "Heh?"
-    "Is that what I heard?"
-    "But isn't Monika at the debate club?"
-    "Maybe I missed a page..."
-    mc "But, Monika... aren't you at the debate club?"
+    m "Ajajaja, cierto."
+    mc "¿Qué?"
+    "¿Es eso lo que he escuchado?"
+    "Pero ¿no está Monika en el club de debate?"
+    "Quizás me he perdido algo..."
+    mc "Pero, Monika... ¿no estabas en el club de debate?"
     show sayori at thide
     hide sayori
     show monika base uniform happ lpoint e4b at t11
-    "Monika laugh nervously."
+    "Monika se ríe nerviosamente."
     show monika base uniform e1b b1b mb rhip
-    m "Hahaha.. well.. I quit the debate club recently."
+    m "Jajajaja.. bueno... dejé el club de debate hace poco."
     show monika base uniform e1b b1b ma rhip ldown
-    mc "Why is that?"
+    mc "¿Y eso?"
     show monika base uniform e1b rdown
-    m "Well.. You know that activity I had planned that I told you about on Tuesday?"
+    m "Bueno... ¿Recuerdas aquella actividad que te mencioné el martes?"
     show monika base uniform e1b md
-    mc "Yes, I remember that."
+    mc "Claro."
     show monika base uniform e4b mb awkw
-    m "Let's just say... It turned out to be a disaster and the atmosphere was shot..."
+    m "Digamos que... fue un desastre y el ambiente quedó por los suelos..."
     show monika e1a b1b ma lpoint
-    m "Well.. I prefer not to go into too much detail, it doesn't matter anymore."
-    m "Let's focus on the present now, right [player]?"
+    m "Prefiero no entrar en detalles, ya da igual."
+    m "Vamos a centrarnos en el 'ahora', ¿vale, [player]?"
     show monika lean uniform neut ma n1 at h11
-    "That damn smile... Always making me miss a heartbeat."
-    mc "Uuuh... Yes..."
+    "Esa condenada sonrisa... siempre dejándome con el corazón en la boca."
+    mc "Eeehhh... Sí..."
     show monika base uniform e1b b1b me rdown ldown at t21
     show sayori base uniform mg rup at t22
-    s "Seems like you two already know each other."
-    mc "That's right, Monika and I do know each other."
-    "I turn a little more to the girl."
-    mc "By the way what's your name?"
-    mc "I didn't ask you and I think it's something important to know."
+    s "Parece que os conocéis."
+    mc "Exacto, ya nos conocemos."
+    "Me giro un poco hacia la otra chica."
+    mc "Por cierto, ¿cómo te llamas?"
+    mc "No te lo he preguntado y creo que es algo importante."
     show monika base uniform ma e1a b1a rhip
     show sayori base uniform e1a mb lup
     $ s_name = "Sayori"
-    s "My name is Sayori!"
+    s "¡Me llamo Sayori!"
     show sayori base uniform neut mb ldown
-    s "And you?"
+    s "¿Y tú?"
     show sayori base uniform neut ma
-    mc "Nice to meet you Sayori! I'm [player]."
-    "I smile happily at her."
+    mc "¡Encantado de conocerte, Sayori! Me llamo [player]."
+    "Le sonrío felizmente."
     show sayori base uniform neut mb lup
-    s "Nice to meet you too."
-    s "I'm still surprised that no one joined your club yet."
+    s "El gusto es mío."
+    s "Todavía me sorprende que nadie se haya unido a tu club aún."
     show sayori base uniform neut ma ldown
-    mc "Well, when you think about it, I think I know why there is no one here..."
-    mc "At first sight, literature can seem uninteresting or even boring."
-    mc "Which I can understand in itself."
-    mc "But I don't believe it at all!{w=0.5} It's a very vast thing..."
-    mc "There are many ways to express it, whether it is through books, {w=0.5} poetry or even theater!"
+    mc "Bueno, si lo piensas, creo que sé por qué no hay nadie aquí..."
+    mc "A primera vista, la literatura puede parecer poco interesante o incluso aburrida."
+    mc "Lo cual puedo entender."
+    mc "Pero yo no lo veo así en absoluto.{w=0.5} Es algo muy amplio..."
+    mc "Hay muchas formas de expresarla, ya sea mediante libros, {w=0.5} poesía o incluso teatro."
     show sayori base uniform e1b b1b mc blaw at s22
     show monika base uniform e1c me rdown
-    "I can notice Sayori looking away from Monika, I can make out a smile on her lips that I can't describe."
-    mc "Aah... sorry, I didn't mean to sound boring."
+    "Noto que Sayori desvía la mirada de Monika, y se le dibuja una sonrisa en los labios que no sé cómo describir."
+    mc "Ah... perdón, no quería sonar aburrido."
     show monika base uniform e1a md
     show sayori base uniform e1a b1c mg rup nobl at t22
-    s "Huh? No!"
+    s "¿Eh? ¡No!"
     show sayori base uniform e1b b1b mc
-    s "It's just... you seem very passionate, hehe."
-    mc "You could say that, but I like doing other things too!"
+    s "Es solo que... ¡parece que le pones mucha pasión, jeje!"
+    mc "Puede ser, pero también me gusta hacer otras cosas."
     show sayori base uniform neut md e1a b1a nobl
     show monika base uniform neut ma e1a b1a nobl
-    mc "I'm not a person who is only focused on books or novels."
+    mc "No soy alguien que solo se centra en libros o novelas."
     mc "It's just my main activity if I can say it like that..."
     mc "Well... so..."
     "I clear my throat coming to take a firm and diplomatic voice."
