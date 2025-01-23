@@ -96,7 +96,7 @@ label ch1_main:
     show monika base uniform neut mb e1a
     m "¿Dónde están los demás miembros?"
     show monika base uniform neut ma
-    mc "Ahaha...{w=0.5} bueno...{w=0.4} ya 'estáis' aquí."
+    mc "Ajaja...{w=0.5} bueno...{w=0.4} ya 'estáis' aquí."
     "Me encojo de hombros, avergonzado."
     show monika 1d
     m "Oh?"
