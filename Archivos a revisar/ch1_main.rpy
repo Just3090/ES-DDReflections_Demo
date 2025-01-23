@@ -38,66 +38,66 @@ label ch1_main:
     window hide
     show bg black
     with close_eyes
-    "The last three days have been more anxious than I expected."
-    "Have I been too optimistic and ambitious thinking that the literature was an interesting subject to develop?"
-    mc "Geez..."
-    "The lack of sleep accumulated during the last two days is beginning to manifest itself."
-    "My thoughts are starting to get fuzzy, fatigue is starting to take over."
-    mc "A little nap won't do me any harm I guess..."
-    "With my thoughts slowly dissipating, I slowly start to fall asleep."
+    "Los últimos tres días han sido más ansiosos de lo que esperaba."
+    "¿He sido demasiado optimista y ambicioso al pensar que la literatura era un tema interesante para desarrollar?"
+    mc "Mierda..."
+    "La falta de sueño acumulada durante los últimos dos días empieza a manifestarse."
+    "Mis pensamientos se empiezan a nublar, y el cansancio comienza a apoderarse de mí."
+    mc "Supongo que una pequeña siesta no me hará daño..."
+    "Con mis pensamientos disolviéndose lentamente, empiezo a quedarme dormido."
     stop music fadeout 3.0
     window hide
     pause 4.5
     $ m_name = "??????"
-    m "Eh? {w=0.75}[player]?"
+    m "Eh, {w=0.75}¿[player]?"
     scene bg club_day1
     with open_eyes
-    "Caught up in the sudden rush of adrenaline, I jump up from my desk."
-    mc "Gyaa-!"
-    "I look toward the door to see two high school girls standing at the door of the club."
-    "I recognize one of them as none other than..."
-    "Monika?"
+    "Sorprendido por un repentino subidón de adrenalina, salto del pupitre."
+    mc "¡¡AAA-!!"
+    "Miro hacia la puerta y veo a dos chicas de instituto paradas."
+    "Reconozco a una de ellas como nadie más que..."
+    "¿Monika?"
     show monika 1d at t21
     play music encounter 
-    "The other girl that I don't know, but she's with Monika, which can tell me that she's probably her friend?"
+    "La otra chica no la conozco, pero si está con Monika, eso me dice que probablemente es su amiga."
     show sayori 2q at t22
-    "She laughs, taking a mocking voice."
-    s 2r "Hehehehe... is this the napping club here?"
-    mc "H-huh? No, no!"
+    "Ella ríe, adoptando un tono burlón."
+    s 2r "Jejejejeje... ¿Este es el club de las siestas?"
+    mc "¿Qu- qué? ¡No, no!"
     show monika base uniform neut awkw rhip n2 mb e4b at f21
     show sayori 2q at f22
-    "{i}She{/i} and Monika laugh."
-    "Quickly thinking back, it's true they caught me napping. But it's not that at all!"
-    "I try as much as I can to calm myself down before taking a serious look."
+    "{i}Ella{/i} y Monika se ríen."
+    "Al recordar rápidamente, es cierto que me pillaron echándome una siesta. ¡Pero no es así, en realidad!"
+    "Hago todo lo posible por calmarme antes de echar un vistazo más serio."
     show monika 1a at t21
     show sayori 1a at t22
-    mc "It's true you caught me at {i}the wrong moment{/i}."
-    mc "But to go back, this is the Literature Club."
-    mc "My god...{w=0.5} I wish I hadn't fallen asleep to show a more professional side of me..."
-    "I laugh nervously."
+    mc "Es cierto, me pillásteis en {i}un mal momento{/i}."
+    mc "Pero volviendo al tema, este es el Club de Literatura."
+    mc "Dios mío...{w=0.5} Ojalá no me hubiera quedado dormido para mostrar un lado más profesional..."
+    "Río nerviosamente."
     show sayori base uniform happ
-    s "That's okay! I was joking."
-    "Finally, Monika decides to speak up."
+    s "¡No pasa nada! Estaba bromeando."
+    "Finalmente, Monika decide intervenir."
     $ m_name = "Monika"
     show monika base uniform me e1a
-    m "So you're the one running the Literature Club?"
-    "I nod my head showing a small smile."
-    mc "Exactly!"
-    mc "I'm the president of the club."
+    m "Así que tú eres quien lleva el Club de Literatura, ¿no?"
+    "Asiento con la cabeza mostrando una pequeña sonrisa."
+    mc "¡Exacto!"
+    mc "Soy el presidente del club."
     show monika base uniform neut mb e4b
-    m "That's great!"
+    m "¡Eso está genial!"
     pause 0.5
     show monika base uniform neut ma e1b
     pause 0.5
     show monika base uniform neut ma e1c
     pause 0.5
-    "Monika glances around the room."
-    "I do the same, feeling my heart rate soar."
+    "Monika echa un vistazo por el aula."
+    "Yo hago lo mismo, notando cómo se acelera mi corazón."
     show monika base uniform neut mb e1a
-    m "Where are the other members?"
+    m "¿Dónde están los demás miembros?"
     show monika base uniform neut ma
-    mc "Ahaha...{w=0.5} well...{w=0.4} everyone is here."
-    "I shrug, feeling embarrassed."
+    mc "Ahaha...{w=0.5} bueno...{w=0.4} ya 'estáis' aquí."
+    "Me encojo de hombros, avergonzado."
     show monika 1d
     m "Oh?"
     "Monika raises her eyebrows, trying to say something but quickly pulling back."
