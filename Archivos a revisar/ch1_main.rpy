@@ -229,195 +229,194 @@ label ch1_main:
     s "¡No has escuchado nada!"
     show sayori base uniform e1a ma
     show monika base uniform e4b mb awkw lpoint
-    m "Ajajajaja... Vamos, Sayori. Sé un poco más seria frente a tu presidente."
+    m "Ajajajaja... Vamos, Sayori. Sé un poco más seria delante de tu presidente."
     show monika base uniform e1a ma awkw ldown
     show sayori tap uniform m2 e2 b2
-    s "Pffffff... you're not funny, Monika."
-    mc "I still understood what you said Sayori.."
+    s "Pffffff... no tienes gracia, Monika."
+    mc "Sigo entendiendo lo que dices, Sayori..."
     show sayori base uniform e4b mc rup lup
     show monika base uniform e4b b1a nobl mb rhip
-    "Both of them are giggling."
-    "I roll my eyes, taking a deep breath."
-    mc "Well!"
-    mc "How about we settle down?"
+    "Ambas se ríen."
+    "Pongo los ojos en blanco y respiro profundamente."
+    mc "¡Bueno!"
+    mc "¿Qué os parece si nos tranquilizamos un poco?"
     show sayori base uniform e1a b1a mb rdown ldown
-    s "Alright!"
+    s "¡Vale!"
     show monika base uniform e1a ma
-    "Monika nods briefly in response to my request."
+    "Monika asiente brevemente en respuesta a mi petición."
     show monika at thide
     show sayori at thide
     hide monika
     hide sayori
-    "And so, today for the first time since the beginning of the week, my club has two new members."
+    "Y así, por primera vez desde que empezó la semana, mi club tiene dos nuevos miembros."
     show monika 1a at t11
     "Monika."
     show monika 1a at t21
     show sayori 1a at t22
-    "... And Sayori."
+    "... Y Sayori."
     show monika 1a at thide
     show sayori 1a at thide
     hide monika
     hide sayori
-    "It's like a weight was taken off my shoulders, it feels great."
+    "Es como si me hubieran quitado un peso de encima; se siente genial."
     show bg club_day1
     with wiperight_scene
-    "Monika, Sayori and I arrange a few tables before sitting down."
+    "Monika, Sayori y yo organizamos algunas mesas antes de sentarnos."
     show sayori base uniform neut ma at t21
     show monika base uniform neut ma at t22
-    mc "Ah, well!"
-    mc "So, to repeat again, thank you both for joining my club, it makes me happy more than you can imagine."
-    mc "Although I wish it had gone a little {i}differently.{/i} {w=0.3} Ahahaha."
+    mc "¡Ah, bien!"
+    mc "Quiero repetirlo de nuevo: gracias a las dos por haberos unido a mi club, me hace muy feliz, más de lo que podéis imaginar."
+    mc "Aunque me habría gustado que las cosas fueran un poco {i}diferentes.{/i} {w=0.3} Ajajajaja."
     show sayori base uniform neut mb rup
-    s "Don't worry, I'm stronger than you when it comes to napping. I'm sure I can even replace you!"
-    mc "Replace me..?"
-    mc "What are you talking about?"
+    s "No te preocupes, soy mejor que tú cuando se trata de echarme siestas. ¡Estoy segura que hasta puedo sustituirte!"
+    mc "¿Sustituirme...?"
+    mc "¿De qué hablas?"
     show sayori base uniform e1b b1b mc blaw
-    s "Well..."
+    s "..."
     show sayori base uniform nobl at s21
-    s "I... You... ah... what are you..."
+    s "Yo... Tú... eh... qué es lo que..."
     show sayori base uniform e4c ml b1b rdown at h21
-    s "Oh forget it!"
-    mc "Alright...?"
+    s "Bah, ¡olvídalo!"
+    mc "¿Eh...?"
     show sayori base uniform neut mc e1b b1b blaw at s21
-    "Sayori sinks a little more into her chair to fight her own discomfort."
-    "Finally, I give up on Sayori's inexplicable behavior."
-    "Monika sighs before taking control of the situation."
+    "Sayori se hunde un poco más en su silla, luchando contra su incomodidad."
+    "Finalmente, desisto de tratar de entender su comportamiento inexplicable."
+    "Monika suspira y toma las riendas de la situación."
     show monika base uniform rhip mb
-    m "Anyway [player], I think it's important to tell you."
+    m "De todas formas, [player], creo que hay algo importante que debo decirte."
     show monika base uniform ma
-    mc "Yes...?"
+    mc "¿Sí...?"
     show monika lean uniform ma
-    m "You stole my idea you know?"
+    m "Me has robado la idea, ¿sabes?"
 
-
-    mc "What do you mean?"
+    mc "¿De qué estás hablando?"
 
     show monika base uniform happ lpoint b1b
     show sayori base uniform e1a ma b1a nobl
 
-    m "Well..."
-    m "I didn't really tell you everything, but I had thought of starting a Literature Club too."
-    mc "Really?"
-    mc "You never told me about it though."
+    m "Pues..."
+    m "No te lo dije, pero también había pensado en fundar un Club de Literatura."
+    mc "¿En serio?"
+    mc "Nunca lo mencionaste."
 
     show monika happ rhip
 
-    m "I know!"
-    m "I was keeping it to myself while I was in debate club."
+    m "¡Lo sé!"
+    m "Me lo reservaba mientras estaba en el club de debate."
 
     show monika lean uniform happ
 
-    m "Hehehehe, but it sounds like you had the same idea as me."
-    m "We're both kind of connected,aren't we?"
-    mc "E-Eh?"
-    "All of a sudden I feel my heart racing."
+    m "Jejejeje, pero parece que tuvimos la misma idea."
+    m "Debe haber alguna conexión entre nosotros, ¿eh?"
+    mc "¿Qu- qué?"
+    "De repente, siento mi corazón acelerándose."
 
 
     show monika base uniform happ rhip mb e4b
 
-    m "Oh my god. That face you're pulling [player], ahahaha!"
+    m "¡Madre mía, vaya cara pones, [player], ajajajaja!"
 
     show sayori base uniform happ lup rup mc e4b b1a nobl
 
-    s "Ahaha! It's so cuteeeeeee!"
-    "How do you not pull a face like that when the popular girl who was in your old class says that to you?!"
-    "I take a deep breath, trying as hard as I can to regain my seriousness."
+    s "¡Ajajaja! ¡Es muy monoooooo!"
+    "¡¿Cómo no vas a poner una cara así cuando la chica popular de tu antigua clase te dice algo como eso?!"
+    "Respiro profundamente, tratando con todas mis fuerzas de recuperar la seriedad."
 
     show monika base uniform neut ma e1a rdown
     show sayori base uniform neut ma e1a rdown ldown
 
-    mc "Ahaha.. well, I had thought about it this weekend to be quite honest."
-    mc "I thought it was going to be a pain to create the club, but it seems to have gone smoothly."
-    mc "Just some flyers to print and some administrative files to complete, but basically the hardest part of it."
-    mc "Now what's left is finding people who are interested in literature."
-    "I look briefly at Sayori as I say this."
+    mc "Ajajaja... bueno, para ser honesto, pensé en esto el fin de semana."
+    mc "Pensé que iba a ser un rollo fundar el club, pero parece que todo ha ido como la seda."
+    mc "Solo tuve que imprimir unos folletos y rellenar unos papeles administrativos. Lo más complicado ya está hecho."
+    mc "Ahora lo que falta es encontrar gente interesada en la literatura."
+    "Miro brevemente a Sayori mientras lo digo."
 
     show sayori base uniform neut rup mh b2c
 
-    s "Hey, why are you looking at me all of a sudden?"
-    mc "Well... I wanted to know if you were really interested in literature Sayori, just a simple question.."
+    s "Eh... ¿por qué me miras así de repente?"
+    mc "Bueno... quería saber si realmente te interesa la literatura, Sayori. Solo era una pregunta inocente..."
 
     show sayori base uniform neut rup b2b
 
-    s "Of course I like literature!"
+    s "¡Pues claro que me gusta la literatura!"
 
     show sayori base uniform neut lup rdown mg b1d
 
-    mc "And what are your literary genres, Sayori?"
+    mc "¿Y qué géneros literarios son tus favoritos, Sayori?"
 
     show sayori base uniform happ lup rup mc e4b b1a
 
-    s "I like to write poems!"
-    mc "Poems?"
-    mc "It's true that it's part of literature and is a literary genre."
-    mc "I'm sorry, I had doubts about you Sayori."
+    s "¡Me encanta escribir poemas!"
+    mc "¿Poemas?"
+    mc "Es cierto que forman parte de la literatura y son un género literario."
+    mc "Perdona, tenía mis dudas contigo, Sayori."
 
     show sayori base uniform neut ma e1b b1b lup rdown
     show monika base uniform neut ma rhip
 
-    m "Don't worry, [player]!"
-    m "Sayori is my best friend, I know her better than anyone."
-    "So she's her best friend?"
-    "I'm surprised. We've known each other for a while and she's never told me about her before..."
-    m "She is always motivated in the things she does and cares about [player]."
-    m "A real, bundle of sunshine!"
+    m "No te preocupes, [player]."
+    m "Sayori es mi mejor amiga, la conozco mejor que nadie."
+    "¿Su mejor amiga?
+    "Estoy sorprendido. Llevamos años conociéndonos y nunca me había hablado de ella antes..."
+    m "Siempre se esfuerza al máximo en lo que hace y se preocupa por [player]."
+    m "Es como un rayo de sol andante."
 
     show sayori base uniform neut blaw rup mc e1b b2c
 
-    s "Don't say that Monika... I just want to make everyone happy!"
-    mc "I guess I can listen to you with my eyes closed, Monika."
-    mc "After all, you are a veteran of the clubs."
-    mc "I know that right now the club is new and it seems like a obvious thing to tell you about."
-    mc "What I'm getting at is that right now there are no activities planned for the club. But when we get a little bit bigger, I'll start thinking about that!"
+    s "No digas eso, Monika... ¡Solo quiero hacer que todo el mundo sea feliz!"
+    mc "Supongo que podría escucharte con los ojos cerrados, Monika."
+    mc "Después de todo, tienes experiencia en los clubes."
+    mc "Sé que ahora el club está empezando y parece obvio lo que te estoy contando."
+    mc "Pero lo que quiero decir es que, de momento, no tenemos actividades planeadas para el club. ¡Cuando seamos más, empezaré a pensar en ello!"
 
     show sayori base uniform happ lup e1a b1a ma rdown nobl
 
-    m "No pressure, [player]!"
-    m "You can take your time with that, it's not a problem."
-    mc "Monika, you do know the festival is next Friday, right?"
+    m "No te preocupes, [player]"
+    m "Puedes tomarte tu tiempo, no hay prisa."
+    mc "Monika, sabes que el festival es el próximo viernes, ¿no?"
 
     show monika base uniform neut ldown me
 
-    m "Eh?"
+    m "¿Eh?"
 
     show monika base uniform neut me
 
-    m "Yes, I know that [player]. But why are you telling me that?"
-    mc "Well, to participate, the club has to have at least five members."
+    m "Sí, claro que lo sé, [player]. Pero, ¿por qué lo mencionas?"
+    mc "Bueno, para participar, el club tiene que tener al menos cinco miembros."
     show sayori base uniform neut e1a mb rdown
-    s "Well, why don't we start getting them now?"
-    mc "Heh, now?"
+    s "Entonces, ¿por qué no empezamos a buscarlos ya?"
+    mc "¿Ahora?"
     show sayori base uniform neut rup e4b mc
-    s "Yes!"
-    mc "Ummh.. okay then."
-    mc "Monika are you in?"
+    s "¡Claro!"
+    mc "Emmm... vale."
+    mc "¿Qué dices, Monika? ¿Te apuntas?"
     show monika base uniform neut ma rdown
-    m "Sure!"
+    m "¡Por supuesto!"
 
     show sayori base uniform neut rup mb e4b at h21
 
-    s "Let's do it!"
-    mc "Yeah. Let's go then."
-    mc "Feel free to grab one of the flyers on the table over there."
-    "I point my finger at a desk where we can a small stack of the flyers that I didn't use."
+    s "¡Vamos allá!"
+    mc "Sí, vamos allá."
+    mc "Podéis coger uno de los folletos que hay en la mesa de allí."
+    "Señalo con el dedo un escritorio, donde está la pila de folletos que me sobró."
 
     show monika base uniform happ b2c
 
-    m "Don't worry it's okay, I'm pretty good at arguing."
-    s 1b "Hmmmmmmmm."
+    m "Tranquilo, no te preocupes. Soy bastante persuasiva."
+    s 1b "Hmmmmmmmm..."
 
     show sayori base uniform neut ma
 
-    s "I'll be fine too!"
-    mc "Oh okay... all right then."
-    mc "What we split up to make it easier?"
+    s "¡Yo también me las apañaré!"
+    mc "Ah... vale, de acuerdo.."
+    mc "¿Qué tal si nos dividimos para que sea más fácil?"
 
     show sayori tap uniform nerv awkw m1
 
-    s "Uh... [player]... it's not against you, but..."
-    s "I would like to stay with Monika if possible."
-    mc "Oh fine, no worries."
-    "The three of us head out of the club room."
+    s "Eh... [player]... no es por ti, pero..."
+    s "Preferiría ir con Monika si es posible."
+    mc "Está bien, no pasa nada."
+    "Los tres salimos del aula del club."
 
     show sayori at thide
     show monika at thide
@@ -428,53 +427,53 @@ label ch1_main:
     show sayori base uniform happ at t21
     show monika base uniform happ rhip at t22
 
-    s "Ehehehe, may the best win [player]!"
-    mc "Huuuuuh... yes, may the best win, Sayori."
+    s "¡Jejejejeje, que gane el mejor, [player]!"
+    mc "Emmmm... sí, que gane el mejor, Sayori."
 
     show sayori base uniform neut lup rup mc e4b b1a
 
-    s "Hehehehe, it's like a competition!"
-    s "It makes you want to look for people even more!"
+    s "¡Jejejeje, es como una competición!"
+    s "¡Hace que tenga aún más ganas de buscar gente!"
 
     show sayori at thide
     show monika at thide
     hide sayori
     hide monika
 
-    "Even though deep down, I think it's ridiculous."
-    "But to avoid making her run away or think badly of me, I decide to play to her little game."
-    "I mean... It's not a competition is it?"
-    "There's nothing to win!"
-    "I mean... we win extra members but it's not really a trophy."
-    mc "Good luck to you both too, we'll meet at the club in half an hour if that's ok?"
+    "Por dentro, me parece una tontería."
+    "Pero para no hacerla sentir mal ni ahuyentarla, decido seguirle el juego."
+    "Al fin y al cabo, ¿es una competición de verdad?"
+    "¡Si no hay nada que ganar!"
+    "Bueno... ganaríamos miembros para el club, pero eso no es un trofeo."
+    mc "Suerte a las dos, nos vemos en el club en media hora, ¿os parece bien?"
 
     show monika base uniform happ at t11
 
-    m "Good luck, you too [player]."
+    m "Suerte para ti también, [player]."
 
     show monika at thide
     hide monika
     show bg corridor
     with wipeleft_scene
 
-    "Finally, we separate, each one going our own way."
-    "I wander the deserted halls of the high school."
-    "I can only hear muffled voices in various classrooms which leads me to assume that it's simply other clubs doing their extra-curricular activities."
+    "Finalmente, nos separamos, y cada uno sigue su camino."
+    "Deambulo por los pasillos desiertos del instituto."
+    "Solo escucho voces apagadas de algunas clases, lo que me hace suponer que son otros clubes en sus actividades extraescolares."
     "..."
-    "I can see a girl sitting on a bench in the hallway scrolling on her smartphone."
-    "I decide to talk to her."
-    mc "Uh... hi can I--{w=0.20}{nw}"
-    stu "I have a boyfriend, I'm not interested."
-    "Oh great."
-    mc "But I didn't even get to ask my question!"
-    stu "I HAVE."
-    stu "A."
-    stu "BOYFRIEND."
-    stu "Is it too hard to understand or do you want a kick in your balls?"
-    mc "Umh.. no thanks, I'm good."
-    stu "Geez.."
-    stu "All the same, these guys."
-    "I decide to go my own way and never look back."
+    "Veo a una chica sentada en un banco del pasillo, mirando su móvil."
+    "Decido acercarme para hablar con ella."
+    mc "Eh... hola, ¿puedo--{w=0.20}{nw}"
+    stu "Tengo novio, no me interesa."
+    "Estupendo."
+    mc "¡Pero si ni siquiera he llegado a preguntarte algo!"
+    stu "HE DICHO."
+    stu "QUE TENGO."
+    stu "NOVIO."
+    stu "¿Es que no lo entiendes o quieres que te dé una patada en los huevos?"
+    mc "Ehmmm... no, gracias, estoy bien."
+    stu "Joder..."
+    stu "Los tíos sois todos iguales."
+    "Decido seguir mi camino y no mirar atrás."
 
     show bg corridor
     with wiperight_scene
