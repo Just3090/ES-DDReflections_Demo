@@ -195,41 +195,41 @@ label ch1_main:
     "Y lo peor es que ni siquiera logré que vinieran."
     "¡Han venido por su cuenta!"
     "Como Monika fue vicepresidenta del club de debate, seguramente pueda..."
-    "Ask her to be my vice-president?"
-    "I feel a lump in my throat at that thought, that's pretty direct isn't it?"
-    "Will she think I want to try to take advantage of her popularity to give the club as much credibility as possible?"
-    "Plus she made it clear that she left the debate club recently."
-    "The best way to know is to ask her."
-    mc "Monika, I know this may seem sudden but..."
-    mc "I'd like to ask you something if I could."
+    "¿Pedirle que sea mi vicepresidenta?"
+    "Siento un nudo en la garganta al pensarlo, ¿no es un poco directo?"
+    "¿Pensará que quiero aprovecharme de su popularidad para darle al club la mayor credibilidad posible?"
+    "Además, dejó claro que hace poco dejó el club de debate."
+    "La mejor manera de saberlo es preguntarle."
+    mc "Monika, sé que esto puede parecer repentino, pero..."
+    mc "Me gustaría preguntarte algo, si puedo."
     show monika base uniform neut me rdown
-    m "Oh?"
+    m "¿Eh?"
     show monika base uniform neut md
-    m "What do you want to ask me?"
-    mc "I-I'll ask you later!"
+    m "¿Qué quieres preguntarme?"
+    mc "¡D- d- después te lo pregunto!"
     show monika base uniform neut me rhip
-    m "Umh... okay?"
-    m "Whatever you want."
+    m "Ehhh... ¿vale?"
+    m "Haz lo que quieras."
     show sayori base uniform e1a mb rup ldown
-    s "Hehehehe, he wants to declare his love for you Monika!"
+    s "Jejejeje, ¡se te quiere declarar, Monika!"
     show sayori base uniform e4b mc rup lup
-    s "Sooooooooooooo cute~!"
+    s "¡Qué monooooooo~!"
     show monika base uniform e4b b1b blaw ma rdown ldown
-    mc "W-What?!"
-    mc "It's not even that what I was thinking!"
-    "I can't help but feel uncomfortable."
-    "That girl is unpredictable, I swear."
-    "As for Monika, I notice it briefly, but she seems to be a little embarrassed about what Sayori just said."
+    mc "¡¿Qu- qué?!"
+    mc "¡Ni siquiera estaba pensando en eso!"
+    "Es imposible no sentirme incómodo."
+    "Esta chica es impredecible, te lo juro."
+    "En cuanto a Monika, lo noto brevemente, pero parece estar un poco avergonzada por lo que acaba de decir Sayori."
     show sayori base uniform e1a mb rup ldown
-    s "Hehehe, I'm kidding don't worry."
-    s "It was quite cute your reaction, you are easy to tease, I like that!"
-    mc "Well... that wasn't really what I was thinking..."
-    mc "And... wait a minute, you just said my reaction was-"
+    s "Jejejeje, estoy bromeando. No te preocupes."
+    s "Tu reacción ha sido muy mona, es muy fácil ponerte nervioso, ¡me gusta!"
+    mc "Bueno... eso no era realmente lo que estaba pensando..."
+    mc "Y... espera un momento, ¿acabas de decir que mi reacción ha sido-?"
     show sayori base uniform e1a mb rdown
-    s "You didn't hear that!"
+    s "¡No has escuchado nada!"
     show sayori base uniform e1a ma
     show monika base uniform e4b mb awkw lpoint
-    m "Ahahaha... Come on Sayori. Be a little more serious in front of your president."
+    m "Ajajajaja... Vamos, Sayori. Sé un poco más seria frente a tu presidente."
     show monika base uniform e1a ma awkw ldown
     show sayori tap uniform m2 e2 b2
     s "Pffffff... you're not funny, Monika."
