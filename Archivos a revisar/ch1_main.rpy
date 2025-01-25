@@ -371,7 +371,7 @@ label ch1_main:
 
     show sayori base uniform happ lup e1a b1a ma rdown nobl
 
-    m "No te preocupes, [player]"
+    m "No te preocupes, [player]."
     m "Puedes tomarte tu tiempo, no hay prisa."
     mc "Monika, sabes que el festival es el próximo viernes, ¿no?"
 
@@ -408,7 +408,7 @@ label ch1_main:
     show sayori base uniform neut ma
 
     s "¡Yo también me las apañaré!"
-    mc "Ah... vale, de acuerdo.."
+    mc "Ah... vale, de acuerdo..."
     mc "¿Qué tal si nos dividimos para que sea más fácil?"
 
     show sayori tap uniform nerv awkw m1
