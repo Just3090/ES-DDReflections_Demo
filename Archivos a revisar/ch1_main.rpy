@@ -478,70 +478,70 @@ label ch1_main:
     show bg corridor
     with wiperight_scene
 
-    "After my first attempt, which I'll call unusual, I decide to approach some high school students I find wandering the hallway, who all end up saying no."
-    "I bet it's probably the same on Monika and Sayori's side."
+    "Después de mi primer intento, que llamaría inusual, decido acercarme a unos estudiantes de secundaria que encuentro deambulando por el pasillo, pero todos terminan diciendo 'no'."
+    "Apuesto a que probablemente sea lo mismo para Monika y Sayori."
 
     show bg corridor
     with dissolve_scene_full
 
-    "I guess I'll go back to the club. I think Monika and Sayori must be back already."
-    mc "Huh?"
-    "When I arrive in front of the club, I can see a new face."
-    "I can see a tall girl with long purple hair reading a book on a desk next to the window with Sayori."
-    "Sayori notices me behind the window putting on her biggest smile, I can start hear her screaming and snorting from the hallway."
-    s "{i}Guys, the president is here!!{/i}"
+    "Supongo que volveré al club. Creo que Monika y Sayori deben haber vuelto."
+    mc "¿Qué?"
+    "Cuando llego frente al club, veo una cara nueva."
+    "Puedo ver a una chica alta con el pelo largo y púrpura leyendo un libro en un escritorio junto a la ventana con Sayori."
+    "Sayori se da cuenta de mi presencia detrás de la ventana y pone su sonrisa más grande, puedo empezar a oírla gritar y resoplar desde el pasillo."
+    s "{i}¡¡CHICOS, EL PRESIDENTE ESTÁ AQUÍ!!{/i}"
 
     stop music fadeout 3.0
 
-    mc "Geez... Why does she have to scream like that?"
-    "I take a long sigh before opening the door going inside the club."
+    mc "Joder... ¿Por qué tiene que gritar así?"
+    "Tomo un largo suspiro antes de abrir la puerta y entrar al club."
 
     play sound closet_open
     show bg club_day
     with wipeleft_scene
     play music t3
 
-    "Monika is heading towards me without further ado."
+    "Monika se dirige hacia mí sin más preámbulos."
 
     show monika base uniform happ rhip at l11
 
-    m "Ah, [player]!"
+    m "¡Ah, [player]!"
 
     $ renpy.music.set_pause(True, channel="music")
 
     show monika base uniform neut ldown rdown me
 
-    m "What took you so long?"
+    m "¿Por qué has tardado tanto?"
 
     $ renpy.music.set_pause(False, channel="music")
-    m "We were beginning to wonder if something had happened to you."
-    mc "I'm so sorry!"
-    mc "I didn't check the time when we left!"
-    mc "I was just... busy, if you can call it that."
+    m "Ya pensábamos que te había pasado algo."
+    mc "Lo siento mucho."
+    mc "No me fijé en la hora al salir."
+    mc "Solo estaba... atareado, si así se le puede decir."
 
     show monika lean uniform neut m1
 
-    m "Don't worry. Now that you're here, we can start the introductions!"
-    "The tall girl with long purple hair gets up from her chair shyly, walking towards us."
+    m "No te preocupes. Ahora que estás aquí, ¡podemos empezar las presentaciones!"
+    "La chica alta con el pelo largo y púrpura se levanta de su silla tímidamente, caminando hacia nosotros."
 
     show monika base uniform happ at t21
     show yuri base uniform happ at t22
-    y "So you're [player], the club president?"
-    "I nod briefly."
-    mc "That's right."
-    y "A pleasure to meet you."
-    mc "Nice to meet you too."
-    "I didn't notice her on the way in, but a much smaller figure comes out of the closet, joining the rest of the group."
-    "What was she doing in the closet?"
+    y "¿Eres [player], el presidente del club?"
+    "Asiento con brevedad."
+    mc "Así es."
+    y "Es un placer conocerte."
+    mc "El gusto es mío."
+    "No la había notado al entrar, pero una figura enana sale del armario y se une al resto del grupo."
+    "¿Qué hacía ella en el armario?"
 
     show monika base uniform happ at t31
     show yuri base uniform happ at t32
     show natsuki base uniform b1d mi rhip lhip at f33
 
-    n "Seriously, the president is a boy?!"
-    n "I thought this was a girls-only club!"
-    n "The atmosphere will be really bad in this club."
-    mc "Ah... Thanks."
+    n "¿En serio? ¡¿El presidente es un chico?!"
+    n "¡Pensé que era un club 'exclusivo' de chicas!"
+    n "El ambiente será pésimo en este club."
+    mc "Emm... Gracias."
 
     show natsuki base uniform md rdown ldown at t43
     show sayori base uniform e1b b1b mc at t44
@@ -553,7 +553,7 @@ label ch1_main:
     show sayori base uniform e1b b1b mc at t44
     show yuri base uniform neut rup lup mf e4a b1c
 
-    y "So you're Natsuki..."
+    y "Así que eres Natsuki..."
 
     $ n_name = "Natsuki"
 
@@ -565,23 +565,23 @@ label ch1_main:
     hide sayori
     show natsuki cross uniform neut fta at t11
 
-    n "Hmpff."
-    "The girl with the sour demeanor seems to be called Natsuki, according to Sayori."
-    "Sayori approaches my ear whispering something to me."
-    s "{i}Don't worry, just ignore her when she gets like this.{/i}"
+    n "Hm."
+    "La chica con la actitud agria parece llamarse Natsuki, según Sayori."
+    "Sayori se acerca a mi oído y me susurra algo."
+    s "{i}No te preocupes, ignórala cuando se pone así.{/i}"
 
     show natsuki cross uniform neut fta at t22
     show sayori base uniform happ rup ldown at t21
 
-    s "Anyway!"
-    s "[player], here's Natsuki, a girl who is always full of energy!"
+    s "¡Aún así!"
+    s "[player], ¡esta es Natsuki, una chica que siempre está llena de energía!"
 
     show natsuki 1g at t32
     show monika base uniform happ rhip at t33
     show sayori base uniform rup ldown at t31
 
-    m "And for finish, let's me introduce you Yuri."
-    m "We found her with Sayori at the school library, and believe me, she will be a valuable asset for the Literature Club."
+    m "Y por último, os presento a Yuri."
+    m "La encontramos con Sayori en la biblioteca del instituto, así que creedme: será un valioso activo para el Club de Literatura."
 
     $ y_name = "Yuri"
     show natsuki 1g at t42
@@ -589,14 +589,14 @@ label ch1_main:
     show sayori base uniform rup ldown at t41
     show yuri shy uniform happ m1 e2 b2 at t44
 
-    y "Don't... say such things like that..."
-    "Yuri looks away, and I can already get an idea that she's a person who seems quite shy."
+    y "No digas... esas cosas..."
+    "Yuri mira a otro lado, y puedo hacerme una idea de que es una persona bastante tímida."
     mc "..."
-    "I'm speechless."
-    "My club is full of..."
-    "Girls?"
-    "I don't know if it's a coincidence, but I'm not going to complain about it..."
-    "...because they are all--!{w=0.02}{nw}"
+    "Estoy atónito."
+    "Mi club está lleno de..."
+    "¿Chicas?"
+    "No sé si es casualidad o algo, pero no me voy a quejar..."
+    "...¡porque es que son muy--!{w=0.02}{nw}"
 
     show yuri at thide
     show monika at thide
@@ -606,27 +606,27 @@ label ch1_main:
     hide sayori
     show natsuki base uniform neut mg b1a at t11
 
-    n "Why are you staring at us like that?"
+    n "¿Por qué nos miras de esa manera?"
 
     show natsuki cross uniform neut mi b1d
 
-    n "If you want to say something out, go ahead."
-    mc "... Excuse me..."
+    n "Si quieres decir algo, adelante."
+    mc "... Perdón..."
 
     show natsuki at thide
     hide natsuki
 
-    "Well... that's pretty blunt."
-    "Getting back on track, I take a short breath."
+    "Bueno... ha sido bastante directa."
+    "Volviendo al tema, tomo un pequeño respiro."
 
     show monika base uniform happ rhip at t44
     show yuri base uniform happ at t43
     show sayori base uniform happ at t42
     show natsuki base uniform neut at t41
 
-    mc "Okay everyone!"
-    mc "Since we have two new members, I propose that we go settle in and get to know each other a little better!"
-    "With the help of all the girls, we're rearranging the few tables we moved earlier, so that it become a bigger table."
+    mc "¡Vale, compis!"
+    mc "Como tenemos dos nuevos miembros, propongo que nos acomodemos y nos conozcamos un poco mejor."
+    "Con la ayuda de todas las chicas, estamos reorganizando las mesas que movimos anteriormente, para que ahora formen una mesa más grande."
 
     show yuri at thide
     show natsuki at thide
@@ -637,58 +637,58 @@ label ch1_main:
     hide monika
     hide sayori
 
-    "Before we settle down, Sayori, with an excited look speak up."
+    "Antes de sentarnos, Sayori, con una mirada emocionada, dice algo en alto."
 
     show sayori base uniform neut lup rup mc e4b at t21
 
-    s "I'll go get the cupcakes!"
+    s "¡Voy a por los cupcakes!"
 
     show natsuki base uniform neut lhip mi b1d at t22
 
-    n "Hey! I bought them, so I gonna get them!"
+    n "¡Oye! ¡Yo los compré, así que los traigo yo!"
 
     show sayori 5a at s21
 
-    s "I'm sorry, I just got a little excited for a moment ehehe..."
-    s 5b "And I'm hungry too..."
+    s "Perdón, me emocioné por un momento, jejeje..."
+    s 5b "Y tengo mucha hambre también..."
 
     show sayori at thide
     hide sayori
 
-    mc "Eh, cupcakes?"
+    mc "¿Qué, cupcakes?"
 
     show natsuki base uniform neut rhip mh b1c at t11
 
-    n "Yeah, is that a problem?"
-    mc "Oh no, just be careful not to get it everywhere, I hold the responsibility of keeping this room as clean as possible."
+    n "Sí, ¿pasa algo?"
+    mc "Claro que no, pero ten cuidado de no ensuciarlo todo. Soy el responsable de mantener este aula lo más limpia posible."
 
     show natsuki at thide
     hide natsuki
     show monika base uniform happ rhip at t11
 
-    m "If you want [player], I could help you clean up the clubroom at the end of each session."
-    mc "Would you mind, Monika?"
-    mc "I wouldn't really like to borrow any of your free time."
-    m happ e4b "No no! Don't worry, I don't mind!"
-    mc "Very well, then thanks to you."
+    m "Si quieres, [player], te puedo ayudar a limpiar el club el final de cada reunión."
+    mc "¿No te importaría, Monika?"
+    mc "No es de mi agrado robarte tu tiempo libre."
+    m happ e4b "¡No no! ¡No te preocupes, no me importa!"
+    mc "Muy bien, entonces... muchísimas gracias."
 
     show monika at thide
     hide monika
 
-    "During our little chat, Natsuki proudly returns to the table with a tray covered with a foil wrapping the top of the tray in her hands."
-    "She sets the tray on the table, still keeping one hand on the foil, ready to remove it."
+    "Durante nuestra pequeña charla, Natsuki regresa a la mesa con una bandeja cubierta con papel de aluminio."
+    "Coloca la bandeja en la mesa, manteniendo una mano en el papel, lista para quitarlo."
 
     show natsuki base uniform neut rhip mo e4b at t32
 
-    n "Are you all ready?"
-    "We all nod in agreement."
-    n "Tadaaaaaaaaaaaaa!"
+    n "¿Estáis listos?"
+    "Asentimos en señal de acuerdo"
+    n "¡Tacháaaaaaaaaan!"
 
     show monika base uniform neut me at t31
     show sayori base uniform neut nobl lup rup ml e2a b1a at t33
 
-    ms "Woooaaahh!"
-    "Removing the foil, we can see about ten chocolate cupcakes, iced with white frosting."
+    ms "¡Halaaaaaa!"
+    "Al quitar el papel de aluminio, vemos unos diez pastelitos de chocolate, decorados con glaseado blanco y algunas chispas de colores que le dan un efecto arcoíris."
     "There is a slight decoration done on the frosting which is made with little sprinkles of different colors to give a rainbow effect."
 
     show natsuki cross uniform e1a mc
