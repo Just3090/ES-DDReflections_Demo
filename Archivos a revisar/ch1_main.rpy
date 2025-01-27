@@ -693,27 +693,27 @@ label ch1_main:
 
     show natsuki cross uniform e1a mc
 
-    n "What are you waiting for? Get some!"
+    n "¿A qué esperáis? ¡Coged uno!"
     show natsuki cross uniform ma
-    "Sayori is the first one to take a cupcake. Followed by Monika and Yuri. I'm the last one to serve myself."
+    "Sayori es la primera en ir a por un cupcake. Monika y Yuri le siguen poco después. Yo soy el último en coger uno."
 
     show sayori base uniform neut lup rup mc e4b
 
-    s "Schoooooooooooooooo goooood~!"
-    "Sayori is already talking with her mouth full, in a short time, she has already stuffed a lot of frosting around her mouth."
-    "Without noticing it, she has already messed up the table with her fingers full of icing."
+    s "¡Eshtá bueníshimooooooooooo~!"
+    "Sayori ya está hablando con la boca llena, y en poco tiempo, tiene todo el glaseado alrededor de la misma."
+    "Sin darse cuenta, ha ensuciado la mesa con sus dedos llenos de glaseado."
     show monika base uniform neut ma rhip
     show natsuki base uniform mc rhip
 
-    n "Hehehe, it's too bad for the club that I didn't make these, otherwise they would have been ten times better than these."
-    n "They were made by the school bakery."
-    mc "Really? You like to bake Natsuki?"
+    n "Jajaja, es una lástima que no los haya hecho yo, habrían sido diez veces mejores."
+    n "Los hicieron en la pastelería de la escuela."
+    mc "¿En serio? ¿Te gusta hornear, Natsuki?"
     show natsuki cross uniform neut mc
 
-    n "Of course, it's a tradition in my family."
+    n "¡Claro! Es una tradición familiar."
     show natsuki cross uniform ma
-    mc "Oh right, that's really nice."
-    "I twirl the cupcake around my fingers, looking for a good angle to take a bite without getting it all over myself."
+    mc "Ah, es genial."
+    "Giro el pastelito entre mis dedos, buscando un buen ángulo para darle un bocado sin ensuciarme."
 
     show sayori at thide
     show monika at thide
@@ -721,18 +721,18 @@ label ch1_main:
     hide sayori
     show natsuki base uniform neut mg b1a at t11
 
-    "I can't help but notice that Natsuki keeps glancing at me over and over."
-    "Is she waiting for me to decide to take a bite?"
-    "Finally, I decide to take a bite."
+    "No puedo evitar notar que Natsuki me observa todo el rato."
+    "¿Está esperando a que me decida a probarlo?"
+    "FInalmente, decido darle un mordisco."
     "!!!"
-    "I didn't think so, but the cupcake is actually delicious."
-    "The chocolate cupcake base is very sweet and combines with the flavor of the frosting, which is vanilla I would assume, gives a perfect balance between the two flavors."
-    mc "This is damn good!"
-    mc "Thank you for bought these cupcakes Natsuki."
+    "No me lo esperaba, pero el pastelito está muy bueno."
+    "La base chocolateada es muy dulce y combina perfectamente con el glaseado, que supongo es de vainilla, logrando un equilibrio perfecto entre ambos sabores."
+    mc "¡Está muy bueno!"
+    mc "Gracias por traerlos, Natsuki."
 
     show natsuki cross uniform neut mh b1f
 
-    n "Why are you thanking me?"
+    n "¿Por qué me das las gracias?"
 
     show natsuki cross uniform neut blaw mh e1b b1d at s11
 
