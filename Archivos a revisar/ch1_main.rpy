@@ -688,8 +688,8 @@ label ch1_main:
     show sayori base uniform neut nobl lup rup ml e2a b1a at t33
 
     ms "¡Halaaaaaa!"
-    "Al quitar el papel de aluminio, vemos unos diez pastelitos de chocolate, decorados con glaseado blanco y algunas chispas de colores que le dan un efecto arcoíris."
-    "There is a slight decoration done on the frosting which is made with little sprinkles of different colors to give a rainbow effect."
+    "Al quitar el papel de aluminio, vemos unos diez pastelitos de chocolate."
+    "Están decorados con glaseado blanco y algunas chispas de colores que le dan un efecto arcoíris."
 
     show natsuki cross uniform e1a mc
 
@@ -736,98 +736,98 @@ label ch1_main:
 
     show natsuki cross uniform neut blaw mh e1b b1d at s11
 
-    n "It's not like I bought them for you and your club.. dummy.."
-    mc "Huh?"
-    mc "But didn't you say you bought them for--{w=0.10}{nw}"
+    n "No los traje especialmente para ti y tu club... idiota..."
+    mc "¿Eh?"
+    mc "Pero, ¿no dijiste que los habías comprado para--?{w=0.10}{nw}"
 
     show natsuki base uniform neut ldown fs m3 e4 b2 at h11
 
-    n "Well, maybe!"
-    n "I probably bought them for this occasion!"
+    n "¡Bueno, puede!"
+    n "¡Puede que los comprara para esta ocasión!"
 
     show natsuki 5q
 
-    n "But not for... you.. {w=0.4} the club... dummy."
-    mc "Ummh.. okay, okay..."
+    n "Pero no para... tú... {w=0.4} el club... idiota."
+    mc "Emmm... vale, vale..."
 
     show natsuki at thide
     hide natsuki
 
-    "I decide to give up falling on Natsuki's strange logic."
+    "Decido no intentar comprender la extraña lógica de Natsuki."
 
     show yuri base uniform happ at t11
 
-    y "Otherwise [player]... What do you like to read?"
-    mc "Ah.. well.."
-    "I haven't been asked that question in a while."
-    "Considering how much my book collection in my room has grown in the last few years, I'm afraid if I say everything, we can stay here until tomorrow morning."
-    mc "... I read a little bit of everything... but last weekend I started reading a little horror book."
+    y "Por cierto, [player]... ¿Qué te gusta leer?"
+    mc "Ah... bueno..."
+    "Hace mucho que no me preguntan esto."
+    "Considerando cuánto ha crecido mi colección de libros en los últimos años, temo que si digo todo, podríamos quedarnos aquí hasta mañana."
+    mc "... Leo un poco de todo... pero el pasado fin de semana empecé a leer un pequeño libro de terror."
 
     show yuri base uniform happ ma e1b b1b rup
 
-    y "A great and wise reader like myself I see..."
-    mc "Yes, you can say it like that."
-    "I notice Yuri smiles discreetly."
+    y "Ya veo, un gran y sabio lector como yo..."
+    mc "Puede ser."
+    "Noto a Yuri sonreír discretamente."
 
     show yuri base uniform happ ma e1b b1b rdown at t21
     show monika base uniform happ lpoint ma e1a b1a at t22
 
-    m "Ah, I have started reading a horror book lately, too."
-    mc "Really, Monika?"
-    mc "That surprises me a lot coming from you."
+    m "Ah, yo también empecé hace poco un libro de terror."
+    mc "¿En serio, Monika?"
+    mc "Me sorprende mucho viniendo de ti."
 
     show monika base uniform happ lpoint rhip e4b
 
-    m "Ahahaha, it's true that I look like someone who doesn't read those genres."
+    m "Ajajaja, es cierto que parezco alguien que no se interesa en esos géneros."
 
     show monika base uniform happ ldown e1a rhip
 
-    m "But that was a few years ago, and I've had an urge to try new things."
+    m "Pero eso fue hace algunos años, y he tenido ganas de probar cosas nuevas."
 
 
     show monika lean uniform happ ma
 
-    m "After all, wouldn't life be a little boring if every day was the same thing?"
-    "Monika smiles at me sweetly."
+    m "Después de todo, ¿la vida no sería un poco aburrida si todos los días fueran iguales?"
+    "Monika me sonríe dulcemente."
 
 
 
-    mc "Oh well yeah... you're right about that."
+    mc "Ah, sí... tienes razón."
     show monika at thide
     hide monika
     show yuri base uniform b1a e1a ma at t11
-    mc "So Yuri, what do you like to read?"
+    mc "Entonces, Yuri... ¿qué te gusta leer?"
     show yuri 1e
-    y "Me? Let's see..."
-    y 2g "Usually, I like to read novels that tell a complex and very deep fantasy story everyday."
-    y 2l "The level of creativity and quality of the written stories always impresses me.."
-    y 1b "But you know, I like to read a little bit of everything too."
-    y 1a "I also started few weeks ago reading horror books, too."
-    y 2a "Now I'm on a book called « Portrait of Marakov »."
-    mc "I've never heard of it..."
-    y 1a "The author of this book is not well known around the world either."
-    mc "What is the story about?"
-    y 3i "In a nutshell... this is the story of a high school girl who moves in to the home of her long-lost sister..."
-    y 3f "But as soon as she moves in, her life suddenly turns upside down and starts to become completely strange."
-    y "She is suddenly targeted by people who have escaped from a prison where human experiments are taking place inside."
-    y "However, while her life is in danger, she is desperate to be trusted, but no matter what she does, her relationships always end up falling apart."
-    mc "Ah yes, it's a rather unusual story, but it still sounds interesting."
+    y "¿A mí? Veamos..."
+    y 2g "Generalmente, me gusta leer novelas que cuentan una historia compleja y muy profunda de fantasía."
+    y 2l "El nivel de creatividad y calidad de las historias es sorprendente..."
+    y 1b "Pero ya sabes, también me gusta leer un poco de todo."
+    y 1a "Empecé hace unas semanas a leer libros de terror."
+    y 2a "Ahora estoy leyendo un libro llamado «Retrato de Markov»."
+    mc "No he oído hablar de él..."
+    y 1a "El autor del libro tampoco es que sea muy conocido."
+    mc "¿De qué va la historia?"
+    y 3i "En pocas palabras... es la historia de una chica de secundaria que se muda a la casa de su hermana perdida hace mucho tiempo..."
+    y 3f "Pero tan pronto como se muda, su vida da un giro radical y empieza a volverse completamente extraña."
+    y "De repente es perseguida por personas que han escapado de una prisión donde se realizan experimentos humanos."
+    y "Sin embargo, mientras su vida está en peligro, desesperadamente busca credibilidad, pero sin importar lo que haga, sus relaciones siempre terminan desmoronándose."
+    mc "Ah, pues sí, es una historia bastante inusual, pero suena interesante."
     show yuri 3f at t22
     show natsuki cross uniform neut mg e1b b1e at t21
-    n "Ughh... I hate horror."
-    y 2e "Oh why's that?"
-    n "It's because..."
+    n "Aghhh... odio el horror."
+    y 2e "¿Por qué?"
+    n "Porque..."
     show natsuki cross uniform awkw b1a e1a
-    "Natsuki looks at me briefly, holding back from saying something."
-    n cross uniform neut mg e1b b1e "... Nevermind."
+    "Natsuki me mira brevemente, como si se contuviera de decir algo."
+    n cross uniform neut mg e1b b1e "... Déjalo."
     show yuri at t32
     show natsuki at t31
     show monika base uniform happ rhip at t33
-    m "It's true that you prefer to write cute things, isn't it Natsuki?"
+    m "A ti te gusta más escribir sobre cosas monas, ¿no, Natsuki?"
     show natsuki base uniform neut blaw ldown rdown mm e2a b1e at h31
-    n "Uuugh... What?!"
-    n "What makes you say that??"
-    m "Well, when we were going to the club after we met you, you dropped a piece of paper from your bag, specifically a poem called..."
+    n "Aghhh... ¡¿Qué?!"
+    n "¿¿Qué te hace decirlo??"
+    m "Bueno, cuando íbamos al club después de conocerte, se te cayó un papel de tu mochila, específicamente un poema llamado..."
     show natsuki base uniform neut blaw ldown rdown mi b1d at h31
     n "Don't say another word!"
     show natsuki base uniform neut blaw ldown rdown ml e4c b1d at h31
