@@ -852,32 +852,32 @@ label ch1_main:
     mc "Estaría bien qu--"
     show natsuki 1o at h11
     n "¡No! ...¡No!"
-    "In fright, Natsuki briefly avert her eyes to avoid any eye contact."
-    mc "Why?"
+    "Asustada, Natsuki aparta brevemente la mirada para evittar cualquier contacto visual."
+    mc "¿Por qué?"
     show natsuki 5s at s11
-    n "You... you wouldn't like them..."
-    mc "Ah.. you don't trust sharing them I see?"
+    n "A vosotros... no os gustarían..."
+    mc "Ah... por lo que veo, no confías en compartirlos, ¿verdad?"
     show natsuki 5s at t21
     show yuri base uniform neut lup rdown mf e4a b1c at t22
-    y "I understand her fear..."
-    y "Sharing your own writing is a real challenge..."
-    y "If we write, it is basically to describe something personal about ourselves."
+    y "Entiendo lo que siente..."
+    y "Compartir tu propia escritura es un desafío muy grande..."
+    y "Si escribimos, es básicamente para describir algo nuestro, algo personal."
     show yuri base uniform neut lup rup mf e4a b1c
-    y "Sharing one's own work is a real test to oneself, it means accepting criticism from other people."
-    y "To open yourself to others, to expose your weaknesses and even to show the deepest recesses of your heart.."
-    mc "Do you also have experience in writing?"
-    mc "Maybe you can share your writing with Natsuki to give Natsuki a little more confidence to share her poem, don't you think?"
+    y "Compartir nuestro trabajo es un desafío real para uno mismo, ya que conlleva acatar las críticas de los demás."
+    y "Abrirte a otros, exponer tus debilidades e incluso mostrar las profundidades de tu corazón..."
+    mc "¿Tienes experiencia escribiendo, Yuri?"
+    mc "Quizá puedas compartir lo que escribas a Natsuki para darle un poco más de confianza para compartir poemas, ¿no crees?"
     show yuri 2o at s22
-    y "Ah... uh... I..."
+    y "Ah... eh... yo..."
     show natsuki 5s at t31
     show yuri at t32
     show monika base uniform neut awkw lpoint ma e1b b2c at t33
-    m "I think it's the same for Yuri.."
+    m "Creo que con Yuri pasa lo mismo..."
     show natsuki 5s at t41
     show yuri at t42
     show monika base uniform neut awkw lpoint ma e1b b2c at t43
     show sayori base uniform neut e1b b1b md at t44
-    s "Awwww... I wanted to read everyone's poems.."
+    s "Joooo... quería leer vuestros poemas..."
     show natsuki at thide
     show yuri at thide
     show monika at thide
@@ -886,31 +886,31 @@ label ch1_main:
     hide yuri
     hide monika
     hide sayori
-    "We stay in silence for a while."
-    "Reading everyone's poems..."
-    "I think I have a little good idea for the first club activity."
-    mc "Okay everyone!"
-    mc "I have an idea."
+    "Nos quedamos en silencio un rato."
+    "Leer los poemas de las demás..."
+    "Creo que tengo una pequeña idea de la que puede ser la primera actividad del club."
+    mc "¡Vale, compis!"
+    mc "Tengo una idea."
     show natsuki base uniform neut nobl mg e1a at t21
     show yuri 2e at t22
-    ny "...?"
-    "Natsuki and Yuri look at me with an interogative look."
-    mc "After this little discussion which was very nice to listen to, for the first activity of the club, I propose that we all go home:"
-    mc "And that everyone writes their poem under their own pen and that we all share them tomorrow for the next club meeting!"
-    mc "That way everyone is on equal footing!"
+    ny "¿...?"
+    "Natsuki y Yuri me miran de forma interrogante."
+    mc "¡Después de esta pequeña charla, que ha sido agradable de escuchar, para la primera actividad del club he propuesto que todos nos vayamos a casa..."
+    mc "... y que todo el mundo escriba sus poemas con su propio bolígrafo y que los compartamos mañana en la siguiente reunión del club!"
+    mc "¡Así estamos todos en igualdad de condiciones!"
     show natsuki cross uniform e1b b1d neut md awkw at t31
     show yuri base uniform flus awkw rup at t32
     show sayori base uniform happ nobl lup rup mc e4b b1a at h33
-    s "Yaaaay! Let's do that!"
+    s "¡Síiiiii! ¡Vamos a hacer eso!"
     show sayori base uniform happ nobl lup rup mc e4b b1a at t43
     show monika base uniform happ rhip at t44
     show natsuki cross uniform e1b b1d neut md awkw at t41
     show yuri base uniform flus awkw mk rup at t42
-    m "That's a very good decision, [player]!"
-    n "Um..."
-    y "I..."
-    mc "And that now we have five members... I think it will be a very good activity to learn about yourselves and also learn a little bit about each other!"
-    mc "I think now we can-..{w=0.08}{nw}"
+    m "¡Es una buena decisión, [player]!"
+    n "Eh..."
+    y "Yo..."
+    mc "Y ahora disponemos de cinco miembros... ¡creo que esta actividad será la indicada para aprender sobre vosotros mismos y también aprender una pizca sobre los demás miembros!"
+    mc "Creo que ahora podemos-...{w=0.08}{nw}"
     show yuri at thide
     show monika at thide
     show sayori at thide
@@ -918,54 +918,54 @@ label ch1_main:
     hide monika
     hide sayori
     show natsuki base uniform e4c b1a ml blaw at h11
-    n "Wait a minute!"
-    mc "...?"
+    n "¡Espera un minuto!"
+    mc "¿...?"
     show natsuki cross uniform neut n3 mg e1b b1d nobl
-    n "I didn't sign up for this!"
+    n "¡No me uní para hacer esto!"
     show natsuki base uniform neut n3 mg e1a b1d
-    n "Even though I bought cupcakes, I didn't want to join to share-.."
-    "I unintentionally cut off Natsuki's talk."
-    mc "But.. but..."
-    "Why did I think it was a good idea?"
+    n "Aunque comprase cupcakes, no dije de unirme para compartir-..."
+    "De forma inintencionada, interrumpo a NAtsuki mientras hablaba."
+    mc "Pero... pero..."
+    "¿Por qué creí que sería una buena idea?"
     show natsuki at t11
     show yuri 1w at t41
-    y "Sorry, I didn't mean to..."
+    y "Perdona, no pretendí..."
     show natsuki at t42
     show sayori 3k at t43
     show monika 1f at t44
     ms "Natsuki..."
     show natsuki cross uniform neut awkw mg e1a b1f at s42
-    n "You..."
-    "Caught off guard Natsuki, looks at the four of us."
+    n "Tú..."
+    "Con la guardia baja, Natsuki nos mira a los cuatro."
     show natsuki cross uniform neut awkw mg e1b b1f
-    n "I..."
+    n "Yo..."
     show natsuki 4x at t42
-    n "Okay, okay, okay!"
-    n "I've changed my mind, I'm joining the club."
+    n "¡Vale, vale, vale!"
+    n "He cambiado de opinión, me uno al club."
     show natsuki cross uniform e1b mm b1e blaw at s42
     show monika base uniform happ b1b
     show sayori base uniform happ lup b1b
     show yuri base uniform happ b1b
-    "All four of us look at Natsuki with a relieved face."
+    "Los cuatro miramos a Natsuki, aliviados."
     show sayori 4r at h43
-    s "Yaaaaaaaaaay! You're the best Natsuki!"
+    s "¡Bieeeeeeeeen! ¡Eres la mejor, Natsuki!"
     show sayori 4r behind natsuki at t42
     show yuri base uniform happ b1a
-    "Sayori suddenly gets up from her chair to come and stand behind Natsuki, wrapping her in her arms, hopping."
+    "Levantándose de la silla de repente y yendo tras de Natsuki, Sayori la envuelve en sus brazos, sando saltitos."
     show natsuki base uniform neut fs m3 e4 b2
     show yuri base uniform e4b mb
     show monika base uniform e4b b1a mb
-    n "I get it, I get it, raah!"
+    n "¡Lo pillo, lo pillo! ¡Buagh!"
     show sayori base uniform happ at t43
     show yuri base uniform e1a ma
     show monika base uniform happ b1a e1a
-    m "You had really scared me for a while Natsuki..."
-    mc "Then it's official!"
+    m "Por un momento me habías asustado, Natsuki..."
+    mc "¡Entonces es oficial!"
     show natsuki 1g
-    mc "Welcome to the club Natsuki!"
-    mc "And welcome to you too, Yuri."
+    mc "¡Bienvenida al club, Natsuki!"
+    mc "Y a ti también. Bienvenida, Yuri."
     show yuri shy uniform happ e2 m1
-    y "T-Thank you..."
+    y "G- gracias..."
     show monika at thide
     show sayori at thide
     show yuri at thide
@@ -974,7 +974,7 @@ label ch1_main:
     hide sayori
     hide yuri
     hide natsuki
-    mc "So to resume, I think we can end the first and official meeting on a good note!"
+    mc "Para finalizar, ¡creo que podemos acabar la primera reunión oficial con buena nota!"
     mc "As president, it is my duty to do everything I can to make sure that everyone gets along well at the club!"
     mc "I would not tolerate the single deviation if by misfortune it if would happen."
     mc "On the other hand..."
