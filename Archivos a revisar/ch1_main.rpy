@@ -596,7 +596,7 @@ label ch1_main:
     "Mi club está lleno de..."
     "¿Chicas?"
     "No sé si es casualidad o algo, pero no me voy a quejar..."
-    "...¡porque es que son muy--!{w=0.02}{nw}"
+    "...¡porque es que son muy mo--!{w=0.02}{nw}"
 
     show yuri at thide
     show monika at thide
@@ -829,26 +829,26 @@ label ch1_main:
     n "¿¿Qué te hace decirlo??"
     m "Bueno, cuando íbamos al club después de conocerte, se te cayó un papel de tu mochila, específicamente un poema llamado..."
     show natsuki base uniform neut blaw ldown rdown mi b1d at h31
-    n "Don't say another word!"
+    n "¡Ni se te ocurra abrir la boca!"
     show natsuki base uniform neut blaw ldown rdown ml e4c b1d at h31
-    n "And give it back to me!"
+    n "¡Y devuélvemelo!"
     show monika base uniform neut ldown rhip ma e4b b1a
-    m "Very well~"
+    m "Vale, vale~"
     show yuri at thide
     show monika at thide
     show natsuki at thide
     hide monika
     hide yuri
     hide natsuki
-    "Monika discreetly slips a small paper she took out of her blazer's pocket, she folds it in a way that we can't see the text written on it and hands it to Natsuki."
-    "Natsuki takes it and puts it in a safe place."
+    "Monika saca con discreción un pequeño papelito del bolsillo de su chaqueta, lo dobla de tal manera que no podamos ver lo que hay escrito y se lo da a Natsuki."
+    "Natsuki se lo arrebata de las manos y lo pone en un lugar seguro."
 
-    mc "Natsuki, you write poems?"
+    mc "Natsuki, ¿escribes poemas?"
     show natsuki 5h at t11
-    n "Well, let's say I do..."
-    n "Why do you ask?"
-    mc "Well, I think it's completely incredible!"
-    mc "Why not share them with everyone here?"
+    n "Digamos que sí..."
+    n "¿Por qué lo preguntas?"
+    mc "Bueno, ¡porque creo que es increíble!"
+    mc "¿Por qué no te ha dado por compartirlos con todos los miembros?"
     mc "It might be nice to--"
     show natsuki 1o at h11
     n "No! ..No!"
