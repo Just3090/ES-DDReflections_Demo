@@ -849,9 +849,9 @@ label ch1_main:
     n "¿Por qué lo preguntas?"
     mc "Bueno, ¡porque creo que es increíble!"
     mc "¿Por qué no te ha dado por compartirlos con todos los miembros?"
-    mc "It might be nice to--"
+    mc "Estaría bien qu--"
     show natsuki 1o at h11
-    n "No! ..No!"
+    n "¡No! ...¡No!"
     "In fright, Natsuki briefly avert her eyes to avoid any eye contact."
     mc "Why?"
     show natsuki 5s at s11
