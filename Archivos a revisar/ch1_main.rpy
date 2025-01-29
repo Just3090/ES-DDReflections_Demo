@@ -990,13 +990,13 @@ label ch1_main:
     mc "Ajajajaja... ¡e- estoy muy feliz por el rumbo que está llevando el club hoy!"
     show monika base uniform happ at t21
     show sayori base uniform happ at t22
-    mc "By the way Monika and Sayori, I'd like to talk to you for a few moments if possible."
+    mc "Por cierto, Monika y Sayori, me gustaría habñar con vosotras un momentillo de nada, si es posible."
     show monika base uniform happ at t41
     show sayori base uniform happ at t42
     show natsuki base uniform at t43
     show yuri shy uniform happ m1 e2 at t44
-    mc "Everyone remember the assignment for tomorrow?"
-    mc "Bring back a poem for tomorrow so we can share them!"
+    mc "¿Recordáis los deberes para mañana?"
+    mc "¡Traer un poema para compartirlo mañana!"
     mc "On that note, I can close the session, you can all go home!"
     mc "Have a good evening everyone, hope to see you tomorrow!"
     hide monika
