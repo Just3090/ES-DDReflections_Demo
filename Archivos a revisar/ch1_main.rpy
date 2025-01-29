@@ -990,236 +990,236 @@ label ch1_main:
     mc "Ajajajaja... ¡e- estoy muy feliz por el rumbo que está llevando el club hoy!"
     show monika base uniform happ at t21
     show sayori base uniform happ at t22
-    mc "Por cierto, Monika y Sayori, me gustaría habñar con vosotras un momentillo de nada, si es posible."
+    mc "Por cierto, Monika y Sayori, me gustaría hablar con vosotras un momentillo de nada, si es posible."
     show monika base uniform happ at t41
     show sayori base uniform happ at t42
     show natsuki base uniform at t43
     show yuri shy uniform happ m1 e2 at t44
     mc "¿Recordáis los deberes para mañana?"
     mc "¡Traer un poema para compartirlo mañana!"
-    mc "On that note, I can close the session, you can all go home!"
-    mc "Have a good evening everyone, hope to see you tomorrow!"
+    mc "Con eso recordado, la sesión queda cerrada. ¡Podéis iros a casa!"
+    mc "Pasado una buena tarde, chicas, ¡nos vemos mañana!"
     hide monika
     hide sayori
     hide yuri
     hide natsuki
     with wiperight
-    "Natsuki and Yuri get up from their chairs to pick up their things."
+    "Natsuki y Yuri se levantan de sus respectivas sillas y recogen sus cosas."
     show yuri base uniform neut ma at t11
-    y "Alright, I think I'll go.. the library will close soon because it's already getting late..."
-    y "I better hurry up or I'll be too late."
-    y "See you all tomorrow."
-    mc "See you tomorrow, Yuri!"
+    y "Pues bien, creo que me iré ya... la biblioteca cerrará ya mismo porque se está haciendo tarde..."
+    y "Mejor me doy prisa, no quisiera llegar tarde."
+    y "Os veo mañana."
+    mc "¡Hasta mañana, Yuri!"
     show yuri base uniform neut lup rup ma e4b
-    y "See you tomorrow, [player]."
-    "Yuri smiles happily at me before she starts to leave."
+    y "Hasta mañana, [player]."
+    "Yuri me sonríe felizmente mientras empieza a irse."
     show yuri at lhide
     hide yuri
     "..."
     show natsuki base uniform happ lhip at t11
-    n "Come on, I'm going too, see you tomorrow, losers!"
-    mc "See you tomorrow Natsuki."
-    "Natsuki leaves the room, closing the door violently."
+    n "¡Que sí, que yo me voy también! ¡Hasta mañana, pringados!"
+    mc "Hasta mañana, Natsuki."
+    "Natsuki se va, cerrando la puerta violentamente."
     show natsuki at lhide
     hide natsuki
     stop music fadeout 2.0
-    "A slight silence settles in the club room, with Sayori and Monika still inside."
+    "Un leve silencio abunda en la sala del club, con Sayori y Monika aún dentro."
     show monika base uniform neut rhip me at t11
-    m "So, [player]?"
-    m "What did you want to talk to us about?"
-    mc "Oh yeah.."
-    mc "Well... thanks to the both of you."
-    mc "Thank you for what you did in such a short time."
+    m "Así que... ¿[player]?"
+    m "¿Qué querías hablar con nosotras?"
+    mc "Ah, sí..."
+    mc "Bueno... gracias a ambas."
+    mc "Gracias por lo que habéis hecho en tan poco tiempo."
     show monika base uniform neut ma b1b
-    m "Oh, don't worry [player]... we're happy to help you."
-    mc "Yes! But I mean... not even four hours ago, more or less, I was alone... and now here we are."
-    mc "So thank you for everything, I won't let you down believe me."
-    "Monika lets out a small smile."
+    m "Ah, no te preocuoes, [player]... nos complace ayudarte."
+    mc "¡Lo sé! Pero lo que quiero decir es que... no hace más de 4 horas, más o menos, estaba completamente solo... y ahora aquí estamos."
+    mc "Así que gracias por todo, no os defraudaré. Confiad en mí."
+    "Monika deja escapar una pequeña sonrisa."
     show sayori base uniform happ lup at t22
     show monika base uniform happ b1a mb at t21
-    s "I'm sure you'll be a good president [player]!"
-    mc "Ahahaha thank you Sayori, I will do my best to make this club the best I can."
-    mc "By the way, I am sorry about earlier."
-    s "Oh sorry for what?"
-    mc "For being a little sour to you about my questioning your motivation for literature."
+    s "¡Estoy segura de que serás un gran presidente, [player]!"
+    mc "Ajajajaja. Gracias, Sayori. Haré todo lo que esté en mi mano para hacer de este club lo mejorcito."
+    mc "Por cierto, siento lo de antes."
+    s "¿Por qué? ¿Qué debo perdonar?"
+    mc "El haber sido duro contigo al haberte preguntado tu motivación en respecto a la literatura."
     show sayori base uniform happ b1b
-    s "I don't blame you [player], don't worry about it, it's okay that you were thinking about that."
-    mc "Ah thank you...that's a relief to me."
-    mc "Thank you for listening to me, now you can leave, I will tidy up and clean up the room to get it in shape after this cupcake tasting."
+    s "No te juzgo, [player], no te preocupes por eso. Es normal que pensases de esa manera."
+    mc "Ah, gracias... eso me tranquiliza."
+    mc "Gracias a ambas por escucharme, podéis iros. Ordenaré y limpiaré la habitación para dejarla decente después de la cata de los cupcakes."
     show monika base uniform neut ma rdown
-    m "I'll help you [player], remember what I said."
-    mc "Oh yeah, I almost forgot, my bad."
-    s "Can I come and help you too?"
-    mc "Sure Sayori!"
+    m "Te ayudo, [player], recuerda lo que te dije."
+    mc "Ah, sí. Casi me olvido, fallo mío."
+    s "¿Os puedo ayudar yo también?"
+    mc "¡Claro!"
     show sayori base uniform neut lup rup mc e4b b1a
-    s "Yaaaaaay!"
-    mc "I've never seen someone so happy to clean a room."
-    mc "Come on, let's get to work so we can all go home!"
+    s "¡Bieeeeeeeeeeen!"
+    mc "En mi vida he visto a alguien tan contento por limpiar una habitación."
+    mc "¡Al lío, cuanto antes terminemos, antes nos vamos a casa!"
     show monika at thide
     show sayori at thide
     hide monika
     hide sayori
-    "Sayori, Monika and I, start putting the desks back in their original places."
-    "Since it's the three of us, the cleaning of the room goes by pretty fast."
+    "Sayori, Monika y yo comenzamos poniendo las mesas en sus lugares de procedencia."
+    "Al ser tres, terminamos de limpiar el aula del club en un abrir y cerrar de ojos."
     show bg club_day1
     with wiperight_scene
-    "After about five or six minutes of cleaning, the clubroom looks like new."
-    mc "Thank you so much both of you. You were a great help."
-    mc "If you weren't there, it would have taken me longer, ahaha."
+    "Después de unos cinco o seis minutos de limpieza, el aula del club está como los chorros del oro."
+    mc "Gracias a ambas. Habéis sido de mucha ayuda."
+    mc "Sin vosotras, hubiera tardado una eternidad, ajajajaja."
     show sayori base uniform happ lup ma at t11
-    s "Monika, I'll wait for you outside while you talk quickly with [player]."
-    s "See you tomorrow, [player]!"
-    mc "See you tomorrow, Sayori!"
+    s "Monika, esperaré fuera mientras hablas con [player]."
+    s "¡Hasta mañana, [player]!"
+    mc "¡Hasta mañana, Sayori!"
     show sayori at lhide
     hide sayori
-    "Sayori puts her bag on her back and leaves the clubroom."
+    "Sayori se coloca la mochila en su espalda y se va del aula del club."
     play sound closet_close
     play music her
-    "She gently closes the door behind her."
-    mc "So Monika..."
+    "Cierra la puerta con cuidado tras de sí."
+    mc "Así que Monika..."
     show monika base uniform neut ma at t11
-    m "I'm listening [player], what did you want to ask me?"
-    mc "Look, I know this is going to sound sudden but..."
-    mc "I know you left the debate club recently, and maybe you're tired of having responsibilities but is it--{w=0.40}{nw}"
+    m "Te escucho, [player], ¿Qué quieres preguntarme?"
+    mc "Verás, sé que esto va a sonar repentino, pero..."
+    mc "Sé que te fuiste del club de debate hace poco, y quizás estás harta de tantas responsabilidades, pero es que--{w=0.40}{nw}"
     show monika base uniform neut me b1b at t11
-    m "Wait a minute, [player]."
-    "Monika suddenly cuts me off from my speech."
-    m "You wouldn't by any chance ask me to be your vice president?"
-    mc "Ummm!"
-    "I'm scratching my head nervously, I can't help but laugh nervously."
-    mc "Sort of!"
-    mc "If... if you don't want to, I'll understand and I won't blame you.."
-    mc "And then..."
+    m "Espera un minuto, [player]."
+    "Monika me interrumpe de repente."
+    m "No querrás preguntarme, de casualidad, el ser tu vicepresidenta, ¿no?"
+    mc "¡Emmmm...!"
+    "Me rasco la cabeza con nervios, no puedo evitar reírme."
+    mc "¡Algo así!"
+    mc "Si... si no quieres, lo entenderé y no te juzgaré..."
+    mc "Entonces..."
     show monika base uniform neut rhip me b1b at t11
     m "[player]..."
-    m "You know that..."
+    m "Ya sabes que..."
     show monika base uniform neut awkw ldown rhip mb e1b b1b at s11
-    m "Well..."
+    m "Bueno..."
     mc "..."
-    "Well, I think I know the answer."
-    "Also what kind of person am I to have thought she would accept?"
+    "Vale, creo que conozco ya la respuesta."
+    "Además, ¿qué clase de persona soy pensando que ella aceptaría?"
     show monika base uniform neut rhip ma e4b b1a
-    m "That... I'm agreeing to be your vice president!"
-    "Did I hear that right?"
-    mc "What, really?"
+    m "Es que... ¡Acepto ser tu vicepresidenta!"
+    "¿Lo he escuchado bien?"
+    mc "¿Qué? ¿En serio?"
     show monika 1a
-    m "Really."
-    mc "Ahahaha... you really scared me for a moment."
-    mc "When I saw your expression change all of a sudden I thought it was over.."
+    m "Totalmente."
+    mc "Ajajajaja... por un momento, me estabas asuatando."
+    mc "Cuando te vi cambiar de expresión de repente, pensé que se había acabado todo..."
     show monika 5a
-    m "Ehehehe, I'm a good actress aren't I?"
+    m "Ejejeje, soy una buena actriz, ¿eh?"
     show monika base uniform neut ma e4b
-    m "That said, the look on your face was funny to see, ahaha!"
-    m "I don't regret putting you in doubt."
-    mc "Blah, blah, blah. Who's goung to be laughing last, Monika?"
+    m "Todo sea dicho, ¡esa cara tuya fue muy graciosa verla! ¡Ajajajajaja!"
+    m "No me arrepiento ponerte en duda."
+    mc "Bla, bla, bla. Quien ríe último, ríe mejor, Monika."
     show monika lean uniform m2
-    m "Ohhh, is that a little threat?"
-    mc "Ahaha, yeah, clearly."
+    m "Oooooh, ¿me has amenazado?"
+    mc "Ajajaja, claro, obviamente."
     show monika base uniform anno rhip ma e1d b1c
-    m "Don't worry, I'm preparing for any possible attack from you, [player]~"
+    m "No te preocupes, me preparo para cualquier posible ataque tuyo, [player]~"
     show monika base uniform neut ma e4b b1a
-    "We both share a laugh."
-    mc "But seriously, I'm proud to have you as my vice president, Monika."
-    mc "You and I, I'm sure we can give the literature club a good place in the school."
+    "AMbos echamos unas risas."
+    mc "Ya en serio, estoy orgulloso de tenerte como mi vicepresidena, Monika."
+    mc "Tú y yo podremos darle al Club de Literatura un buen sitio en el colegio."
     show monika base uniform e1a mb b1a
-    m "I'm sure, we will too!"
-    mc "Come on, you can go Monika, thanks for this little talk."
-    mc "I'll see you tomorrow."
+    m "¡Está claro que lo haremos!"
+    mc "Vamos, puedes irte, Monika. Gracias por esta pequeña charla."
+    mc "Te veo mañana."
     show monika lean uniform ma
-    m "Same here, [player]. See you tomorrow!"
+    m "Igualmente, [player]. ¡Hasta mañana!"
     hide monika
     with wipeleft
-    "Monika collects her things before going to join Sayori, who is waiting for her outside."
+    "Monika recoge sus cosas antes de irse con Sayori, quien la espera fuera del aula."
     play sound closet_close
     stop music fadeout 2.0
-    "It doesn't take long before the room is plunged into silence again."
-    "But now it's not just any silence."
-    "It's not the same silence I've known for the past few days."
-    "When I was alone in the club."
-    "I sit down on a chair, resting my head on the desk."
-    mc "-sigh- What a great day."
-    "I look at my phone."
+    "No pasa mucho hasta que el aula vuelve a estar en completo silencio."
+    "Pero no es cualquier silencio."
+    "No es el mismo silencio que me ha acompañado estos días."
+    "Cuando estaba solo en el clubn."
+    "Me siento en una de las sillas, descansando mi cabeza en la mesa."
+    mc "-suspiro- Qué día tan genial."
+    "Miro mi teléfono."
     "{i}6:10 PM{/i}"
-    "It's time to go."
-    "I pick up my bag, slipping it onto my back."
-    mc "Mmmmh?"
-    "I see the abandoned flyers on the table."
-    "I sigh."
-    mc "I don't really need them anymore."
-    "I pick up the flyers, crushing them with both hands to form a paper ball, and throwing them at the trash."
-    "I head for the door, place one foot outside the club when suddenly a thought pops into my head."
-    mc "Oh, wait a minute..."
-    "I remember that Natsuki was in the closet when I came back."
+    "Hora de irse."
+    "Cojo mi mochila, deslizándola en mi espalda."
+    mc "¿Eh?"
+    "Veo los folletos abandonados encima de la mesa."
+    "Suspiro."
+    mc "No los necesito más."
+    "Cojo los folletos, arrugándolos con ambas manos hasta hacer una pelota de papel, para seguidamente tirarlos a la basura."
+    "Me dirijo a la puerta, poniendo un pie fuera del club, cuando algo pasa por mi cabeza de repente."
+    mc "Eh, un minuto..."
+    "Recuerdo que Natsuki estaba en el armario cuando volví."
     show bg closet
     with wipeleft_scene
-    "I can't help but be curious but I decide to head to the closet."
+    "No puedo evitar ser curioso, así que me dirijo al armario."
     "I open the closet door coming to look everywhere inside."
-    mc "Eh???"
-    "I see three manga collection boxes on the shelf, which made a good mess in the closet."
-    mc "What the hell is this doing here?"
-    "I pull out a random book."
-    mc "Parfait Girls Volume 2...?"
-    "The cover shows four girls with exaggerated positions dressed in very colorful clothes that can be likened to heroines."
+    mc "¿¿¿Eh???"
+    "Veo tres colecciones de manga en la estantería, lo que hace del armario un buen desorden."
+    mc "¿Qué coño hace esto aquí?"
+    "Saco un libro completamente aleatorio."
+    mc "¿'Parfait Girls' tomo 2...?"
+    "La portada muestra cuatro chicas con poses exageradas en ropajes muy coloridos, que puedo deducir como heroínas."
     mc "..."
-    mc "But it's manga!"
-    mc "It's not really my favorite genre but there are some that are very good to read."
-    mc "{i}-sigh-{/i}... this doesn't belong there though."
-    "I look up at the top of the shelf giving me an idea."
-    mc "Mmmh, I could put them up there, it shouldn't bother too much."
-    "I put the book back in its place, taking the cardboard on both sides."
-    "I easily lift the box coming to put it on top of the shelf."
-    "My height, which is quite decent compared to the height of the shelf, forces me to stand on my toes."
-    "And I repeat the same operation for the other two boxes."
+    mc "¡Pero es manga!"
+    mc "No es mi género favorito, pero hay algunos interesantes para leer."
+    mc "{i}-suspiro-{/i}... esto no va aquí, de todas maneras."
+    "Miro en lo alto de la estantería, dándome una idea."
+    mc "Hmmm, podría ponerlos allí. No molestarían mucho."
+    "Pongo el libro de vuelta a su lugar, levantando la caja de cartón por ambos lados."
+    "Deslizo la caja con facilidad, colocándola en lo alto de la estantería."
+    "Mi altura, que es algo decente comparada con la altura de la estantería, me fuerza a ponerme de puntillas."
+    "Hago lo mismo con las dos cajas restantes."
     "..."
     "..."
-    mc "Phew... that's now done."
-    mc "Now I just have to put away this mess caused by Natsuki, I guess..."
-    "I start to put the books back in their original place, I try my best to put the shelf back in order as if it had never been touched."
-    "Finally, after a little while, I manage to rearrange the shelf."
-    mc "Perfect!"
+    mc "Buf... ya está hecho."
+    mc "Ahora me toca recoger este desastre que ha causado Natsuki, supongo..."
+    "Empiezo a colocar los libros en su sitio, intentando dejar la estantería tan ordenada como si nadie la hubiera tocado."
+    "Al final, tras un rato, consigo dejarla como nueva."
+    mc "¡Perfecto!"
     show bg club_day1
     with wiperight_scene
     play sound closet_close
-    "I close the closet doors, heading for the club door."
+    "Cierro las puertas del armario y me dirijo hacia la salida del club."
     show bg corridor_e
     with wiperight_scene
-    "I lock the door and start walking outside the school."
-    mc "Now time to go home and write a poem."
+    "Cierro la puerta con llave y empiezo a caminar hacia la salida del instituto."
+    mc "Ahora, a casa a escribir un poema."
     show bg kitchen
     with dissolve_scene_full
-    "Once I get home, I head straight to my room."
+    "Al llegar a casa, voy directo a mi habitación."
     show bg bedroom
     with wiperight_scene
-    mc "Well then..."
-    "It's time to write a poem."
-    "I sit down in my chair, taking a pen and start to write."
+    mc "Bueno, vamos allá..."
+    "Es hora de escribir un poema."
+    "Me siento en mi silla, cojo un bolígrafo y empiezo a escribir."
     show bg black
     with dissolve_scene_full
     pause 0.5
-    show text "Fifteen minutes later..."
+    show text "Quince minutos después..."
     pause 2
     hide text
     show bg bedroom
     with dissolve_scene_full
-    mc "Ah! {w=0.75} No..."
-    "I set the paper aside and grab another sheet and try again."
+    mc "¡Ah! {w=0.75} No..."
+    "Dejo a un lado el papel, cojo otra hoja y lo intento de nuevo."
     show bg bedroom
     stop music fadeout 2.0
     with dissolve_scene_full
     pause 1
     call showpoem (poem_p1, music=False) from _call_showpoem
-    mc "Phew. It's been a long time since I've written any poems, but I think this is decent."
-    mc "I can't wait to see what they think about it tomorrow."
-    "With a small smile on the corner of my lip, I put my poem in my bag."
-    mc "Eh... {i}-yawn-{/i}... What time is it now..?"
-    "I'm looking at the time displayed digitally on the electronic alarm clock sitting on the nightstand."
+    mc "Uf. Hacía tiempo que no escribía un poema, pero creo que este no está mal."
+    mc "Tengo curiosidad por ver qué les parecerá mañana."
+    "Con una pequeña sonrisa en los labios, guardo el poema en mi mochila."
+    mc "Eh... {i}-bostezo-{/i}... ¿Qué hora es...?"
+    "Miro la hora en el despertador digital que hay en la mesilla de noche."
     "{i}10:10 PM{/i}"
-    mc "It's okay, I still have time to take a shower and eat something quickly."
+    mc "Todavía tengo tiempo de darme una ducha rápida y comer algo."
     show bg bedroom_n
     with dissolve_scene_full
-    "After I finish my evening routine, I land in my bed."
-    mc "It feels good to be lying in this bed..."
-    mc "... Tomorrow is going to be a big day."
-    "I slowly let myself fall asleep getting caught in the arms of morpheus."
+    "Después de terminar mi rutina nocturna, me desplomo en la cama."
+    mc "Se siente bien estar tumbado en esta cama..."
+    mc "... Mañana será un día importante."
+    "Poco a poco, me dejo llevar por el sueño, cayendo en los brazos de Morfeo."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
