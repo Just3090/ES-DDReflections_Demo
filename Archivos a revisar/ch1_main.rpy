@@ -975,19 +975,19 @@ label ch1_main:
     hide yuri
     hide natsuki
     mc "Para finalizar, ¡creo que podemos acabar la primera reunión oficial con buena nota!"
-    mc "As president, it is my duty to do everything I can to make sure that everyone gets along well at the club!"
-    mc "I would not tolerate the single deviation if by misfortune it if would happen."
-    mc "On the other hand..."
-    mc "If you have any suggestions for improvement or even requests for the club, please feel free to ask!"
-    mc "I will take note of it and will do my best that it can be done!"
-    mc "Please don't hesitate..."
-    mc "I don't bite."
+    mc "Como presidente, es mi deber hacer todo lo posible para asegurarme de que todos os llevéis bien en el club."
+    mc "No toleraré malas formas si, por desgracia, llegase a suceder lo contrario."
+    mc "Por otra parte..."
+    mc "Si tenéis alguna sugerencia para mejorar el club o incluso peticiones para el mismo, ¡no dudéis en decírmelas!"
+    mc "Me lo apuntaré y haré todo lo posible para que se haga."
+    mc "Sin miedo..."
+    mc "... que no muerdo."
     show monika lean uniform neut m1 at t11
-    m "My, my [player]. What a diplomatic man! I am truly impressed."
-    "Damn it Monika... please stop teasing me like that, I'll end up red-faced if you continue."
+    m "Vaya, vaya, [player]. ¡Estás hecho todo un diplomático! Estoooy impresionaaada."
+    "Joder, Monika... deja de molestarme, vas a acabar avergonzándome si sigues haciéndolo."
     show monika at thide
     hide monika
-    mc "Ahaha... I-I am really happy, the way the club is turning out for today!"
+    mc "Ajajajaja... ¡e- estoy muy feliz por el rumbo que está llevando el club hoy!"
     show monika base uniform happ at t21
     show sayori base uniform happ at t22
     mc "By the way Monika and Sayori, I'd like to talk to you for a few moments if possible."
