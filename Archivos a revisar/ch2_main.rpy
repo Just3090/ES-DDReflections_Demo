@@ -67,222 +67,222 @@ label ch2_main:
     "Céntrate en eso, [player]... solo céntrate en eso."
     show bg school_front
     with wiperight_scene
-    "I hardly notice it, but I am already in front of the school gate."
-    mc "So, here we go for another boring school day..."
+    "Tardé en darme cuenta, pero ya estoy frente a la entrada del instituto."
+    mc "Así que nada, al lío con otro aburrido día de colegio."
     stop music fadeout 2.0    
     show bg class_day
     with dissolve_scene_full
     pause 1    
     play music t3
-    "The morning went by very slowly again, with all I did being simple note taking and oral participation."
+    "La mañana transcurrió bastante lenta, y todo lo que hice fue simplemente hacerme apuntes y participar oralmente."
     play sound bell
-    "The bell finally rings, signaling the lunch break."
-    "I put my backpack on my back and head for the stairs that lead up to the roof of the building."
+    "El timbre suena al fin, marcando el descanso para el almuerzo."
+    "Me coloco la mochila en la espalda y me dirijo a las escaleras que conducen al tejado del edificio."
     show bg roof
     with wiperight_scene
     stop music fadeout 2.0
     pause 2
     play music evening
-    mc "What a splendid view!"
-    "I admire the view of the landscape that stretches to the horizon."
-    "I sit on a bench, one that's best suited for admiring the view while I eat my lunch."
-    mc "Mmmmh, that's strange..."
-    "I take a look around."
-    "I notice there is no one here, and that I'm the only person here."
-    mc "I thought there would be a lot of people."
+    mc "¡Menudas vistas más espléndidas!"
+    "Me quedo admirando las vistas del paisaje, extendiéndose hasta el horizonte."
+    "Me siento en un banco, en el que mejor se admiran las vistas mientras me como el almuerzo."
+    mc "Hmmmmm, es extraño..."
+    "Echo un vistazo alrededor."
+    "Me percato que no hay nadie aquí y soy el único."
+    mc "Creí que habría más gente."
     "..."
-    "A minute passes while the sound of nature lives around me."
-    "I can hear heavy footsteps in the distance coming out of the entrance while the door is closed."
-    "The footsteps get louder and heavier as the person approaches the door."
-    "The door opens and I can see..."
-    "... Sayori?"
+    "Un minuto transcurre mientras que los sonidos de la naturaleza me atrapan."
+    "EN la distancia, alcanzo a oír pisadas fuertes viniendo de la entrada, mientras la puerta se mantiene cerrada."
+    "Las pisadas se hacen más notorias y más fuertes a medida que la persona se acerca a la puerta."
+    "La puerta se abre y alcanzo a ver..."
+    "... ¿a Sayori?"
     show sayori base uniform e1b b1f mf at t41
-    s "Ohhh?"
+    s "¿Ehhh?"
     show sayori base uniform e4b mc rup at h41
-    "Sayori notices my presence, coming to throw me a hand gesture to greet me from where she is."
-    "I greet her with the same gesture."
+    "Sayori se percata de mi presencia, levantando la mano para hacer un gesto de saludo desde su posición."
+    "La saludo con el mismo gesto."
     show sayori base uniform ldown rdown ma at t11
-    s "Hey, [player]!"
-    "Sayori walks slowly towards me."
-    mc "Hey Sayori something went wrong in the morning?"
-    s 1b "Huh? Why do you say that?"
+    s "¡Hola, [player]!"
+    "Sayori camina despacio hacia mí."
+    mc "¡Hola, Sayori! ¿Ha pasado algo esta mañana?"
+    s 1b "¿Qué? ¿Por qué lo preguntas?"
     show sayori 3a at d11
-    "Sayori stands next to me, coming to take out her snack from her bag. It appears to be a common sandwich that you could buy downtown."
-    "I do the same, taking out my sandwhich."
-    mc "I could hear you stomping loudly with your feet with every step you took."
-    s 4r "Ohhhh, not at all!"
-    "Sayori lets out a small laugh."
-    s 1a "Actually... I like to tap my legs hard every time I take a step haha!"
-    s 3x "I think it's funny, I've been doing it since I was a child."
+    "Sayori está de pie justo al lado mía, sacando su tentempié de la mochila. Parece un simple sándwich que puedes comprar en el centro de la ciudad."
+    "Hago lo mismo, sacando mi sándwich."
+    mc "Noté que estabas pisando muy fuerte."
+    s 4r "Aaahhhh, ¡no es así!"
+    "A Sayori se le escapa una pequeña risa."
+    s 1a "En realidad... ¡me gusta golpearme las piernas con fuerza cada vez que doy un paso, jajajajaja!"
+    s 3x "Creo que es divertido, llevo haciéndolo desde que era niña."
     show sayori base uniform neut ma
-    mc "Ah.. I see, it's one of the things we all did when we were kids I guess."
-    s base uniform happ "Yeah, ehehehe... there's always a childish spirit in us somewhere, isn't there?"
-    mc "I agree with you, like walking only on the white markings when crossing a crosswalk."
-    mc "I still do that, haha."
-    s 3r "Hehehehe, me too!"
-    "We both share a small laugh."
-    mc "Otherwise, Sayori.. aren't you eating with Monika this lunch?"
-    s 2c "Well, actually, yes!"
-    s 1c "But she had to talk about something with a teacher, so she told me she'll join me."
-    mc "Oh, right."
-    s 2x "To be honest I wasn't expecting you to--{w=0.05}{nw}"
+    mc "Ah.. ya veo, es una de esas cosas que todos hemos hechos de niños, supongo yo."
+    s base uniform happ "Sí, ejejejeje... todos tenemos nuestro lado infantil en algún lado, ¿no?"
+    mc "Claro, como andar únicamente por las líneas blancas al cruzar un paso de peatones."
+    mc "Aún lo sigo haciendo, jajajajaja."
+    s 3r "Jejejejeje, ¡yo también lo sigo haciendo!"
+    "Compartimos una pequeña pequeña risa."
+    mc "Por cierto, Sayori... ¿no estás hoy comiendo con Monika?"
+    s 2c "Bueno, en realidad, ¡debería!"
+    s 1c "Pero tenía que hablar algo con una profe, así que me dijo que vendría más tarde a comer conmigo."
+    mc "Ah, vale."
+    s 2x "Siendo honesta, no me esperaba que tú--{w=0.05}{nw}"
     show sayori base uniform neut rup ml e2a b1a at h11
-    m "{i}-Sorry, sorry Sayori for the delay!!! {/i}"
-    mc "Ah well, speaking of the wolf.."
+    m "{i}-¡¡¡PERDÓN, PERDÓN POR EL RETRASO, SAYORI!!! {/i}"
+    mc "Ah, bueno, hablando de la reina de Roma..."
     hide sayori
     with wipeleft
-    "We can hear Monika screaming from the stairs. Unlike Sayori, she seems to be treading the stairs with very hasty steps."
+    "Podíamos oír a Monika gritando desde las escaleras. A diferencia de Sayori, parece subir las escaleras con pasos muy apresurados."
     show monika base uniform neut awkw ldown rdown mb e4b b1b at l11
-    m "...Haaaaah.. {w=0.1} ..Haaaaaah.. {w=0.1} pheeew... I'm sorry Sayori, the teacher wan-{nw}"
+    m "...Aaaaaah.. {w=0.1} ..Aaaaaaah.. {w=0.1} bufffff... perdóname, Sayori, la profesora que-{nw}"
     show monika base uniform neut nobl ldown rdown me e1a b1a at h11
-    m "Oh! [player]?"
-    mc "Hi, Monika."
+    m "¡Ah! ¿[player]?"
+    mc "Hola, Monika."
     show monika lean uniform neut ma
-    m "Hey, [player]... I wasn't expecting to see you here."
-    mc "I know. It's just that last night I made myself a sandwhich."
+    m "Hola, [player]... no esperaba verte aquí."
+    mc "Lo sé. Es que anoche me hice un sándwich."
     show monika base uniform neut ma e4b
-    m "Oh right, I see!"
+    m "¡Es verdad, ya veo!"
     show monika base uniform neut mb e1a rhip
-    m "Well..."
+    m "Bueno..."
     show monika lean uniform neut ma
-    m "I don't mind you being here."
-    m "On the contrary, in fact."
+    m "No me importa que estés aquí."
+    m "En realidad, es al contrario."
     show monika base uniform neut ma at t22
     show sayori base uniform neut lup at t21
-    s "It took you a while Monika, was it something serious?"
+    s "Te has pegado un rato hablando, Monika. ¿Era algo grave?"
     show monika base uniform rhip e4b
-    m "Oh no no, don't worry Sayori!"
+    m "¡Oh, no, no, no! No te preocupes, Sayori."
     show monika base uniform neut ma
-    m "It was just to ask her something."
-    mc "Uuuh... anyway, Monika and Sayori?"
+    m "Solo quería preguntarle algo."
+    mc "Ehhh... de todas formas, ¿Sayori? ¿Monika?"
     show monika base uniform neut me e1a rhip
     show sayori base uniform neut me
-    ms "...?"
-    "Monika and Sayori are both looking at me with an interogative look."
-    mc "Do you eat here often?"
+    ms "¿...?"
+    "Ambas me miran de manera interrogante."
+    mc "¿Venís aquí con frecuencia?"
     show sayori base uniform happ ma
-    s "Well, you know [player]..."
+    s "Bueno, ya sabes, [player]..."
     show monika base uniform happ ma rhip
-    m "Yes, we often eat on the roof of the school!"
+    m "Claro, ¡normalmente comemos en la azotea de la escuela!"
     show monika base uniform happ ma e4b
-    m "Already from one to admire the beautiful view that is offered to us."
-    m "But mainly... we eat almost every day here because we bring our own food every day."
+    m "De primeras, para admirar las preciosas vistas que nos ofrece."
+    m "Pero principalmente... casi todos los días comemos aquí porque nos traemos nuestra propia comida."
     show sayori base uniform happ lup rup ma e4b
-    s "Yes!"
+    s "¡Claro!"
     show sayori base uniform happ lup rup ma
     show sayori tap uniform neut awkw m1 e2 b1 at s21
-    s "And the food in the cafeteria is really expensive and it's not good..."
+    s "Además de que la comida de la cafetería es muy cara y no está muy buena, que digamos..."
     show sayori tap uniform neut awkw m1 e1 b1
-    s "So it's good for my wallet, hehehe.."
-    s "And Monika is a vegan, so it's clearly good for her that we eat outside the cafeteria."
+    s "Así que... mejor para mi cartera. Jejejejeje..."
+    s "Y Monika es vegana, así que es mejor para ella comer fuera de la cafetería."
     show monika base uniform neut e1a b1c me
-    m "Sayori!"
+    m "¡Sayori!"
     show sayori base uniform neut rup ml e2a b1a at h21
-    "Monika raises her voice slightly."
+    "Monika alza la voz ligeramente."
     show sayori base uniform neut rup lup ml e2a b1a
-    s "Uwoooah?"
-    mc "..?"
+    s "Aiiiiiii."
+    mc "¿...?"
     show monika base uniform awkw mb lpoint e1b b1b
-    m "Uuuhh... sorry for yelling suddenly."
+    m "Emmmm... perdón por gritar de repente."
     show monika base uniform lpoint awkw ma e1b b1b
-    m "It's just that..."
+    m "Es que..."
     show monika base uniform neut awkw lpoint rdown mb e1b b1b
-    m "I'm not a vegan."
+    m "No soy vegana."
     show monika base uniform neut awkw ma b1b
-    m "I'm a vegetarian."
+    m "Soy 'vegetariana'."
     show sayori tap uniform neut awkw m1 e2 b1 at s21
-    s "Hahahah.. {w=0.5} sorry, I just can't quite tell the difference between those two terms hehe.."
-    mc "If you want Sayori, to clear your head."
+    s "Jajajaja... {w=0.5} perdón, es que no sé diferenciar esos dos términos, jejeje..."
+    mc "Si quieres, Sayori, para que salgas de dudas..."
     show monika base uniform neut nobl ma e1a b1b ldown rhip
-    mc "Vegan is a person who excludes all meat, but not only that."
+    mc "... ser vegano te hace excluir toda la carne, pero no es solamente eso."
     show sayori base uniform neut ma nobl
-    mc "It also excludes any product that comes from the animal."
+    mc "Excluyes también cualquier producto de procedencia animal."
     show sayori base uniform neut ma
-    mc "Milk, butter, and also eggs are an example."
-    mc "Everything that is of animal origin, for a summary."
-    mc "However, the diet of a vegetarian excludes only meat and fish."
-    mc "She can still eat the stuff that I quoted earlier.."
+    mc "Por ejemplo: la leche, la mantequilla o incluso los huevos."
+    mc "En resumen, todo lo que sea de origen animal."
+    mc "Sin embargo, la dieta de un vegetariano excluye únicamente la carne y el pescado."
+    mc "Monika puede comer las cosas que mencioné anteriormente..."
     show sayori base uniform neut mb lup e1a
-    s "Thanks, [player]!"
-    s "Hehehe, you've cleared my head now."
-    mc "Now, back to the topic at hand..."
-    mc "Why Monika, don't you get meat and fish from the cafeteria?"
-    mc "Can't you just take the side dish?"
+    s "¡Gracias, [player]!"
+    s "Jejejeje, me has resuelto la duda."
+    mc "Ahora, volviendo a lo que nos ocupa..."
+    mc "¿Por qué no compras un menú combinado de carne y pescado de la cafetería, Monika?"
+    mc "¿No te conviene desechar el plato principal e ir directamente al segundo plato?"
     show monika base uniform neut b1a lpoint rhip me
-    m "It's because they don't charge back for what you don't take."
+    m "Es que no te devuelven el dinero de la comida que no quieres."
     show monika base uniform neut ma
-    m "It's a fixed price, you know?"
-    m "No matter how little you take on your tray, the price will stay the same."
+    m "Es un precio fijo, ¿sabes?"
+    m "No importa cuán pequeña sea la cantidad que consigas agenciarte, el precio es el mismo."
     show monika base uniform neut ldown rdown e1a b1b
     show sayori base uniform neut ma b1b
-    m "For others it's nice and beneficial, but for me... not really."
+    m "Para los demás está bien y les beneficia, pero para mí... no lo es tanto."
     show monika base uniform neut ma e4b b1a rhip
     show sayori base uniform neut ma b1a
-    m "I'd rather make my own food for the next day and know what's on my plate!"
+    m "¡Prefiero hacerme la comida para el día siguiente, que así sé qué contiene!"
     show monika base uniform neut mb e4b lpoint
-    m "It also costs less and tastes good too!"
+    m "Además, ¡cuesta menos y sabe mejor!"
     show monika base uniform neut e1a ma rhip ldown
-    mc "I can only agree with you."
-    mc "The food in the cafeteria is really, really bland."
-    mc "We have to add a ton of salt to make our palate recognize the flavors."
+    mc "Debo decirte que estoy de acuerdo."
+    mc "La comida de cafetería está muy, pero que muy sosa."
+    mc "Tendríamos que añadir toneladas de sal para que nuestras papilas gustativas reconozcan los sabores."
     show monika base uniform neut e4b mb lpoint
-    m "Hahaha, it's true, it's true."
+    m "Jajajaja, es cierto, es cierto."
     show monika base uniform neut e1a ma ldown
-    mc "Say, Monika... ?"
+    mc "Dime, Monika..."
     show monika base uniform neut me rhip
-    m "Yes?"
-    mc "Will you come and sit with us?"
-    mc "Instead of standing in front of us, ahaha."
+    m "¿Qué?"
+    mc "¿Vas a sentarte con nosotros..."
+    mc "... en lugar de estar ahí de pie en frente nuestra? Ajajajaja."
     show monika base uniform awkw ma e4b rhip
-    m "Oh.. ahahaha!"
-    m "Excuse me, I was just carried away in the conversation."
-    mc "Don't worry."
+    m "Ah... ¡Ajajajaja!"
+    m "Perdóname, me he dejado llevar hablando."
+    mc "No te preocupes."
     hide monika
     hide sayori
     with wipeleft
-    "Monika takes a seat on my left while Sayori sits on my right."
-    "Sitting between two such cute girls..."
-    "It does something to me honestly."
-    "Sayori is still devouring her sandwich, and Monika has already started to take out a small transparent box from her bag."
-    mc "What did you bring Monika today?"
+    "Monika se sienta a mi izquierda, y Sayori a mi derecha."
+    "Estar sentado entre estás dos chicas tan monas..."
+    "Me hace sentir algo, siendo sinceros."
+    "Sayori sigue devorando su sándwich, y Monika acaba de sacar una cajita transparente de su mochila."
+    mc "¿Qué has traído hoy, Monika?"
     show monika base uniform neut ma at t11
-    m "Today I brought something simple."
-    mc "And what is that?"
+    m "Algo simple."
+    mc "¿Qué es?"
     show monika base uniform neut ma lpoint e4b
-    m "A small Caesar Salad but prepared the Monika way!"
-    "I quickly look at Monika's dish."
-    mc "That looks delicious."
-    m "Indeed! When it's perfectly prepared, it can only be delicious."
-    "I simply nod and smile at Monika before a small silence settles in but quickly broken by Monika."
+    m "Una ensalada César pequeña, ¡pero preparada al más puro estilo de Monika!"
+    "Echo un vistazo rápido a la comida de Monika."
+    mc "Parece delicioso."
+    m "¡Lo es! Cuando se prepara de una forma tan perfecta, solo puede catalogarse como 'delicioso'."
+    "Asiento y sonrío en dirección a Monika antes de que se forme un pequeño silencio que Monika rompe rápidamente."
     show monika base uniform neut me rhip at t11
-    m "So [player], do you have any plans for the festival?"
-    mc "No, I haven't thought about it yet, but I'll think about it when I get to the club."
+    m "Por cierto, [player], ¿tienes planes para el festival?"
+    mc "Qué va, no he pensado aún en ello, pero pensaré algo cuando lleguemos al club."
     show monika base uniform neut ma lpoint
-    m "I could give you a hand if you want."
+    m "Podría echarte una mano, si quieres."
     show monika lean uniform neut ma
-    m "Since I'm your vice president now."
-    mc "That would be my pleasure, Monika."
+    m "Porque ahora soy tu vicepresidenta."
+    mc "Sería un placer, Monika."
     show monika base uniform neut ma e4b
-    "Monika smiles happily."
+    "Monika sonríe con felicidad."
     show sayori base uniform neut ml e2a at t21
     show monika base uniform neut ma e4b at t22
-    s "Huh? You've become the vice president of the club Monika?"
+    s "¿Qué? ¿Ahora eres la vicepresidenta del club, Monika?"
     show monika base uniform mb e4b lpoint
-    m "Yes, ahaha!"
+    m "¡Sí! Ajajajaja."
     show monika base uniform mb e1a rhip ldown
-    m "[player] asked me yesterday, and I agreed."
+    m "[player] me preguntó ayer, y estuve de acuerdo."
     show sayori base uniform mc e4b lup rup at h21
-    s "Soooooooooooo cool!"
-    s "Ahahaha! This is going to be the best club!"
+    s "¡Quéeeeeeeeeeee guaaaaaaayyyyyyy!"
+    s "¡Ajajajajaja! ¡Este será el mejor club!"
     show monika base uniform mb e4b
-    "The three of us share a laugh."
+    "Los tres reímos."
     hide sayori
     hide monika
     with wipeleft
     pause 0.2
     show bg roof
     with dissolve_scene_full
-    "We continue to eat our lunch in silence."
+    "Seguimos comiendo en completo silencio."
     "Sometimes we break the it time to time by talk about various and sundry topics, like the environment."
     "When we were talking about the environment, Monika explained to us why she became a vegetarian."
     "She clarified that she became a vegetarian after watching a documentary a few years ago explaining why eating meat was a greenhouse gas bomb for the Earth."
