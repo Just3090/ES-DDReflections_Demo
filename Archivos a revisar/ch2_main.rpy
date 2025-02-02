@@ -273,7 +273,7 @@ label ch2_main:
     m "[player] me preguntó ayer, y estuve de acuerdo."
     show sayori base uniform mc e4b lup rup at h21
     s "¡Quéeeeeeeeeeee guaaaaaaayyyyyyy!"
-    s "¡Ajajajajaja! ¡Este será el mejor club!"
+    s "¡Ajajajajaja! ¡Será el mejor club!"
     show monika base uniform mb e4b
     "Los tres reímos."
     hide sayori
@@ -283,164 +283,164 @@ label ch2_main:
     show bg roof
     with dissolve_scene_full
     "Seguimos comiendo en completo silencio."
-    "Sometimes we break the it time to time by talk about various and sundry topics, like the environment."
-    "When we were talking about the environment, Monika explained to us why she became a vegetarian."
-    "She clarified that she became a vegetarian after watching a documentary a few years ago explaining why eating meat was a greenhouse gas bomb for the Earth."
-    "She seemed to be very serious and took this topic to heart."
+    "De vez en cuando lo rompíamos para hablar de algunos temas variados, como el tiempo que hace."
+    "Cuando estábamos hablando del tiempo, Monika nos explicó por qué se hizo vegetariana."
+    "Recalcó que fue por un documental que vio hace unos años que explicaba cómo comer carne era una bomba de gases de efecto invernadero para el planeta."
+    "Parecía tomárselo en serio y el tema le afectó muchísimo."
     play sound bell
-    "The bell rings to signify the end of the lunch break."
-    "The three of us sigh mutually."
-    "To tell you the truth, I too am frustrated that I have to go back to class."
-    "But hey, we don't have much choice..."
-    "I'm the first one to get up and turn around to Monika and Sayori to face them."
-    mc "Well... thanks for spending lunch with you two."
-    mc "It was really nice to have a chat with you."
-    mc "I wish we could have spent a little more time together, but we're running out of time I guess.."
+    "Suena el timbre, señal de que el descanso para el almuerzo ha tocado su final."
+    "Los tres suspiramos al unísono."
+    "Si te soy sincero, me frustra tener que volver a clase."
+    "Pero... oye, no es que tengamos más opciones que escoger, ¿no?"
+    "Soy el primero en levantarse, me doy la vuelta para encontrarme a Monika y a Sayori de cara."
+    mc "Bueno... gracias a las dos por pasar el almuerzo conmigo."
+    mc "Ha estado genial poder charlar con vosotras."
+    mc "Ojalá poder pasar más rato juntos, pero nos quedamos cortos de tiempo, supongo..."
     show monika base uniform ma b1b rhip at t11
-    m "Me too, I wish we could have talked a little longer, I didn't see the hour go by."
+    m "Igualmente, ojalá poder hablar un poco más, se me va el tiempo volando."
     show sayori base uniform neut ma lup rup at t21
     show monika base uniform ma b1a rhip at t22
-    s "That's okay, we'll see you this afternoon at the club, [player]!"
-    mc "Someone is very impatient, I see!"
+    s "¡No pasa nada, te veremos por la tarde en el club, [player]!"
+    mc "¡Alguien está impaciente, por lo que veo!"
     show sayori base uniform e4b mb at h21
-    s "Yeah! We'll have fun, I'm sure of it!"
-    mc "Ahahaha, don't get excited Sayori."
+    s "¡Claro! Nos lo pasaremos bien, ¡estoy segura!"
+    mc "AJajajaja, no te emociones aún, Sayori."
     show monika base uniform mb e1a rhip
-    m "We'll go soon [player], otherwise we'll be late because our class is at the other end of the building."
-    mc "See you two later."
+    m "Nos vamos ya, [player]. De todas maneras, vamos a llegar tarde... porque nuestra clase está en la otra punta del edificio."
+    mc "Nos vemos después."
     show sayori base uniform happ ma
-    s "See you later!"
+    s "¡Hasta luego!"
     hide monika
     hide sayori
     with wiperight
     show bg corridor
     with wiperight_scene
     stop music fadeout 3.0
-    "We briefly say goodbye, before I head to class."
+    "Nos despedimos, antes de dirigirme a clases."
     show bg class_day
     with dissolve_scene_full
     play music t3
-    "The afternoon was more than ordinary even though it was very boring for the most part."
+    "La tarde fue más de lo mismo, aunque la mayor parte del tiempo fue bastante aburrida."
     play sound bell
-    "The last bell ring, bringing the day to a close."
+    "Suena el último timbre, poniendo punto y final al día."
     show bg corridor
     with wipeleft_scene
-    "After putting my things away, I head for the club."
+    "Después de recoger mis cosas, me dirijo al club."
     play sound closet_open
     show bg club_day1
     with wipeleft_scene
-    "After entering the club room, I realize that I am the first to arrive."
-    mc "Well, I'll just have to wait for them to come."
-    "I sit down at a desk and take a sheet of paper and a pen out of my bag."
-    mc "Preparing for the festival:"
-    "I start writing a line."
-    mc "Making new flyers."
-    mc "Yeah... logical."
-    "I continue to write a few lines describing as best I can."
-    "I hear the door open."
-    "I lift my head slightly to see that it's Natsuki."
-    "I get up from my chair coming towards her."
+    "Al entrar en la sala del club, me doy cuenta de que soy el primero en llegar."
+    mc "Bueno, tocará esperar a que lleguen las chicas."
+    "Me siento en un escritorio y saco una hoja de papel y un bolígrafo de mi mochila."
+    mc "Preparativos para el festival:"
+    "Empiezo a escribir una línea."
+    mc "Hacer nuevos folletos."
+    mc "Sí... es lógico."
+    "Sigo escribiendo unas cuantas líneas, describiendo lo mejor que puedo."
+    "Oigo que se abre la puerta."
+    "Levanto un poco la cabeza y veo que es Natsuki."
+    "Me levanto de la silla y me acerco a ella."
     show natsuki base uniform neut ma rhip at t11
-    mc "Hey, Natsuki!"
+    mc "¡Hola, Natsuki!"
     show natsuki base uniform neut mb rhip
-    n "Hi, [player]."
+    n "Hola, [player]."
     show natsuki base uniform neut md ldown
-    mc "If you have any suggestions or recommendations for the club, again, don't hesitate to talk to me or Monika."
+    mc "Si tienes alguna sugerencia o recomendación para el club, ya sabes, no dudes en decírmelo a mí o a Monika."
     show natsuki cross uniform neut mh
-    n "Got it, I'll be sure to see you if I have one."
-    "I nod and head back to my desk, focusing on my paper once again."
+    n "Vale, si se me ocurre algo, yo te aviso."
+    "Asiento con la cabeza y vuelvo a mi escritorio, centrándome de nuevo en el papel."
     show natsuki at rhide
     hide natsuki
-    "Natsuki heads for the closet but I don't pay any more attention to her."
-    mc "Where was I then..."
-    mc "Mmmhh.. What can we get if we need-{w=0.01}{nw}"
-    n "[player!u]!!!!!"
-    "Natsuki yells from the closet, which makes me startle."
-    "I get up from my seat again heading towards her."
+    "Natsuki se dirige al armario, pero ya no le presto más atención."
+    mc "¿Por dónde iba yo...?"
+    mc "Hmmmmm... ¿Qué podemos conseguir si necesitamos...?{w=0.01}{nw}"
+    n "¡¡¡¡¡[player!u]!!!!!"
+    "Natsuki grita desde el armario, lo que hace que me quede mirando fijamente."
+    "Me levanto, de nuevo, para acercarme a ella."
     show bg closet
     with wiperight
-    mc "What's up?"
+    mc "¿Qué pasa?"
     show natsuki cross uniform neut mm b1e at t11
-    n "Gnnnnnn-!"
-    "Damn, she looks really pissed off."
+    n "¡Aaaahhhh-!"
+    "Mierda, parece muy enfadada."
     mc "Natsu---{w=0.1}{nw}"
     show natsuki base uniform neut mi b1e
-    n "Did you move my manga?!"
+    n "¡¿HAS MOVIDO MI MANGA DE SITIO?!"
     show natsuki base uniform neut mm b1e
-    mc "A-Ah! Uuuuh.. it was me who moved them, yeah."
-    mc "They didn't belong there."
+    mc "¡A-Ah! Eeeeh.. sí, los moví yo..."
+    mc "No iban ahí."
     show natsuki base uniform neut mi lhip rhip b1e
-    n "I don't want to know!"
+    n "¡Me la suda!"
     show natsuki base uniform neut mm b1e
-    n "How can I grab my books then?!"
-    mc "Well, uh..."
+    n "¡¿Cómo pretendes que coja los tomos?!"
+    mc "Bueno, eh..."
     show natsuki cross uniform neut mi e4a b3a
-    n "You asked earlier for suggestions and recommendations for the club, and that's good. Because I have one if you don't mind, Mr. PRESIDENT!"
+    n "Me preguntaste antes sobre las sugerencias y recomendaciones del club, y es genial, ¿sabes? Porque tengo una que hacerte si no es de mucha importancia, SEÑOR PRESIDENTE."
     show natsuki cross uniform neut mi e1a b1e
-    n "And my suggestion is not to move my manga boxes!"
+    n "¡No muevas mis cajas de manga!"
     show natsuki cross uniform neut mm e1a b1e
-    n "What do you think, Mr. President?!"
-    "Natsuki looks at me with a furious look."
-    mc "Natsuki!"
-    mc "You can't disregard my words like that!"
-    mc "If I moved them it's because there's a good reason behind it!"
-    mc "And I won't change my mind."
-    mc "I didn't even know about it either."
+    n "¡¿Qué piensas, Señor Presidente?!"
+    "Natsuki me mira, enfurecida."
+    mc "¡Natsuki!"
+    mc "¡¡No puedes pasar de mis palabras así como así!!"
+    mc "¡Si los moví, fue por una buena razón!"
+    mc "¡Y no voy a cambiar de parecer!."
+    mc "Además, yo tampoco sabía nada de que había ahí manga."
     show natsuki base uniform neut blaw mm e1a b1e
-    n "Kngggg-!"
+    n "¡Grrrrr-!"
     show natsuki base uniform neut blaw lhip rhip mi e1a b1e
-    n "Ok well you know what?!"
-    mc "Natsuki, listen."
-    mc "I know you're upset but there's no need to make a big deal out of it!"
+    n "¡Vale, ¿sabes qué?!"
+    mc "Natsuki, haz el favor de escucharme."
+    mc "Sé que estás muy enfadada, ¡pero no hace falta montar un numerito por todo esto!"
     show natsuki base uniform neut blaw lhip rhip md e1a b1d
-    mc "It's the teachers who asked me to keep this room the way it has been since I was assigned it."
-    mc "If a teacher ever came to check the closet and they found this mess, I'm afraid I'd get in trouble because I'm in charge of the room!"
+    mc "Son los profesores los que me pidieron mantener esta habitación como estaba desde que me la asignaron."
+    mc "Si un profesor se acerca al armario y encuentra este desastre, ¡me temo que estaré metido en un buen lío porque estoy a cargo de la habitación!"
     show natsuki cross uniform neut blaw md e1a b1b
-    mc "Do you understand?"
-    "I take a chair not far from me, and put it in front of me."
-    mc "Here, why don't you take this chair to get access to your manga that I put on top of the shelf?"
+    mc "¿Me estás entendiendo?"
+    "Cojo una silla que está cerca y la pongo en frente mía."
+    mc "Toma, ¿por qué no usas esta silla para alcanzar los mangas que he puesto en lo alto de la estantería?"
     show natsuki cross uniform neut awkw mg e1b b1a
-    n "Well... I wouldn't mind that in itself."
+    n "Bueno... no me importaría, en realidad."
     show natsuki cross uniform neut awkw mg e1a b1a
-    n "Thanks, [player]... I guess."
-    mc "Well, if we're good then, that's fine with me."
+    n "Gracias, [player]... supongo."
+    mc "Bueno, si con eso estamos en paz, me quedo tranquilo."
     hide natsuki
     with wipeleft
-    "I gently hand the chair to Natsuki who receives it coming to put it inside the closet in the right place to grab her manga collection."
-    "She climbs on the chair, but even with the chair giving her a height to be able to grab her books, she is still forced to stand on her tiptoes because of her small size."
-    "She glances in my direction."
+    "Le paso la silla a Natsuki con cuidado, y ella la coloca en el armario en el lugar adecuado para coger su colección de mangas."
+    "Se sube a la silla, pero incluso con la altura que le da, tiene que ponerse de puntillas por lo pequeña que es."
+    "Me mira de reojo."
     show natsuki base uniform neut mh b3c at t11
-    n "What are you still doing here?"
-    n "Wait... a minute."
+    n "¿Qué haces todavía aquí?"
+    n "Un... minuto."
     show natsuki base uniform neut e2a b3c
-    "Natsuki's eyes widen as a thought just passed through her mind."
+    "Los ojos de Natsuki se abren como platos cuando una idea cruza su mente."
     show natsuki base uniform neut blaw ml e4c b1c at h11
-    n "You wouldn't do that to try to look up my skirt by any chance?!"
-    mc "H-Huh?!"
-    mc "N-No, I wouldn't!"
-    mc "I'm just trying to find a solution Natsuki!"
+    n "¡¿No estarás aquí para mirarme bajo la falda, verdad?!"
+    mc "¿¡E-Eh!?"
+    mc "¡Pues claro que no!"
+    mc "¡Trato de encontrar una solución, Natsuki!"
     show natsuki base uniform neut blaw ml e4c b1c at h11
-    n "Go away pervert! Don't just stand there!"
+    n "¡Largo, pervertido! ¡No te quedes ahí parado!"
     show natsuki base uniform neut blaw ml e4c b1c at h11
-    n "Get out!"
+    n "¡Fuera!"
     show natsuki at thide
     hide natsuki
-    "I walk away from the closet."
+    "Me alejo del armario."
     show bg club_day
     with wipeleft
-    mc "Damn... what a talk."
-    "I head back to my desk."
-    "I notice that Monika, Sayori and Yuri are already present in the club room."
-    "I must not have noticed their arrival during my little altercation with Natsuki."
-    "What reassures me is that they don't seem to care too much about what just happened."
-    "Yuri is already sitting on a desk already immersed in her reading."
-    "As for Monika and Sayori, they are having a discussion that seems to be joyful."
-    "I can't help but notice that Monika is glancing in my direction."
-    "I decide to send her a small smile. And she immediately does the same."
-    mc "-sigh-.. Let's go back to where I left off."
-    "I settle back into the chair starting to write again."
-    mc "Materials needed..."
-    "I place my pen on the next line, but I don't move my hand."
+    mc "Joder... vaya conversación."
+    "Vuelvo a mi escritorio."
+    "Me doy cuenta de que Monika, Sayori y Yuri ya están en la sala del club."
+    "Debo de no haberme percatado de su llegada durante mi pequeño altercado con Natsuki."
+    "Lo que me tranquiliza es que no parecen haberle dado mucha importancia a lo que acaba de pasar."
+    "Yuri ya está sentada en un escritorio, completamente inmersa en su lectura."
+    "En cuanto a Monika y Sayori, están teniendo una conversación que parece bastante animada."
+    "No puedo evitar notar que Monika me lanza una mirada de reojo."
+    "Decido lanzarle una sonrisa, y ella hace lo mismo al momento de yo hacerlo."
+    mc "-suspiro-.. Volvamos a lo que estaba haciendo."
+    "Me siento de nuevo en la silla y retomo la escritura."
+    mc "Materiales necesarios..."
+    "Coloco el bolígrafo en la siguiente línea, pero no muevo la mano."
     "I have writer's block, great."
     mc "..."
     mc "Raah... it's messing with my brain all over again."
