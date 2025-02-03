@@ -362,13 +362,13 @@ label ch2_main:
     mc "¿Qué pasa?"
     show natsuki cross uniform neut mm b1e at t11
     n "¡Aaaahhhh-!"
-    "Mierda, parece muy enfadada."
+    "Joder, parece muy enfadada."
     mc "Natsu---{w=0.1}{nw}"
     show natsuki base uniform neut mi b1e
-    n "¡¿HAS MOVIDO MI MANGA DE SITIO?!"
+    n "¡¿HAS MOVIDO MIS MANGAS DE SITIO?!"
     show natsuki base uniform neut mm b1e
-    mc "¡A-Ah! Eeeeh.. sí, los moví yo..."
-    mc "No iban ahí."
+    mc "¡A-Ah! Eeeeh.. sí, los moví yo, claro."
+    mc "Ahí estaban mal puestos."
     show natsuki base uniform neut mi lhip rhip b1e
     n "¡Me la suda!"
     show natsuki base uniform neut mm b1e
@@ -382,10 +382,10 @@ label ch2_main:
     n "¡¿Qué piensas, Señor Presidente?!"
     "Natsuki me mira, enfurecida."
     mc "¡Natsuki!"
-    mc "¡¡No puedes pasar de mis palabras así como así!!"
+    mc "¡¡No puedes despreciarme de esa manera!!"
     mc "¡Si los moví, fue por una buena razón!"
-    mc "¡Y no voy a cambiar de parecer!."
-    mc "Además, yo tampoco sabía nada de que había ahí manga."
+    mc "¡Y no voy a cambiar de parecer!"
+    mc "Además, yo tampoco sabía nada de que habían 'ahí' cajas de manga."
     show natsuki base uniform neut blaw mm e1a b1e
     n "¡Grrrrr-!"
     show natsuki base uniform neut blaw lhip rhip mi e1a b1e
@@ -393,12 +393,12 @@ label ch2_main:
     mc "Natsuki, haz el favor de escucharme."
     mc "Sé que estás muy enfadada, ¡pero no hace falta montar un numerito por todo esto!"
     show natsuki base uniform neut blaw lhip rhip md e1a b1d
-    mc "Son los profesores los que me pidieron mantener esta habitación como estaba desde que me la asignaron."
-    mc "Si un profesor se acerca al armario y encuentra este desastre, ¡me temo que estaré metido en un buen lío porque estoy a cargo de la habitación!"
+    mc "Son los profesores los que me pidieron mantener este aula como estaba desde que me la asignaron."
+    mc "Si un profesor se acerca al armario y encuentra este desastre, ¡me temo... que estaré metido en un buen lío porque 'estoy a cargo de la habitación'!"
     show natsuki cross uniform neut blaw md e1a b1b
     mc "¿Me estás entendiendo?"
     "Cojo una silla que está cerca y la pongo en frente mía."
-    mc "Toma, ¿por qué no usas esta silla para alcanzar los mangas que he puesto en lo alto de la estantería?"
+    mc "Toma, ¿por qué no usas esta silla para alcanzarlos?"
     show natsuki cross uniform neut awkw mg e1b b1a
     n "Bueno... no me importaría, en realidad."
     show natsuki cross uniform neut awkw mg e1a b1a
@@ -428,7 +428,7 @@ label ch2_main:
     "Me alejo del armario."
     show bg club_day
     with wipeleft
-    mc "Joder... vaya conversación."
+    mc "Joder... vaya conversación de la que acabo de ser partícipe."
     "Vuelvo a mi escritorio."
     "Me doy cuenta de que Monika, Sayori y Yuri ya están en la sala del club."
     "Debo de no haberme percatado de su llegada durante mi pequeño altercado con Natsuki."
@@ -441,82 +441,82 @@ label ch2_main:
     "Me siento de nuevo en la silla y retomo la escritura."
     mc "Materiales necesarios..."
     "Coloco el bolígrafo en la siguiente línea, pero no muevo la mano."
-    "I have writer's block, great."
+    "Genial, padezco del bloqueo del escritor."
     mc "..."
-    mc "Raah... it's messing with my brain all over again."
-    "The tip of my pen pressed for a moment on the paper, leave a single black ink stain."
-    mc "Great."
+    mc "Jodeeeer... la cabeza me da vueltas otra vez."
+    "La punta del bolígrafo presiona el folio por un momento, dejando una minúscula mancha de tinta oscura."
+    mc "Qué bien."
     $ y_name = "????"
-    y "H-hey, [player]..."
+    y "O- oye, [player]..."
     $ y_name = "Yuri"
     show yuri base uniform neut awkw rup md e2b b1b at t11
-    "I raise my head to see Yuri standing in front of me."
-    mc "Yes, Yuri? Can I help you?"
-    "I can see that her hands are shaking slightly."
+    "Levanto la cabeza y veo a Yuri de pie en frente mía."
+    mc "Dime, Yuri, ¿en qué puedo ayudarte?"
+    "Veo que sus manos tiemblan con ligereza."
     show yuri base uniform neut awkw rup mb e2b b1b
-    y "S-Sorry to come and disturb you while you were doing something, but..."
+    y "Pe- perdón por molestarte mientras estás ocupado, pero..."
     show yuri base uniform neut awkw rdown mb e2b b1b
-    y "I have a small request to ask you if you don't mind.."
-    mc "Hey Yuri, relax a little. I'm not going to yell at you or anything."
+    y "Tengo una pequeña petición que hacerte, si no te importa..."
+    mc "Oye, Yuri, relájate. Tranquila, ni que te fuera a gritar o algo así."
     show yuri base uniform neut awkw rup mb e1b b1b
-    y "Aah.. you're right, sorry.."
-    y "I don't know why I'm nervous all of a sudden, ahaha.."
-    mc "Take a deep breath and tell me everything you want to say, I'm listening."
-    mc "Take your time."
+    y "Ajaja... tienes razón, perdona..."
+    y "No sé a qué vienen estos nervios repentinos, ajajaja..."
+    mc "Respira hondo y dime, te escucho."
+    mc "Sin prisa."
     show yuri base uniform neut lup rup mf e4a b1c nobl at s11
-    "Yuri take a breath of air."
+    "Yuri coge aire."
     show yuri base uniform neut lup rup mg b1a e1a at t11
-    y "Well... you know... I like to read a lot."
+    y "Bueno... ya sabes... que me encanta leer mucho."
     show yuri base uniform neut rup ma e1b b1a
-    y "But at home when I read, well... I like to read with a nice hot cup of tea."
+    y "Pero cuando leo en casa, en fin... me gusta leer con una buena taza de té calentito."
     show yuri base uniform neut rup ma e1b b1b
-    y "And here at the club... there's no electric kettle."
-    y "So I'm just asking you if..."
+    y "Y aquí en el club... no hay teteras eléctricas."
+    y "Así que me gustaría saber..."
     show yuri shy uniform happ awkw m1 e2 b1
-    y "It was possible to ask permission from the teachers to bring a teapot and some teacups.."
-    "After her request, Yuri exhales for a long time as if to release all the stress that had accumulated inside her."
+    y "... si fuese posible pedir permiso a los profesores para traer una tetera con tazas de té..."
+    "Después de esa petición, Yuri expulsa aire durante un largo tiempo, como si estuviese liberando todo el estrés acumulado dentro suya."
     show yuri shy uniform happ m1 e1 b1 n1
-    mc "I will see what I can do for you, Yuri."
-    y "T-thank you, [player]."
+    mc "Veré lo que puedo hacer por ti, Yuri."
+    y "Gra- gracias, [player]."
     show yuri base uniform happ nobl lup rup ma b1a
-    mc "I can go now."
+    mc "Puedo acercarme ahora, si quieres."
     show yuri base uniform happ nobl ldown rdown mh e1a b2c
-    y "A-Are you sure...?"
-    y "I mean... you were busy and worried a lot about your paper... It was something important I guess."
-    mc "You can say it like that.. but it can wait for now... I mean I can always work on it at home."
-    mc "For now, what matters is that I take care of my club members."
+    y "¿E- estás seguro...?"
+    y "Me refiero, estabas ocupado y muy preocupado por lo que sea que tuviese tu papel... así que creo que era algo importante."
+    mc "Podría decirse que sí lo es... pero eso puede esperar... me refiero, que esto lo puedo seguir en casa sin problemas."
+    mc "Por ahora, lo que importa es encargarme de mis miembros."
     show yuri base uniform neut rup ma e1b b1b
-    y "That's so sweet.."
-    mc "Eh?"
+    y "Eso es muy dulce de tu parte..."
+    mc "¿Qué?"
     show yuri shy uniform n5 m2 at h11
-    y "S-Sorry...! F-Forget what I just said..."
-    y "That wasn't what I meant... it just came out of my mouth..!"
+    y "¡P- perdón...! O- olvida lo que acabo de decir..."
+    y "No quería decir eso... ¡simplemente salió de mi boca...!"
     show yuri base uniform flus awkw lup rup mg e4a
-    y "It's just... it's just that sometimes I speak without really thinking when I come out of a reading.."
-    y ".. And I end up saying stupid things.."
-    mc "Ah.. don't worry Yuri, I can understand."
-    mc "Under the moment of stress we say things that we don't mean."
+    y "Solo... es que, a veces, hablo sin pensar cuando vengo de leer un rato..."
+    y ".. y termino diciendo estupideces..."
+    mc "Ah.. no te preocupes, Yuri, lo entiendo."
+    mc "En momentos estresantes, acabamos diciendo cosas que no queremos."
     show yuri base uniform neut lup rup mf e4a b1c nobl at s11
-    "Yuri exhales with relief."
+    "Yuri exhala con alivio."
     show yuri base uniform flus nobl ldown rdown ma e1d b1b at t11
-    y "You are really an understanding person [player]..."
-    mc "Ahaha.. that's a quality that all people should have, right?"
+    y "Eres una persona muy comprensible, [player]..."
+    mc "Ajajaja... es una cualidad que todo el mundo debería tener, ¿no?"
     show yuri base uniform flus nobl ldown rdown ma e1b b1b
-    y "Yes, it should be..."
-    "Yuri remains silent."
-    mc "I-I.. I'll go see what I can do, Yuri."
+    y "Deberían..."
+    "Yuri se queda en completo silencio."
+    mc "I- Iré... iré a ver lo que puedo hacer, Yuri."
     show yuri base uniform flus nobl lup rup mb e1b b1b
-    y "Thanks again."
+    y "Gracias, de nuevo."
     show yuri at rhide
     hide yuri
-    "Yuri goes back to her desk resuming her reading."
+    "Yuri vuelve a su mesa, dando continuación a su lectura."
     mc "..."
-    mc "Monika!"
-    "I decide to call Monika."
-    "Immediately after calling her, she pauses her discussion with Sayori and starts walking towards me."
-    "While Sayori is alone, she looks around and decides to head towards Yuri."
+    mc "¡Monika!"
+    "Decido llamarla."
+    "Inmediatamente después de llamarla, deja de hablar con Sayori y empieza a caminar hacia mí."
+    "Cuando Sayori se queda sola, empieza a mirar alrededor y decide ir con Yuri."
     show monika base uniform neut mb at t11
-    m "Hey [player], is there anything you want to ask me?"
+    m "Hola, [player], ¿hay algo que quieras preguntarme?"
     mc "Yeah. Since you're my vice president, I'm going to ask for something in the staff room."
     mc "I'm asking if it's possible for you to watch the club while I'm gone."
     show monika base uniform neut mb rhip
