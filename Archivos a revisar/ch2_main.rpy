@@ -513,80 +513,80 @@ label ch2_main:
     mc "..."
     mc "¡Monika!"
     "Decido llamarla."
-    "Inmediatamente después de llamarla, deja de hablar con Sayori y empieza a caminar hacia mí."
+    "Inmediatamente después de hacerlo, deja de hablar con Sayori y empieza a caminar hacia mí."
     "Cuando Sayori se queda sola, empieza a mirar alrededor y decide ir con Yuri."
     show monika base uniform neut mb at t11
     m "Hola, [player], ¿hay algo que quieras preguntarme?"
-    mc "Yeah. Since you're my vice president, I'm going to ask for something in the staff room."
-    mc "I'm asking if it's possible for you to watch the club while I'm gone."
+    mc "Claro. Voy a pedir una cosilla en la sala de profesores."
+    mc "Así que, como eres mi vice presidenta, preguntaba si es posible que vigiles el club mientras no estoy."
     show monika base uniform neut mb rhip
-    m "Okay, I don't mind!"
+    m "¡Claro, no me importa!"
     show monika base uniform neut me rdown
-    m "What are you going to ask if I can be curious?"
-    mc "I'm going to ask for permission from the teachers to be able to serve hot drinks within the club."
-    mc "You see how dangerous it is because you can get burned and everything. You have to ask them first, you know.."
-    m "Who asked that?"
-    mc "Yuri asked me."
-    mc "I won't be long!"
-    mc "But knowing you, you'll be able to handle it well."
+    m "¿Qué vas a pedir, si puedo preguntarte?"
+    mc "Pues... pedir permiso para servir bebidas calientes dentro del club."
+    mc "Como es peligroso por los riesgos de quemarte y demás, tienes que preguntar antes, ya sabes..."
+    m "¿Quién te lo ha pedido?"
+    mc "Yuri."
+    mc "¡No tardaré!"
+    mc "Aunque conociéndote, serás capaz de manejar esta situación con excelencia."
     show monika base uniform neut ma b1b
-    m "Say, [player]..."
+    m "Dime una cosa, [player]..."
     show monika lean uniform neut ma
-    m "Are you underestimating me by any chance?"
-    mc "N-Not at all!"
-    mc "You even have much more experience than me in running a club!"
+    m "¿Me estás subestimando?"
+    mc "¡Qu- qué va!"
+    mc "¡TIenes mucha más experiencia que yo llevando un club!"
     show monika base uniform neut mb e4b rhip
-    m "Ahahaha! You are so easy to tease."
+    m "¡Ajajajajajaja! Es que es muy fácil molestarte."
     show monika base uniform neut ma e1a b1b
-    m "But, you know, you can't judge a book by it's cover?"
+    m "Pero, ¿sabes... que no puedes juzgar un libro por su portada?"
     show monika base uniform neut ma b1b lpoint
-    m "Actually, I've always had trouble when it comes to handling members. It's not one of my great qualities, I admit."
-    mc "Ah... we're about the same level then.."
+    m "En realidad, siempre he tenido problemas cuando se trata de gestionar a los miembros. Admito que no es un punto fuerte por mi parte."
+    mc "ANda... entonces estamos en el mismo nivel..."
     show monika base uniform neut ma b1b ldown
-    m "I don't think so, [player]. You seem to handle it very well, even better than me."
+    m "Qué va, [player]. Parece que te las apañas muy bien, incluso mejor que yo."
     show monika base uniform neut ma e1a b1a
-    mc "Thanks for the compliment, I guess.."
-    mc "When I get back, we'll start sharing poems."
+    mc "Gracias por el cumplido, supongo..."
+    mc "Cuando vuelva, empezaremos a compartir poemas."
     show monika base uniform neut mb e4b
-    m "Okay!"
+    m "¡Vale!"
     show monika base uniform neut mb e1a rhip
-    m "Make it quick [player], I'm a little curious to see what you've written."
+    m "Date prisa, [player], tengo algo de curiosidad por ver lo que has escrito."
     show monika lean uniform ma at h11
-    m "Ehehehe~"
-    mc "M-Me too, Monika.."
+    m "Ejejeje~"
+    mc "Y- y yo, Monika..."
     hide monika
     with wiperight
     show bg corridor
     with wiperight
-    "Leaving the clubroom, I start to make my way to the staff room downstairs."
+    "Dejando la sala del club, me dirijo a la sala de profesores escaleras abajo."
     show bg corridor
     with dissolve_scene_full
-    "After talking to one of the teachers who were present in the room, I was able to get permission, even though it was a little difficult to convince them."
-    "I go back to the clubroom and open the door, seeing the same usual scene that hasn't changed."
+    "Después de hablar con uno de los profesores allí presentes, pude pedir permiso, aunque fue algo difícil convencerles."
+    "Vuelvo al club y abro la puerta, viendo la misma escena que había cuando me fui."
     play sound closet_open
     show bg club_day
     with wiperight_scene
-    "Sayori and Yuri are talking together while Monika is writing something in a small notebook."
-    "And Natsuki is sitting on the floor reading what seems to be one of the mangas that was present in her box."
-    "No one seems to have noticed my return."
-    "I calmly walk towards Sayori and Yuri."
-    mc "Hey Yuri, I have good news for you."
+    "Sayori y Yuri están hablando, mientras Monika escribe algo en una pequeña libreta."
+    "Natsuki está sentada en el suelo leyendo lo que parece ser uno de los mangas que estaban en una de las cajas."
+    "No parecen haber notado mi regreso."
+    "Me acerco con cuidado a Sayori y Yuri."
+    mc "Oye, Yuri, tengo buenas noticias para ti."
     show yuri base uniform neut nobl ldown rup mg e1d b1a at t11
-    y "Y-You could?"
-    "I nod in response."
+    y "¿Ha- has podido?"
+    "Asiento a modo de respuesta."
     show yuri base uniform neut nobl ldown rup ma e4b b1c at h11
-    y "Thank you so much, [player]."
-    mc "Except...they won't lend us the equipment."
+    y "Muchísimas gracias, [player]."
+    mc "Lo único malo... es que no nos conceden el equipo necesario."
     show yuri base uniform curi mf e1a b1a rdown
-    y "Oh?"
+    y "¿Eh?"
     show yuri base uniform curi mg b1a
-    y "What do you mean?"
-    mc "Well, we'll have to bring a teapot in short."
-    mc "That goes for the teacups too."
+    y "¿A qué te refieres?"
+    mc "A ver, que tendremos que traer nosotros una tetera."
+    mc "Y más de lo mismo con las tazas."
     y "A-Ah.."
     show yuri base uniform curi ma e1b b1a
-    y "That's okay. As long as the teachers have given us permission... I don't mind bringing an electric kettle and some teacups."
-    mc "Are you sure?"
+    y "Está bien. Mientras que nos hayan dejado... no me importa traer una tetera eléctrica y algunas tazas."
+    mc "¿Segura?"
     show yuri base uniform curi ma e1a b1a
     y "Yes, I'm sure."
     show yuri base uniform curi blus ma e1b b1a
