@@ -499,7 +499,7 @@ label ch2_main:
     show yuri base uniform neut lup rup mf e4a b1c nobl at s11
     "Yuri exhala con alivio."
     show yuri base uniform flus nobl ldown rdown ma e1d b1b at t11
-    y "Eres una persona muy comprensible, [player]..."
+    y "Eres una persona muy considerada, [player]..."
     mc "Ajajaja... es una cualidad que todo el mundo debería tener, ¿no?"
     show yuri base uniform flus nobl ldown rdown ma e1b b1b
     y "Deberían..."
