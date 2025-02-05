@@ -588,34 +588,34 @@ label ch2_main:
     y "Está bien. Mientras que nos hayan dejado... no me importa traer una tetera eléctrica y algunas tazas."
     mc "¿Segura?"
     show yuri base uniform curi ma e1a b1a
-    y "Yes, I'm sure."
+    y "Claro."
     show yuri base uniform curi blus ma e1b b1a
-    y "I... I'm a big tea fan, I have a lot of teapots at home."
+    y "Soy... soy una fánatica del té, tengo muchas tacitas en casa."
     show yuri base uniform curi blus ma e1b b1a at t21
     show sayori base uniform neut mb lup at t22
-    s "Hey, [player]!"
-    mc "Hey Sayori, sorry I didn't say hello earlier."
+    s "¡Hola, [player]!"
+    mc "Hola, Sayori, siento no haber saludado antes."
     show sayori base uniform mb e4b ldown
-    s "Hahaha, don't worry!"
+    s "Jajajaja, ¡no te preocupes!"
     show sayori base uniform ma e1a
-    s "By the way [player], Yuri told me that she wanted to give you a book for you!"
+    s "Por cierto, [player], ¡Yuri me dijo que quería darte un libro!"
     show yuri base uniform neut blaw rup ml e2a b1b
-    y "S-Sayori! You shouldn't have told him now!"
-    mc "Huh? A book for me?"
+    y "¡Sa-Sayori! ¡No se lo deberías haber dicho justo ahora!"
+    mc "¿Eh? ¿Un libro para mí?"
     show yuri shy uniform happ bful m2 e2
-    y "Uuuh.. N-Not really..."
+    y "Eeeehhh... e- en realidad no..."
     show sayori base uniform neut rup me e1a b1b
-    s "Aah.. sorry Yuri, that came straight out of my mouth..."
+    s "Ay... perdóname Yuri, se me escapó..."
     show sayori base uniform neut me e1b b1b
-    s "I'm really sorry..."
+    s "Lo siento muchísimo..."
     show sayori at thide
     hide sayori
     show yuri shy uniform bful m2 e2 at t11
-    mc "Did you really bring a book for me Yuri?"
+    mc "¿Es verdad que me has traído un libro, Yuri?"
     show yuri base uniform neut awkw rup ml e2a b1b
-    y "Forget about that!"
+    y "¡Olvídalo!"
     show yuri shy uniform happ nobl m2 e2 b2
-    y "Sayori made it sound like a huge problem..."
+    y "Sayori lo hizo parecer demasiado..."
     show yuri 4c
     y "Uuuuuuuhh... what do I do..."
     "Yuri frantically rubs the ends of her long hair turning her face away from looking at me."
