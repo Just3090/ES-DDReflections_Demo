@@ -617,14 +617,14 @@ label ch2_main:
     show yuri shy uniform happ nobl m2 e2 b2
     y "Sayori lo hizo parecer demasiado..."
     show yuri 4c
-    y "Uuuuuuuhh... what do I do..."
-    "Yuri frantically rubs the ends of her long hair turning her face away from looking at me."
-    "I think I need to fix this situation..."
+    y "Uuuuuuuu... qué hago ahora..."
+    "Yuri frota con nerviosismo los mechones de su cabello largo y púrpura mientras aparta su mirada de mí."
+    "Debería arreglar esta situación..."
     show yuri shy uniform happ nobl m1
-    mc "Hey Yuri, I really appreciate the offer."
-    mc "No matter what's in the book, it's still so nice coming from you."
-    "Even though we've only known each other since Friday..."
-    mc "And also, it will expand my collection of books that I have at home!"
+    mc "Oye, Yuri, aprecio el regalo, en serio."
+    mc "No importa de qué sea el libro, es genial saber que viene de ti."
+    "Incluso sabiendo que nos conocemos desde el viernes..."
+    mc "Y bueno, ¡ayudará a expandir la colección de libros que tengo en casa!"
     "Yuri inhales and exhales briefly, taking a small breath of air."
     show yuri base uniform happ ma e1a b1b
     y "... If you mean it.."
