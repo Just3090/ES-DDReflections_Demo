@@ -436,10 +436,10 @@ screen quick_menu():
             yalign 0.995 spacing
 
 
-            textbutton _("History"):
+            textbutton _("Historia"):
                 pos (-120, -25)
                 action ShowMenu('history')
-            textbutton _("Skip"):
+            textbutton _("Saltar"):
                 pos (-70, -25)
                 action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Auto"):
