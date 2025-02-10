@@ -703,12 +703,12 @@ label ch2_main:
     call showpoem (poem_m11, img="monika base uniform ma b1a e1a") from _call_showpoem_1
     m "..."
     show monika base uniform mb
-    m "Y... ¿qué piensas?"
+    m "Bueno, ¿qué opinas?"
     show monika base uniform ma b1a e1a rhip
     mc "Me gusta, Monika."
-    mc "Tu poema es... muy libre, diría yo..."
+    mc "Mmmmm... Tiene un estilo muy... improvisado, creo que se llama."
     show monika lean uniform neut ma
-    m "¡Ajajajaja, claro que sí! Se ha puesto muy de moda entre los escritores, así que sí."
+    m "¡Ajajajaja, no pasa nada! Esa clase de estilo se ha puesto muy de moda últimamente."
     mc "Pues no lo sabía."
     show monika base uniform ma neut b1b rhip
     m "Tú eres más de leer que de escribir, ¿no, [player]?"
