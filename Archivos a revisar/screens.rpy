@@ -445,15 +445,15 @@ screen quick_menu():
             textbutton _("Auto"):
                 pos (-20, -25)
                 action Preference("auto-forward", "toggle")
-            textbutton _("Save"):
+            textbutton _("Guardar"):
                 pos (20, -25)
                 action ShowMenu('save')
-            textbutton _("Load"):
+            textbutton _("Cargar"):
                 pos (70, -25)
                 action ShowMenu('load')
 
 
-            textbutton _("Settings"):
+            textbutton _("Configuración"):
                 pos (120, -25)
                 action ShowMenu('preferences')
 
@@ -510,40 +510,40 @@ screen navigation():
             if main_menu:
 
                 if persistent.monika == True:
-                    textbutton _("J 3 S T M 0 N I K A") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="J U S T M O N I K A", ok_action=Function(FinishEnterName)))
+                    textbutton _("S 0 L 0 M 0 N I K A") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="J U S T M O N I K A", ok_action=Function(FinishEnterName)))
                     ypos 500
                 else:
-                    textbutton _("New Game") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="Please enter your name, Mister President", ok_action=Function(FinishEnterName)))
+                    textbutton _("Nueva partida") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="Please enter your name, Mister President", ok_action=Function(FinishEnterName)))
 
             else:
 
-                textbutton _("History") action [ShowMenu("history"), SensitiveIf(renpy.get_screen("history") == None)]
+                textbutton _("Historia") action [ShowMenu("history"), SensitiveIf(renpy.get_screen("history") == None)]
 
-                textbutton _("Save Game") action [ShowMenu("save"), SensitiveIf(renpy.get_screen("save") == None)]
+                textbutton _("Guardar partida") action [ShowMenu("save"), SensitiveIf(renpy.get_screen("save") == None)]
 
             if persistent.monika == True:
                 pass
 
             else:
-                textbutton _("Load Game") action [ShowMenu("load"), SensitiveIf(renpy.get_screen("load") == None)]
+                textbutton _("Cargar partida") action [ShowMenu("load"), SensitiveIf(renpy.get_screen("load") == None)]
 
             if enable_extras_menu:
                 textbutton _("Extras") action [ShowMenu("extras"), SensitiveIf(renpy.get_screen("extras") == None)]
 
             if _in_replay:
 
-                textbutton _("End Replay") action EndReplay(confirm=True)
+                textbutton _("Finalizar repetición") action EndReplay(confirm=True)
 
             elif not main_menu:
                 if persistent.playthrough != 3:
-                    textbutton _("Main Menu") action MainMenu()
+                    textbutton _("Menú principal") action MainMenu()
                 else:
-                    textbutton _("Main Menu") action NullAction()
+                    textbutton _("Menú principal") action NullAction()
             if persistent.monika == True:
                 pass
 
             else:
-                textbutton _("Settings") action [ShowMenu("preferences"), SensitiveIf(renpy.get_screen("preferences") == None)]
+                textbutton _("Configuración") action [ShowMenu("preferences"), SensitiveIf(renpy.get_screen("preferences") == None)]
 
 
 
@@ -557,7 +557,7 @@ screen navigation():
                     pass
 
                 else:
-                    textbutton _("Quit") action Quit(confirm=not main_menu)
+                    textbutton _("Cerrar") action Quit(confirm=not main_menu)
         else:
             timer 1.75 action Start("autoload_yurikill")
 
