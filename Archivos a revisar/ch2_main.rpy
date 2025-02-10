@@ -625,132 +625,132 @@ label ch2_main:
     mc "No importa de qué sea el libro, es genial saber que viene de ti."
     "Incluso sabiendo que nos conocemos desde el viernes..."
     mc "Y bueno, ¡ayudará a expandir la colección de libros que tengo en casa!"
-    "Yuri inhales and exhales briefly, taking a small breath of air."
+    "Yuri inhala y exhala brevemente, tomando un poco de aire."
     show yuri base uniform happ ma e1a b1b
-    y "... If you mean it.."
-    "Yuri reaches into her bag, fiddling around inside and pulls out a book."
+    y "... Si tú lo dices..."
+    "Yuri mete la mano en su mochila, rebuscando un poco y sacando un libro."
     show yuri base uniform happ mb b1a
-    y "This is the book I mentioned on Friday, which I particularly liked it and finished this weekend."
+    y "Este es el libro que mencioné el viernes, que particularmente me gusta, y lo acabé este mismo fin de semana."
     show yuri base uniform happ e1b b1b
-    y "I hope you'll like it..."
-    "Yuri hands me the book, looking slightly away from me."
-    "I pick up the book with both hands coming to show a smile of confidence."
-    mc "Thank you Yuri! I'll take good care of the book and as soon as I get the chance, I won't hesitate to start reading it."
-    mc "I'm sure I'll like it."
+    y "Espero que te guste..."
+    "Yuri me da el libro, mirando ligeramente a otro lado."
+    "Cojo el libro con ambas manos y le devuelvo una sonrisa de confianza."
+    mc "¡Gracias, Yuri! Me encargaré del libro tan pronto como pueda, no dudaré en empezar a leerlo."
+    mc "Estoy segura de que te va a gustar."
     show yuri base uniform happ lup rup mg e4a b2b at s11
-    y "Pheww..."
+    y "Uffff..."
     show yuri base uniform happ lup rup ma e1a b1c at t11
-    y "Depending on how fast you read, you can finish it in less than a week if you read it every day."
+    y "Dependiendo de cuán rápido leas, te lo acabas en menos una semana si lees cada día."
     show yuri base uniform happ ldown rdown ma b1c
-    y "The beginning may not be very interesting, but trust me the deeper you get into the story the more interesting and relevant it will become."
+    y "El inicio puede no ser tan interesante, pero créeme que, cuanto más profundices en la historia, más interesante y relevante se vuelve."
     show yuri base uniform happ lup rup ma e1b b1c
-    y "I.. I won't say more."
-    y "I don't want to spoil the surprise for you."
+    y "No... no diré más."
+    y "No quiero destriparte la sorpresa."
     show yuri base uniform happ lup rup ma e1a b1c
-    mc "It works, Yuri! I'll think about it when I start reading it."
+    mc "¡Vale, Yuri! Lo tendré en cuenta cuando empiece a leerlo."
     show yuri shy uniform happ m1 e2 b2
-    y "[player]... if you want..."
-    y "When you advanced a bit in the story... or even if you've started reading it.."
+    y "[player]... si quieres..."
+    y "Cuando avances algo en la historia... o cuando empieces a leer..."
     show yuri shy uniform happ m1 e1 b1
-    y "W-We could discuss it if you want..."
-    mc "With great pleasure, Yuri! I would love to discuss it with you!"
+    y "Po- podríamos hablar sobre el libro si quieres..."
+    mc "¡Sería un gran placer, Yuri! ¡Me encantaría hablarlo contigo!"
     show yuri base uniform neut lup rup mg e4a at s11
-    y "Phew... what a relief."
+    y "Ufff... qué alivio."
     show yuri base uniform neut lup rup ma e1b
-    "Yuri lets out a small discreet smile."
+    "Yuri sonríe discretamente."
     hide yuri
     with wipeleft
-    "I head to my desk to put the book in my bag."
-    "I clear my throat slightly before standing in the center of the room."
-    mc "Okay everyone! Come in front of me!"
-    "The girls stop what they were doing and walk towards me."
+    "Voy a mi escritorio para poner el libro en mi mochila."
+    "Me aclaro la garganta ligeramente antes de plantarme en medio de la habitación."
+    mc "¡Vale, compis! ¡Poneos en frente mía!"
+    "Las chicas dejan de hacer lo que estaban haciendo y caminan hacia mí."
     show monika base uniform neut ma at t44
     show sayori base uniform neut ma at t43
     show natsuki cross uniform neut ma at t42
     show yuri base uniform neut ma at t41
-    mc "I am pleased to announce that we can finally begin our first club activity!"
-    mc "Did you all write a poem for today?"
+    mc "¡Tengo el placer de anunciar que podemos, finalmente, empezar nuestra primera actividad del club!"
+    mc "¿Habéis escrito un poema para hoy?"
     show monika base uniform neut ma e4b
     show sayori base uniform neut mc lup rup e4b
     show yuri shy uniform e2 b2
     show natsuki cross uniform blaw md e1b b1f
-    "Sayori and Monika both dynastically nod their heads while Natsuki and Yuri do it shyly."
-    mc "Well then, it's time to share our poems!"
+    "Sayori y Monika asienten ambas con energía mientras que Natsuki y Yuri lo hacen avergonzadas."
+    mc "¡Genial! Entonces... ¡es hora de compartir poemas!"
     hide monika
     hide sayori
     hide yuri
     hide natsuki
     with wiperight
-    "The girls spread out and head for their backpacks."
-    "Sayori takes out a single, crumpled sheet of paper, while Monika takes out a small textbook."
-    "From where I am, I can see perfectly her impeccable handwriting."
-    "As for Yuri and Natsuki, they take out their poems too, but reluctantly."
+    "Las chicas se dirigen a sus mochilas."
+    "Sayori tiene una hoja arrugada en su mano, y Monika saca de su mochila una libretita."
+    "Desde mi posición, puedo vislumbrar su perfecta y refinada escritura."
+    "En cuanto a Yuri y Natsuki, sacan sus poemas con cierta reticencia."
     stop music fadeout 2.0
     show bg club_day1
     with wiperight_scene
     play music t5
-    "Monika seemed impatient to see my poem, so I decide to start with her."
+    "Monika parecía impaciente por ver mi poema, así que decido empezar con ella."
     show bg club_day1
     with wiperight_scene
     show monika base uniform ma at t11
-    mc "Hey, Monika!"
-    m "Hey, [player]!"
-    mc "Ready to share your poem?"
+    mc "¡Hola, Monika!"
+    m "¡Hola, [player]!"
+    mc "¿Lista para compartir tu poema?"
     show monika base uniform mb e4b
-    m "I'm ready!"
-    mc "Well then, let's get started!"
-    "Monika and I share our poems each other."
+    m "¡Por supuesto!"
+    mc "Entonces, ¡empecemos!"
+    "Hicimos un intercambio: su poema por mi poema y viceversa."
     call showpoem (poem_m11, img="monika base uniform ma b1a e1a") from _call_showpoem_1
     m "..."
     show monika base uniform mb
-    m "So, what do you think?"
+    m "Y... ¿qué piensas?"
     show monika base uniform ma b1a e1a rhip
-    mc "I like your poem, Monika."
-    mc "Your poem is... very free, I say..."
+    mc "Me gusta, Monika."
+    mc "Tu poema es... muy libre, diría yo..."
     show monika lean uniform neut ma
-    m "Ahahaha, yes! It's starting to become a bit of a fashion among writers lately, if I may say so."
-    mc "I didn't even know about it."
+    m "¡Ajajajaja, claro que sí! Se ha puesto muy de moda entre los escritores, así que sí."
+    mc "Pues no lo sabía."
     show monika base uniform ma neut b1b rhip
-    m "You're more of a reader than a writer, right [player]?"
-    mc "Oh yeah... you have a point there."
+    m "Tú eres más de leer que de escribir, ¿no, [player]?"
+    mc "Ehhh... sí, lo has clavado."
     show monika base uniform neut mb b1a rdown
-    m "I can always give you writing tips if you're ever interested!"
-    mc "I'd rather it be done in private then."
+    m "¡Puedo darte pequeños consejos de escritura si estás interesado!"
+    mc "Eso sería mejor hacerlo en privado."
     show monika base uniform neut ma e4b
-    m "All right!"
+    m "¡Muy bien!"
     show monika base uniform neut mb lpoint e1a
-    m "Isn't that funny?"
-    mc "About what? That you give me writing advice?"
+    m "¿No es divertido?"
+    mc "¿El qué? ¿Que me des consejos de escritura?"
     show monika base uniform neut ma e4b ldown
-    m "Yeah! I think it's pretty funny that I'm giving writing advice to my own president who runs a literature club."
+    m "¡Claro! Creo que es bastante gracioso que le vaya a dar consejos de escritura a mi propio presidente, que precisamente, dirige un club de literatura."
     show monika lean uniform neut ma at h11
-    m "Ehehehe."
-    mc "You say that as if I don't have the ability to give writing advice myself..."
+    m "Ejejejeje."
+    mc "Lo dices como si yo no fuera capaz de aconsejar sobre literatura..."
     show monika base uniform neut me rhip b1b
-    m "Oh no, I didn't mean it! I'm sorry!"
+    m "¡Ay, no, no quería decir eso! ¡Perdóname!"
     show monika base uniform neut ma rhip b1b
-    m "Actually, I'm sure you can do it too."
+    m "En realidad, estoy segura de que podrías."
     mc "..."
-    mc "In fact, I might do it from time to time when I have something informative to say."
-    mc "I favor quality over quantity."
-    "A slight silence falls between the two of us, but quickly broken by Monika."
+    mc "De hecho, podría hacerlo de vez en cuando, cuando tenga algo interesante que comentar."
+    mc "Prefiero calidad por encima de la cantidad."
+    "Un breve silencio se cierne sobre nosotros, que es interrumpido por Monika."
     show monika base uniform neut ma lpoint b1a
-    m "Otherwise... I like your poem too, [player]."
+    m "De todas formas... me gusta tu poema también, [player]."
     show monika base uniform neut ma ldown e4b b1a
-    m "It is very metaphorical!"
+    m "¡Es muy metafórico!"
     show monika base uniform neut ma ldown e1a
-    m "Really amazing."
-    mc "Oh thanks... I had a hard time last night when I started writing it."
+    m "Muy impresionante."
+    mc "Ah, gracias... anoche me costó bastante empezarlo."
     show monika base uniform neut mb lpoint
-    m "Ahaha! You know [player], you have a block on something whenever your mind focuses solely on a specific goal, which in this case is writing a poem."
+    m "¡Ajajaja! ¿Sabes, [player]? Siempre te bloqueas cuando te concentras demasiado en un objetivo concreto, como en este caso, escribir un poema."
     show monika base uniform neut ma lpoint rhip
-    m "You might make your pen be pressed against the paper for too long, and end up only making a huge layer of black ink!"
-    m "Think of that layer of black ink as a river."
-    m "So in order for you to get that river of ink out and make progress on your poem, let your pen follow the flow of this river naturally!"
+    m "¡Puede que presiones tanto el bolígrafo sobre el papel... que acabes con una mancha grande de tinta!"
+    m "Piensa en esa mancha enorme como un río."
+    m "Para que ese río de tinta fluya y avances con tu poema, ¡deja que el bolígrafo siga la corriente naturalmente!"
     show monika base uniform e4b mb
-    m "And you'll get through it!"
+    m "¡Y verás como lo consigues!"
     mc "..."
-    mc "That's funny, it actually happened to me when I was writing notes on my paper earlier."
+    mc "Es curioso, porque eso mismo me ha pasado antes, mientras apuntaba cosas en mi papel."
     show monika lean uniform ma
     m "Ahahaha! What a funny coincidence don't you think, [player]?"
     mc "Clearly. I was stuck on some stuff I was preparing for the next Friday about the festival."
