@@ -45,7 +45,7 @@ label prologue:
     with dissolve_scene_full
     pause 1
     play music t3
-    "Haata ahora, la mañana ha sido increíblemente ordinaria y aburrida."
+    "Hasta ahora, la mañana ha sido increíblemente ordinaria y aburrida."
     "Estuve jugando con mi bolígrafo en la mesa todo el tiempo mientras miraba por la ventana."
     play sound bell
     "Al cabo de un rato, suena la campana de la escuela, marcando el fin de las clases matutinas y el inicio del almuerzo."
