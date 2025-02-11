@@ -852,7 +852,7 @@ label ch1_main:
     mc "Estaría bien qu--"
     show natsuki 1o at h11
     n "¡No! ...¡No!"
-    "Asustada, Natsuki aparta brevemente la mirada para evittar cualquier contacto visual."
+    "Asustada, Natsuki aparta brevemente la mirada para evitar cualquier contacto visual."
     mc "¿Por qué?"
     show natsuki 5s at s11
     n "A vosotros... no os gustarían..."
@@ -896,7 +896,7 @@ label ch1_main:
     ny "¿...?"
     "Natsuki y Yuri me miran de forma interrogante."
     mc "¡Después de esta pequeña charla, que ha sido agradable de escuchar, para la primera actividad del club he propuesto que todos nos vayamos a casa..."
-    mc "... y que todo el mundo escriba sus poemas con su propio bolígrafo y que los compartamos mañana en la siguiente reunión del club!"
+    mc "... y que todo el mundo escriba sus propios poemas y que los compartamos mañana en la siguiente reunión del club!"
     mc "¡Así estamos todos en igualdad de condiciones!"
     show natsuki cross uniform e1b b1d neut md awkw at t31
     show yuri base uniform flus awkw rup at t32
@@ -924,7 +924,7 @@ label ch1_main:
     n "¡No me uní para hacer esto!"
     show natsuki base uniform neut n3 mg e1a b1d
     n "Aunque comprase cupcakes, no dije de unirme para compartir-..."
-    "De forma inintencionada, interrumpo a NAtsuki mientras hablaba."
+    "De forma inintencionada, interrumpo a Natsuki mientras hablaba."
     mc "Pero... pero..."
     "¿Por qué creí que sería una buena idea?"
     show natsuki at t11
@@ -998,7 +998,7 @@ label ch1_main:
     mc "¿Recordáis los deberes para mañana?"
     mc "¡Traer un poema para compartirlo mañana!"
     mc "Con eso recordado, la sesión queda cerrada. ¡Podéis iros a casa!"
-    mc "Pasado una buena tarde, chicas, ¡nos vemos mañana!"
+    mc "Pasad una buena tarde, chicas, ¡nos vemos mañana!"
     hide monika
     hide sayori
     hide yuri
@@ -1031,7 +1031,7 @@ label ch1_main:
     mc "Bueno... gracias a ambas."
     mc "Gracias por lo que habéis hecho en tan poco tiempo."
     show monika base uniform neut ma b1b
-    m "Ah, no te preocuoes, [player]... nos complace ayudarte."
+    m "Ah, no te preocupes, [player]... nos complace ayudarte."
     mc "¡Lo sé! Pero lo que quiero decir es que... no hace más de 4 horas, más o menos, estaba completamente solo... y ahora aquí estamos."
     mc "Así que gracias por todo, no os defraudaré. Confiad en mí."
     "Monika deja escapar una pequeña sonrisa."
@@ -1104,13 +1104,13 @@ label ch1_main:
     mc "¿Qué? ¿En serio?"
     show monika 1a
     m "Totalmente."
-    mc "Ajajajaja... por un momento, me estabas asuatando."
+    mc "Ajajajaja... por un momento, me estabas asustando."
     mc "Cuando te vi cambiar de expresión de repente, pensé que se había acabado todo..."
     show monika 5a
     m "Ejejeje, soy una buena actriz, ¿eh?"
     show monika base uniform neut ma e4b
-    m "Todo sea dicho, ¡esa cara tuya fue muy graciosa verla! ¡Ajajajajaja!"
-    m "No me arrepiento ponerte en duda."
+    m "Todo sea dicho, ¡tu cara era un poema, ha sido desternillante! ¡Ajajajajaja!"
+    m "No me arrepiento de haberte puesto en duda."
     mc "Bla, bla, bla. Quien ríe último, ríe mejor, Monika."
     show monika lean uniform m2
     m "Oooooh, ¿me has amenazado?"
@@ -1118,8 +1118,8 @@ label ch1_main:
     show monika base uniform anno rhip ma e1d b1c
     m "No te preocupes, me preparo para cualquier posible ataque tuyo, [player]~"
     show monika base uniform neut ma e4b b1a
-    "AMbos echamos unas risas."
-    mc "Ya en serio, estoy orgulloso de tenerte como mi vicepresidena, Monika."
+    "Ambos echamos unas risas."
+    mc "Ya en serio, estoy orgulloso de tenerte como mi vicepresidenta, Monika."
     mc "Tú y yo podremos darle al Club de Literatura un buen sitio en el colegio."
     show monika base uniform e1a mb b1a
     m "¡Está claro que lo haremos!"
@@ -1135,7 +1135,7 @@ label ch1_main:
     "No pasa mucho hasta que el aula vuelve a estar en completo silencio."
     "Pero no es cualquier silencio."
     "No es el mismo silencio que me ha acompañado estos días."
-    "Cuando estaba solo en el clubn."
+    "Cuando estaba solo en el club."
     "Me siento en una de las sillas, descansando mi cabeza en la mesa."
     mc "-suspiro- Qué día tan genial."
     "Miro mi teléfono."
@@ -1153,7 +1153,7 @@ label ch1_main:
     show bg closet
     with wipeleft_scene
     "No puedo evitar ser curioso, así que me dirijo al armario."
-    "I open the closet door coming to look everywhere inside."
+    "Abro la puerta y echo un vistazo dentro."
     mc "¿¿¿Eh???"
     "Veo tres colecciones de manga en la estantería, lo que hace del armario un buen desorden."
     mc "¿Qué coño hace esto aquí?"
