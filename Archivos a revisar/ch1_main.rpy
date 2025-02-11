@@ -264,15 +264,15 @@ label ch1_main:
     "Monika, Sayori y yo organizamos algunas mesas antes de sentarnos."
     show sayori base uniform neut ma at t21
     show monika base uniform neut ma at t22
-    mc "¡Ah, bien!"
-    mc "Quiero repetirlo de nuevo: gracias a las dos por haberos unido a mi club, me hace muy feliz, más de lo que podéis imaginar."
+    mc "¡Ah, genial!"
+    mc "Así que, de nuevo, gracias a las dos por haberos unido a mi club, me hace muy feliz, más de lo que podéis imaginar."
     mc "Aunque me habría gustado que las cosas fueran un poco {i}diferentes.{/i} {w=0.3} Ajajajaja."
     show sayori base uniform neut mb rup
-    s "No te preocupes, soy mejor que tú cuando se trata de echarme siestas. ¡Estoy segura que hasta puedo sustituirte!"
+    s "No te preocupes, soy mejor que tú cuando se trata de dormir. ¡Estoy segura que hasta podría sustituirte!"
     mc "¿Sustituirme...?"
     mc "¿De qué hablas?"
     show sayori base uniform e1b b1b mc blaw
-    s "..."
+    s "Emmmm..."
     show sayori base uniform nobl at s21
     s "Yo... Tú... eh... qué es lo que..."
     show sayori base uniform e4c ml b1b rdown at h21
@@ -358,7 +358,7 @@ label ch1_main:
     m "Sayori es mi mejor amiga, la conozco mejor que nadie."
     "¿Su mejor amiga?
     "Estoy sorprendido. Llevamos años conociéndonos y nunca me había hablado de ella antes..."
-    m "Siempre se esfuerza al máximo en lo que hace y se preocupa por [player]."
+    m "Siempre se esfuerza al máximo en las cosas que hace y que realmente le importan, [player]."
     m "Es como un rayo de sol andante."
 
     show sayori base uniform neut blaw rup mc e1b b2c
