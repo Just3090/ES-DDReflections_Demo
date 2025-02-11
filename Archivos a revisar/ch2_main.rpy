@@ -750,97 +750,97 @@ label ch2_main:
     show monika base uniform e4b mb
     m "¡Y verás como lo consigues!"
     mc "..."
-    mc "Es curioso, porque eso mismo me ha pasado antes, mientras apuntaba cosas en mi papel."
+    mc "Es curioso, porque eso mismo me ha pasado antes, mientras apuntaba unas cosas en un papel."
     show monika lean uniform ma
-    m "Ahahaha! What a funny coincidence don't you think, [player]?"
-    mc "Clearly. I was stuck on some stuff I was preparing for the next Friday about the festival."
+    m "¡Ajajaja! ¿No crees que ha sido una coincidencia bastante graciosa, [player]?"
+    mc "Pues sí. Estaba liado con algunas cosillas que quiero preparar para el festival que hay el viernes que viene."
     show monika base uniform me rhip
-    m "You started thinking about it?"
-    mc "Yeah."
-    mc "I'll talk to you about it after the poem sharing."
+    m "¿Ya has empezado a plantearlo?"
+    mc "Claro."
+    mc "Hablaré contigo sobre ese mismo tema después de que todos hayamos visto nuestros poemas."
     show monika base uniform ma e4b rdown
-    m "Okay, [player]!"
-    mc "Thanks for sharing your poem Monika."
+    m "¡Vale, [player]!"
+    mc "Gracias por enseñarme tu poema, Monika."
     show monika base uniform mb e4b rhip
-    m "You're welcome!"
-    "We get our poems back before we part ways."
+    m "¡Gracias a ti!"
+    "Nos los devolvemos antes de separarnos."
     show bg club_day1
     hide monika
     with wiperight_scene
     show sayori base uniform neut ma at t11
-    mc "Hey, Sayori!"
+    mc "¡Hola, Sayori!"
     show sayori base uniform neut mb lup
-    s "Hi, [player]!"
-    mc "How's the poem sharing going on your side?"
+    s "¡Ey, [player]!"
+    mc "¿Cómo te va eso de enseñar tu poema?"
     show sayori base uniform neut ma lup rup e4b
-    s "It's super fun so far!"
+    s "¡Es súper divertido!"
     show sayori base uniform neut e2a mh ldown rdown
-    s "I shared with Natsuki and she has a very different way of writing than I do!"
-    mc "That's great! We all have different writing processes, and that's a good thing for the club!"
+    s "¡Lo he intercambiado con el de Natsuki y tiene una manera de redactar muy diferente en comparación con la mía!"
+    mc "¡Anda, eso es genial! Todos tenemos diferentes estilos de escritura, ¡y eso viene muy bien para el club!"
     show sayori base uniform neut e1a md
-    s "Really? Why would you say that?"
-    mc "Well, if we all had the same processes, wouldn't you think it would be a little flat?"
-    mc "I mean... we're all human, and we're all different intellectually. It wouldn't be interesting if we had the same processes on writing."
-    mc "Don't you think so?"
+    s "¿En serio? ¿Y eso por qué?"
+    mc "Bueno, si todos escribiésemos igual, ¿no sería un poco aburrido?"
+    mc "Es decir... somos humanos, y somos diferentes intelectualmente. No sería interesante si tuviésemos el mismo estilo de escritura."
+    mc "¿No crees?"
     show sayori base uniform neut awkw e1b b1b mc lup at s11
-    s "Ha ha, well.."
+    s "Ja ja, bueno..."
     show sayori base uniform neut nobl e1a b1a ma ldown at t11
-    s "You're right, [player]."
-    mc "Sorry, I didn't mean to get to the heart of the matter.."
-    mc "Would you mind if we started sharing poems?"
+    s "Tienes razón, [player]."
+    mc "Perdona, no quería sonar tan sumamente profundo..."
+    mc "¿Te importaría intercambiar nuestros poemas?"
     show sayori base uniform neut e1a mb
-    s "Ok!"
-    "I hand my poem to Sayori."
+    s "¡En absoluto!"
+    "Le doy mi poema a Sayori."
     show sayori base uniform neut e2a mh b2a lup
     "..."
     show sayori base uniform neut b1a e1a ma ldown
-    s "I didn't know you write so well, [player]!"
+    s "Vaya, ¡no sabía que escribías tan bien, [player]!"
     show sayori base uniform neut e4b mc lup rup
-    s "Your poem is the best one ever!"
+    s "¡Tu poema es el mejor!"
     mc "Sayori..."
-    mc "I sincerely think that you are exaggerating..."
-    mc "Honestly, I didn't even know what I was writing last night."
+    mc "Creo, sinceramente, que estás exagerando..."
+    mc "En realidad, ni siquiera sabía lo que estaba escribiendo anoche."
     show sayori base uniform neut e1a mb rdown ldown
-    s "Maybe that's why!"
+    s "¡Pues será por eso!"
     show sayori base uniform neut e1a mb rup
-    s "Sometimes when you do things without thinking, you can do wonderful things."
+    s "Hay veces en las que, haciendo las cosas sin pensar, acaban saliendo maravillas."
     show sayori base uniform neut e4b mc lup rup at h11
-    s "Ahahaha!"
-    "I don't know if Sayori is serious in what she says or if she's the girl who talks without really thinking..."
-    mc "Ah.. thank you, Sayori."
-    mc "I'll take that as a compliment."
-    mc "Will you share your poem now?"
+    s "¡Ajajaja!"
+    "No sé si iba en serio o es la típica que habla sin pensar..."
+    mc "Ehh... gracias, Sayori."
+    mc "Consideraré eso como un cumplido."
+    mc "¿Quieres darme el tuyo ahora?"
     show sayori base uniform neut e1a mb rdown ldown
-    "Sayori gives back my poem, giving me her poem in the process."
+    "Sayori me devuelve el poema, dándome ella el suyo al mismo tiempo."
     call showpoem (poem_s11, img="sayori base uniform neut blus e1b b1b ma") from _call_showpoem_2
     mc "..."
     show sayori base uniform neut nobl e1a b1a ma
-    mc "Your poem is very good, Sayori."
-    mc "You wrote it on Friday, if I am to believe the third line?"
+    mc "Es muy bueno, Sayori."
+    mc "Lo escribiste un viernes, como dices en la tercera línea, ¿no?"
     show sayori base uniform neut e4b mc b1a lup rup
-    s "Yes!"
-    s "Friday is the best day of the week!"
+    s "¡Pues sí!"
+    s "¡El viernes es el mejor día de la semana!"
     show sayori base uniform neut e1a ma ldown rdown
-    s "At least I can sleep a lot."
-    mc "Uh... okay..."
+    s "Al menos puedo dormir un montón."
+    mc "Emmm... sí..."
     show sayori base uniform neut me b2b lup
-    s "What? You don't agree with me?"
-    mc "Yes, I agree with you!"
-    mc "But sleeping a lot is not really a good thing, but anyway!"
-    mc "I'm not going to give a moral lesson."
+    s "¿Qué? ¿No estás de acuerdo conmigo?"
+    mc "¡Pues sí, estoy de acuerdo contigo!"
+    mc "Dormir mucho no es muy bueno, que digamos. Pero aún así..."
+    mc "No soy quién para dar lecciones morales."
     show sayori base uniform neut mc e4b b1a lup
-    s "Hehehe, don't worry [player], next time I will write the best poem in the whole world!"
-    mc "Okay Sayori, I can't wait to see if you keep your word."
+    s "Jejejeje, no te preocupes, [player], ¡la próxima vez escribiré el mejor poema del mundo entero!"
+    mc "Excelente, Sayori. Estoy impaciente por ver si has mantenido tu palabra en pie."
     show bg club_day1
     hide sayori
     with wiperight_scene
     show yuri base uniform neut ma at t11
-    y "Hello, [player]."
-    mc "Hey, Yuri!"
-    mc "Is everything going well on your end?"
+    y "Hola, [player]."
+    mc "¡Hola, Yuri!"
+    mc "¿Va todo bien?"
     show yuri base uniform neut ma e1b b1b rup lup
-    y "It's okay... I-I'm a little stressed about sharing my writing.."
-    mc "Don't worry Yuri, we're all stressed out!"
+    y "Sí... E- es que me da algo de nervios eso de compartir poemas..."
+    mc "¡No pasa nada, Yuri! Todos estamos con los nervios."
     mc "It's a little barrier that stands in front of each of us, but I'm sure we'll learn to cross it quickly!"
     mc "It's only a matter of time before we become a little more serene about sharing our writing."
     show yuri base uniform neut ma e1a b1a ldown
