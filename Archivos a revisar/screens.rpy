@@ -510,10 +510,10 @@ screen navigation():
             if main_menu:
 
                 if persistent.monika == True:
-                    textbutton _("S 0 L 0 M 0 N I K A") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="J U S T M O N I K A", ok_action=Function(FinishEnterName)))
+                    textbutton _("S 0 L 0 M 0 N I K A") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="S 0 L 0 M 0 N I K A", ok_action=Function(FinishEnterName)))
                     ypos 500
                 else:
-                    textbutton _("Nueva partida") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="Please enter your name, Mister President", ok_action=Function(FinishEnterName)))
+                    textbutton _("Nueva partida") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="Por favor, escribe tu nombre, Míster Presidente.", ok_action=Function(FinishEnterName)))
 
             else:
 
@@ -740,7 +740,7 @@ screen game_menu(title, scroll=None):
     if not main_menu and persistent.playthrough == 2 and not persistent.menu_bg_m and renpy.random.randint(0, 49) == 0:
         on "show" action Show("game_menu_m")
 
-    textbutton _("Return"):
+    textbutton _("Volver"):
         style "return_button"
 
         action Return()
@@ -832,7 +832,7 @@ screen about():
 
             vbox:
                 label "[config.name!t]" xalign .5
-                text _("Version [config.version!t]\n") xalign .5
+                text _("Versión [config.version!t]\n") xalign .5
 
 
                 if gui.about:
@@ -841,9 +841,9 @@ screen about():
 
 
 
-                text "Made with GanstaKingofSA's {a=https://github.com/GanstaKingofSA/DDLCModTemplate2.0}DDLC Mod Template 2.0{/a} – Version 4.0.0.\nCopyright © 2019-" + str(datetime.date.today().year) + " Azariel Del Carmen (GanstaKingofSA). All rights reserved.\n"
-                text "Doki Doki Literature Club. Copyright © 2017 Team Salvato. All rights reserved.\n"
-                text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n[renpy.license!t]")
+                text "Hecho junto a GanstaKingofSA's {a=https://github.com/GanstaKingofSA/DDLCModTemplate2.0}DDLC Mod Template 2.0{/a} – Version 4.0.0.\nCopyright © 2019-" + str(datetime.date.today().year) + " Azariel Del Carmen (GanstaKingofSA). Todos los derechos reservados.\n"
+                text "Doki Doki Literature Club. Copyright © 2017 Team Salvato. Todos los derechos reservados.\n"
+                text _("Hecho con {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n[renpy.license!t]")
 
 
 
@@ -899,10 +899,10 @@ screen load():
 init python:
     def FileActionMod(name, page=None, **kwargs):
         if persistent.playthrough == 1 and not persistent.deleted_saves and renpy.current_screen().screen_name[0] == "load" and FileLoadable(name):
-            return Show(screen="dialog", message="File error: \"characters/sayori.chr\"\n\nThe file is missing or corrupt.",
-                ok_action=Show(screen="dialog", message="The save file is corrupt. Starting a new game.", ok_action=Function(renpy.full_restart, label="start")))
+            return Show(screen="dialog", message="Error en el archivo: \"characters/sayori.chr\"\n\nEl archivo se ha movido de sitio o está corrupto.",
+                ok_action=Show(screen="dialog", message="El archivo de guardado está corrupto. Comenzando una nueva partida.", ok_action=Function(renpy.full_restart, label="start")))
         elif persistent.playthrough == 3 and renpy.current_screen().screen_name[0] == "save":
-            return Show(screen="dialog", message="There's no point in saving anymore.\nDon't worry, I'm not going anywhere.", ok_action=Hide("dialog"))
+            return Show(screen="dialog", message="No hace falta guardar.\nNo te preocupes, no me voy a ninguna parte.", ok_action=Hide("dialog"))
         else:
             return FileAction(name)
 
@@ -1052,22 +1052,22 @@ screen preferences():
 
                     vbox:
                         style_prefix "radio"
-                        label _("Display")
-                        textbutton _("Windowed") action Preference("display", "window")
-                        textbutton _("Fullscreen") action Preference("display", "fullscreen")
+                        label _("Pantalla")
+                        textbutton _("Ventana") action Preference("display", "window")
+                        textbutton _("Pantalla completa") action Preference("display", "fullscreen")
                 if config.developer:
                     vbox:
                         style_prefix "radio"
                         label _("Rollback Side")
-                        textbutton _("Disable") action Preference("rollback side", "disable")
-                        textbutton _("Left") action Preference("rollback side", "left")
-                        textbutton _("Right") action Preference("rollback side", "right")
+                        textbutton _("Deshabilitar") action Preference("rollback side", "disable")
+                        textbutton _("Izquierda") action Preference("rollback side", "left")
+                        textbutton _("Derecha") action Preference("rollback side", "right")
 
                 vbox:
                     style_prefix "check"
-                    label _("Skip")
-                    textbutton _("Unseen Text") action Preference("skip", "toggle")
-                    textbutton _("After Choices") action Preference("after choices", "toggle")
+                    label _("Saltar diálogos")
+                    textbutton _("Texto no leído") action Preference("skip", "toggle")
+                    textbutton _("Tras decisiones") action Preference("after choices", "toggle")
 
 
 
@@ -1101,12 +1101,12 @@ screen preferences():
 
                 vbox:
 
-                    label _("Text Speed")
+                    label _("Velocidad del texto")
 
 
                     bar value FieldValue(_preferences, "text_cps", range=180, max_is_zero=False, style="slider", offset=20)
 
-                    label _("Auto-Forward Time")
+                    label _("Velocidad modo auto")
 
                     bar value Preference("auto-forward time")
 
@@ -1115,35 +1115,35 @@ screen preferences():
                         xoffset 15
 
                     if config.has_music:
-                        label _("Music Volume")
+                        label _("Volumen música")
 
                         hbox:
                             bar value Preference("music volume")
 
                     if config.has_sound:
 
-                        label _("Sound Volume")
+                        label _("Volumen sonido")
 
                         hbox:
                             bar value Preference("sound volume")
 
                             if config.sample_sound:
-                                textbutton _("Test") action Play("sound", config.sample_sound)
+                                textbutton _("Prueba") action Play("sound", config.sample_sound)
 
 
                     if config.has_voice:
-                        label _("Voice Volume")
+                        label _("Volumen voces")
 
                         hbox:
                             bar value Preference("voice volume")
 
                             if config.sample_voice:
-                                textbutton _("Test") action Play("voice", config.sample_voice)
+                                textbutton _("Prueba") action Play("voice", config.sample_voice)
 
                     if config.has_music or config.has_sound or config.has_voice:
                         null height gui.pref_spacing
 
-                        textbutton _("Mute All"):
+                        textbutton _("Silenciar todo"):
                             action Preference("all mute", "toggle")
                             style "mute_all_button"
 
@@ -1153,7 +1153,7 @@ screen preferences():
                     if extra_settings:
                         xoffset 15
                     vbox:
-                        label _("Language")
+                        label _("Idioma")
 
                         hbox:
                             viewport:
@@ -1288,7 +1288,7 @@ screen history():
                 text what:
                     substitute False
         if not _history_list:
-            label _("The dialogue history is empty.")
+            label _("El historial de diálogos está vacío.")
 
 python early:
     import renpy.text.textsupport as textsupport
@@ -1639,7 +1639,7 @@ screen confirm(message, yes_action, no_action):
 
 
 
-            textbutton _("Yes") action yes_action
+            textbutton _("Sí") action yes_action
             textbutton _("No") action no_action
 
 
@@ -1693,7 +1693,7 @@ screen skip_indicator():
         has hbox
         spacing 6
 
-        text _("Skipping")
+        text _("Saltando")
 
         text "▸" at delayed_blink(0.0, 1.0) style "skip_triangle"
         text "▸" at delayed_blink(0.2, 1.0) style "skip_triangle"
