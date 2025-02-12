@@ -92,7 +92,7 @@ label ch2_main:
     mc "Creí que habría más gente."
     "..."
     "Un minuto transcurre mientras que los sonidos de la naturaleza me atrapan."
-    "EN la distancia, alcanzo a oír pisadas fuertes viniendo de la entrada, mientras la puerta se mantiene cerrada."
+    "En la distancia, alcanzo a oír pisadas fuertes viniendo de la entrada, mientras la puerta se mantiene cerrada."
     "Las pisadas se hacen más notorias y más fuertes a medida que la persona se acerca a la puerta."
     "La puerta se abre y alcanzo a ver..."
     "... ¿a Sayori?"
