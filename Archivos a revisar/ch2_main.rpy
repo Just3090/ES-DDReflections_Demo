@@ -674,7 +674,7 @@ label ch2_main:
     show sayori base uniform neut mc lup rup e4b
     show yuri shy uniform e2 b2
     show natsuki cross uniform blaw md e1b b1f
-    "Sayori y Monika asienten ambas con energía mientras que Natsuki y Yuri lo hacen avergonzadas."
+    "Sayori y Monika asienten ambas con energía, mientras que Natsuki y Yuri lo hacen avergonzadas."
     mc "¡Genial! Entonces... ¡es hora de compartir poemas!"
     hide monika
     hide sayori
