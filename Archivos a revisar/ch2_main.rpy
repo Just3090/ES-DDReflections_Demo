@@ -541,7 +541,7 @@ label ch2_main:
     m "Pero, ¿sabes... que no puedes juzgar un libro por su portada?"
     show monika base uniform neut ma b1b lpoint
     m "En realidad, siempre he tenido problemas cuando se trata de gestionar a los miembros. Admito que no es un punto fuerte por mi parte."
-    mc "ANda... entonces estamos en el mismo nivel..."
+    mc "Anda... entonces estamos en el mismo nivel..."
     show monika base uniform neut ma b1b ldown
     m "Qué va, [player]. Parece que te las apañas muy bien, incluso mejor que yo."
     show monika base uniform neut ma e1a b1a
