@@ -10,9 +10,9 @@
 init python:
 
     splash_message_default = [
-        "Welcome, Mister President.\n",
-        "Big thanks to u/GanstaKingofSA for creating Mod Template.\n",
-        "Okay everyone~!\n"
+        "Bienvenido, Señor Presidente.\n",
+        "Mil gracias a u/GanstaKingofSA por crear la plantilla del mod.\n",
+        "¡Vale, compis~!\n"
     ]
 
 
@@ -391,15 +391,15 @@ label splashscreen:
         scene black
 
         menu:
-            "A previous save file has been found. Would you like to delete your save data and start over?"
-            "Yes, delete my existing data.":
-                "Deleting save data...{nw}"
+            "Se ha encontrado un archivo de guardado existente. ¿Te gustaría eliminarlo y empezar de nuevo?"
+            "Sí, borrar mis datos de guardado.":
+                "Borrando datos de guardado...{nw}"
                 python:
                     delete_all_saves()
                     renpy.loadsave.location.unlink_persistent()
                     renpy.persistent.should_save_persistent = False
                     renpy.utter_restart()
-            "No, continue where I left off.":
+            "No, continuar desde donde lo dejé.":
                 $ restore_relevant_characters()
 
     if not persistent.lockdown_warning:
@@ -438,23 +438,23 @@ label splashscreen:
         scene tos
         with Dissolve(1.0)
         pause 1.0
-        "[config.name] is a Doki Doki Literature Club fan mod that is not affiliated in anyway with Team Salvato."
-        "It is designed to be played only after the official game has been completed, and contains spoilers for the official game."
-        "Game files for Doki Doki Literature Club are required to play this mod and can be downloaded for free at: https://ddlc.moe or on Steam."
+        "[config.name] es un fan mod de Doki Doki Literature Club que no está afiliado con Team Salvato."
+        "Se ha diseñado con el propósito de ser jugado después de haber completado el juego original, por lo que contiene destripes del mismo."
+        "Los archivos de DDLC necesarios para jugar se pueden encontrar (de forma gratuita) en https://ddlc.moe o en Steam."
         menu:
-            "By playing [config.name] you agree that you have completed Doki Doki Literature Club and accept any spoilers contained within."
-            "I agree.":
+            "Jugando [config.name] aceptas que has finalizado Doki Doki Literature Club y consideras cualquier destripe que pueda contener."
+            "Acepto.":
                 scene tos2
                 with Dissolve (1.5)
                 pause 1.0
                 $ persistent.seen_monika = True
                 $ persistent.first_run = True
                 pass
-            "Just Monika." if persistent.monika == False:
+            "Solo Monika." if persistent.monika == False:
                 $ persistent.monika = True
                 $ persistent.secret_unlocked = False
                 $ persistent.first_run = True
-                call screen dialog(message="Just Monika.", ok_action=Return())
+                call screen dialog(message="Solo Monika.", ok_action=Return())
                 menu:
                     "M":
                         pass
@@ -483,17 +483,17 @@ label splashscreen:
             scene tos
             with Dissolve(1.0)
             pause 1.0
-            "[config.name] is a Doki Doki Literature Club fan mod that is not affiliated in anyway with Team Salvato."
-            "It is designed to be played only after the official game has been completed, and contains spoilers for the official game."
-            "Game files for Doki Doki Literature Club are required to{nw}{done} play this mod and can be downloaded for free at: https://ddlc.moe or on Steam."
+            "[config.name] es un fan mod de Doki Doki Literature Club que no está afiliado con Team Salvato."
+            "Se ha diseñado con el propósito de ser jugado después de haber completado el juego original, por lo que contiene destripes del mismo."
+            "Los archivos de DDLC necesarios para jugar{nw}{done} se pueden encontrar (de forma gratuita) en https://ddlc.moe o en Steam."
             $ style.say_dialogue = style.normal
             show noise zorder 3 at noisefade:
                 linear 2 alpha 1
-            "{cps=*2}Game files for Doki Doki Literature Club are required too play{/cps}{nw}"
-            "{cps=*2}Game files for Doki Doki Literature Club are required to{/cps}{nw}"
+            "{cps=*2}Los archivos de DDLC son necesarios para jugar{/cps}{nw}"
+            "{cps=*2}Los archivos de DDLC son necesarios para{/cps}{nw}"
             $ style.say_dialogue = style.edited
-            "{cps=*5}Game files for Doki Doki Literature Club are required too p{/cps}{nw}"
-            "{cps=*5}Game files for Doki Doki Literature Club are required too JUST MONIKA{/cps}{nw}"
+            "{cps=*5}Los archivos de DDLC son necesarios para j{/cps}{nw}"
+            "{cps=*5}Los archivos de DDLC son necesarios y también SOLO MONIKA{/cps}{nw}"
             play sound "<to 1.5>sfx/interference.ogg"
             show tos4 as effect:
                 yoffset 720
@@ -508,7 +508,7 @@ label splashscreen:
             pause 3
             scene tos
             menu:
-                "I agree.":
+                "Acepto.":
                     scene tos2
                     with Dissolve (1.5)
                     pause 1.0
@@ -652,8 +652,8 @@ label splashscreen:
     $ persistent.ghost_menu = False
     $ splash_message = splash_message_default
     if persistent.monika == True:
-        $ config.version = "Just Monika"
-        $ config.name = "J U S T M O N I K A"
+        $ config.version = "Solo Monika"
+        $ config.name = "S O L O M O N I K A"
         $ persistent.ghost_menu = False
         $ splash_message = splash_message_default
         play music t1
@@ -667,7 +667,7 @@ label splashscreen:
             track = "<from " + str(startpos) + " to " + str(currentpos) + ">mod_assets/bgm/menu.mp3"
             renpy.music.play(track, loop=True)
         show intro_glitch
-        $ config.window_title = _("Just Monika")
+        $ config.window_title = _("Solo Monika")
         $ pause (3)
         show screen tear(8, offtimeMult=2, ontimeMult=10)
         $ pause (1)
@@ -675,13 +675,13 @@ label splashscreen:
         hide intro_glitch
         stop music
         scene black
-        show splash_warning "{color=#08580e}J 3 S T M 0 / 3 K A.{/color}" with Dissolve(0.5, alpha=True)
+        show splash_warning "{color=#08580e}S 0 L O M 0 N 1 K A.{/color}" with Dissolve(0.5, alpha=True)
         $ pause (1.5)
         hide splash_warning with Dissolve(0.5, alpha=True)
-        $ splash_message = "{color=#08580e}T̸h̸i̸s̶ ̷g̴a̷m̶e̸ ̶i̸s̷ ̴a̴n̵ ̸u̵n̵o̴f̶f̵i̵c̸i̴a̵l̸ ̷f̶a̵n̸ ̴g̸a̶m̸e̴ ̴t̸h̵a̷t̶ ̴i̶s̷ ̷u̴n̸a̷f̶f̶i̸l̴i̴a̸t̶e̵d̷ ̴w̸i̶t̶h̷ ̸T̷e̷a̷m̷ ̸S̵a̴l̸v̸a̷t̶o̵.̵.̵.̶\n{/color}"
+        $ splash_message = "{color=#08580e}E̸s̴t̸e̷ ̵j̷u̵e̸g̸o̴ ̸e̶s̷ ̸u̴n̷ ̴f̷a̸n̵g̸a̷m̶e̸ ̴n̶o̸ ̷o̴f̸i̸c̷i̷a̴l̶ ̴q̵u̶e̸ ̵n̶o̴ ̵e̷s̶t̴á̸ ̸a̷f̶i̶l̴i̵a̴d̴o̵ ̶c̸o̵n̸ ̸T̶e̴a̵m̶ ̷S̸a̸l̴v̶a̸t̶o.̵.̵.̶\n{/color}"
         show splash_warning "[splash_message]" with Dissolve(0.5, alpha=True)
         $ pause(1.5)
-        $ splash_message = "{color=#08580e}Please, don't ÁÂÃÄÅÆÇÈÉÊ«¬®¯°±²³´µ¶·¸¹º{/color}"
+        $ splash_message = "{color=#08580e}Por favor, no ÁÂÃÄÅÆÇÈÉÊ«¬®¯°±²³´µ¶·¸¹º{/color}"
         show splash_warning "[splash_message]" with Dissolve(0.5, alpha=True)
         $ pause (2.5)
         hide splash_warning with Dissolve(0.5, alpha=True)
@@ -696,10 +696,10 @@ label splashscreen:
         show splash_warning "[splash_message2]" with Dissolve(0.5, alpha=True)
         $ pause (1.5)
         hide splash_warning
-        $ splash_message = "This game is an unofficial fan game that is unaffiliated with Team Salvato...\n"
+        $ splash_message = "Este juego es un producto no oficial que no está afiliado a Team Salvato...\n"
         show splash_warning "[splash_message]" with Dissolve(0.5, alpha=True)
         $ pause(1.5)
-        $ splash_message = "This game is an unofficial fan game that is unaffiliated with Team Salvato...\nPlease, support them."
+        $ splash_message = "Este juego es un producto no oficial que no está afiliado a Team Salvato...\nPor favor, dadles cariño."
         show splash_warning "[splash_message]" with Dissolve(0.5, alpha=True)
         $ pause (1.10)
         hide splash_warning with Dissolve(0.5, alpha=True)
@@ -780,19 +780,19 @@ label after_load:
     if anticheat != persistent.anticheat:
         stop music
         scene black
-        "The save file could not be loaded."
-        "Are you trying to cheat?"
+        "No se puede cargar el archivo de guardado."
+        "Oye, ¿tratas de hacer trampas?"
         $ m_name = "Monika"
         show monika 1 at t11
         if persistent.playername == "":
-            m "You're so funny."
+            m "Qué gracioso eres."
         else:
-            m "You're so funny, [persistent.playername]."
+            m "Eres muy divertido, [persistent.playername]."
         $ renpy.utter_restart()
     else:
         if persistent.playthrough == 0 and not persistent.first_load and not config.developer:
             $ persistent.first_load = True
-            call screen dialog("Hint: You can use the \"Skip\" button to\nfast-forward through text you've already read.", ok_action=Return())
+            call screen dialog("Un consejo: Puedes usar el botón de \"Saltar\" para \nadelantar los diálogos que ya has leído.", ok_action=Return())
     return
 
 
