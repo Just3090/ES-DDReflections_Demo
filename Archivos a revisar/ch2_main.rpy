@@ -636,7 +636,7 @@ label ch2_main:
     "Yuri me da el libro, mirando ligeramente a otro lado."
     "Cojo el libro con ambas manos y le devuelvo una sonrisa de confianza."
     mc "¡Gracias, Yuri! Me encargaré del libro tan pronto como pueda, no dudaré en empezar a leerlo."
-    mc "Estoy segura de que te va a gustar."
+    mc "Estoy seguro de que me encantará."
     show yuri base uniform happ lup rup mg e4a b2b at s11
     y "Uffff..."
     show yuri base uniform happ lup rup ma e1a b1c at t11
