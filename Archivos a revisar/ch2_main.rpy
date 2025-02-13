@@ -757,7 +757,7 @@ label ch2_main:
     show monika base uniform me rhip
     m "¿Ya has empezado a plantearlo?"
     mc "Claro."
-    mc "Hablaré contigo sobre ese mismo tema después de que todos hayamos visto nuestros poemas."
+    mc "Hablaré contigo sobre ello después de que todos hayamos visto nuestros poemas."
     show monika base uniform ma e4b rdown
     m "¡Vale, [player]!"
     mc "Gracias por enseñarme tu poema, Monika."
@@ -771,7 +771,7 @@ label ch2_main:
     mc "¡Hola, Sayori!"
     show sayori base uniform neut mb lup
     s "¡Ey, [player]!"
-    mc "¿Cómo te va eso de enseñar tu poema?"
+    mc "¿Cómo va eso de enseñar tu poema?"
     show sayori base uniform neut ma lup rup e4b
     s "¡Es súper divertido!"
     show sayori base uniform neut e2a mh ldown rdown
@@ -786,10 +786,10 @@ label ch2_main:
     s "Ja ja, bueno..."
     show sayori base uniform neut nobl e1a b1a ma ldown at t11
     s "Tienes razón, [player]."
-    mc "Perdona, no quería sonar tan sumamente profundo..."
-    mc "¿Te importaría intercambiar nuestros poemas?"
+    mc "Perdona, no quería sonar muy profundo..."
+    mc "¿Te importaría si intercambiamos poemas?"
     show sayori base uniform neut e1a mb
-    s "¡En absoluto!"
+    s "¡Claro que no!"
     "Le doy mi poema a Sayori."
     show sayori base uniform neut e2a mh b2a lup
     "..."
@@ -803,10 +803,10 @@ label ch2_main:
     show sayori base uniform neut e1a mb rdown ldown
     s "¡Pues será por eso!"
     show sayori base uniform neut e1a mb rup
-    s "Hay veces en las que, haciendo las cosas sin pensar, acaban saliendo maravillas."
+    s "Hay veces en las que, haciendo las cosas sin pensar, acaban saliendo verdaderas maravillas."
     show sayori base uniform neut e4b mc lup rup at h11
     s "¡Ajajaja!"
-    "No sé si iba en serio o es la típica que habla sin pensar..."
+    "No sé si iba en serio... o es que es la típica que habla sin pensar..."
     mc "Ehh... gracias, Sayori."
     mc "Consideraré eso como un cumplido."
     mc "¿Quieres darme el tuyo ahora?"
@@ -841,8 +841,8 @@ label ch2_main:
     show yuri base uniform neut ma e1b b1b rup lup
     y "Sí... E- es que me da algo de nervios eso de compartir poemas..."
     mc "¡No pasa nada, Yuri! Todos estamos con los nervios."
-    mc "It's a little barrier that stands in front of each of us, but I'm sure we'll learn to cross it quickly!"
-    mc "It's only a matter of time before we become a little more serene about sharing our writing."
+    mc "Es una pequeña barrera que se interpone ante cada uno de nosotros, ¡pero estoy seguro de que aprenderemos a cruzarla con efectividad!"
+    mc "Es cuestión de tiempo coger confianza y adoptar más tranquilidad a la hora de compartir nuestros poemas con las demás."
     show yuri base uniform neut ma e1a b1a ldown
     y "Yes, probably."
     mc "How would you like to start sharing our poems?"
