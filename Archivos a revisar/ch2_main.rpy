@@ -437,7 +437,7 @@ label ch2_main:
     "En cuanto a Monika y Sayori, están teniendo una conversación que parece bastante animada."
     "No puedo evitar notar que Monika me lanza una mirada de reojo."
     "Decido lanzarle una sonrisa, y ella hace lo mismo al momento de yo hacerlo."
-    mc "-suspiro-.. Volvamos a lo que estaba haciendo."
+    mc "-suspiro-... Volvamos a lo que estaba haciendo."
     "Me siento de nuevo en la silla y retomo la escritura."
     mc "Materiales necesarios..."
     "Coloco el bolígrafo en la siguiente línea, pero no muevo la mano."
