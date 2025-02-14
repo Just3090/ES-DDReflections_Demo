@@ -547,17 +547,7 @@ screen navigation():
 
 
 
-
-            if renpy.variant("pc"):
-
-
-
-
-                if persistent.monika == True:
-                    pass
-
-                else:
-                    textbutton _("Cerrar") action Quit(confirm=not main_menu)
+            textbutton _("Salir del juego") action Quit(confirm=not main_menu)
         else:
             timer 1.75 action Start("autoload_yurikill")
 
