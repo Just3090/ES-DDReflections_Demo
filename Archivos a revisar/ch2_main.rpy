@@ -842,53 +842,53 @@ label ch2_main:
     y "Sí... E- es que me da algo de nervios eso de compartir poemas..."
     mc "¡No pasa nada, Yuri! Todos estamos con los nervios."
     mc "Es una pequeña barrera que se interpone ante cada uno de nosotros, ¡pero estoy seguro de que aprenderemos a cruzarla con efectividad!"
-    mc "Es cuestión de tiempo coger confianza y adoptar más tranquilidad a la hora de compartir nuestros poemas con las demás."
+    mc "Es cuestión de tiempo coger confianza y adoptar más tranquilidad a la hora de compartir poemas con las demás."
     show yuri base uniform neut ma e1a b1a ldown
-    y "Yes, probably."
-    mc "How would you like to start sharing our poems?"
+    y "Sí, lo más probable es que acabe siendo así."
+    mc "¿Qué tal si empezamos intercambiando los nuestros?"
     show yuri base uniform neut ma e4b b1a rup lup
-    y "I'd like to!"
-    "Yuri smiles at me happily while she tend her poem."
-    "I catch it and start to read it."
+    y "¡Sí, por favor!"
+    "Yuri me sonríe con felicidad mientras me ofrece su poema."
+    "Lo cojo y comienzo a leerlo."
     call showpoem (poem_y1) from _call_showpoem_3
     "..."
     show yuri base uniform neut e1a ldown rdown
-    "I like this poem."
+    "Me gusta, Yuri."
     show yuri base uniform neut mh e1a b1b rup lup
-    "Monika was right that Yuri would be a good advantage for the club."
+    "Monika estaba en lo cierto cuando dijo que Yuri sería un gran activo para el club."
     show yuri base uniform neut mh e1a b2c rup lup
-    y "... I-I'm sorry for having such a terrible handwriting!"
-    mc "Eh?"
-    mc "No, no... your handwriting is really beautiful, Yuri."
+    y "... Y- yo... ¡pido disculpas por tener una letra tan sumamente horrible!"
+    mc "¿Qué?"
+    mc "No, no... pero si tu letra es muy bonita, Yuri."
     show yuri base uniform neut mh e1b b2c rup lup
-    y "But it took you a long time to read..."
-    mc "Oh, you think so?"
+    y "Pero es que te has pegado un buen rato leyéndolo..."
+    mc "¿Sí? ¿Eso crees?"
     show yuri base uniform neut mg e1b b1b rup lup at s11
-    "Yuri nods her head shyly."
-    mc "Sorry... it's just that..."
-    mc "I'm not really used to cursive writing."
-    mc "But otherwise... your poem is very impressive, I really like it."
+    "Yuri asiente, avergonzada."
+    mc "Perdona, es que..."
+    mc "No me acostumbro a la letra cursiva."
+    mc "Pero, dejando eso de lado... tu poema ha sido impresionante, me gusta."
     show yuri base uniform neut ma e1a b2a rup ldown at t11
-    y "Ah.. thank you, I usually write poems that are a little longer.."
+    y "Ah.. gracias, normalmente escribo poemas algo más largos..."
     show yuri base uniform neut mb e1a b1a rup ldown
-    y "Since this is the first time I'm sharing my writing, I wanted it to be something a little softer than my usual."
+    y "Como es la primera vez que intercambio un poema con alguien, quería que fuese una lectura más suave."
     show yuri base uniform neut mb e1b b1a rup ldown
-    y "Something easier to digest, actually."
-    mc "Ah okay, Yuri, it's very grateful of you to think of others."
+    y "Algo fácil de digerir."
+    mc "Anda, Yuri, es muy generoso de tu parte haber pensado en los demás."
     show yuri shy uniform b1 e1 m1
-    mc "But it shouldn't be a barrier either, I mean... don't limit yourself compared to others!"
+    mc "Pero no te pongas barreras por delante. Quiero decir, ¡no limites tus acciones comparándote con las demás!"
     show yuri shy uniform b1 e2 m1
-    mc "I'm perfectly sure that you have the ability to write beautiful things, Yuri."
-    mc "And your poem right now proves it very well!"
+    mc "Estoy muy seguro de que tienes la habilidad para escribir cosas maravillosas, Yuri."
+    mc "¡Y tu poema lo demuestra a la perfección!"
     show yuri shy uniform b1 e1 m2
-    mc "You can even teach others to write better poems!"
+    mc "¡Incluso podrías enseñarle a la gente cómo escribir mejores poemas!"
     y "..."
     show yuri shy uniform b1 e2 m1
-    y "I-I have a little trouble talking to people..."
-    mc "I'm sure you'll be able to get over that little wall one day, Yuri."
-    mc "Thank you for sharing your poem."
+    y "T- tengo algunas dificultades hablando con las personas..."
+    mc "Estoy seguro de que podrás lidiar con esa pequeña barrera algún día, Yuri."
+    mc "Gracias por compartirlo conmigo."
     show yuri shy uniform e2 b1 m1
-    "I give Yuri back her poem with one hand, holding my poem with my other one."
+    "Le devuelvo a Yuri su poema con una mano, mientras con la otra mantengo el mío."
     mc "Here's my poem, tell me what you think!"
     show yuri shy uniform e2 b1 m1
     "Yuri grabs my poem and starts reading it."
