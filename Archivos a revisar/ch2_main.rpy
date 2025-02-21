@@ -888,45 +888,45 @@ label ch2_main:
     mc "Estoy seguro de que podrás lidiar con esa pequeña barrera algún día, Yuri."
     mc "Gracias por compartirlo conmigo."
     show yuri shy uniform e2 b1 m1
-    "Le devuelvo a Yuri su poema con una mano, mientras con la otra mantengo el mío."
-    mc "Here's my poem, tell me what you think!"
+    "Le devuelvo a Yuri su poema con una mano, mientras con la otra le doy el mío."
+    mc "Toma, ¡dime qué tal!"
     show yuri shy uniform e2 b1 m1
-    "Yuri grabs my poem and starts reading it."
+    "Yuri sostiene mi poema y comienza su lectura."
     show yuri base uniform neut e1b b1d mf rup
     "..."
     show yuri base uniform neut e1b b1a ma rup lup
     "....."
     show yuri base uniform neut e1b b1d mf rup ldown
     "......."
-    "A minute passes in silence."
-    "Yuri's eyes are still fixed on my poem, she shows an intense expression on her face."
-    mc "Uh.. Yuri?"
+    "Pasa un minuto entero en total silencio."
+    "Los ojos de Yuri siguen fijos en mi poema. Su cara muestra una expresión muy intensa."
+    mc "Eh... ¿Yuri?"
     show yuri base uniform neut e2a b1b mk b1b rdown
-    y "A-Ah! I haven't spoken yet, have I?"
-    mc "Well... yes."
-    mc "My handwriting is bad?"
+    y "¡A-AY! Aún no he dicho nada, ¿verdad?"
+    mc "Emmm... sí."
+    mc "¿Tengo mala letra?"
     show yuri base uniform neut e2a ml b1b rup lup blaw
-    y "W-What? No!"
+    y "¿Qu- qué? ¡No!"
     show yuri base uniform neut e2b mk rup ldown
-    y "Did I just raise my voice?"
+    y "¿He alzado la voz?"
     show yuri shy uniform n5 m2
-    y "Uuuuh... I'm so sorry..."
+    y "Uuuu... lo siento muchísimo..."
     show yuri shy uniform nobl m2 e2 b1
-    mc "Don't worry Yuri, I'm the one who should be sorry, I guess you were still reading my poem.."
+    mc "Tranquila, Yuri, soy yo el que debe disculparse. No imaginaba que siguieses leyendo mi poema..."
     show yuri base uniform e2b b1b awkw mb rup
-    y "Oh no... don't apologize..."
+    y "Ah, no... no te disculpes..."
     show yuri base uniform e4a b1a mf nobl rup lup at s11
-    "Yuri takes a deep breath."
+    "Yuri respira hondo."
     show yuri base uniform e1a ma rdown ldown at t11
-    y "Your poem is very... intriguing."
+    y "Tu poema es muy... intrigante."
     show yuri base uniform neut e1a ma rdown
-    y "It is very metaphorical and really well crafted."
-    mc "Thank you Yuri, it's nice to hear that from someone who is used to reading every day."
+    y "Está bien montado, y es muy metafórico."
+    mc "Gracias, Yuri, es genial escuchar eso de alguien que está acostumbrada a leer prácticamente cada día."
     show yuri base uniform neut e1b ma b1b blaw
-    y "I-it's nothing, really..."
+    y "N- no es nada, en serio..."
     show yuri base uniform neut e1a ma b1a nobl
-    y "It implies that you are used to writing poems often?"
-    mc "Actually... I haven't written poems in a while."
+    y "¿Quiere eso decir que estás acostumbrado a escribir poemas con frecuencia?"
+    mc "En realidad... no he escrito poemas últimamente."
     show yuri base uniform neut e1a mf b1a nobl
     y "Oh?"
     show yuri base uniform neut e1b mf b1a nobl rup
