@@ -926,42 +926,42 @@ label ch2_main:
     y "N- no es nada, en serio..."
     show yuri base uniform neut e1a ma b1a nobl
     y "¿Quiere eso decir que estás acostumbrado a escribir poemas con frecuencia?"
-    mc "En realidad... no he escrito poemas últimamente."
+    mc "En realidad... llevo un tiempo sin escribir un poema."
     show yuri base uniform neut e1a mf b1a nobl
-    y "Oh?"
+    y "¿Qué?"
     show yuri base uniform neut e1b mf b1a nobl rup
-    "Yuri traces her finger, along the sheet."
+    "Yuri pasa su dedo por el folio."
     show yuri base uniform neut e1b mf b1a nobl rdown
     y "..."
     show yuri base uniform neut e2b mb b1b awkw
-    y "Y-Yes..!"
+    y "¡Y- ya, es que..!"
     show yuri base uniform neut e1a ma b1a nobl
-    y "Indeed... I noticed some small mistakes, but nothing alarming."
-    mc "Ah.. thank you, and what are these small mistakes you speak of?"
+    y "Ejem, a ver... me he dado cuenta de que habían algunos errores, pero nada alarmante."
+    mc "Ah... gracias, y, ¿cuáles son esos errores de los que hablabas?"
     show yuri base uniform neut e2b mk b1b awkw at s11
-    y "A-Ah, uh.."
-    "Yuri sinks into her chair."
+    y "A-Ah, emmm..."
+    "Yuri se hunde en su silla."
     show yuri shy uniform m1 e2 b1 nobl at t11
-    y "I.. You'll take it the wrong way.."
-    mc "Ahahaha, why would I take it the wrong way, Yuri?"
+    y "Yo... a ver, lo vas a entender de la manera incorrecta..."
+    mc "Ajajajaja, ¿por qué tendría que entenderlo de otra manera que no sea la que quieres darme a entender, Yuri?"
     show yuri shy uniform m1 e1 b1
-    mc "You're very good at judging our scriptures!"
+    mc "¡Eres muy buena criticando nuestra manera de escribir!"
     show yuri shy uniform m2 e2 b1
-    y "Judging...?"
+    y "¿Criticando...?"
     show yuri base uniform neut e2b b1b mk rup blaw
-    y "I will never judge your poems...! I can't..."
-    mc "Ah... sorry, I actually meant..."
-    mc "You are the right person to make small suggestions to improve our poems."
+    y "¡Nunca criticaría vuestros poemas...! No puedo..."
+    mc "Ah... perdona, quería decir que..."
+    mc "... eres la persona a la que hay que acudir para poder mejorar nuestros poemas."
     show yuri base uniform e2a mk rup lup blaw
-    y "Uh... [player]! You're really exaggerating here..."
+    y "Eh... [player], estás siendo un poco exagerado..."
     show yuri base uniform neut e4a mf nobl rdown ldown nobl
-    "Yuri take a breath of air."
+    "Yuri respira hondo."
     show yuri base uniform neut e1a b1a ma
-    y "... But otherwise..."
+    y "... Aún así..."
     show yuri base uniform neut e1b b1b mb
-    y "It's just that there are certain writing habits that are very unique to each writer."
+    y "Es que hay ciertos hábitos de escritura que desarrolla cada escritor de forma exclusiva."
     show yuri base uniform neut e1b mb rup
-    mc "I agree with you Yuri, I actually talked to Sayori about it while we were exchanging poems."
+    mc "Y concuerdo contigo, Yuri. Hace nada hablé con Sayori sobre esto mismo cuando estuvimos intercambiando nuestros poemas."
     mc "Do you think it's a problem?"
     show yuri base uniform neut e1a b1a mf rup
     y "Not really... it just depends on how other people react.."
