@@ -1037,49 +1037,49 @@ label ch2_main:
     mc "Entonces, déjame que lo entienda... ¿solo porque he dicho que 'me gusta tu poema', ya piensas que soy un mentiroso y no te estoy tomando ni a 'ti' ni a 'tu poema' en serio...?"
     show natsuki cross uniform neut e1b b1f md blaw
     n "Hum."
-    mc "Natsuki... what you wrote proves to me that you did your poem seriously."
+    mc "Natsuki... lo que has escrito demuestra que te tomaste el poema en serio."
     show natsuki base uniform neut mf e1a b1a nobl
-    "Natsuki tries to say something but her mouth stays open without a word coming out."
+    "Natsuki trata de decir algo, pero se queda boquiabierta sin decir una sola palabra."
     show natsuki cross uniform neut md e1b b1a
-    mc "I don't see why I shouldn't take you seriously."
+    mc "No entiendo por qué no debería tomarte en serio."
     show natsuki cross uniform neut mg e1b b1d awkw
-    n "Most people I know in this school are all like that. They never take me seriously."
-    mc "Well... listen Natsuki, in this club, you'll be taken seriously."
-    "What a nice answer, [player]..."
+    n "Casi todos los que conozco en este antro son así. Nunca me toman en serio."
+    mc "A ver... escucha, Natsuki, en este club, serás tomada completamente en serio."
+    "Qué respuesta más elaborada, [player]..."
     show natsuki base uniform neut mg e1a b1a nobl rhip
-    n "Thanks I guess... in the end you're not such a bad president."
-    mc "Because I was until now...?"
+    n "Gracias, supongo... que al final no eres mal presidente."
+    mc "Ah, bueno, ¿lo era hasta hace un momento...?"
     show natsuki cross uniform neut mg e1b b1a
-    "Natsuki doesn't answer me."
-    "So I decide to give her back her poem."
-    mc "Will you read my poem now?"
+    "Natsuki no me responde..."
+    "... así que decido devolverle el poema."
+    mc "¿Vas a leer mi poema?"
     show natsuki base uniform neut ma e1a b1a lhip rhip
-    n "Sure."
-    "I hand her my poem."
-    "It takes very little time before she gives it back to me."
-    mc "Already?"
+    n "Sí."
+    "Le doy mi poema."
+    "Pasa un ratito antes de que Natsuki me lo devuelva."
+    mc "¿Ya lo has leído?"
     show natsuki cross uniform neut mg e1a b1a
-    n "Well listen... I have nothing to say."
-    mc "Nothing to say?"
+    n "Escucha... no tengo nada que decirte."
+    mc "¿Nada?"
     show natsuki base uniform neut mh e1a b1f
-    n "What do you want me to say?"
+    n "¿Qué quieres que te diga?"
     show natsuki base uniform neut fs m3 e4 b2 at h11
-    n "Your poem is very good, then!"
+    n "¡Tu poema es muy bueno, joder!"
     $ nref()
     show natsuki cross uniform neut mg e1a b1a
-    n "Even if I didn't really understand what it was about."
-    "... Okay?"
-    mc "Ah.. thank you, I guess."
+    n "Aunque no haya entendido una mierda."
+    "... Vale."
+    mc "Ah... gracias, supongo."
     show natsuki base uniform neut mg e1a b1a
-    n "Yeah, yeah. Here's your poem."
-    "She plasters my poem on my chest which makes me wince slightly in pain."
-    mc "H-Hey... watch out..!"
+    n "Que sí, que sí. Toma tu poema."
+    "Me incrusta el poema en el pecho, lo que hace que retroceda con un poco de dolor."
+    mc "¡O- Oye... cuidado con lo que haces..!"
     show natsuki base uniform neut e4a mc blaw b3b rhip lhip
-    n "Ahaha, what did you think?"
-    n "Just because I'm the smallest one here in this club doesn't mean I'm the weakest!"
-    mc "I never said that.."
+    n "Ajajajaja, ¿qué crees?"
+    n "¡Solo porque sea la más enana, no quiere decir que sea la más enclenque!"
+    mc "No he dicho eso..."
     show natsuki base uniform neut e4b mo b3c rhip ldown nobl
-    n "It's okay, it was a little joke!"
+    n "¡Está bien, que era una bromita, coño!"
     "Natsuki puts on a wide smile."
     "I don't think you can call it a joke, but I'd rather not offend her."
     mc "Yeah... thanks for reading my poem, Natsuki."
