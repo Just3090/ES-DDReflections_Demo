@@ -925,8 +925,8 @@ label ch2_main:
     show yuri base uniform neut e1b ma b1b blaw
     y "N- no es nada, en serio..."
     show yuri base uniform neut e1a ma b1a nobl
-    y "¿Quiere eso decir que estás acostumbrado a escribir poemas con frecuencia?"
-    mc "En realidad... llevo un tiempo sin escribir un poema."
+    y "¿Quiere eso decir que escribes poemas con frecuencia?"
+    mc "Bueno, en realidad... hace tiempo que no escribía uno."
     show yuri base uniform neut e1a mf b1a nobl
     y "¿Qué?"
     show yuri base uniform neut e1b mf b1a nobl rup
@@ -961,82 +961,82 @@ label ch2_main:
     show yuri base uniform neut e1b b1b mb
     y "Es que hay ciertos hábitos de escritura que desarrolla cada escritor de forma exclusiva."
     show yuri base uniform neut e1b mb rup
-    mc "Y concuerdo contigo, Yuri. Hace nada hablé con Sayori sobre esto mismo cuando estuvimos intercambiando nuestros poemas."
-    mc "Do you think it's a problem?"
+    mc "Y concuerdo contigo, Yuri. Hace nada hablé con Sayori acerca de este mismo tema, mientras estábamos intercambiando poemas."
+    mc "¿Crees que eso es un problema?"
     show yuri base uniform neut e1a b1a mf rup
-    y "Not really... it just depends on how other people react.."
+    y "En realidad no... solo que depende de cómo reaccionen los demás..."
     show yuri base uniform neut e1b b1d rup lup
-    y "I mean some people tend to make fun of other people's writing."
+    y "Es decir, hay gente que se dedica a cachondearse de la escritura de otras personas."
     show yuri shy uniform e2 m1 b2
-    y "And I was just a little worried about sharing our own poems..."
-    y "Afraid of being judged for what I write because... people tend to mock other people's work because they don't get the message..."
-    y "And that's what I was a little afraid of this, to be honest.."
+    y "Y no te voy a mentir, estaba un poco preocupada sobre eso de intercambiar poemas y tal..."
+    y "Tenía miedo de ser criticada por lo que escribo, y solo porque... la gente suele burlarse del trabajo de los demás solo por no entender el mensaje..."
+    y "Y es por eso que tenía tanto miedo, para ser honesta..."
     show yuri base uniform neut e4a b1b mf rup
-    y "But in the end my fear was wrong... it went really well with Monika and Sayori, they were very nice.."
+    y "Al final, mi miedo era infundado... porque con Monika y Sayori fue genial, eran muy amables..."
     $ yref()
     show yuri shy uniform e1 m1 b1 at s11
-    y "And you too..."
+    y "Y contigo también..."
     "..."
     show yuri base uniform e2b awkw mb rup b1b at t11
-    y "I'm rambling a bit now, aren't I...?"
-    mc "Listen Yuri, I will not accept members of my club who judge the work of others."
+    y "Ya estoy empezando a divagar, ¿verdad...?"
+    mc "Escúchame, Yuri, no consideraré miembros en mi club que se dediquen a criticar a malas el trabajo de los demás."
     show yuri shy uniform e2 m1 b2
-    mc "The reason I decided to do this activity is so we can get to know everyone's writing better!"
-    "{i}(Even though I actually hadn't really thought about it, it just came to me.){/i}"
+    mc "¡La razón por la cual decidí hacer esta actividad es para que todos los miembros conozcan la escritura de sus compañeros de club!"
+    "{i}(Aunque ni siquiera haya pensado así al crearla, se me ha ocurrido decir eso.){/i}"
     show yuri shy uniform e1 m1 b1
-    mc "I'm very glad that you're getting along with the others, you can sympathize a little more and even be friends with them!"
-    y "Be-be friends... you said?"
-    mc "Yes."
+    mc "¡Me enorgullece que estés soltándote con las demás! ¡Quizás, si sigues simpatizando y estrechando lazos, puedas hacerte amiga de ellas!"
+    y "¿A- ami- amigas...?"
+    mc "Claro."
     show yuri base uniform neut e1b b1b ma rup blus
-    y "That's... that's one thing I would like to..."
+    y "Eso... es algo que me encantaría..."
     show yuri shy uniform e1 m1 b1 n1 at s11
-    y "To be... friends with you all..."
+    y "Ser... amiga de todos los miembros..."
     mc "Ah..."
-    "I think I said a little too much, the discussion might reach a deadline."
-    mc "Thanks for reading my poem Yuri, can you give it back to me?"
+    "Creo que dije de más, esta charla ha llegado a un extremo un tanto frágil."
+    mc "Gracias por leer mi poema, Yuri. ¿Me lo devuelves?"
     show yuri base uniform neut e2b mb b1b rup at t11
-    y "A-Ah yes, sorry.."
-    "I notice that Yuri crumpled my paper a little while she was holding it in her hand."
-    "I'll take it back."
+    y "A-Ah, sí, perdona..."
+    "Noto que Yuri, mientras sostiene mi poema en su mano, lo arruga un poco."
+    "Se lo quito."
     show yuri shy uniform m1 b2 e2
-    y "S-Sorry about your poem... it was the stress."
-    mc "That's okay."
+    y "Pe- perdón por lo de tu poema... fue el estrés de la situación."
+    mc "No pasa nada."
     show bg club_day1
     hide yuri
     with wiperight_scene
     show natsuki base uniform neut b1a md at t11
-    mc "Hey, Natsuki."
+    mc "Hola, Natsuki."
     show natsuki base uniform neut b1a mg
-    n "Hi, [player]."
-    mc "Ready to share your poem?"
+    n "Hola, [player]."
+    mc "¿Lista para enseñarme tu poema?"
     show natsuki cross uniform neut e1b b1a md awkw
-    n "Hmpfff, let's get it over with quickly."
+    n "Hmmmm, acabemos rapidito, espabila."
     show natsuki cross uniform neut e1b b1b md nobl
-    n "You won't like it."
-    mc "But why would you say that?"
-    mc "I haven't even read it yet and you're already making up your mind."
+    n "Aunque no te va a gustar."
+    mc "¿Por?"
+    mc "Ni lo he leído y ya estás diciéndome lo que pueda o no pensar."
     show natsuki base uniform neut fs m3 e4 b2 at h11
-    n "Yes, well, enough!"
-    "Natsuki hands me her poem furiously."
-    mc "Thanks..."
+    n "¡Sí, sí, lo que tú digas!"
+    "Natsuki me da su poema con mucha furia."
+    mc "Gracias, supongo..."
     call showpoem (poem_n1, img="natsuki base uniform rhip lhip e1a b1b mg") from _call_showpoem_4
-    n "See, you don't like it."
-    mc "I like it."
+    n "¿Ves? Lo que dije antes, no te gusta."
+    mc "Pues es todo lo contrario."
     show natsuki cross uniform neut e1a b1d mg
-    n "Please, stop lying."
-    mc "But!"
-    mc "Honestly, I like your poem!"
-    mc "Why are you hinting to yourself that I don't like your poem?"
+    n "Si eres tan amable, deja de mentirme en la cara."
+    mc "¡Oye!"
+    mc "¡Si es que 'me gusta' tu poema, no es mentira!"
+    mc "¿Por qué te estás interiorizando de que 'no' me gusta tu poema?"
     show natsuki base uniform neut fs m3 e4 b2
-    n "Because!"
+    n "¡Pues...!"
     $ nref()
     show natsuki cross uniform e1b b1d mh awkw
-    n "... Because people don't take me seriously."
-    n "The only sentence that comes out of most people is that « It's so cute! », or they just say plain « I like it. » just to please me!"
+    n "... Porque la gente no me toma en serio."
+    n "Lo único que sale de la boca de la gente es « ¡Qué monaaaa! », o simplemente dicen « Me gusta. » sin ningún tipo de sentimiento. ¡Parece que lo hacen para quitarme de en medio!"
     show natsuki cross uniform neut e1a b1a md
-    mc "So just because I said I liked your poem, you think I'm not taking it seriously and that I'm a liar...?"
+    mc "Entonces, déjame que lo entienda... ¿solo porque he dicho que 'me gusta tu poema', ya piensas que soy un mentiroso y no te estoy tomando ni a 'ti' ni a 'tu poema' en serio...?"
     show natsuki cross uniform neut e1b b1f md blaw
-    n "Hmpff."
+    n "Hum."
     mc "Natsuki... what you wrote proves to me that you did your poem seriously."
     show natsuki base uniform neut mf e1a b1a nobl
     "Natsuki tries to say something but her mouth stays open without a word coming out."
