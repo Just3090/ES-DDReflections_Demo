@@ -1079,34 +1079,34 @@ label ch2_main:
     n "¡Solo porque sea la más enana, no quiere decir que sea la más enclenque!"
     mc "No he dicho eso..."
     show natsuki base uniform neut e4b mo b3c rhip ldown nobl
-    n "¡Está bien, que era una bromita, coño!"
+    n "¡Ya está, que era una bromita, coño!"
     "Natsuki puts on a wide smile."
-    "I don't think you can call it a joke, but I'd rather not offend her."
-    mc "Yeah... thanks for reading my poem, Natsuki."
+    "No creo que eso sea 'una bromita', pero preferiría no ofenderla."
+    mc "Sí, ya... gracias por leer mi poema, Natsuki."
     stop music fadeout 2.0
     show bg club_day1
     hide natsuki
     with wiperight_scene
     play music t3
-    mc "Phew.. I think I shared with everyone."
-    mc "It was a little more stressful than I thought it would be."
-    mc "But I think I did okay."
-    "I look around."
-    "Monika just finished sharing her poem with Yuri."
-    "I head towards her."
+    mc "Uffff... creo que ya están todas."
+    mc "Ha sido un poco más estresante de lo que creía."
+    mc "Pero creo que lo he hecho bien."
+    "Echo un vistazo alrededor."
+    "Monika acaba de compartir su poema con Yuri."
+    "Me dirijo hacia ella."
     show monika base uniform neut ma rhip at t11
-    mc "I'm back, Monika!"
-    mc "Do you feel like to chatting a bit about plans for the festival?"
+    mc "¡Estoy de vuelta, Monika!"
+    mc "¿Te apetece hablar un rato sobre los planes que tenemos que hacer para el festival?"
     show monika base uniform mb e4b rhip
-    m "Sure!"
+    m "¡Claro!"
     show monika base uniform ma e1a rhip
-    "Monika and I arrange two desks to stick together."
-    mc "So..."
-    mc "Wait a minute."
+    "Monika y yo unimos dos escritorios."
+    mc "Entonces..."
+    mc "Un minuto."
     hide monika
     with wipeleft
-    "I walk over to where I left my paper with some notes written on it, and turn to Monika who is already settled in her chair."
-    "I sit down too, putting the sheet of paper in the middle on the table so she can get a view."
+    "Vuelvo hacia el lugar en el que dejé mi papel con algunas cosas escritas, y vuelvo con Monika, que está ya sentada en su silla."
+    "Me siento también, poniendo el folio en medio de las mesas, lo que le permite verlo con claridad."
     "I don't know why I'm doing this, but it helps me to have my little landmark. To keep me from getting lost in my threads of thought."
     show monika base uniform ma rhip at l11
     mc "If I could explain to you what I had planned was to make pamphlet with each of our poems written on them."
