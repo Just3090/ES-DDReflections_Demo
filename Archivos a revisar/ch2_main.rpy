@@ -1107,202 +1107,202 @@ label ch2_main:
     with wipeleft
     "Vuelvo hacia el lugar en el que dejé mi papel con algunas cosas escritas, y vuelvo con Monika, que está ya sentada en su silla."
     "Me siento también, poniendo el folio en medio de las mesas, lo que le permite verlo con claridad."
-    "I don't know why I'm doing this, but it helps me to have my little landmark. To keep me from getting lost in my threads of thought."
+    "No sé por qué estoy haciendo esto, pero siento que me ayuda a dejar un pequeño marcapáginas. Ya sabes, para evitar perderme en mis pensamientos."
     show monika base uniform ma rhip at l11
-    mc "If I could explain to you what I had planned was to make pamphlet with each of our poems written on them."
+    mc "Para darte una explicación concisa de lo que tenía pensado, quería hacer folletos impresos con cada uno de nuestros poemas."
     show monika base uniform me rdown
-    m "Mmmh, that sounds pretty good, but have you thought of anything else?"
-    mc "Well, at the moment I haven't really had time to think about it much longer."
+    m "Hmmmmm, eso pinta bien, ¿tienes alguna idea más?"
+    mc "A ver, no he tenido mucho tiempo para pensar en ello."
     show monika base uniform me e4a
-    "Monika thinks for a moment."
+    "Monika se queda pensativa por un momento."
     show monika base uniform mb e1a rhip
-    m "I know!"
-    mc "Mmh?"
+    m "¡Tengo una idea!"
+    mc "¿Sí?"
     show monika base uniform ma e1a lpoint
-    m "How about a performance poem presentation?"
-    mc "You mean reciting in front of a public..?"
+    m "¿Cómo suena hacer un recital de poemas?"
+    mc "¿Te refieres a redactarlos en frente de un público...?"
     show monika base uniform mb e4b ldown rdown
-    m "Yep!"
+    m "¡Síp!"
     show monika base uniform mb e1a rhip
-    m "Each of the five of us would pick a poem we wrote ourselves and recite it in public!"
-    mc "Uuuuuh..."
+    m "¡Cada una escogerá un poema que hayamos escrito anteriormente y lo recitaremos en público!"
+    mc "Uuuuu..."
     show monika base uniform mb e4b lpoint
-    m "But again!"
+    m "¡Aún así!"
     show monika base uniform mb e1a rhip ldown
-    m "The guests, if they wish, can also recite!"
-    "Well, I hadn't really thought about that."
-    "But what will the others think?"
-    mc "Do you think it's a good idea?"
+    m "¡Los invitados, si desean, también podrán participar en el recital!"
+    "La verdad es que... no tengo mucha fé en que alguien del público quiera salir."
+    "¿Qué pensarán las demás chicas?"
+    mc "¿Crees que es una buena idea?"
     show monika base uniform ma e4b ldown rdown
-    m "Totally!"
-    mc "And what will others think?"
-    mc "I mean... It's only been a day since they joined the club."
-    mc "This is going to seem very sudden to them, don't you think?"
+    m "¡Absolutamente!"
+    mc "Y, ¿qué pensarán las demás?"
+    mc "Me refiero... no han pasado ni dos días desde que se unieron al club."
+    mc "Puede que les sea algo repentino, ¿no?"
     show monika base uniform me e1a rhip
-    m "Mmmhh... I hadn't really thought about it."
+    m "Hmmmm... la verdad es que tienes razón, no había pensado en ello."
     show monika base uniform mb e1a rhip lpoint
-    m "But we can try to reassure them."
-    mc "Yeah, you're right."
-    mc "Sometimes I think a little too much for no good reason.."
-    mc "But I trust you Monika, and I think your idea is great."
-    mc "How do we plan to organize all this?"
+    m "Pero podemos intentar llevarlas a nuestro terreno, tranquilizarlas un poco."
+    mc "Ya, es cierto."
+    mc "A veces, me como la cabeza demasiado y sin buenas razones para ello..."
+    mc "Pero confío en ti, Monika, y creo que tu idea es genial."
+    mc "¿Cómo vamos a organizar todo esto?"
     show monika base uniform me e1a ldown
-    m "What do you mean?"
-    mc "Well, for the-{w=0.04}{nw}"
+    m "¿A qué te refieres?"
+    mc "Bueno, para-{w=0.04}{nw}"
     stop music fadeout 2.0
-    n "I hadn't noticed you were so dedicated to trying to impress our president, Yuri."
-    mc "Huh?"
+    n "No me he percatado de que tenías tanta dedicación en darle buenas impresiones a nuestro presi, Yuri."
+    mc "¿Eh?"
     show monika at lhide
     hide monika
     pause 0.1
     show yuri base uniform neut e4a b1a mf rup blus at r21
     show natsuki base uniform neut e4a b3a rhip lhip blaw mc at r22
-    "I avert my eyes to Natsuki and Yuri. Natsuki is standing while Yuri is still sitting in her chair."
+    "Dirijo mis ojos a Natsuki y Yuri. Natsuki está de pie mientras que Yuri está sentada en su silla."
     play music t7 fadein 2.0
     show yuri base uniform neut e2a b1b mk rup blaw
-    y "H-Huh?"
+    y "¿Qu- Qué?"
     y "N-No..."
-    y "That's not what I'm trying to..."
+    y "No trato de..."
     show yuri base uniform neut e2b b1b mk rup lup
-    y "You.. you're just..."
+    y "Tú... solo tratas..."
     show yuri base uniform neut e2b b1b mk rup lup at t31
     show natsuki base uniform neut e4a b3a rhip lhip blaw mc at t32
     show sayori base uniform neut e1b b1b mc blaw rup at r33
-    s "Hey..."
-    s "Is everything okay----{w=0.02}{nw}"
+    s "Ey..."
+    s "¿Va todo guay----?{w=0.02}{nw}"
     show sayori base uniform neut e4c b1b ml blaw rup lup at h33
     pause 0.04
     show sayori at rhide
     hide sayori
     show yuri base uniform neut e2b b1b mk rup lup awkw at t21
     show natsuki base uniform neut e4a b3a rhip lhip blaw mc at t22
-    "Yuri suddenly stands up too."
+    "De pronto, Yuri se levanta."
     show yuri base uniform neut e1a b1e mh rup ldown nobl
-    y "Maybe you're just jealous that [player] enjoyed my poem more than yours!"
+    y "¡Quizá estás celosa de que [player] haya disfrutado de mi poema mucho más que con el tuyo!"
     show natsuki base uniform e2a b1e mm rhip lhip
-    n "Gnnn..! {nw}{done}And how do you know he didn't also appreciate my poem too?!"
+    n "¡Grrrr..! {nw}{done}¡¿Cómo sabes que no ha disfrutado mi poema y el tuyo sí?!"
     show natsuki base uniform neut e1a b1e mi blaw
-    n "Gnnn..!{fast} And how do you know he didn't also appreciate my poem too?!"
+    n "¡Grrrr..!{fast} ¡¿Cómo sabes que no ha disfrutado mi poema y el tuyo sí?!"
     show natsuki cross uniform neut e1a b1e mi
-    n "Where do you get such confidence from?!"
+    n "¡¿De dónde has sacado tantas confianzas?!"
     show natsuki cross uniform neut e1a b1e mm
     show yuri base uniform e1b b1a rup mh
-    y "No.. It's not that I..."
-    y "If I had.."
-    y "If I had such confidence in myself..."
-    "I get up from my chair heading towards Natsuki and Yuri."
-    mc "Uh... what's going on----{w=0.02}{nw}"
+    y "No... no es lo que yo..."
+    y "Si tuviese..."
+    y "Si tuviese tanta confianza en mí misma..."
+    "Me levanto de mi silla y pongo rumbo a Natsuki y Yuri."
+    mc "Eh... qué ocurre----{w=0.02}{nw}"
     show yuri base uniform neut e1a b1e mh rup ldown
-    y "I'll have done manners on purpose to try to look super cute!"
+    y "¡Buscaría maneras para parecer súper mona a propósito!"
     show natsuki base uniform e2a b1e mm blaw rdown ldown
-    n "Nnnnnnnn...!"
+    n "¡Mmmmmmmmm...!"
     show natsuki base uniform e1a b1e mi rhip lhip
-    n "You know what?!"
+    n "¡¿SABES QUÉ?!"
     show natsuki cross uniform e1a b1e mi blaw
-    n "I'm not the one who magically saw her boobs get bigger when I joined this fucking club!"
+    n "¡¡NO SOY A LA QUE LE HAN CRECIDO LAS TETAS POR ARTE DE MAGIA CUANDO SE UNIÓ A ESTE PUTO CLUB!!"
     show natsuki cross uniform e1a b1e mm blaw
     show yuri base uniform e2a ml b1b rup lup blaw at h21
-    y "W-What did you say??"
+    y "¿¿Qu- Qué has dicho??"
     show natsuki cross uniform e1a b1e mm blaw at t32
     show yuri base uniform e2a ml b1b rup lup at t31
     show sayori base uniform neut e4c b1b ml blaw rup lup at h33s
-    s "I don't like fights girls, stop it!"
+    s "¡No me gustan las confrontaciones! ¡Parad ya, chicas!"
     show sayori flip at rhide
     hide sayori flip
     show natsuki cross uniform e1a b1e mm blaw at t22
     show yuri base uniform e2a ml b1b rup lup at t21
     $ renpy.music.set_volume(0.3)
-    mc "That's enough!"
-    mc "What is wrong with you two?!"
+    mc "¡SUFICIENTE!"
+    mc "¡¿Qué pasa con vosotras dos?!"
     show yuri shy uniform b2 e2 m2 n1
-    mc "How did we get there???"
+    mc "¿¿¿Cómo hemos llegado a este punto de la pelea???"
     show natsuki base uniform e1a b1e mi
-    n "She's the one who started being mean to me!"
-    "Natsuki takes a sour voice to accuse her innocence."
+    n "¡Ha sido ella la que empezó a molestarme!"
+    "Natsuki adopta una voz agria para defender su inocencia."
     $ yref()
     show yuri base uniform neut e2a b1b ml rup blaw
     $ renpy.music.set_volume(1.0)
-    y "No... that's not true..!"
+    y "No... ¡no es cierto...!"
     show yuri base uniform neut ml lup blaw
-    y "[player]! Don't listen to her! She's the one who criticized my writing style in the first place!"
-    y "She... She's just trying to make me look bad!"
+    y "¡[player]! ¡No la escuches! ¡Ella es la que ha empezado a criticar mi estilo de escritura en primer lugar!"
+    y "Ella... ¡Solo quiere hacerme ver como la mala!"
     show yuri base uniform neut mk e2b b1b rdown ldown
     show natsuki cross uniform neut mi e1a b1e blaw
-    n "Are you serious right now?!"
+    n "¡¿Estás de coña?!"
     show natsuki cross uniform neut mm e1a b1e blaw
-    n "Do you even listen to yourself when you talk??"
+    n "¿¿Te estás escuchando al hablar??"
     show natsuki base uniform e2a mi b1e
     show yuri shy uniform n5 m2 awkw
-    n "You're the one who criticized in first place, calling my poem cute when it's not cute at all!"
+    n "¡Has sido tú la que me ha criticado en primer lugar, diciendo que mi poema es una monada cuando, obviamente, no lo es!"
     show natsuki base uniform e4a mi b3a
-    n "You didn't understand anything about my poem!"
-    y "I was just...{w=0.05}{nw}"
+    n "¡No has entendido absolutamente nada del poema!"
+    y "Yo solo...{w=0.05}{nw}"
     show natsuki base uniform e2a mi b1e
-    n "And you dare say that I'm the one at fault in all this?"
+    n "¿Y tienes los cojones de decir que tengo yo la culpa?"
     show natsuki base uniform e4a mi b3a
-    n "I can't believe it!"
+    n "¡Es inaceptable!"
     show natsuki base uniform e1a b1e mi rhip lhip
-    n "You know what would be better?"
+    n "¿Sabes lo que sería mejor?"
     show natsuki base uniform e4a mi b1e
-    n "It's to...-{w=0.09}{nw}"
+    n "¡Es...-!{w=0.09}{nw}"
     stop music
-    mc "STOP!"
+    mc "¡PARAD DE UNA PUTA VEZ!"
     show natsuki cross uniform md e1a b1f blaw
-    mc "Natsuki, you are going too far!"
+    mc "Natsuki, ¡estás tocando una línea de no retroceso!"
     show yuri shy uniform n1 b1 e2 m1
-    mc "I both like your poems."
-    mc "You have two writing styles that have nothing to do with each other certainly."
-    mc "And I have one thing to say."
-    mc "It doesn't matter if the poem is long or short."
+    mc "Me ha gustado el poema de ambas."
+    mc "Tenéis dos estilos de escritura que no tienen nada que ver entre sí, eso es cierto."
+    mc "Y algo tengo que decir."
+    mc "Me da igual si el poema es corto o largo."
     show yuri shy uniform n1 b1 m1
-    mc "What matters most is the words that are used in the poem."
+    mc "Lo que importa son las palabras impuestas en el poema."
     mc "Yuri."
     show yuri shy uniform n1 b1 e1 m1
-    y "...?"
-    mc "You are a really talented writer, I admit it."
+    y "¿...?"
+    mc "Eres una escritora con talento, lo admito."
     $ yref()
     show yuri base uniform e2b b1b mb rup blaw
-    y "Well.. it's.."
+    y "Bueno... es que..."
     $ yref()
     show yuri base uniform e2a b1b md rup blaw
-    mc "But, just because a person's writing isn't refined doesn't mean they don't put their emotions into it!"
-    mc "That's why Natsuki felt hurt when you called her poem cute."
+    mc "Pero, no porque la escritura de otra persona sea poco refinada, ¡no quiere decir que no ponga sus emociones al hacerlo!"
+    mc "Por eso Natsuki se sintió ofendida cuando dijiste que su poema es mono."
     show yuri base uniform e2b mg b1b rup lup nobl at s21
-    y "Eh... well... I'm sorry... I didn't mean it... really..."
+    y "Eh... a ver... lo siento... no quería... en serio..."
     show yuri shy uniform e2 m2 b1 at t21
     show natsuki base uniform e4a mc b3b blaw rhip lhip
-    n "See?"
-    n "Finally it was you, Yuri who-"
-    mc "Natsuki, it's worth the same to you."
+    n "¿Ves?"
+    n "Al final eras tú la que-"
+    mc "Natsuki, lo mismo va por ti."
     show natsuki base uniform e1a b1a mh blaw
-    n "Huh? But...!"
-    mc "You took the case too seriously!"
-    mc "If you would have just said what you thought to Yuri without getting angry, calmly, this fight would never have happened!"
+    n "¿Qué? ¡Pero...!"
+    mc "¡Te has tomado el comentario demasiado a pecho!"
+    mc "¡Si le hubieras dicho tus pensamientos a Yuri sin enfadarte, y con calma, esta pelea absurda nunca hubiera ocurrido!"
     show natsuki base uniform e1a b1e mi
-    n "Are you kidding me?"
+    n "¿Estás de coña?"
     show natsuki base uniform e1a b1e mi rdown ldown
-    n "That's what I did!"
+    n "¡Es que eso fue lo que hice!"
     show natsuki cross uniform md b1b e1a
-    mc "Natsuki. Yuri apologized."
-    mc "Don't you think you should do the same?"
+    mc "Natsuki. Yuri se ha disculpado."
+    mc "¿No crees que deberías disculparte con ella también? Vamos, hazlo."
     show natsuki base uniform e1a mm b1e
-    n "Nnnn...!"
-    mc "Natsuki, once again, apologize to Yuri."
+    n "¡Grrrrr...!"
+    mc "Natsuki, te lo repito una vez más, discúlpate con Yuri."
     show natsuki base uniform mm e4a b3a
-    "Natsuki takes a deep breath before turning to Yuri."
+    "Natsuki respira hondo antes de darse la vuelta."
     show natsuki cross uniform e1b b1b md at s22
-    n "Listen Yuri.."
+    n "Escucha, Yuri..."
     show natsuki cross uniform e1a b1b mg
-    n "I'm.."
+    n "Yo..."
     show natsuki base uniform e1b b1b md
-    n "About what I said to you... you know... I didn't mean it, really."
+    n "Sobre lo que te dije... ya sabes... no quería decir eso, en serio."
     show natsuki cross uniform e1b b1b md
-    n "I apologize for being rude to you."
+    n "Perdón por ser tan bruta."
     show natsuki cross uniform e1a b1b md
     show yuri base uniform e1b b1b ma awkw
-    y "I accept your apology... I'm also sorry for criticizing your writing, I didn't really mean it again.."
-    "Natsuki doesn't answer. She just nods her head."
-    mc "There you go! I'm glad you were able to settle this out of court."
+    y "Acepto tus disculpas... yo también lo siento por criticar tu estilo de escritura, no quería decir eso... otra vez."
+    "Natsuki no responde, solo asiente con la cabeza."
+    mc "¡Muy bien! Me alegro de que hayáis podido zanjar esto fuera de la corte."
     mc "I hope I don't have to deal with this kind of thing."
     show yuri at lhide
     show natsuki at rhide
