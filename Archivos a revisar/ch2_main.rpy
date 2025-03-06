@@ -1180,9 +1180,9 @@ label ch2_main:
     show yuri base uniform neut e1a b1e mh rup ldown nobl
     y "¡Quizá estás celosa de que [player] haya disfrutado de mi poema mucho más que con el tuyo!"
     show natsuki base uniform e2a b1e mm rhip lhip
-    n "¡Grrrr..! {nw}{done}¡¿Cómo sabes que no ha disfrutado mi poema y el tuyo sí?!"
+    n "¡Grrrr..! {nw}{done}¡¿Cómo sabes que no ha disfrutado mi poema y el tuyo SÍ?!"
     show natsuki base uniform neut e1a b1e mi blaw
-    n "¡Grrrr..!{fast} ¡¿Cómo sabes que no ha disfrutado mi poema y el tuyo sí?!"
+    n "¡Grrrr..!{fast} ¡¿Cómo sabes que no ha disfrutado mi poema y el tuyo SÍ?!"
     show natsuki cross uniform neut e1a b1e mi
     n "¡¿De dónde has sacado tantas confianzas?!"
     show natsuki cross uniform neut e1a b1e mm
@@ -1193,7 +1193,7 @@ label ch2_main:
     "Me levanto de mi silla y pongo rumbo a Natsuki y Yuri."
     mc "Eh... qué ocurre----{w=0.02}{nw}"
     show yuri base uniform neut e1a b1e mh rup ldown
-    y "¡Buscaría maneras para parecer súper mona a propósito!"
+    y "¡Buscaría cualquier manera para parecer súper mona a propósito!"
     show natsuki base uniform e2a b1e mm blaw rdown ldown
     n "¡Mmmmmmmmm...!"
     show natsuki base uniform e1a b1e mi rhip lhip
@@ -1213,7 +1213,7 @@ label ch2_main:
     show yuri base uniform e2a ml b1b rup lup at t21
     $ renpy.music.set_volume(0.3)
     mc "¡SUFICIENTE!"
-    mc "¡¿Qué pasa con vosotras dos?!"
+    mc "¡¿Qué coño pasa con vosotras dos?!"
     show yuri shy uniform b2 e2 m2 n1
     mc "¿¿¿Cómo hemos llegado a este punto de la pelea???"
     show natsuki base uniform e1a b1e mi
@@ -1225,7 +1225,7 @@ label ch2_main:
     y "No... ¡no es cierto...!"
     show yuri base uniform neut ml lup blaw
     y "¡[player]! ¡No la escuches! ¡Ella es la que ha empezado a criticar mi estilo de escritura en primer lugar!"
-    y "Ella... ¡Solo quiere hacerme ver como la mala!"
+    y "Ella... ¡Solo quiere hacerme ver como la mala del cuento!"
     show yuri base uniform neut mk e2b b1b rdown ldown
     show natsuki cross uniform neut mi e1a b1e blaw
     n "¡¿Estás de coña?!"
@@ -1248,7 +1248,7 @@ label ch2_main:
     stop music
     mc "¡PARAD DE UNA PUTA VEZ!"
     show natsuki cross uniform md e1a b1f blaw
-    mc "Natsuki, ¡estás tocando una línea de no retroceso!"
+    mc "Natsuki, ¡estás cruzando un punto de no retorno!"
     show yuri shy uniform n1 b1 e2 m1
     mc "Me ha gustado el poema de ambas."
     mc "Tenéis dos estilos de escritura que no tienen nada que ver entre sí, eso es cierto."
@@ -1303,101 +1303,101 @@ label ch2_main:
     y "Acepto tus disculpas... yo también lo siento por criticar tu estilo de escritura, no quería decir eso... otra vez."
     "Natsuki no responde, solo asiente con la cabeza."
     mc "¡Muy bien! Me alegro de que hayáis podido zanjar esto fuera de la corte."
-    mc "I hope I don't have to deal with this kind of thing."
+    mc "Espero que no tenga que volver a lidiar con esta clase de cosas."
     show yuri at lhide
     show natsuki at rhide
     hide yuri
     hide natsuki
-    "Natsuki and Yuri both resume their poems, each dispersing into their own corners."
-    "The tense atmosphere that was plunging into the room starts to dissipate and becomes a bit more relaxed."
+    "Natsuki y Yuri siguen con sus poemas, cada una dispersa en sus propias esquinas."
+    "La pesada atmósfera que estaba atada a la habitación del club empieza a disiparse y se vuelve algo más relajada."
     play music t8 fadein 4.0
     show monika base uniform neut ma b1b at t11
-    "I turn around to face Monika who has a small smile on her lips."
+    "Me giro hacia Monika, que tiene una pequeña sonrisa en sus labios."
     show monika base uniform neut mb b1b
-    m "You know, [player]... I'm glad you were able to handle that fight."
+    m "¿Sabes, [player]...? Me alegro de que hayas podido con esta pelea."
     show monika base uniform neut mb e4b awkw rhip
-    m "I may have been vice president of the debate club and good at organizing things, but I have a weakness for handling any altercations with club members."
+    m "Puedo haber sido vice presidenta del club de debate y ser buena planeando cosas, pero tengo una debilidad con esto de los altercados con los miembros del club."
     show monika base uniform neut ma e1b b1b blaw
-    m "I can't imagine if you wouldn't have been there, haha."
-    mc "Don't worry Monika, I'm not very good at organizing things."
-    mc "Each it's own own talent, I'd say."
-    mc "Shall we go back?"
+    m "No me imagino si hubieses estado ausente, jajaja."
+    mc "No te preocupes, Monika. No soy muy bueno planeando cosas."
+    mc "Cada cual tiene su buen talento, digo yo."
+    mc "¿Seguimos?"
     show monika base uniform neut mb e1a b1a nobl
-    m "Let's go!"
+    m "¡Claro, vamos!"
     show monika at thide
     hide monika
     stop music fadeout 2.0
     show bg club_day1
     with dissolve_scene_full
     play music t3 fadein 3.0
-    "The rest of the meeting passes without any remarkable events."
-    "Monika and I worked very well on the sketch of the flyers for the festival."
-    "Even though I had some uncertainties, she was able to present me good arguments."
-    "She told me that she would think about the organization later."
+    "El resto de la reunión transcurre sin ningún suceso importante."
+    "Monika y yo trabajamos en unísono haciendo el boceto de los folletos del festival."
+    "Aunque me surgieron algunas dudas en el proceso, pero ella fue capaz de resolverlas a base de buena argumentación."
+    "Me dijo que pensaría en la organización más tarde."
     "..."
-    mc "Sounds perfect to me..."
-    "I put my paper back in my bag."
+    mc "Me parece perfecto..."
+    "Pongo el papel de vuelta en mi mochila."
     show monika base uniform neut mb rhip at t11
-    m "I think we can end the meeting now."
-    "I look at the time on my phone."
+    m "Creo que podemos dar esta reunión por finalizada."
+    "Miro la hora en mi móvil."
     "{i}6:05 PM{/i}"
-    mc "Yep."
-    mc "It was nice working with you Monika."
+    mc "Síp."
+    mc "Ha sido genial poder trabajar contigo, Monika."
     show monika lean uniform neut ma at face(y=750)
     with Dissolve(0.10)
-    "Monika suddenly approaches my ear coming to whisper something to me."
-    m "{i}And honestly, we're going to work together more and more often if that's okay with you.{/i}"
+    "De pronto, Monika se acerca a mi oído, susurrándome."
+    m "{i}Y... en realidad, trabajaremos mucho mucho más juntos, si es que eso te parece bien.{/i}"
     show monika base uniform e1f ma at t11
-    "Monika pulls away from me displaying a sweet smile that knots my stomach and makes all my blood flow up in my head."
+    "Monika se aleja de mí sonriendo, lo que hace que sienta un nudo en el estómago, que provoca que toda la sangre suba a mi cabeza del tirón."
     show monika base uniform e4b ma
-    mc "S-Same with you, Monika..."
+    mc "I- Igualmente, Monika..."
     show monika at lhide
     hide monika
-    "I get up from the seat, a little unsettled."
+    "Me levanto de la silla, un poco descolocado."
     show sayori base uniform neut ma at t41
     show monika base uniform neut ma e4b rhip at t42
     show yuri base uniform neut ma at t43
     show natsuki cross uniform ma at t44
-    mc "Okay everyone! Come here!"
-    mc "What did you think of-"
+    mc "¡Vale, compis! ¡Venid si podéis!"
+    mc "Qué pensáis de-"
     show natsuki cross uniform mg b1a
-    n "Say [player]... why is your face all flushed?"
-    mc "Huh... what are you talking about Natsuki?"
-    "I can't help but let out a little stressed laugh."
-    mc "Ahaha... it's just stress really, it's nothing."
+    n "Una cosilla te quiero preguntar, [player]... ¿por qué tienes la cara colorada?"
+    mc "Emmm... ¿de qué hablas, Natsuki?"
+    "No puedo evitar soltar una pequeña y estresada risita."
+    mc "Ajajaja... solo es un poco de estrés, no es nada."
     show natsuki base uniform mc
-    n "Don't be silly."
+    n "No seas tonto."
     show natsuki base uniform e4b mo b3c rhip
-    n "You can tell us everything!"
+    n "¡Nos lo puedes estar contando!"
     show sayori base uniform e4b mc rup lup
-    s "Ehehehe, you're as red as a tomato [player]!"
+    s "Ejejejeje, ¡estás más rojo que un tomate, [player]!"
     mc "..."
-    mc "... I'm just hot."
+    mc "... Es que tengo calor."
     show natsuki cross uniform e1a mc b1a
-    n "Not an impressive excuse [player]."
-    "I'm starting to get caught up in a dead-end argument and I need to change the subject as soon as possible."
-    mc "... Well...!"
-    mc "... Otherwise...!"
-    mc "What did you think of this poem sharing?"
-    mc "Monika?"
+    n "No te creas que eso es una excusa muy impresionante, [player]."
+    "Me estoy quedando atrapado en un callejón argumentativo sin salida y necesito cambiar el tema de conversación tan pronto como sea posible."
+    mc "... ¡A ver...!"
+    mc "... ¡De todas maneras...!"
+    mc "¿Qué tal ha estado esta actividad poemil?"
+    mc "¿Monika?"
     show monika base uniform mb e1a b1a
-    m "It was a pretty cool activity."
+    m "La verdad es que ha sido una actividad muy divertida."
     show monika base uniform rdown
-    m "It was fun to discover each other's writing style."
+    m "Me refiero, ha sido divertido descubrir el estilo de escritura de las chicas."
     show monika base uniform ma
-    mc "Sayori?"
+    mc "¿Sayori?"
     show sayori base uniform e1a b1a mb lup rdown
-    s "It was great! I really liked it."
-    mc "Yuri?"
+    s "¡Ha estado muy guay! Me ha encantado."
+    mc "¿Yuri?"
     show yuri base uniform e1a b1a mb rup ldown
-    y "It was pretty good overall."
+    y "Ha estado muy bien, por encima de todo."
     show yuri base uniform e1b b1a ma rup ldown
-    mc "Natsuki?"
+    mc "¿Natsuki?"
     show natsuki base uniform e1a b1a mg
-    n "Yeah, it was pretty good if I can say it like that."
-    mc "Great! I suggest we do this again for Monday!"
-    mc "You've learned a bit more about writing between you all! I'm sure your poems will be ten times better next time and you'll try something new!"
-    mc "We can finally finish the meeting, have a great evening everyone and we'll see you on Monday!"
+    n "Sí, ha estado muy bien, si es que se puede considerar así."
+    mc "¡Genial! ¡Sugiero, entonces, que hagamos esto otra vez el lunes!"
+    mc "¡Habéis aprendido un poco más de vuestro estilo de escritura! ¡Estoy seguro de que vuestros poemas serán diez veces mejor la próxima vez, y querréis probar algo nuevo!"
+    mc "¡Podemos finalizar la reunión del club! ¡Pasad un genial resto del día y nos vemos el lunes!"
     show natsuki at rhide
     show yuri at rhide
     show monika at lhide
@@ -1406,20 +1406,20 @@ label ch2_main:
     hide yuri
     hide natsuki
     hide sayori
-    "Everyone disperses, each of them going about their business."
-    "I head to my bag to put my things away too."
-    "Suddenly I feel a hand gently resting on my shoulder, startling me slightly."
-    m "Say, [player]?"
-    mc "Ah! {w=0.5}Yes Monika?"
+    "Todas se dispersan, yendo cada una a ocuparse de sus asuntos."
+    "Me dirijo a mi mochila para guardar las cosas también."
+    "De pronto, siento una mano amiga posada en mi hombro, asustándome un poco."
+    m "Una cosa, [player]..."
+    mc "¡Ay! {w=0.5}¿Qué pasa, Monika?"
     show monika base uniform neut ma rhip at t11
-    m "I wanted to know if I could have your phone number?"
+    m "Quería saber si podrías darme tu número de teléfono."
     show monika base uniform lpoint
-    m "That way we can communicate by message or call when we're not in the clubroom."
-    m "I think it's important that we have a way to reach each other."
+    m "De esta manera, podremos comunicarnos por mensaje o por llamada mientras no estemos en el club."
+    m "Creo que es importante tener alguna manera de contactarnos mútuamente."
     show monika base uniform neut mb e1b rhip ldown
-    m "About the festival you know..."
+    m "Para el festival, ya sabes..."
     show monika base uniform neut ma e1a rhip ldown
-    mc "Sure, wait a minute."
+    mc "Claro, un minuto."
     "I pull my phone out of my bag heading into my « Contacts » so I can find my personal phone number."
     "I use my phone very very rarely to be honest. My parents bought me one at the beginning of the year since they started to be away from home more and more often because of their work."
     mc "Do you have your phone on you?"
