@@ -1420,137 +1420,137 @@ label ch2_main:
     m "Para el festival, ya sabes..."
     show monika base uniform neut ma e1a rhip ldown
     mc "Claro, un minuto."
-    "I pull my phone out of my bag heading into my « Contacts » so I can find my personal phone number."
-    "I use my phone very very rarely to be honest. My parents bought me one at the beginning of the year since they started to be away from home more and more often because of their work."
-    mc "Do you have your phone on you?"
+    "Saco mi móvil de mi maleta dirigiéndome a la pestaña « Contactos », para así encontrar mi número de teléfono."
+    "A decir verdad, uso mi teléfono muy muy muy poco. Mis padres me lo compraron a principios de curso porque empezaron a estar cada vez menos y menos en casa por trabajo."
+    mc "¿Tienes el móvil encima?"
     show monika base uniform neut me rdown
-    m "Uuh.. no. Hold on, I'm going to look for it in my bag, give me five seconds."
+    m "Eh... no, espera. Voy a buscarlo en mi bolso, dame 5 segundillos."
     show monika at rhide
     hide monika
     pause 5
     show monika base uniform mb rhip at r11
-    m "Ok! I'm back! Can you tell me your number?"
-    mc "Okay..."
-    "I dictate my number to her while she, in sync, taps her fingers on the touch screen of her phone."
+    m "¡Vale, he vuelto! ¿Me dictas tu número?"
+    mc "Vale..."
+    "Le dicto mi número de teléfono mientras, en perfecta sincronía, pulsa la pantalla de su móvil con los dedos."
     show monika base uniform ma rdown
-    m "I think that's it. Let me send you an S.M.S. to be sure."
+    m "Creo que ya está, déjame enviarte un mensaje para asegurarme."
     pause 1
     play sound phone
-    "{i}DING!{/i}"
-    mc "Great, I got your message."
-    "As I am talking, I'm saving Monika's number in my Contacts."
-    m "Great! I'll send you a message when I get a chance, [player]."
-    mc "Okay, Monika."
+    "{i}¡DING!{/i}"
+    mc "Genial, me ha llegado."
+    "Tal y como digo eso, guardo el número de teléfono de Monika en 'Mis contactos'."
+    m "¡Bien! ¡Te enviaré un mensaje cuando pueda, [player]!"
+    mc "Muy bien, Monika."
     show monika at lhide
     hide monika
-    "Monika leaves to collect her things."
-    "I wait patiently for everyone to leave the room."
+    "Monika se dirije a recoger sus cosas."
+    "Espero pacientemente a que todo el mundo salga del aula."
     show bg club_day1
     stop music fadeout 2.0
     with dissolve_scene_full
-    "Once everyone is gone I lock the door, and I start to leave the school."
+    "Una vez que ya no hay nadie, cierro la puerta con llave y comienzo mi caminata a casa."
     show bg school_front_e
     with wipeleft
     play music evening fadein 3.0
-    "When I get to the front door of the school, I start to take out my phone and my headphones."
+    "Cuando estoy en la puerta de entrada del instituto, saco mis auriculares y mi teléfono."
     $ s_name = "??????"
-    s "[player]! Wait!"
-    mc "Huh...?"
+    s "¡[player]! ¡Espera!"
+    mc "¿Qué...?"
     $ s_name = "Sayori"
-    "I turn around to see Sayori running towards me."
-    "I discreetly put away my phone and my headphones."
+    "Me giro y veo a Sayori corriendo en mi dirección."
+    "Guardo discretamente mis auriculares y mi teléfono."
     show sayori base uniform neut e4c rup lup ml blaw at t11:
         matrixcolor TintMatrix("#f5c7ad")
-    mc "Yes, Sayori?"
-    mc "You didn't have to run by the way, I was going to wait for you when you called me."
+    mc "¿Qué ocurre, Sayori?"
+    mc "No tienes que correr de esa manera, me había parado cuando me llamaste."
     show sayori base uniform neut e4c lup rdown ml blaw at s11
-    s "...Haaah... Haaah.."
+    s "...Aaaaaaah... Aaaaaaaah.."
     show sayori base uniform neut e1a mh rup lup nobl at t11
-    s "I saw you take out your phone so I thought you were already leaving!"
-    mc "Ah, sorry. It's just that I'm used to going home alone."
+    s "¡Es que te vi sacando el móvil y pensé que ya te ibas!"
+    mc "Ah, perdona. Es que suelo irme solo a casa."
     show sayori base uniform neut e2a b2a mf
-    s "Oh?"
+    s "Ah, ¿sí?"
     show sayori base uniform neut e1a b1a mb ldown rdown
-    s "I saw you this morning when you were going to school!"
-    s "We don't live too far, it seems."
+    s "¡Pues te vi esta mañana haciendo tu caminata al insti!"
+    s "Parece que no vivimos tan lejos, ¿eh?"
     show sayori base uniform neut e1a b1a ma ldown rdown
-    mc "Huh?"
-    mc "Then how come I've never seen you before?"
+    mc "¿Qué?"
+    mc "Entonces, ¿cómo es que nunca te he visto antes?"
     show sayori base uniform neut e1b b1b mc at s11
-    s "Ah... I don't know hehe... that's a good question."
+    s "Ah... pues no lo sé... es una buena pregunta. Ejejejeje."
     mc "..."
     show sayori base uniform e1a b1a mb lup at t11
-    s "So, do you want to walk home together?"
-    mc "Aren't you walking home with Monika, Sayori?"
+    s "Pues... ¿quieres que vayamos andando juntos a casa?"
+    mc "¿No ibas a hacer eso mismo con Monika, Sayori?"
     show sayori base uniform md
-    s "Not today, she told me she had things to do."
-    mc "Oh right, well, yeah, if you want we can walk home together."
+    s "Hoy no, me dijo antes que tenía cosas que hacer."
+    mc "Ah, bueno, pues si no es molestia, vamos andando a casa juntos."
     show sayori base uniform mc e4b lup rup at h11
-    s "Yaaay! Let's go!"
+    s "¡Bieeen! ¡Pues vámonos!"
     show sayori at lhide
     hide sayori
     $ pause (0.2)
     show bg re2_e
     with wiperight_scene
-    "Sayori and I start to make our way home."
-    "There wasn't really any in-depth discussion with me and her, which made the walk a bit awkward and very quiet."
-    "The only sounds were the exhaust pipes of cars on the roads and the chirping of the birds flying overhead..."
-    "... Only one question comes to mind."
+    "Sayori y yo empezamos a caminar a casa."
+    "No hubieron conversaciones muy profundas entre ella y yo, lo que hizo la caminata un poco incómoda y en silencio."
+    "Lo único que sonaba eran las bocinas de los coches en la carretera y el cantar de los pájaros en el cielo..."
+    "... y una única pregunta aparece en mi cabeza."
     show sayori base uniform neut md at t11:
         matrixcolor TintMatrix("#f5c7ad")
-    mc "Sayori, how long have you known Monika?"
+    mc "Sayori, ¿hace cuánto conoces a Monika?"
     show sayori base uniform neut mb
-    s "Monika? We have known each other since the beginning of this year."
-    s "We're in the same class, and we became best friends quickly!"
+    s "¿A Monika? Pues desde el inicio de este curso."
+    s "Caímos en la misma clase, ¡y os hicimos súper amigas muy rápido!"
     show sayori base uniform neut ma
-    mc "Oh right, thanks for your answer."
+    mc "Ah, genial, gracias por responderme."
     show sayori base uniform neut mb
-    s "What about you, [player]?"
+    s "¿Qué hay de ti, [player]?"
     show sayori base uniform neut ma
-    mc "I've known her since last year, we were in the same class and we worked together a lot."
-    mc "But since the beginning of this school year, we talked less and less. Mainly because she became very busy since she became vice president of the debate club."
-    mc "And since then, we would occasionally talk to each other when we ran into each other but nothing more."
+    mc "La conozco desde el año pasado, estuvimos en la misma clase y trabajábamos juntos un montón de veces."
+    mc "Desde el inicio de este curso, empezamos a distanciarnos principalmente porque era vicepresidenta del club de debate."
+    mc "Y bueno, ahora hablamos de vez en cuando, pero porque nos encontramos casualmente. A partir de ahí, nada más."
     show sayori base uniform b1b ma rdown
-    s "Oh.. okay, I'm glad you're talking again then."
-    mc "Yeah, I guess."
+    s "Ah... bueno, entonces me alegro de que vuelvas a hablar con ella."
+    mc "Sí, supongo."
     show sayori at thide:
         matrixcolor TintMatrix("#f5c7ad")
     hide sayori
-    "The discussion ends there, and we continue walking in silence until I get to my alley."
+    "La charla termina ahí, y el resto de la caminata fue en completo silencio hasta llegar a mi calle."
     show bg residential_e
     with wiperight_scene
     "..."
-    mc "The path ends here for me."
-    mc "My house is right there."
-    "I point vaguely in the direction of my house."
+    mc "Pues el camino ha llegado a su fin para mí."
+    mc "De hecho, mi casa está por ahí."
+    "Dirijo mi dedo vagamente en dirección a mi casa."
     show sayori base uniform neut ma lup at t11:
         matrixcolor TintMatrix("#f7b792")
-    s "Alright, thanks for agreeing to go back together, [player]! My house is a few blocks over there, it's about a five minute walk."
-    mc "My pleasure, Sayori. See you Monday."
+    s "¡Genial, pues gracias por aceptar volver juntos a casa, [player]! Mi casa está a algunos bloques de distancia, así que me espera una caminata de unos cinco minutos."
+    mc "Ha sido un placer, Sayori. Nos vemos el lunes."
     show sayori base uniform neut mc e4b rdown
-    s "See you Monday!"
+    s "¡Nos vemos el lunes!"
     show sayori at thide:
         matrixcolor TintMatrix("#f5c7ad")
     hide sayori
-    "Sayori continues on her way while I open the gate and head for the door of my house."
+    "Sayori continúa caminando mientras abro la verja y me dirijo a la puerta de entrada de mi casa."
     play sound closet_open
     show bg kitchen
     with wipeleft_scene
     $ pause (0.2)
     play sound closet_close
     stop music fadeout 2.0
-    "Once unlocked and inside the house, I take off my shoes at the entrance and go straight to my room."
+    "Una vez abierta la puerta, entro a casa, me quito los zapatos y voy directo a mi habitación."
     show bg bedroom
     with wipeleft_scene
-    mc "I don't think I'll be going out again today."
-    mc "I might as well get comfortable."
-    "I drop my bag on the floor, removing myself from my uniform afterwards and dressing in simple pajamas."
-    "I collapse on my bed, staring at the ceiling."
+    mc "Por hoy, no creo que salga otra vez a la calle."
+    mc "Debería ponerme cómodo."
+    "Suelto mi mochila en el suelo, quitándome el uniforme y poniéndome un pijama de diseño simple."
+    "Caigo en mi cama, mirando al techo."
     play sound phone
-    "{i}DING!{/i}"
-    mc "Huh?"
-    "A notification rings out from the pants pocket of my uniform."
-    "I head for the pants pocket extirpating to see a notification from Monika."
+    "{i}¡DING!{/i}"
+    mc "¿Qué?"
+    "Desde los bolsillos de mi uniforme, suena una notificación proveniente de mi móvil."
+    "De los pantalones, cojo el móvil esperando ver un mensaje de Monika."
     play music t3 fadein 3.0
 
     call _phone_register from _call__phone_register
@@ -1559,78 +1559,78 @@ label ch2_main:
 
     $ phone.date(4, 21, 2023, 19, 31)
 
-    $ phone.message("mc", _("Hey Monika, doing nothing right now. just got home actually"))
+    $ phone.message("mc", _("Hola, Monika, estoy aburrido. Acabo de llegar a casa."))
 
-    $ phone.message("m", _("Okay! Do u mind if i call u rn ?"))
+    $ phone.message("m", _("Genial! Te importa si te llamo ahora?"))
 
-    $ phone.message("mc", _("yeah if u want, what is it for ??"))
+    $ phone.message("mc", _("Si quieres, por supuesto. ¿De qué se trata la llamada?"))
 
-    $ phone.message("m", _("On the way home, I thought about how we could organize all this, before the festival! :D"))
+    $ phone.message("m", _("De camino a casa, he pensado cómo podemos organizar todo esto antes del festival! :D"))
 
-    $ phone.message("mc", _("Yeah sure, I would love to know ur idea."))
+    $ phone.message("mc", _("Claro, genial, me gustaría saber qué piensas."))
 
-    $ phone.message ("m", _("Great {}! Calling you rn :)".format(player)))
+    $ phone.message ("m", _("Vale {}! Te llamo ahora mismo :)".format(player)))
 
     $ phone.end_discussion()
 
-    "As soon as Monika sends me her last message I see the call already in front of my eyes."
-    "I pick up."
+    "Tan pronto como Monika me manda ese último mensake, veo la notificación de la llamada frente a mis ojos."
+    "Le cojo la llamada."
 
     $ renpy.music.set_volume(volume=0.4)
 
     $ phone.call("m")
 
 
-    phone_mc "Hey, Monika!"
+    phone_mc "¡Hola, Monika!"
 
-    phone_m "Hey, [player]!"
+    phone_m "¡Holi, [player]!"
 
-    phone_mc "I'm listening to you, Monika!"
-    phone_m "You see, Natsuki said she likes making pastry at home, right?"
-    phone_mc "Yeah, indeed."
-    phone_m "Well, I thought she could make cakes to attract people to the room!"
-    phone_m "I think that's a really good way to do so."
-    phone_mc "Yeah, you're right!"
-    phone_mc "Very good idea, Monika."
-    phone_mc "Do you think she'll be okay with that?"
-    phone_m "Yes, I'm sure!"
-    phone_mc "Alirght. Got any other ideas?"
-    phone_m "Yep! I remember you put on your sheet that you were going to make flyers, didn't you?"
-    phone_mc "Exactly, and what do you want to do with them?"
-    phone_m "Well, I suggest I make them this weekend, I know my way around Canva or even Photoshop."
-    phone_mc "Without me?"
-    phone_m "Yeah, don't worry, [player]. I'll put them up Monday morning."
-    phone_mc "It works."
-    phone_m "Did you get any new ideas on your own or not?"
-    phone_mc "I have one that just popped into my head."
-    phone_m "And what is it?"
-    phone_mc "How about decorating the clubroom?"
-    phone_m "What do you mean?"
-    phone_mc "Well, we could decorate the club room with a banner that says « Welcome to the Literature Club! » on it."
-    phone_mc "We could also put some kind of long ribbon at the entrance to make like a curtain."
-    phone_mc "And maybe change the curtains to a slightly softer color if we're allowed to?"
-    phone_mc "To put the room in a special atmosphere like in a theater, don't you think?"
+    phone_mc "¡Se te escucha bien, Monika!"
+    phone_m "Verás, Natsuki dijo que le encanta hacer cosas de repostería en su casa, ¿no?"
+    phone_mc "Pues sí, eso dijo."
+    phone_m "Verás, ¡he pensado que podría hacer pastelillos para atraer a más personas al club!"
+    phone_m "Creo que estaría bien hacerlo."
+    phone_mc "¡Estoy de acuerdo!"
+    phone_mc "Has tenido una buena idea, Monika."
+    phone_mc "¿Crees que estará de acuerdo con esto?"
+    phone_m "¡Estoy segura!"
+    phone_mc "Bien entonces. ¿Alguna otra idea?"
+    phone_m "¡Síp! Creo recordar que pusiste en esa hoja que ibas a hacer folletos, ¿no?"
+    phone_mc "Claro, ¿qué quieres hacer con ellos?"
+    phone_m "Bueno, pues sugiero que los hagamos este finde. Me manejo bien con Canva o Photoshop."
+    phone_mc "¿...sin mí?"
+    phone_m "Sí, no te preocupes, [player]. Te los traigo el lunes por la mañana."
+    phone_mc "Me vale."
+    phone_m "¿Se te ha ocurrido algo entonces?"
+    phone_mc "Se me acaba de ocurrir algo ahora mismo."
+    phone_m "Y es..."
+    phone_mc "¿Decorar el club?"
+    phone_m "¿A qué te refieres?"
+    phone_mc "Podríamos decorarlo con una pancarta que ponga « ¡Bienvenido/a al club de literatura! » escrito en grande."
+    phone_mc "Podemos poner en la puerta un lazo enorme que haga de cortina."
+    phone_mc "Y, ¿puede que cambiar el color de las cortinas a uno más suave? Si se nos permite hacerlo, claro."
+    phone_mc "Con eso, se pondría el ambiente un poco más teatral, ¿no crees?"
     phone_m "[player]..."
-    phone_mc "You don't like my idea?"
-    phone_m "On the contrary! I love your idea!"
-    phone_m "But we shouldn't put too much work on ourselves."
-    phone_m "How about giving this task to someone in particular?"
-    phone_mc "Yes, I agree, but to whom... ?"
-    phone_m "Mmmh..."
+    phone_mc "¿No te gusta mi idea?"
+    phone_m "¡Todo lo contrario! ¡Me encanta!"
+    phone_m "Pero no deberíamos cargarnos todo a las espaldas."
+    phone_m "¿Cómo suena darle esa tarea decorativa a alguien en particular?"
+    phone_mc "Claro, estoy de acuerdo, pero... ¿a quién?"
+    phone_m "Mmm..."
     phone_mc "..."
-    phone_mc "I think I know who."
-    phone_m "Who?"
+    phone_mc "Creo que sé de alguien."
+    phone_m "¿Quién?"
     phone_mc "Yuri."
-    phone_mc "Her handwriting is beautiful don't you think?"
-    phone_m "Yes, I agree with you."
-    phone_m "Do you want to give her this task?"
-    phone_mc "Yes."
-    phone_mc "Natsuki will be in charge of the cupcakes."
-    phone_mc "Yuri will be in charge of the atmosphere and the decoration of the room."
-    phone_mc "So they will have a little responsibility too!"
-    phone_m "Great! I like the idea of giving small responsibilities to the club members."
-    phone_mc "But back to my fear that I had earlier."
-    phone_mc "That is, how do we plan to organize all this?"
+    phone_mc "Su escritura es preciosa, ¿no crees?"
+    phone_m "Por supuesto, concuerdo contigo."
+    phone_m "¿Le quieres encargar eso?"
+    phone_mc "Sí."
+    phone_mc "Natsuki estará a cargo de los cupcakes."
+    phone_mc "Yuri, a cargo de la decoración y la atmósfera del club."
+    phone_mc "¡Así también tendrá algo de trabajo!"
+    phone_m "¡Me gusta la idea de encargarles pequeños trabajillos a los miembros del club!"
+    phone_mc "Pero... volviendo a mi preocupación de antes."
+    phone_mc "¿Cómo vamos a organizar todo esto?"
     phone_m "Well, I know how to do it."
     phone_mc "Explain it to me."
     phone_m "Instead of sharing poems, we're going to put it on hold until the day of the Festival."
@@ -1661,7 +1661,7 @@ label ch2_main:
     "Suddenly, a thought comes to mind."
     "I remember Monika putting on a sad face when she said she had left the debate club on Friday."
     phone_mc "Wait, Monika. Actually, I wanted to know what happened that made you leave the debate club?"
-    phone_m "[player]...why are you asking me this?"
+    phone_m "[player]... why are you asking me this?"
     phone_m "You don't need to know, because it's not important. Anyway, have a good evening!"
 
     $ phone.end_call()
