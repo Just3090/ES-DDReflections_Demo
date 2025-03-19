@@ -205,7 +205,7 @@ Un dolor punzante asalta mi mente junto con mis ideas. Esto es repugnante. Absol
 ¿Cómo pude permitirme pensar algo así? Pero es innegable.
 La lujuria sigue fluyendo por mis venas.
 Un dolor en mis músculos nace de la tensión no liberada que domina todo mi cuerpo.
-Su Tercer Ojo me atrae cada vez más.""
+Su Tercer Ojo me atrae cada vez más."""
     )
 
     poem_n1 = Poem(
