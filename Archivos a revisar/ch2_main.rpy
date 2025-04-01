@@ -1695,11 +1695,11 @@ label ch2_main:
     stop music fadeout 2.0
     "Cierro el libro y lo coloco de nuevo en mi mochila."
     "He de decir que no ha estado nada mal."
-    "Yuri tenía razón con el comienzo del libro. No era muy interesante, pero al avanzar en la historia se pone más y más intrigante."
-    "I get up and walk out of my room to start my evening routine."
+    "Yuri tenía razón con el comienzo del libro. No era muy interesante, pero al avanzar se pone más y más intrigante."
+    "Me levanto y camino a mi habitación, comenzando mi rutina."
     pause 2
-    mc "{i}-yawn-...{/i}"
-    mc "Well, it's time to go to sleep."
-    "I slide under my blanket, and my eyelids, which are rather heavy because of the fatigue accumulated throughout this day, close by themselves."
+    mc "{i}-bostezo-...{/i}"
+    mc "En fin, es hora de ir a dormir."
+    "Me deslizo bajo la manta y, mis párpados, que ya pesan por la fatiga del día, se cierran por sí solos."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
