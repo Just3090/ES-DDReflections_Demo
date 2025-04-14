@@ -2,18 +2,18 @@ label ch3_main:
     window hide
     show bg bedroom
     with dissolve_scene_full
-    "It's Monday, and the weekend was more ordinary than anything else."
-    "I'm lying on my bed staring at the bedroom ceiling."
-    "Monika and I, much to my surprise, are texting a lot."
-    "Even though the vast majority were about the festival."
-    "Yesterday evening, Monika reminded me that she was going to put the flyers up this morning before classes start."
-    "However..."
-    "When I asked her again to explain why she left the debate club, she vaguely dodged my question without getting into it."
-    "Since then, I kept thinking about why she is reacting like that in the back of my mind."
-    "A part of me is clearly telling me that she is hiding something from me that she wouldn't want to reveal about all this."
-    "I look at the time on the alarm clock."
+    "Hoy es lunes, y la semana no ha podido ser más anodina."
+    "Me hallo en mi habitación, tirado en la cama y mirando al techo."
+    "Para mi sorpresa, Monika y yo nos hemos escrito bastante."
+    "Aunque bueno..., la mayoría era sobre el festival."
+    "Ayer por la tarde, Monika me recordó que iba a colocar los folletos en el club antes de que empezasen las clases."
+    "Aún así..."
+    "Cuando le volví a preguntar acerca de su dimisión del club de debate, prácticamente me evadía la pregunta sin siquiera esforzarse."
+    "Desde entonces, solamente pienso en por qué actúa así. "
+    "Una parte de mí sabe con claridad que esconde algo que no me quiere contar acerca de esto."
+    "Miro la hora en el despertador."
     "{i}6:30 AM{/i}"
-    "I should start getting ready for school."
+    "Debería ir preparándome para ir al instituto."
     "I get out of bed, and head to the bathroom to take a quick shower."
     show bg kitchen
     with dissolve_scene_full
