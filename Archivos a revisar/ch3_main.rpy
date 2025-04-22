@@ -70,140 +70,140 @@ label ch3_main:
     show sayori base uniform e2a b1c mh rdown
     s "¿Ooooh?"
     show sayori base uniform neut e1a b1a mb
-    s "I thought I gave it to you on Friday!"
-    mc "Well... no."
-    mc "Anyways, we should go or we'll be late."
+    s "¡Pensé que te lo había dado el viernes!"
+    mc "Bueno... no."
+    mc "De todos modos, deberíamos irnos o llegaremos tarde."
     show sayori base uniform e2a ml rup lup at rhide
-    s "Aaaaah! Yes, let's go quickly, [player]--!"
+    s "¡Aaaaah! Sí, vamos rápido, [player]--!"
     $ pause (0.4)
     hide sayori
-    "Sayori runs off without telling me."
-    mc "Heyyy, wait for me!"
-    "I speed up my pace to catch up to her."
+    "Sayori sale corriendo sin decirme nada."
+    mc "¡Heeyyy, espérame!"
+    "Acelero el paso para alcanzarla."
     show bg re2
     with wiperight_scene
-    "On the way to school, Sayori and I quickly exchanged phone numbers."
-    "We chatted a bit about how the weekend went but didn't get into it further."
+    "De camino a la escuela, Sayori y yo intercambiamos rápidamente nuestros números de teléfono."
+    "Charlamos un poco sobre cómo estuvo el fin de semana, pero no profundizamos mucho en el tema."
     show bg school_front
     with wiperight_scene
-    "Arriving just in time before the school bell rang, we said our goodbyes as we headed to our classes."
-    mc "Let's get this day over with..."
+    "Llegando justo a tiempo antes de que sonara la campana de la escuela, nos despedimos mientras nos dirigíamos a nuestras clases."
+    mc "Vamos a terminar con este día..."
     stop music fadeout 2.0
     show bg class_day
     with dissolve_scene_full
     play music t3
     play sound bell
-    "The school bell rings signaling the end of classes and the beginning of lunch break."
-    "I collect my things and head to the roof of the school."
+    "La campana suena, señalando el fin de las clases y el comienzo del receso para el almuerzo."
+    "Recojo mis cosas y me dirijo al techo de la escuela."
     scene bg roof
     with wiperight_scene
     stop music fadeout 2.0
-    "After opening the door, I see Monika standing on the railing, looking at the view."
+    "Después de abrir la puerta, veo a Monika de pie en la barandilla, contemplando la vista."
     play music evening
     show monika base uniform neut e4a at t11
-    "I put my bag down on the bench and walk towards her discreetly."
-    "I land to her right looking straight ahead."
-    "We both say nothing to each other."
-    "Just the wind blowing and the sound of nature is audible to our ears."
-    "After a moment of silence I decide to cut the silence that had settled."
-    mc "Nice view isn't it, Monika?"
-    "Monika nods her head."
+    "Pongo mi mochila en el banco y me acerco a ella discretamente."
+    "Me coloco a su derecha, mirando al frente."
+    "Ambos no decimos nada el uno al otro."
+    "Solo el viento soplando y el sonido de la naturaleza son audibles a nuestra percepción."
+    "Después de un momento de silencio, decido cortar el silencio que se había instalado."
+    mc "Es una bonita vista, ¿verdad, Monika?"
+    "Monika asiente con la cabeza."
     show monika base uniform neut e1c me
-    m "Indeed. It's a beautiful view, [player]."
+    m "En efecto. Es una vista hermosa, [player]."
     show monika base uniform neut e1c md
-    mc "...Isn't Sayori eating on the roof?"
+    mc "...¿No está Sayori comiendo en el techo?"
     show monika base uniform neut e1c me
-    m "...She's not coming for a while, she had to talk with one of the teachers."
+    m "...No vendrá por un rato, tuvo que hablar con uno de los profesores."
     show monika base uniform neut e1c md
-    "So that means there will be a little alone time between Monika and I.."
-    "Maybe I can dig a little deeper to find out what happened when she left the debate club."
-    "I'm still a little afraid of her reaction though, she's been pretty vaguely cold every time I've asked her that question via S.M.S."
-    mc "Say Monika, I have this question for you--"
+    "Eso significa que habrá un poco de tiempo a solas entre Monika y yo..."
+    "Tal vez pueda indagar un poco más para descubrir qué pasó cuando ella dejó el club de debate."
+    "Aún tengo un poco de miedo de su reacción, sin embargo, ha sido bastante vaga y fría cada vez que le he hecho esa pregunta por mensaje de texto."
+    mc "Oye Monika, tengo esta pregunta para ti--"
     show monika base uniform neut e1a me b1c
-    m "Is it that question again?"
+    m "¿Es esa pregunta de nuevo?"
     show monika base uniform neut e1a me rhip
-    m "[player], do you know you're really forceful with that?"
+    m "[player], ¿sabes que eres bastante insistente con eso?"
     show monika base uniform neut e1a me rdown
-    m "How many times have I told you by message?"
+    m "¿Cuántas veces te lo he dicho por mensaje?"
     show monika base uniform neut e1c md rhip
-    "Monika dryly cuts me off looking me straight in the eye."
-    mc "Monika, I know I sound like I'm overreacting, but listen--"
+    "Monika me interrumpe secamente, mirándome directamente a los ojos."
+    mc "Monika, sé que sueno como si estuviera exagerando, pero escucha--"
     show monika base uniform neut e1a me rdown
-    m "Yes, you are exaggerating."
-    m "Remember what I told you?"
+    m "Sí, estás exagerando."
+    m "¿Recuerdas lo que te dije?"
     show monika base uniform neut e1a me lpoint
-    m "It's better to focus on the present instead of the past."
+    m "Es mejor centrarse en el presente en lugar de en el pasado."
     show monika base uniform neut e1a me ldown
-    m "What don't you understand about it, [player]?"
+    m "¿Qué no entiendes de eso, [player]?"
     show monika base uniform neut e4a b3b me
-    "I feel annoyance coming out in Monika's voice, which has destabilized me a little bit, making me lost in my thoughts."
-    "There is a small moment of silence before I decide to break it."
+    "Siento la molestia salir en la voz de Monika, lo que me ha desestabilizado un poco, haciéndome perder en mis pensamientos."
+    "Hay un pequeño momento de silencio antes de que decida romperlo."
     show monika base uniform neut e1a b1c md
-    mc "You're absolutely right, Monika, we must concentrate on the present and not remain stuck in the past."
-    mc "But listen, I know that something happened and you want to hide it."
+    mc "Tienes toda la razón, Monika, debemos concentrarnos en el presente y no quedarnos atrapados en el pasado."
+    mc "Pero escucha, sé que algo pasó y quieres ocultarlo."
     show monika base uniform e4a b2b me
-    mc "You know Monika, I really like you and I want you to know that."
-    mc "But the fact that you don't want to tell me is proof that you still don't fully trust me."
+    mc "Sabes, Monika, realmente me gustas y quiero que lo sepas."
+    mc "Pero el hecho de que no quieras decírmelo es prueba de que aún no confías completamente en mí."
     show monika base uniform e1a b1b
-    mc "Yet... remember last year when we were in the same class?"
-    mc "How we worked together?"
+    mc "Sin embargo... ¿recuerdas el año pasado cuando estábamos en la misma clase?"
+    mc "¿Cómo trabajamos juntos?"
     show monika base uniform e1c me
-    mc "We trusted each other, at least I thought so."
+    mc "Nos confiábamos el uno al otro, al menos eso pensé."
     show monika base uniform e4a md
     m "..."
-    mc "Does Sayori, your best friend, know about it?"
+    mc "¿Sayori, tu mejor amiga, sabe sobre esto?"
     show monika base uniform e1c me
-    m "No, she doesn't know the story."
+    m "No, ella no sabe la historia."
     show monika base uniform e4a me
-    m "I am just ashamed."
-    mc "Ashamed of what?"
+    m "Solo me da vergüenza."
+    mc "¿Vergüenza de qué?"
     show monika base uniform e1c md
-    m "Ashamed to say it, that's all."
-    mc "Monika, you can really tell me."
-    mc "I will keep it inside of me. Believe me, please."
+    m "Vergüenza de decirlo, eso es todo."
+    mc "Monika, realmente puedes decírmelo."
+    mc "Lo guardaré dentro de mí. Créeme, por favor."
     show monika base uniform e4a me
-    mc "No one else but me will know what you are holding inside.."
+    mc "Nadie más que yo sabrá lo que tienes guardado dentro..."
     $ renpy.music.set_volume(0.8, delay=3)
     m "..."
-    "Monika inhales briefly closing her eyes."
+    "Monika inhala brevemente, cerrando los ojos."
     play channel1("<loop 06.058>mod_assets/bgm/piano.ogg") volume 0.1
     show monika base uniform e1c me
-    m "It's just, I've been thinking about a new activity for the debate club."
+    m "Es solo que he estado pensando en una nueva actividad para el club de debate."
     show monika base uniform e1b mi
-    m "I wanted to get out of this vicious cycle since I had taken the vice president position."
+    m "Quería salir de este ciclo vicioso desde que asumí el cargo de vicepresidenta."
     show monika base uniform e4a lpoint mh b2a
-    m "I was optimistic!"
+    m "¡Era optimista!"
     show monika base uniform e1b me ldown b1b
-    m "I thought it was a great idea, fun to do."
+    m "Pensé que era una gran idea, divertida de hacer."
     show monika base uniform e4d md b1a
-    m "But if only I had known what was going to happen..."
-    mc "What happened, Monika?"
-    "Monika takes a gulp of air with her mouth."
+    m "Pero si tan solo hubiera sabido lo que iba a suceder..."
+    mc "¿Qué pasó, Monika?"
+    "Monika toma una bocanada de aire."
     show monika base uniform e1c b1b me
-    m "It was a nightmare."
+    m "Fue una pesadilla."
     show monika base uniform e1g
-    m "Nobody found my activity interesting."
+    m "Nadie encontró mi actividad interesante."
     show monika base uniform e4d mj
-    m "Nobody."
+    m "Naide."
     show monika base uniform e4d mj
-    m "Not only had I wasted time for nothing working all this out, but..."
-    m "...But they trashed everything I had done."
+    m "No solo había perdido el tiempo trabajando en todo esto para nada, sino que..."
+    m "...Sino que destruyeron todo lo que había hecho."
     show monika base uniform e1h mk
-    m "Everything I had planned for the club to run the festival.."
+    m "Todo lo que había planeado para que el club organizara el festival..."
     show monika base uniform e4e ml
-    m "...They tore up the posters that I had planned and prepared for the festival."
+    m "...Rasgaron los carteles que había planeado y preparado para el festival."
     show monika base uniform e1h ml
-    m "It took me a long time to do everything..."
+    m "Me tomó mucho tiempo hacer todo..."
     show monika base uniform e1h mk
-    m "It took me almost two whole weeks!"
+    m "¡Me tomó casi dos semanas enteras!"
     show monika base uniform e4e ml
-    m "Two whole weeks where I was sacrificing my free time to be able to move the club forward."
+    m "¡Dos semanas completas en las que estuve sacrificando mi tiempo libre para poder hacer avanzar el club!"
     show monika base uniform e4e mm
-    m "...They told me it was shit, that it was sloppy work.."
+    m "...Me dijeron que era una porquería, que era un trabajo descuidado..."
     show monika at thide
     hide monika
-    "Monika buries her head on my shoulder, sobbing."
-    "I take her by the arm."
+    "Monika entierra su cabeza en mi hombro, sollozando."
+    "La tomo del brazo."
     "A stream of tears run down her face and stain my jacket at the same time."
     m "It all went up in smoke...!"
     m "In a few moments..."
