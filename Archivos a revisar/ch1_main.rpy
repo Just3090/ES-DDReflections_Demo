@@ -356,7 +356,7 @@ label ch1_main:
 
     m "No te preocupes, [player]."
     m "Sayori es mi mejor amiga, la conozco mejor que nadie."
-    "¿Su mejor amiga?
+    "¿Su mejor amiga?"
     "Estoy sorprendido. Llevamos años conociéndonos y nunca me había hablado de ella antes..."
     m "Siempre se esfuerza al máximo en las cosas que hace y que realmente le importan, [player]."
     m "Es como un rayo de sol andante."

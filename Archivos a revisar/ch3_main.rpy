@@ -14,61 +14,61 @@ label ch3_main:
     "Miro la hora en el despertador."
     "{i}6:30 AM{/i}"
     "Debería ir preparándome para ir al instituto."
-    "I get out of bed, and head to the bathroom to take a quick shower."
+    "Me levanto de la cama y voy al baño para darme una ducha rápida."
     show bg kitchen
     with dissolve_scene_full
-    "Once I've showered, I put on a clean uniform and get my things as I head to the kitchen."
-    "I grab a common sandwich from the fridge and put it in my bag."
-    mc "I enjoyed eating on the roof of the school Friday at launch break."
-    "I sit on the chair taking a quick breakfast."
-    "Once I finish, I head to the front door and put on my shoes before heading outside the house."
+    "Una vez que me he duchado, me pongo el uniforme limpio y agarro mis cosas mientras me dirijo a la cocina."
+    "Saco un sándwich común del refrigerador y lo meto en mi mochila."
+    mc "Disfruté comer en el techo de la escuela el viernes durante el almuerzo."
+    "Me siento en la silla y tomo un desayuno rápido."
+    "Una vez que termino, me dirijo a la puerta principal y me pongo los zapatos antes de salir de la casa."
     play sound closet_open
     show bg residential_day
     with wiperight_scene
     play music morning
     $ pause (0.1)
     play sound closet_close
-    "I close the door behind me and stop on the sidewalk thinking about something."
-    "Sayori told me last Friday that she lived a few blocks from here."
-    "Maybe I can wait for her?"
-    "I glance at my phone."
+    "Cierro la puerta detrás de mí y me detengo en la acera, pensando en algo."
+    "Sayori me dijo el viernes pasado que vivía a unas pocas cuadras de aquí."
+    "¿Tal vez pueda esperarla?"
+    "Miro de reojo mi teléfono."
     "{i}7:30 AM.{/i}"
-    "I nod my head."
-    "She probably hasn't left for school yet."
-    "That's okay, I can wait for her."
+    "Asiento con la cabeza."
+    "Probablemente no ha salido aún para la escuela."
+    "Está bien, puedo esperarla."
     "..."
-    "Twenty minutes have passed."
-    "I still haven't seen Sayori, maybe she left before me in the end?"
+    "Han pasado veinte minutos."
+    "Y aún no he visto a Sayori, ¿quizás se fue antes que yo al final?"
     "..."
-    "I'm probably making myself late because of this."
-    "I walk a little faster to school."
+    "Probablemente me estoy retrasando por culpa de esto."
+    "Camino un poco más rápido hacia la escuela."
     stop music fadeout 2.0
     window hide
     pause 2
     $ s_name = "??????"
-    s "Heeeeeeeeeeeeeey, [player] wait for me!"
+    s "¡Heeeeeeeeeeeeeey, [player], espera por mí!"
     mc "Huh?"
     $ s_name = "Sayori"
     play music t2 fadein 3.0
-    "I turn around to see Sayori running in my direction, waving her arms in the air."
-    "I decide to stop so she can catch up."
+    "Me doy la vuelta para ver a Sayori corriendo en mi dirección, agitando los brazos en el aire."
+    "Decido detenerme para que pueda alcanzarme."
     show sayori base uniform neut ml e4c awkw rup lup at t11
-    s "...Haaah.. ..Haaaaah."
+    s "...Haaah... ...Haaaaah."
     show sayori base uniform neut mb e1a rdown ldown
-    s "[player], are you a heavy sleeper like me too?"
-    mc "A heavy sleeper?"
-    mc "No, not really. I've been up since half past six."
-    mc "And actually... I was waiting for you, but I thought you left before me."
+    s "[player], ¿eres un dormilón como yo también?"
+    mc "¿Un dormilón?"
+    mc "No, la verdad no. He estado despierto desde las seis y media."
+    mc "Y en realidad... te estaba esperando, pero pensé que te habías ido antes que yo."
     show sayori base uniform rup b2c mh e1a nobl
-    s "Oh really? I'm sorry!"
+    s "¿En serio? ¡Lo siento!"
     show sayori base uniform e2a mi rup lup b1a awkw
-    s "My alarm didn't really go off, though I was sure I set it last night before I went to sleep."
+    s "Mi alarma no sonó, aunque estaba segura de haberla puesto anoche antes de irme a dormir."
     show sayori base uniform neut e1a ldown mb nobl
-    s "But you should have sent me a message!"
-    mc "Send you a message?"
-    mc "Sayori.. I don't have your phone number."
+    s "¡Pero deberías haberme enviado un mensaje!"
+    mc "¿Enviarte un mensaje?"
+    mc "Sayori... no tengo tu número."
     show sayori base uniform e2a b1c mh rdown
-    s "Ooooh?"
+    s "¿Ooooh?"
     show sayori base uniform neut e1a b1a mb
     s "I thought I gave it to you on Friday!"
     mc "Well... no."
