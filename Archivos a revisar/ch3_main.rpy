@@ -46,7 +46,7 @@ label ch3_main:
     window hide
     pause 2
     $ s_name = "??????"
-    s "¡Heeeeeeeeeeeeeey, [player], espera por mí!"
+    s "¡Eeeyyy, [player], espera por mí!"
     mc "Huh?"
     $ s_name = "Sayori"
     play music t2 fadein 3.0
@@ -74,11 +74,11 @@ label ch3_main:
     mc "Bueno... no."
     mc "De todos modos, deberíamos irnos o llegaremos tarde."
     show sayori base uniform e2a ml rup lup at rhide
-    s "¡Aaaaah! Sí, vamos rápido, [player]--!"
+    s "¡Aaah! Sí, vamos rápido, [player]--!"
     $ pause (0.4)
     hide sayori
     "Sayori sale corriendo sin decirme nada."
-    mc "¡Heeyyy, espérame!"
+    mc "¡Eeeyyy, espérame!"
     "Acelero el paso para alcanzarla."
     show bg re2
     with wiperight_scene
@@ -94,18 +94,18 @@ label ch3_main:
     play music t3
     play sound bell
     "La campana suena, señalando el fin de las clases y el comienzo del receso para el almuerzo."
-    "Recojo mis cosas y me dirijo al techo de la escuela."
+    "Recojo mis cosas y me dirijo a la azotea."
     scene bg roof
     with wiperight_scene
     stop music fadeout 2.0
-    "Después de abrir la puerta, veo a Monika de pie en la barandilla, contemplando la vista."
+    "Después de abrir la puerta, veo a Monika de pie en la barandilla, contemplando las vistas."
     play music evening
     show monika base uniform neut e4a at t11
     "Pongo mi mochila en el banco y me acerco a ella discretamente."
     "Me coloco a su derecha, mirando al frente."
-    "Ambos no decimos nada el uno al otro."
-    "Solo el viento soplando y el sonido de la naturaleza son audibles a nuestra percepción."
-    "Después de un momento de silencio, decido cortar el silencio que se había instalado."
+    "Hay un silencio entre nosotros."
+    "Escuchamos el viento soplar y el sonido de la naturaleza."
+    "Decido cortar el silencio que se había instalado."
     mc "Es una bonita vista, ¿verdad, Monika?"
     "Monika asiente con la cabeza."
     show monika base uniform neut e1c me
