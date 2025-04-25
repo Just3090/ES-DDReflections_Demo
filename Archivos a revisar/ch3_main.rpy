@@ -46,18 +46,18 @@ label ch3_main:
     window hide
     pause 2
     $ s_name = "??????"
-    s "¡Eeeyyy, [player], espera por mí!"
+    s "¡Eeeyyy, [player], espérame!"
     mc "Huh?"
     $ s_name = "Sayori"
     play music t2 fadein 3.0
     "Me doy la vuelta para ver a Sayori corriendo en mi dirección, agitando los brazos en el aire."
     "Decido detenerme para que pueda alcanzarme."
     show sayori base uniform neut ml e4c awkw rup lup at t11
-    s "...Haaah... ...Haaaaah."
+    s "Aaah... Aaah..."
     show sayori base uniform neut mb e1a rdown ldown
     s "[player], ¿eres un dormilón como yo también?"
     mc "¿Un dormilón?"
-    mc "No, la verdad no. He estado despierto desde las seis y media."
+    mc "No, la verdad es que no. He estado despierto desde las seis y media."
     mc "Y en realidad... te estaba esperando, pero pensé que te habías ido antes que yo."
     show sayori base uniform rup b2c mh e1a nobl
     s "¿En serio? ¡Lo siento!"
@@ -68,13 +68,13 @@ label ch3_main:
     mc "¿Enviarte un mensaje?"
     mc "Sayori... no tengo tu número."
     show sayori base uniform e2a b1c mh rdown
-    s "¿Ooooh?"
+    s "¿Eeeh?"
     show sayori base uniform neut e1a b1a mb
     s "¡Pensé que te lo había dado el viernes!"
-    mc "Bueno... no."
+    mc "Bueno... pues no."
     mc "De todos modos, deberíamos irnos o llegaremos tarde."
     show sayori base uniform e2a ml rup lup at rhide
-    s "¡Aaah! Sí, vamos rápido, [player]--!"
+    s "¡Aaah! ¡Sí, vamos rápido, [player]!"
     $ pause (0.4)
     hide sayori
     "Sayori sale corriendo sin decirme nada."
@@ -104,30 +104,30 @@ label ch3_main:
     "Pongo mi mochila en el banco y me acerco a ella discretamente."
     "Me coloco a su derecha, mirando al frente."
     "Hay un silencio entre nosotros."
-    "Escuchamos el viento soplar y el sonido de la naturaleza."
-    "Decido cortar el silencio que se había instalado."
-    mc "Es una bonita vista, ¿verdad, Monika?"
+    "Lo único que se llega a escuchar es el viento soplar y el sonido de la naturaleza."
+    "Decido cortarlo."
+    mc "Preciosas vistas, ¿eh, Monika?"
     "Monika asiente con la cabeza."
     show monika base uniform neut e1c me
-    m "En efecto. Es una vista hermosa, [player]."
+    m "En efecto. Son preciosas, [player]."
     show monika base uniform neut e1c md
-    mc "...¿No está Sayori comiendo en el techo?"
+    mc "¿No está Sayori comiendo en la azotea?"
     show monika base uniform neut e1c me
-    m "...No vendrá por un rato, tuvo que hablar con uno de los profesores."
+    m "No vendrá por un rato, tuvo que hablar con uno de los profesores."
     show monika base uniform neut e1c md
     "Eso significa que habrá un poco de tiempo a solas entre Monika y yo..."
     "Tal vez pueda indagar un poco más para descubrir qué pasó cuando ella dejó el club de debate."
     "Aún tengo un poco de miedo de su reacción, sin embargo, ha sido bastante vaga y fría cada vez que le he hecho esa pregunta por mensaje de texto."
-    mc "Oye Monika, tengo esta pregunta para ti--"
+    mc "Ey, Monika, tengo que preguntarte algo..."
     show monika base uniform neut e1a me b1c
-    m "¿Es esa pregunta de nuevo?"
+    m "¿Vas a hacérmela otra vez?"
     show monika base uniform neut e1a me rhip
-    m "[player], ¿sabes que eres bastante insistente con eso?"
+    m "[player], ¿sabes que eres muy pesado?"
     show monika base uniform neut e1a me rdown
     m "¿Cuántas veces te lo he dicho por mensaje?"
     show monika base uniform neut e1c md rhip
     "Monika me interrumpe secamente, mirándome directamente a los ojos."
-    mc "Monika, sé que sueno como si estuviera exagerando, pero escucha--"
+    mc "Monika, sé que sueno como si estuviera exagerando, pero escucha..."
     show monika base uniform neut e1a me rdown
     m "Sí, estás exagerando."
     m "¿Recuerdas lo que te dije?"
@@ -142,7 +142,7 @@ label ch3_main:
     mc "Tienes toda la razón, Monika, debemos concentrarnos en el presente y no quedarnos atrapados en el pasado."
     mc "Pero escucha, sé que algo pasó y quieres ocultarlo."
     show monika base uniform e4a b2b me
-    mc "Sabes, Monika, realmente me gustas y quiero que lo sepas."
+    mc "¿Sabes, Monika? Me gustas mucho y quiero que lo sepas."
     mc "Pero el hecho de que no quieras decírmelo es prueba de que aún no confías completamente en mí."
     show monika base uniform e1a b1b
     mc "Sin embargo... ¿recuerdas el año pasado cuando estábamos en la misma clase?"
@@ -159,10 +159,10 @@ label ch3_main:
     mc "¿Vergüenza de qué?"
     show monika base uniform e1c md
     m "Vergüenza de decirlo, eso es todo."
-    mc "Monika, realmente puedes decírmelo."
-    mc "Lo guardaré dentro de mí. Créeme, por favor."
+    mc "Monika, puedes decírmelo. En serio."
+    mc "Será algo que quede entre nosotros dos. Créeme, por favor."
     show monika base uniform e4a me
-    mc "Nadie más que yo sabrá lo que tienes guardado dentro..."
+    mc "Nadie más que yo sabrá este secreto..."
     $ renpy.music.set_volume(0.8, delay=3)
     m "..."
     "Monika inhala brevemente, cerrando los ojos."
@@ -204,73 +204,73 @@ label ch3_main:
     hide monika
     "Monika entierra su cabeza en mi hombro, sollozando."
     "La tomo del brazo."
-    "A stream of tears run down her face and stain my jacket at the same time."
-    m "It all went up in smoke...!"
-    m "In a few moments..."
-    "I feel Monika's hand tightening on my forearm."
-    "Only the sounds of her sobs are audible."
-    "Monika, I'm really sorry that you went through this."
-    mc "They are just assholes and I mean that sincerely. They don't deserve someone as talented as you."
-    "There is a slight silence before I decide to speak again."
-    mc "Listen carefully, Monika.."
-    mc "... In my club, you will be respected."
-    mc "You will be listened to."
-    mc "And above all..."
-    mc "You will be loved by me and the other members."
-    mc "No one has the right to treat you in such a way."
-    mc "Your ideas that you proposed to me this Friday were excellent, believe me."
-    mc "I'm sure Sayori, Natsuki and Yuri will think of the same thing."
-    "Finally, Monika's sobs start to stop. But she still has her head buried on my shoulder."
-    "I hear footsteps approaching from the stairs."
-    "Is it Sayori?"
-    "It's very likely, but you never know."
-    "I release Monika from my arm."
-    s "{i}Sorry for the delay, the teacher yelled at me about a test I missed--{/i}{w=0.04}{nw}"
+    "Un torrente de lágrimas recorre su cara y manchan mi chaqueta al mismo tiempo."
+    m "¡Todo se fue a la mierda!..."
+    m "En cuestión de segundos..."
+    "Siento cómo Monika me aprieta el antebrazo."
+    "Lo único que se escucha son sus sollozos."
+    "Monika, siento muchísimo que hayas tenido que pasar por esto."
+    mc "Son unos capullos, unos gilipollas, y lo digo de corazón. No se merecen a alguien con tanto talento como tú."
+    "Hay un silencio muy breve antes de volver a hablar."
+    mc "Escúchame bien, Monika..."
+    mc "En mi club se te va a respetar."
+    mc "Se te va a escuchar."
+    mc "Y, por encima de todo..."
+    mc "Vas a recibir cariño De mí y del resto."
+    mc "Nadie tiene derecho a tratarte así."
+    mc "Las ideas que me contaste el viernes eran geniales, créeme."
+    mc "Estoy seguro de que Sayori, Natsuki y Yuri pensarán lo mismo."
+    "Por fin, los sollozos de Monika empiezan a cesar. Pero sigue con la cabeza apoyada en mi hombro."
+    "Escucho pasos provenientes de las escaleras."
+    "¿Será Sayori?"
+    "Probablemente sí, aunque nunca se sabe"
+    "Le suelto el brazo a Monika."
+    s "{i}Perdón por la tardanza, el profe me ha echado la bronca por un examen que me salté...{/i}{w=0.04}{nw}"
     show sayori base uniform e4b mc at l21
     show monika base uniform e4d mj at t22
-    s "I have a sudden urge to--{w=0.02}{nw}"
+    s "Tengo unas ganas locas de...{w=0.02}{nw}"
     show sayori base uniform e2a mi rup lup
-    s "Monika, are you okay???"
+    s "¡¿Monika, estás bien?!"
     show sayori base uniform e1a b1c md rdown ldown
-    "I look at Sayori who is displaying a worrying look on her face and slowly starts to move closer to the two of us."
+    "Miro a Sayori, que tiene una expresión de preocupación en la cara y se va acercando poco a poco a nosotras."
     show monika base uniform e1b me
-    m "It's okay Sayori.. It was just.."
+    m "Tranquila, Sayori... Es solo que..."
     show monika base uniform e4d mj
-    "Monika's having trouble forming her sentence."
-    "I walk towards her and whisper to her, so that it can't be heard by Sayori."
-    mc "{i}Do you want to tell her your story, Monika?{/i}"
+    "Monika tiene dificultades para terminar la frase."
+    "Me acerco a ella y le susurro al oído, para que Sayori no nos escuche."
+    mc "{i}¿Quieres contarle tú misma lo que me dijiste, Monika?{/i}"
     "..."
-    "She doesn't answer."
-    "She just glances from Sayori to me."
+    "No responde."
+    "Solo lanza miradas, a mí y a Sayori."
     show sayori base uniform e1a b1b mh rup
-    s "What did you tell her, [player]?"
-    mc "Uuumh... I-"
-    "My thoughts scramble with a snap of my finger. Monika didn't even answer me if I could tell her or not!"
-    "Should I tell her or not?"
+    s "¿Qué le has dicho, [player]?"
+    mc "Eeeh... Yo..."
+    "Mis pensamientos se desordenan al instante. ¡Pero si Monika ni siquiera me ha dicho si podía contárselo o no!"
+    "¿Debería decírselo o no?"
     "..."
-    "....."
-    "I made a promise to her not to tell."
-    "If she wants to know, she'll have to go through Monika."
-    "As a sign of respect for her."
+    "..."
+    "Le prometí que no lo haría."
+    "Si Sayori quiere saberlo, tendrá que hablar con Monika."
+    "Por respeto a ella."
     show monika base uniform e1c b1b me
-    m "Sayori... it's a long story."
+    m "Sayori... es una larga historia."
     show monika base uniform e4e b1b me
     show sayori base uniform rup lup b1b md
-    s "Can I give you a hug, Monika..?"
+    s "¿Puedo darte un abrazo?..."
     show sayori behind monika at t22s
-    "Monika doesn't say anything, but Sayori approaches to hug her."
+    "Monika no responde, pero Sayori se le acerca y la abraza."
     show sayori base uniform e4a md ldown b1b
-    "Sayori closes her eyes and starts to use a relaxed voice."
+    "Sayori cierra los ojos y le habla con un tono suave."
     show sayori base uniform e4a me lup b1a
-    s "Monika, You can tell me everything. I'm your friend."
+    s "Puedes contarme lo que sea. Soy tu amiga."
     show sayori base uniform e4a mg ldown b1b
-    s "And a friend... listens to everything you hold inside."
-    s "I don't like to see you sad like this, Monika."
+    s "Y una amiga... escucha todo lo que llevas dentro."
+    s "No me gusta verte así de triste."
     show sayori base uniform e4a me rup b1a
-    s "Just tell me what you hold inside of your heart."
+    s "Cuéntame lo que guardas en el corazón."
     m "..."
-    "Finally, Monika dictates everything she told me to Sayori."
-    "I couldn't do anything else but stand in front of them like a common lamp post."
+    "Al final, Monika empieza a contarle a Sayori todo lo que me dijo a mí."
+    "Yo no hago más que quedarme ahí plantado, como si fuera una farola."
     window hide
     stop channel1 fadeout 2.0
     stop music fadeout 2.0
@@ -278,58 +278,58 @@ label ch3_main:
     show sayori base uniform neut b1b ma rup
     show monika base uniform neut e1c md b1b
     with dissolve_scene_full
-    "It seems that Sayori has managed to lighten the mood, in a way that escapes me."
+    "Da la sensación de que Sayori ha conseguido calmar un poco el ambiente, aunque no tengo ni idea de cómo."
     "..."
     show monika base uniform neut e1a me b1b
-    m "Just.."
+    m "Yo solo..."
     show sayori base uniform e1a b1b at t21
     show monika base uniform neut e1a md b1b
-    m "Do you promise to keep this just to yourself?"
-    mc "I promise, Monika."
-    "I imitate a zipper with my mouth and finger."
+    m "¿Prometéis que esto quedará entre nosotros?"
+    mc "Te lo prometo, Monika."
+    "Hago el gesto de cerrar la boca con una cremallera."
     show sayori base uniform b1b e1a lup rup
-    s "This will stay between the three of us, Monika. You have our trust."
+    s "Esto se queda entre los tres, Monika. Puedes confiar en nosotros."
     show monika base uniform e1a b1b ma
-    m "Thank you so much. You really are precious friends."
-    mc "Don't worry Monika, if you have anything to say, you can say it directly to me or Sayori."
-    s "Yes, and..."
+    m "Muchas gracias. Sois unos amigos increíbles."
+    mc "No te preocupes, Monika. Si necesitas hablar, aquí estamos Sayori y yo."
+    s "¡Sí! Y además..."
     show sayori base uniform e4b b1a mc rup lup
-    s "You're really smart and beautiful, Monika!"
+    s "Eres muy lista y guapa, Monika."
     show monika base uniform e1c b1b lpoint blaw mb
-    m "Haha.. how many times did you tell me that, Sayori..?"
+    m "Ja, ja... ¿Cuántas veces me has dicho eso ya, Sayori?"
     show monika base uniform e1c b1b lpoint blaw ma
     show sayori base uniform e2a b1a mf rup at h21
-    s "Ah!... uh... I don't know, I didn't count!"
+    s "¡Ah! Eh... ¡ni idea! ¡No llevo la cuenta!"
     show sayori base uniform neut e4b mc rup lup
-    s "But my words are sincere!"
+    s "¡Pero lo digo de corazón!"
     show sayori base uniform neut e1a mb rdown lup
-    s "And I will repeat it again and again!"
+    s "¡Y lo repetiré las veces que haga falta!"
     show sayori base uniform neut e4b ma rup lup at face
-    s "And thanks again to you, [player], for being the best president!"
+    s "¡Y gracias a ti también, [player], por ser el mejor presidente!"
     show monika base uniform e4b awkw mb b1a
-    "All of a sudden Sayori quickly wraps her arms around me."
-    "Which surprises me slightly to be honest."
-    mc "Hey, hey!"
+    "De repente, Sayori me abraza con fuerza."
+    "Para ser sinceros, me pilla un poco por sorpresa."
+    mc "¡Eh, eh!"
     show sayori base uniform neut mb rup ldown at t21
-    s "Ahaha, sorry! It's just that I'm a hugger!"
+    s "Ja, ja, ja. ¡Perdón, es que soy una doña abracitos!"
     show monika base uniform neut ma e1a rhip nobl
-    m "Don't be surprised, [player]. It's Sayori's natural behavior."
-    mc "I've noticed it since she's been in the club, don't worry, Monika."
+    m "Que no te sorprenda, [player]. Así es Sayori normalmente."
+    mc "Lo noté desde que se unió al club. No te preocupes, Monika."
     show monika base uniform ma e4b rdown ldown
-    "Monika sneers in a tender way."
+    "Monika sonríe con ternura."
     show monika base uniform me b1a rhip e1a
     show sayori tap m1 e2 blaw b1 at s21
-    "An audible growl can be heard from Sayori's belly."
+    "El estómago de Sayori ruge con mucha fuerza."
     show sayori tap m1 e1 nobl at t21
-    s "Hehehehe.. How about we go eat?"
+    s "Je, je, je... ¿Y si... vamos a comer algo?"
     show sayori base uniform e1b b1b mc
     show monika base uniform ma b1a rhip
-    s "Mister Mumty is getting hungry!"
-    mc "Mister Mumty..?"
-    mc "You gave your stomach a nickname, Sayori?"
+    s "¡El señor barrigón empieza a protestar!"
+    mc "¿El señor barrigón?"
+    mc "¿Le has puesto un mote a tu estómago, Sayori?"
     show sayori base uniform e4b b1a rup lup mc
-    s "Yeeeeeees!"
-    mc "And where did you get that nickname?"
+    s "¡Síii!"
+    mc "Y..., ¿de dónde ha salido?"
     show sayori base uniform e2a mf b1f
     "Sayori displays a puzzled look thinking for a little while."
     show sayori base uniform e1a mb b1a
