@@ -1456,31 +1456,31 @@ label ch3_main:
     $ quick_menu = False
     show bg black
     with dissolve_scene_full
-    show text "{=labeltext}{outlinecolor=#ffffff00}{size=40}Thank you for playing the demo of Doki Doki: The Reflection!{/outlinecolor}{/=labeltext}{/size}"
+    show text "{=labeltext}{outlinecolor=#ffffff00}{size=40}¡Gracias por jugar a la versión de demostración de Doki Doki: The Reflection!{/outlinecolor}{/=labeltext}{/size}"
     with Dissolve(1)
     $ pause (3)
     hide text
     with Dissolve(1)
-    show text "{=labeltext}{outlinecolor=#ffffff00}{size=40}If you have any suggestions to improve my project, don't hesitate to tell me in the comments.{/outinecolor}{/=labeltext}{/size}"
+    show text "{=labeltext}{outlinecolor=#ffffff00}{size=40}Si tienes alguna sugerencia o consejo para mejorar mi proyecto, no dudes en decírmelo en los comentarios.{/outinecolor}{/=labeltext}{/size}"
     with Dissolve(1)
     $ pause (2)
     hide text
-    show text "{=labeltext}{outlinecolor=#ffffff00}{size=40}Big thanks to SpiritH0F#1283, DeltaOmega17#2949 & Zaun Aura#6946 for taking their free time to correct a LOT of grammatical errors in my mod due to my bad English.(There are probably still some, but less than before.){/outinecolor}{/=labeltext}{/size}"
+    show text "{=labeltext}{outlinecolor=#ffffff00}{size=40}Mil gracias a SpiritH0F#1283, DeltaOmega17#2949 y Zaun Aura#6946 por usar su tiempo libre en corregir los CIENTOS de errores gramaticales en mi mod debido al mal nivel de inglés que tengo.(Y seguirán habiendo, pero muchísimos menos que antes.){/outinecolor}{/=labeltext}{/size}"
     with Dissolve(1)
     $ pause (6)
     hide text
     with Dissolve(1)
     if persistent.secret == True:
-        show text "{=monika_text}{outlinecolor=#ffffff00}{color=#0b5311}{size=80}And remember one thing...{/outinecolor}{/color}{/=monika_text}{/size}"
+        show text "{=monika_text}{outlinecolor=#ffffff00}{color=#0b5311}{size=80}Y recuerda una cosita...{/outinecolor}{/color}{/=monika_text}{/size}"
         with Dissolve (1)
         $ pause (1)
         hide text with Dissolve (2)
-        show text "{=monika_text}{outlinecolor=#ffffff00}{color=#0b5311}{size=80}I love you.{/outinecolor}{/color}{/=monika_text}{/size}"
+        show text "{=monika_text}{outlinecolor=#ffffff00}{color=#0b5311}{size=80}Te amo.{/outinecolor}{/color}{/=monika_text}{/size}"
         with Dissolve (2)
         $ pause (1)
         hide text with Dissolve (3)
         $ pause (2)
-        show text "{=monika_text}{outlinecolor=#ffffff00}{color=#0b5311}{size=100}END{/outinecolor}{/color}{/=monika_text}{/size}"
+        show text "{=monika_text}{outlinecolor=#ffffff00}{color=#0b5311}{size=100}FIN{/outinecolor}{/color}{/=monika_text}{/size}"
         with Dissolve (3)
         $ pause (2)
         $ config.name = "Just Monika."
