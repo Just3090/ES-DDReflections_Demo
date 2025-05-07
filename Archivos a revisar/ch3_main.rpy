@@ -439,286 +439,286 @@ label ch3_main:
     "Sayori y Natsuki parecen hablar sobre el manga que estaban leyendo. Apoyo la cabeza en mis brazos mientras estoy tumbado en el escritorio, escuchando la conversación con cierta vagueza."
     show natsuki cross uniform happ at t22
     show sayori base uniform ma at t21
-    n "So what did you think of the first chapter, Sayori?"
+    n "Así que... ¿Qué piensas del primer capítulo, Sayori?"
     show sayori base uniform mb rup
-    s "It was great!"
+    s "¡Ha estado genial!"
     show natsuki base uniform rhip lhip
-    n "If you want next time we can continue reading the next chapter."
+    n "Si quieres, la próxima vez seguimos leyendo el siguiente capítulo."
     show natsuki base uniform e4b mo rhip ldown
-    n "I don't want to tell you more, but the story will be ten times better!"
+    n "No quiero destriparte nada, ¡pero la historia mejorará por momentos!"
     show sayori tap m1 n2 at s21
-    s "...Hehehe... say, Natsuki... this reading made me a little hungry. Want to go to the vending machine?"
+    s "Je, je, je... Oye, Natsuki, verás... La sesión de lectura qur acabamos de tener me ha hecho despertar hambre. ¿Quieres ir conmigo a comprar algo a la máquina expendedora?"
     show natsuki base uniform mh e1a rdown
     show sayori tap m1 e1
-    n "What?"
+    n "¿Qué?"
     show natsuki e1a mi b1e blaw at h22
-    n "Wait, don't tell me you came to read with me just to ask me that?!"
+    n "Espera, no me digas que te has puesto a leer conmigo... ¡solo para preguntarme eso!"
     show sayori tap m1 e2
-    s "Hehe, no... A little bit... but it was Mister Mumty who told me that!"
+    s "Je, je, no... O bueno, puede que sí... ¡¡Pero ha sido el señor barrigón el que me lo ha dicho!!"
     show natsuki e1a mi rhip lhip b1f
-    n "You could have told me in advance that you weren't serious about reading with me, Sayori!"
+    n "¡Me podrías haber dicho desde un principio que no querías leer conmigo, Sayori!"
     show natsuki e1a md rhip lhip b1f
     show sayori base uniform e1a b1b mg
-    s "Huh? But, I was serious!"
+    s "¿Eh? Pero ¡sí que quería!"
     show sayori base uniform e4b b1a mc rup nobl at h21
-    s "Pleaseeeeeeeeeeeeeeeeeeee, Natsuki!"
+    s "¡Porfiiiii, Natsuki!"
     show natsuki base uniform e4a b3b mi
-    n "No, no, and no!"
+    n "¡No, no, y no!"
     show natsuki cross uniform e1a b1c mh
-    n "Sayori, I won't change my decision."
+    n "Sayori, ni de coña cambiaré de parecer."
     show sayori base uniform e4b mc b1a rup lup
-    s "Pleaseeeeeeee!"
+    s "¡Porfiiiiiiii!"
     $ AutofocusStore.disable_zoom()
     $ AutofocusStore.disable_zorder()
     show sayori behind natsuki at t22s
-    "Sayori wraps her arms around Natsuki holding her tightly."
+    "Sayori rodea con sus brazos a Natsuki y la abraza con fuerza."
     show natsuki base uniform fs e4 m3 b2 n1
-    n "Raaah, please stop!"
+    n "Aaarg, ¡para, por favor!"
     show sayori at h22s
-    s "Pleaseeeeeeeeeeeeeeeeeeee Natsuki!"
+    s "¡Porfiiiiiiiiii, Natsukiiiiiiii!"
     $ nref()
     show natsuki cross uniform e4a mm b3b blaw
-    n "{i}-sigh-{/i}.. Okay! Okay!... I got it, I got it!"
-    n "You won...!"
+    n "{i}-suspiro-{/i} ¡Vale, vale!... ¡Lo pillo, lo pillo!"
+    n "¡Has ganado...!"
     $ sref()
     show sayori base uniform e4b mc rup lup nobl at t21
-    s "Yeeeeeees!"
-    "I'm slowly closing my eyes."
+    s "¡Sííí!"
+    "Cierro los ojos lentamente."
     $ AutofocusStore.enable_zoom()
     $ AutofocusStore.enable_zorder()
     scene black with close_eyes
     hide natsuki
     hide sayori
     pause 3
-    "I don't know why, but I have a feeling that someone is right above me."
-    "Out of reflex, I quickly open my eyes and raise my head too."
+    "No sé por qué, pero siento que alguien se encuentra por encima mía."
+    "En un acto reflejo, abro los ojos con extrema rapidez y levanto la cabeza."
     show bg club_day
     show monika lean uniform at face (y=750)
-    "Suddenly, I see Monika filling my field of vision."
-    "I jump from my chair, missing a heartbeat."
-    mc "Monika?!"
+    "De repente, veo a Monika ocupando absolutamente todo mi campo de visión."
+    "Doy un salto desde la silla, con el corazón a mil."
+    mc "¡¿Monika?!"
     show monika base uniform e4b mb awkw at t11
-    m "Ahahaha! I'm sorry, I couldn't help it."
+    m "¡Ja. ja, ja! Perdona, no podía evitar hacerlo."
     show monika lean uniform ma nobl
-    m "Didn't we get enough sleep last night, president?"
-    mc "Not even, I was just in my thoughts!"
+    m "¿No hemos descansado ya bastante esta noche, presidente?"
+    mc "No te creas, ¡tenía mucho que pensar y estaba descansando la cabeza!"
     show monika base uniform lpoint ma
-    m "Come on, be a little more serious, [player]."
+    m "Venga ya, [player], tómate el club con más seriedad..."
     show monika base uniform ldown mb
-    m "You shouldn't slouch on the table like that."
+    m "No deberías estar tumbado en la mesa..."
     show monika lean uniform ma
-    m "That's not worthy of a president, [player]~"
-    mc "Aren't you exaggerating a little too much, Monika...?"
+    m "Eso no es muy propio de un presidente, [player]..."
+    mc "¿No exageras demasiado, Monika?..."
     show monika base uniform e4b ma
-    "Monika laughs teasingly."
+    "Monika ríe con mucha fuerza."
     show monika base uniform e1a mb
-    m "I'm just kidding!"
+    m "¡Que estoy de coña!"
     show monika base uniform me lpoint
-    m "But seriously..."
+    m "Aun así..."
     show monika base uniform mb ldown
-    m "We should start sharing our poems so we have time to talk about the preparations afterwards!"
-    mc "Yes, you're right. Let's go."
+    m "Deberíamos empezar a compartir los poemas. Puede que, si acabamos a tiempo, podamos hablar de los preparativos del festival."
+    mc "Ya, tienes razón. Vamos, no hay tiempo que perder."
     show monika at thide
     hide monika
-    "I get up from the chair heading to the front of the room."
-    mc "Okay everyone!"
-    mc "We'll start sharing our poems!"
+    "Me levanto de la silla para colocarme en la parte frontal de la clase."
+    mc "¡Vale, compis!"
+    mc "¡Vamos a compartir los poemas, si os parece!"
     stop music fadeout 2.0
     show bg club_day1
     with wiperight_scene
     play music t5
     show sayori base uniform rup mb at t11
-    s "Hi, [player]!"
-    mc "Hi, Sayori."
-    mc "How are you feeling in the club?"
+    s "¡Hola, [player]!"
+    mc "Hola, Sayori."
+    mc "¿Cómo te va en el club?"
     show sayori base uniform e4b mc rup lup
-    s "I feel great!"
-    mc "That's good then!"
+    s "¡Genial!"
+    mc "¡Me alegro!"
     show sayori base uniform e1a ma rdown ldown
-    mc "If you feel good, that's wonderful for me."
+    mc "Si es así, a mí me alegras el día."
     show sayori base uniform e4b mc
-    "Sayori smiles happily."
+    "Sayori sonríe felizmente."
     show sayori base uniform e1a ma
-    mc "Ready to share your poem, Sayori?"
+    mc "¿Lista para compartir tu poema, Sayori?"
     show sayori base uniform e1a mb
-    s "Yep!"
+    s "¡Síp!"
     show sayori base uniform e4b mc rup
-    s "You'll see that I wrote the best poem!"
-    mc "I'm waiting for that."
-    "Sayori hands me her poem with a big smile, I grab it and start to read it."
+    s "¡Verás que mi poema es el mejor que he escrito!"
+    mc "Lo espero con ansias."
+    "Sayori me da su poema con una sonrisa de oreja a oreja. Lo cojo y empiezo a leerlo."
     call showpoem (poem_s2, img="sayori base uniform neut e1b b1b ma blaw lup rup") from _call_showpoem_19
     show sayori base uniform neut e1a b1a ma nobl rdown ldown
-    mc "Damn it..."
-    mc "Sayori, in a word..."
-    mc "Impressive."
+    mc "Dios mío..."
+    mc "Sayori, si tuviese que opinar con una sola palabra..."
+    mc "Impresionante."
     show sayori base uniform e4b mc rup
-    s "Hehehe, I told you I would write the best poem!"
+    s "Je, je, je. ¡Te dije que escribiría el mejor poema hasta la fecha!
     show sayori base uniform e1a ma
-    mc "No kidding..."
-    mc "Your poem is amazing Sayori, well done."
+    mc "No estabas de coña..."
+    mc "Tu poema es impresionante, Sayori. Muy bien."
     show sayori base uniform e4b mc rup at h11
-    s "Yaaaay! I got the congratulations from the president!"
-    mc "Sayo--"
+    s "¡Bieeen! ¡Me ha felicitado el presidente!"
+    mc "Sayo..."
     show sayori base uniform e4b mc rup at h11
-    s "That means it's the best poem of the day!"
-    mc "Sayori.. this is not a competition."
+    s "¡Eso significa que es el mejor poema que has visto el día de hoy!"
+    mc "Sayori... esto no es una competición."
     show sayori tap uniform e2 m2 b1 awkw at s11
-    s "Pfffff, you're not funny, [player]."
-    mc "But...!"
-    mc "Well okay... congratulations Sayori, you won this competition.."
+    s "Baaah, no te diviertes un poco, ¿eh, [player]?"
+    mc "¡Pero...!"
+    mc "Vale, está bien... Felicidades, Sayori, has quedado en primer puesto."
     show sayori base uniform e4b mc rup at h11
-    s "Yaaaaay!"
+    s "¡Tomaaa!"
     show sayori base uniform e4b mc rup lup nobl at h11r
-    "I'm holding back from laughing, I just let a little amused smile show."
+    "Me aguanto las ganas de reírme, solo dejo entrever una sonrisita."
     show sayori base uniform neut e1a ma at t11
-    mc "...Will you read my poem now?"
+    mc "¿Quieres leer ahora mi poema...?"
     show sayori base uniform mb
-    s "Okay!"
+    s "¡Claro!"
     show sayori base uniform e2a b1f rdown ldown mf
     s "..."
     show sayori base uniform e1a b1a lup mb
-    s "Your poem is excellent, [player]!"
+    s "¡Tu poema es excelente, [player]!"
     show sayori base uniform e4b mc rup lup
-    s "But not more than excellent than mine!"
-    mc "Uh... what do you mean?"
+    s "¡Aunque no tan excelente como el mío!"
+    mc "Eh... ¿A qué te refieres?"
     show sayori base uniform e1a mb rdown
-    s "Just kidding!"
+    s "¡Estoy de coña!"
     show sayori base uniform e4b mc rup lup
-    s "Ahahaha, you're really good at writing poems!"
+    s "¡Ja, ja, ja! Se te da increíble escribir poemas, ¿eh?"
     show sayori base uniform e2a b1f mf ldown rdown
-    s "Even if I didn't understand everything in your poem..."
-    mc "Thanks, I guess..."
+    s "Aunque no haya entendido ni papa..."
+    mc "Eh... Gracias, supongo."
     show sayori base uniform e4b ma b1a
-    "I'm not surprised. Sayori tends to write things that are a bit simpler, poems using more extensive vocabulary isn't really her strong point."
-    "But I can honestly say that she is gifted and goes out of her way to write wonderful things."
-    "I don't regret having her in my club."
-    mc "Thank you for sharing your poem, Sayori."
+    "No me sorprende. Sayori tiende a escribir cosas un tanto simples. Eso de escribir poemas con vocabulario extenso no es su punto más fuerte."
+    "Pero puedo decir que tiene un don y se esfuerza de verdad por escribir cosas maravillosas."
+    "No me arrepiento de tenerla en mi club."
+    mc "Gracias por compartirlo, Sayori."
     show sayori base uniform e1a mb lup
-    s "You're welcome!"
+    s "¡Gracias a ti!"
     show bg club_day1
     hide sayori
     with wiperight_scene
     show monika base uniform neut ma at t11
-    mc "Hi, Monika!"
+    mc "¡Hola, Monika!"
     show monika base uniform neut mb
-    m "Hey, [player]!"
-    mc "How are you feeling?"
+    m "¡Eh, [player]!"
+    mc "¿Cómo estás?"
     show monika base uniform neut e4b mb rhip
-    m "I'm feeling much better! Thanks for asking me."
+    m "¡Pues mucho mejor! Gracias por preguntar."
     show monika lean uniform ma
-    m "And how are you doing? Not many people ask if you're feeling good."
-    mc "I'm doing great too, if I can say it like that."
-    mc "Ready to share your poem, Monika?"
+    m "¿Cómo estás tú? No mucha gente pregunta si tú estás bien, ¿eh?"
+    mc "Estoy genial, si es que puede decirse así."
+    mc "¿Lista para compartir, Monika?"
     show monika base uniform neut ma
-    m "Yep!"
-    "I hand my special poem to Monika."
+    m "¡Síp!"
+    "Le doy a Monika mi poema especial."
     "..."
     show monika base uniform e2a md
-    m ".... Hmmmm!"
-    "Monika's eyes goes wide."
+    m "¡Mmm...!"
+    "Los ojos de Monika se hacen cada vez más grandes."
     show monika base uniform e1a b1b rhip ma
-    m "[player]... did you really write this?"
-    mc "Yes, I wrote that poem especially for you."
+    m "[player]... ¿has escrito tú esto?"
+    mc "Claro, lo escribí especialmente para ti."
     show monika base uniform e1a b1b rdown ma
-    m "You know, [player]... I'm sorry again for being so busy because of that crappy debate club."
-    m "But from now on, we can rebuild our friendship."
-    "Monika flashes me a sincere smile, glancing between the poem and me."
-    mc "If you want... Monika, you can keep it..."
+    m "Oye, [player]... Lo siento muchísimo por estar tan ocupada por esas mierdas del club de debate."
+    m "A partir de ahora, podremos volver a construir nuestra amistad."
+    "Monika me lanza una sonrisa de sinceridad, que va entre el poema y yo."
+    mc "Monika... si quieres, puedes quedártelo..."
     show monika base uniform e1a b1b rhip ma
-    m "I'll keep it, honestly."
+    m "Lo cierto es que lo voy a hacer."
     show monika base uniform e1a b1b rdown mb
-    m "It will prove to me every day what a sincere person you are."
-    m "I'm really glad I could be there."
-    mc "Me too, Monika."
+    m "Eso me demostrará cada día lo sincero que eres."
+    m "Estoy muy feliz de poder estar aquí."
+    mc "Y yo, Monika."
     show monika lean uniform ma
-    m "Now, would you like to read my poem?"
+    m "Bueno, ¿quieres leer mi poema?"
     show monika base uniform mb
-    m "I wanted to try something new."
-    "Monika hands me her poem and I take it with my right hand."
-    mc "All right, let's see..."
+    m "He querido probar algo nuevo."
+    "Monika me da su porma y lo cojo con la mano derecha."
+    mc "Muy bien, veamos..."
     call showpoem (poem_m12, img="monika base uniform neut ma b1b") from _call_showpoem_20
     mc "..."
     show monika base uniform neut ma b1a
-    mc "Wow... Monika did you really write this?"
-    mc "You really amazed me."
+    mc "Hala... Monika, ¿has escrito tú esto?"
+    mc "Me impresionas cada vez más."
     show monika lean uniform ma
-    m "Ahahaha! Thank you so much, [player]."
+    m "¡Ja, ja, ja! Muchísimas gracias, [player]."
     show monika base uniform neut mb lpoint
-    m "I wanted to try a new writing style as I said."
+    m "Como dije, quise probar algo nuevo."
     show monika base uniform neut e4b ma ldown
-    m "And I wrote it this morning, I was... really inspired."
-    mc "Your poem is about the old days you lived in?"
+    m "Y lo escribí esta mañana. Me sentí... muy inspirada."
+    mc "¿Trata sobre aquellos días que viviste?"
     show monika base uniform neut e1a md rhip
-    m "Hmmm..."
+    m "Mmm..."
     show monika base uniform neut mb rdown
-    m "Yes, you can say that."
-    m "That was until I left the debate club."
+    m "Sí, podría decirse que sí."
+    m "Hasta que dejé el club de debate, con más exactitud."
     show monika base uniform b1b ma rhip
-    m "I'd rather not really talk about it again now that I've said everything at the launch."
-    mc "Yeah, you're right, now that I know what happened, I think we can forget about it."
-    mc "Thank you for sharing your poem, Monika."
-    mc "It was really an experience to read, I really enjoyed it."
+    m "Y no me gustaría hablar otra vez de ello porque lo he dicho todo en la hora del almuerzo."
+    mc "Sí, tienes razón. Ahora que sé lo que ha ocurrido, es mejor olvidarse del tema."
+    mc "Gracias por compartirlo conmigo, Monika."
+    mc "Ha sido una lectura bastante inspiradora, la he disfrutado muchísimo."
     show monika base uniform b1a e4b mb
-    m "Thanks to you too!"
-    "Monika suddenly walks up to me, speaking in a low voice."
+    m "¡Gracias a ti también!"
+    "Monika se me acerca, susurrando."
     show monika lean uniform ma
-    m "{i}And... thanks again for your poem~{/i}"
-    m "{i}I'll take care of it.{/i}"
-    m "{i}I promise you.{/i}"
-    mc "A-Ah.. Uh.. thank you.."
-    "I don't know what to say, my heart is starting to race."
+    m "{i}Y... gracias de nuevo por tu poema...{/i}"
+    m "{i}Lo cuidaré muchísimo.{/i}"
+    m "{i}Te lo prometo.{/i}"
+    mc "A-Ah... Eh... Gracias..."
+    "No sé qué decir, mi corazón está empezando a acelerarse."
     show monika at thide
     hide monika
-    "No time to recover, Monika has already left to share her poem with someone else."
-    "I sigh heavily."
+    "No hay tiempo que perder, Monika ya ha ido a compartir su poema con otra persona."
+    "Suspiro con pesadez."
     show bg club_day1
     with wiperight_scene
     show natsuki base uniform rhip ma at t11
-    mc "Hey, Natsuki!"
+    mc "¡Oye, Natsuki!"
     show natsuki base uniform rdown mc
-    n "Hi, Mr. President."
-    mc "Please Natsuki, don't call me that."
+    n "Hola, Señor Presidente."
+    mc "Por favor, Natsuki, deja de llamarme así."
     show natsuki base uniform rhip lhip mb
-    n "Ahaha, why not, Mr. President?"
+    n "Ja, ja, ja. ¿Por qué no, Señor Presidente?"
     show natsuki base uniform e4a b3c mc
-    n "You hate it when people call you Mr. President?"
+    n "¿Odias que la gente te llame Señor Presidente?"
     mc "..."
     show natsuki base uniform b1a e4b mo rhip ldown
-    n "Misteeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeer. Presideeeeeeentttt."
-    mc "Well, come on cute little girl, we should start sharing our poems."
+    n "Señoooooooooor... PRESIDENTEEEEEEEE."
+    mc "Vale. A ver, niña bonita, deberíamos empezar a compartir nuestros poemas."
     show natsuki base uniform e2a b1a mi
-    n "You're not making fun of me?!"
-    mc "You started first."
+    n "¡¿No vas a reírte de mí?!"
+    mc "Has empezado tú."
     show natsuki e1d mh rhip lhip
-    n ".. Well okay, okay! I get it."
+    n "Bueno, vale. ¡Vale, lo pillo!"
     show natsuki e1a md b1d ldown
-    n "Give me your damn poem."
-    "I laugh to myself, handing her my poem."
+    n "Dame tu puñetero poema."
+    "Me río para mis adentros, dándole mi poema."
     show natsuki cross uniform md b1a
     "..."
     show natsuki cross uniform mg b1a
-    n "Your poem is nice."
+    n "Está bien."
     show natsuki base uniform mh
-    n "Better than yesterday's though."
-    mc "Ah, thanks."
-    mc "I appreciate your... honesty."
-    mc "I wanted to try something different."
+    n "Mejor que el de ayer, imagino."
+    mc "Ah, pues gracias."
+    mc "Aprecio tu... honestidad."
+    mc "Quería probar con algo diferente."
     show natsuki base uniform lhip
-    n "No kidding, it's not like I noticed."
-    n "Even Monika tried something new."
+    n "Veenga ya, ¿en serio? No me he dado cuenta, en serio."
+    n "Hasta Monika ha probado algo nuevo, idiota."
     show natsuki base uniform rhip
-    n "Are you two connected or what?"
-    mc "Huh?"
-    mc "No, maybe yesterday's sharing influenced us on our writing!"
-    mc "Who knows?"
+    n "¿Os conectáis al escribir? ¿O qué?"
+    mc "¿Eh?"
+    mc "No, pero ¡quizá el haber compartido poemas ayer haya influido en nuestra escritura!"
+    mc "¿Quién sabe?"
     show natsuki cross uniform mg
-    n "Yeah well I don't."
-    mc "That's nice to hear from you..."
-    mc "Will you share your poem with me now?"
+    n "Ya, genial. A mí no me influye en nada."
+    mc "Es genial saberlo, Natsuki..."
+    mc "¿Vas a compartir mi poema conmigo?"
     show natsuki base uniform ma
-    n "Sure."
+    n "Claro."
     show natsuki cross uniform mc
-    n "I'll warn you, it's a little longer than Friday's."
+    n "Te aviso de que es más largo que el del viernes."
     mc "Alright, let's see..."
     call showpoem (poem_n2, img="natsuki base uniform rhip lhip neut ma") from _call_showpoem_21
     "I want to act stupid."
