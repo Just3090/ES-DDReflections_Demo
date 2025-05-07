@@ -331,112 +331,112 @@ label ch3_main:
     s "¡Síii!"
     mc "Y..., ¿de dónde ha salido?"
     show sayori base uniform e2a mf b1f
-    "Sayori displays a puzzled look thinking for a little while."
+    "Sayori muestra una mirada enreversada mientras piensa durante un rato."
     show sayori base uniform e1a mb b1a
-    s "I saw it on the internet and thought the name was funny and cute at the same time!"
+    s "Lo vi en Internet y pensé que el nombre era divertido y cuqui al mismo tiempo."
     show monika base uniform e4b mb rdown
-    "Monika and I both share a laugh."
+    "Monika y yo reímos."
     show sayori tap m2 e1 b1 awkw at s21
-    s "Eeeeeh, don't judge like that!"
+    s "¡Oyeee! ¡No os riais de mí!"
     show monika base uniform neut ma
     show sayori tap m2 e2 b1 awkw at t21
-    mc "Ahaha, don't worry. I'm not judging you, Sayori."
-    mc "Anyway, we should enjoy the time we have left to go eat."
+    mc "¡Ja, ja, ja! No te preocupes, Sayori, que no nos estamos riendo de ti."
+    mc "En fin, deberíamos disfrutar de la comida el tiempo que nos queda."
     show sayori base uniform neut e4b mc b1a at h21
-    s "Yeeeeees!, I'm so hungry!"
+    s "¡Porfiii, que tengo hambreee!"
     show sayori at rhide
     $ pause (0.01)
     hide sayori
-    "Sayori runs to the bench to sit in the middle."
+    "Sayori va corriendo hacia el banco y se sienta justo en medio."
     show monika at thide
     hide monika
-    "Monika and I follow her behind."
-    "We take out our food and start eating."
+    "Monika y yo la seguimos."
+    "Sacamos la comida y empezamos a comer."
     stop music fadeout 2.0
     show bg corridor
     with dissolve_scene_full
-    "The rest of the lunch on the roof of the school with Sayori and Monika went on in an ordinary way."
-    "We talked about various and varied topics again."
+    "El resto del almuerzo en la azotea fue bastante ordinario."
+    "Estuvimos hablando de varios temas comunes."
     play sound bell
-    "After the bell rang to signal the resumption of classes and the end of the lunch break, Sayori and Monika being in the same class, we parted saying goodbye."
+    "Tras el sonido de la campana, que quiere decir que siguen las clases y se termina el descanso para almorzar, Sayori y Monika van a la misma clase, despidiéndonos al unísono."
     show bg class_day
     with dissolve_scene_full
     pause 1
     play music t3
-    "The rest of the afternoon classes are nothing more than ordinary."
-    "I wrote a poem for Monika quickly while I was bored."
+    "El resto de las clases de tarde fueron más que anodinas."
+    "Escribí rápidamente un poema dedicado a Monika mientras me aburría."
     call showpoem (poem_p11, music=False) from _call_showpoem_18
     stop music
     pause 1
     play sound bell
-    "The bell rings at the end after a long wait."
-    "I pack my things and get up from my chair."
-    t "Just a minute, [player]. You're going to clean the classroom today."
-    mc "Why?"
-    t "The cleaning staff is not here today, so I had to designate a random student for today."
-    t "Management's order."
-    "That doesn't make any fucking sense!"
-    "They don't have a substitute or I don't know instead of putting a student who didn't ask for anything in cleaning?!"
-    "It's not fair."
-    "I'm grumbling inside."
-    mc "Okay.."
-    "All the other students in the class are already out with the teacher leaving last, leaving only me in the classroom."
-    mc "Great, let's get this over with already."
+    "Tras una interminable espera, el timbre suena."
+    "Recojo mis cosas y me levanto de la silla."
+    t "Espera un minuto, [player]. Hoy te toca limpiar la clase."
+    mc "Pero, ¿por qué?"
+    t "El personal de limpieza está de baja hoy, así que tengo que asignar a un alumno al azar para que se encargue."
+    t "Son órdenes de los de arriba."
+    "¡¿Qué putísimo sentido tiene eso?!"
+    "Es decir, ¡¿no existe un sustituto o yo-qué-sé-quién al que asignarle la tarea en lugar de preguntarle a alguien que ni siquiera ha pedido hacerlo?!"
+    "Esto no es justo, joder."
+    "Por dentro, me hallo mascullando."
+    mc "Vale..."
+    "Los estudiantes que quedan en la clase ya han salido con el profesor, dejándome únicamente a mí."
+    mc "Qué guay, acabemos con esto de una puta vez."
     pause 5
-    "After vaguely cleaning the classroom until I find it clean to my liking, I finally leave the classroom."
+    "Después de limpiar con vagueza hasta dejarla a mi gusto, consigo salir del aula."
     show bg corridor
     with wiperight_scene
-    "I take the stairs to the clubroom."
-    mc "Great, I'm late for the club..."
+    "Subo por las escaleras hasta llegar al club."
+    mc "Genia, voy tarde..."
     play sound closet_open
     show bg club_day
     with wipeleft_scene
     play music t3
-    "Once I arrived at the club, I was directly approached by Monika."
+    "Una vez llegué al club, Monika se acerca directamente a mí."
     show monika base uniform neut me rhip at r11
-    m "[player]! Why are you late?"
-    mc "Ah, I'm sorry. I had to take care of cleaning my classroom."
-    mc "For some reason I don't even want to say.."
+    m "¡[player]! ¿A qué se viene el retraso?"
+    mc "Ah, perdona... Me han encargado limpiar mi clase..."
+    mc "por alguna razón que ni yo mismo quiero mencionar."
     show monika base uniform neut mb rdown
-    m "Mmmh, okay as long as you're here that's what counts!"
-    mc "Didn't I miss anything otherwise?"
+    m "Mmm... Vale. ¡Bueno, mientras hayas llegado, eso es lo que cuenta!"
+    mc "¿Me he perdido algo en mi ausencia?"
     show monika base uniform neut md rhip
-    m "Not really."
+    m "Qué va."
     show monika base uniform mb ldown
-    m "Only Yuri who brought her electric kettle and some teacups today to make tea."
+    m "Solo Yuri, que ha traído su tetera eléctrica y algunas tacitas de té. Dice que quiere hacer un poco."
     show monika base uniform e4b ma rhip
-    m "She seems very pleased."
+    m "Parece muy aliviada."
     show monika base uniform e1a ma rhip
-    mc "I'm happy for her then."
+    mc "Me alegro por ella."
     show monika at thide
     hide monika
-    "I glance around the room."
-    "I can see a tray sitting on a desk with, as Monika said, tea tassels and an electric kettle on top."
-    "Natsuki and Sayori are sitting on the floor next to the cupboard reading a manga."
-    "And Yuri is immersed in her book with a teacup in her right hand."
-    "I turn back to Monika."
+    "Echo un vistazo al aula."
+    "Veo una bandeja sobre una mesa, con unas bolsitas de té y un hervidor eléctrico, tal y como había dicho Monika."
+    "Natsuki y Sayori están sentadas en el suelo, frente al armario, leyendo juntas un manga."
+    "Y Yuri está inmersa en su libro con una taza de té en su mano derecha."
+    "Miro a Monika de nuevo."
     show monika base uniform neut ma at t11
-    mc "We'll talk about the plans for the festival to the others after we share the poems."
+    mc "Hablaremos más tarde del festival junto a los demás. Primero debemos compartir los poemas con el resto."
     show monika base uniform neut me rhip
-    m "Okay. I'll tell them, [player]."
+    m "Claro, les comento eso, [player]."
     show monika base uniform neut ma rdown
-    m "I'll know how to do it."
-    mc "No worries, Monika. I trust you anyway."
+    m "Sé cómo hacerlo."
+    mc "No te preocupes, Monika. Te creo."
     show monika base uniform neut e4b
-    "Monika smiles happily."
+    "Monika sonríe felizmente."
     show monika base uniform neut e1a mb
-    m "I'll writes something on my notebook."
-    mc "Alright, Monika."
+    m "Estaré escribiendo cosas en mi libreta."
+    mc "Claro, Monika."
     show monika at rhide
     hide monika
     "..."
-    "I slump down on a desk, looking around and..."
-    "... And I do nothing."
-    "I could start poem sharing, but it's too early."
-    "I could work more on the festival preparations, but that would be unfair to Monika."
-    "And Monika seemed determined to tell the members about it."
-    "I take another look around the room."
-    "Sayori and Natsuki seem to be discussing about manga. I lay down my head at the desk, vaguely listening to their discussion."
+    "Me derrumbo en el escritorio, observando alrededor y..."
+    "y sin hacer nada, la verdad."
+    "Podría empezar a compartir los poemas, pero creo que aún es muy temprano."
+    "Podría trabajar más en los preparativos del festival, pero no es justo para Monika ya que ella está ayudándome,"
+    "y parece que le hacía ilusión decírselo a los miembros del club."
+    "Echo otro vistazo al aula."
+    "Sayori y Natsuki parecen hablar sobre el manga que estaban leyendo. Apoyo la cabeza en mis brazos mientras estoy tumbado en el escritorio, escuchando la conversación con cierta vagueza."
     show natsuki cross uniform happ at t22
     show sayori base uniform ma at t21
     n "So what did you think of the first chapter, Sayori?"
