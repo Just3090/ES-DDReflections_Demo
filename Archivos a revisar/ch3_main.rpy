@@ -490,7 +490,7 @@ label ch3_main:
     hide natsuki
     hide sayori
     pause 3
-    "No sé por qué, pero siento que alguien se encuentra por encima mía."
+    "No sé por qué, pero siento que alguien está por encima mía."
     "En un acto reflejo, abro los ojos con extrema rapidez y levanto la cabeza."
     show bg club_day
     show monika lean uniform at face (y=750)
@@ -685,7 +685,7 @@ label ch3_main:
     mc "..."
     show natsuki base uniform b1a e4b mo rhip ldown
     n "Señoooooooooor... PRESIDENTEEEEEEEE."
-    mc "Vale. A ver, niña bonita, deberíamos empezar a compartir nuestros poemas."
+    mc "Vale. A ver, bonita de cara, deberíamos empezar a compartir nuestros poemas, que ya es hora."
     show natsuki base uniform e2a b1a mi
     n "¡¿No vas a reírte de mí?!"
     mc "Has empezado tú."
@@ -719,123 +719,123 @@ label ch3_main:
     n "Claro."
     show natsuki cross uniform mc
     n "Te aviso de que es más largo que el del viernes."
-    mc "Alright, let's see..."
+    mc "Vale, veamos si es cierto..."
     call showpoem (poem_n2, img="natsuki base uniform rhip lhip neut ma") from _call_showpoem_21
-    "I want to act stupid."
-    mc "Say Natsuki... Don't you hate spiders?"
+    "Me voy a hacer el idiota."
+    mc "Oye, Natsuki... ¿No te gustan las arañas?"
     show natsuki base uniform e1a b1d mg
-    n "What?"
+    n "¿Cómo?"
     show natsuki base uniform e1a b1d mi
-    n "Are you doing it on purpose?!"
-    mc "Will you answer me?"
+    n "¡¿Estás de coña?!"
+    mc "¿Me puedes responder a la pregunta que te he hecho?"
     show natsuki cross uniform e1a b1d mm blaw
-    n "Would you like a kick to your groin so I can calm you down?!"
-    mc "Hey hey! I was kidding, Natsuki."
+    n "¡¿Y no quieres mejor una patada en los cojones para relajarte?!"
+    mc "¡Oye, oye! Que sí, que sí, que estaba de coña, Natsuki..."
     show natsuki cross uniform e1b b1f mh nobl at s11
-    n "{i}-sigh-...{/i} Dummy."
+    n "{i}-suspiro-...{/i} Idiota."
     show natsuki cross uniform e1a b1f md at t11
-    mc "More seriously, your poem is about the weird things another person would do?"
+    mc "Fuera de bromas ya, ¿tu poema habla sobre los hobbies raros que tiene la gente?"
     show natsuki base uniform e1a b1a mh rhip lhip
-    n "Yes and no."
+    n "Pues sí, y no."
     show natsuki base uniform e1a b1a mg ldown
-    n "My poem is about the strange or weird passions that some people might have."
-    "{i}(Isn't that what I more or less just said...?){/i}"
+    n "Mi poema trata sobre las aficiones extrañas o raras que algunas personas pueden tener."
+    "{i}(¿¿No es eso lo mismo que he dicho yo??...){/i}"
     show natsuki cross uniform mh
-    n "This poem is put in the in the perspective of a person who likes and want to be friend with Amy, but she have a huge phobia for spiders."
+    n "Mi poema se pone en la perspectiva de una persona que quiere entablar amistad con Amy, pero Amy tiene un trauma muy grande hacia las arañas."
     show natsuki base uniform blaw mi b1e rhip lhip
-    n "I mean, as long as it doesn't hurt other people, people shouldn't have to judge!"
+    n "A ver, mientras no le haga daño a nadie, ¡la gente no debe criticar los gustos de los demás!"
     show natsuki base uniform mg nobl rdown ldown b1a
-    n "So to go back to what I was saying, she's holding back on not being friends with her because she'll judge her for her passion for spiders."
+    n "En fin, volviendo a lo que decía... Amy no quería ser amiga de ella porque a ella le encantaban las arañas."
     show natsuki cross uniform mc
-    n "And my poem wants to get that message across."
+    n "Y ahí es donde entra mi poema y su mensaje interior."
     show natsuki base uniform ma rhip
-    mc "That's a really powerful message you're putting out there."
-    mc "Would this Amy be one of your old friends that you knew or maybe yourself?"
+    mc "Guau, pues... es un mensaje bastante fuerte para ser un poema de pocas palabras."
+    mc "Esa tal 'Amy', ¿es una amiga tuya, o quizás tú misma...?"
     show natsuki base uniform e2a b1f mi blaw rhip at h11
-    n "No!"
+    n "¡No!"
     show natsuki cross uniform e1b b1b mf
-    n "It's... just like that."
+    n "Es... es así, ya está."
     show natsuki cross uniform e1a b1a mg
-    n "And why do you even ask that?"
-    mc "Just like that."
-    mc "Most of your poems that I've read so far were about what we're going through, what we've been through or a thought that's going through our head."
-    "..I think?"
+    n "¿Por qué lo preguntas?"
+    mc "Porque es así."
+    mc "La mayoría de tus poemas que he leído hasta ahora trataban sobre lo que estamos viviendo, lo que hemos pasado o algún pensamiento que se nos cruza por la cabeza."
+    "... ¿Creo?"
     show natsuki cross uniform e4a mc b3c
-    n "Ha ha ha!"
+    n "¡Ja, ja, ja!"
     show natsuki base uniform e4b mo b3c rhip nobl
-    n "I stand out from the club. Impressive coming from me, isn't it?"
-    mc "Uh...yeah if you want."
-    "Natsuki stands on herself, striking a flamboyant pose."
-    "I decide to give her back her poem."
-    mc "Thank you for sharing your poem, Natsuki."
+    n "Destaco dentro del club. Impresionante viniendo de mí, ¿no crees?"
+    mc "Eh... sí, si tú lo dices."
+    "Natsuki se pone de pie por sí sola, adoptando una pose exageradamente teatral."
+    "Decido devolverle su poema."
+    mc "Gracias por compartir tu poema conmigo, Natsuki."
     show bg club_day1
     hide natsuki
     with wiperight_scene
     show yuri base uniform neut md at t11
-    mc "Hi Yuri!"
-    mc "How are you?"
+    mc "¡Hola, Yuri!"
+    mc "¿Cómo estás?"
     show yuri base uniform neut mb
-    y "Hello, [player]. I'm very well, thank you."
-    mc "Great! Do you want us to start sharing our poems?"
+    y "Hola, [player]. Estoy muy bien, gracias."
+    mc "¡Genial! ¿Quieres que empecemos a compartir nuestros poemas?"
     show yuri base uniform rup lup e1b
-    y "It would be a pleasure to see your poem first, I want to see what you have wrote for today."
+    y "Sería un placer ver el tuyo primero. Me gustaría ver lo que has escrito hoy."
     show yuri base uniform e4b ma
-    "Yuri smiles happily as I hand her my poem."
+    "Yuri sonríe feliz mientras le entrego mi poema."
     show yuri base uniform e1b rdown ldown mf
     "..."
     show yuri base uniform rup lup b1b e1b ma
-    "More and more, as Yuri reads my poem, her happy smile turns into a sad smile."
-    "Finally she puts my poem on the desk."
+    "Cuanto más lee Yuri mi poema, su sonrisa alegre se va entristeciendo."
+    "Al final, deja mi poema sobre el escritorio."
     show yuri shy uniform b1 e2 m1
-    y "I.. I'm sorry about how I acted on Friday, [player]..."
+    y "Y-Yo... lo siento por cómo me comporté el viernes, [player]..."
     show yuri shy uniform b1 e1 m2
-    y "You probably hate me..."
+    y "Probablemente me odies..."
     show yuri shy uniform b1 e2
-    y "That must be why your poem is completely different from Friday's.."
+    y "Debe ser por eso que tu poema es completamente diferente al del viernes..."
     show yuri shy uniform n5 m2
-    y "What a horrible person I am..."
-    "Yuri buries her face in her hair, looking away."
-    mc "Huh? No! Not at all, Yuri!"
-    mc "Honestly, I don't hate you!"
-    mc "I will never hate any of you."
-    mc "In the end, you apologized and everything went back to normal."
+    y "Qué persona tan horrible soy..."
+    "Yuri esconde la cara entre su melena, apartando su mirada."
+    mc "¿Eh? ¡No! ¡En absoluto, Yuri!"
+    mc "Oye, hablo en serio. No te odio."
+    mc "No podría odiaros a ninguna de vosotras. Jamás."
+    mc "Al final te disculpaste y todo ha vuelto a la normalidad."
     show yuri shy uniform n1 e1 m1
-    mc "I just changed my style of poem to try something different!"
-    mc "And I realize that wasn't really my strong point, so I think I'll go back to the style of my previous poem."
+    mc "Simplemente cambié mi estilo de escritura por probar algo distinto."
+    mc "Y me he dado cuenta de que no es lo mío, así que creo que volveré al estilo de antes."
     show yuri base uniform e4a b2b mf rup lup at s11
-    y "I.. It's really a relief."
+    y "E-Es un gran alivio."
     show yuri base uniform e1b ma at t11
-    y "Maybe I overthought it after all.."
+    y "Quizá le di demasiadas vueltas a todo..."
     show yuri base uniform e1b ma rdown ldown
-    "Yuri smiles weakly to herself."
-    "I quietly get my poem back."
-    mc "May I see your poem Yuri?"
+    "Yuri sonríe débilmente para sí misma."
+    "Recupero mi poema en silencio y con cuidado."
+    mc "¿Puedo ver tu poema, Yuri?"
     show yuri base uniform e1a b1a mb
-    y "It would be a pleasure."
+    y "Será un placer."
     show yuri base uniform e4b ma rup lup
-    y "I changed the form of my verses a bit, but I hope you still like it!"
-    "Yuri hands me her poem, and once it's in my hands I start reading it..."
+    y "He cambiado un poco la forma de mis versos, ¡pero espero que aún así te guste!"
+    "Yuri me entrega su poema, y en cuanto lo tengo en las manos empiezo a leerlo..."
     call showpoem (poem_y12, img="yuri shy uniform e1 b1 m1") from _call_showpoem_22
-    mc "I see you were a little inspired by me, Yuri."
+    mc "Veo que te has inspirado un poco en mí, Yuri."
     show yuri base uniform e1a mb rup
-    y "Yes, indeed."
+    y "Sí, así es."
     show yuri shy uniform b1 e2 m1
-    y "Your poem was..."
+    y "Tu poema fue..."
     show yuri shy uniform e1 m1
-    y "...impressive, so I was a little inspired by yours..."
+    y "... fue impresionante, así que me inspiré un poco..."
     show yuri base uniform e1a rup lup ma
-    y "And I had started writing the beginning shortly after we shared our poems...{nw}{done}so uh..."
+    y "y había empezado a escribir el principio poco después de que compartiéramos nuestros poemas... {nw}{done}así que... eh..."
     show yuri base uniform e2b b1b mk blaw ldown
-    y "And I had started writing the beginning shortly after we shared our poems...{fast}so uh..."
+    y "y había empezado a escribir el principio poco después de que compartiéramos nuestros poemas... {fast}así que... eh..."
     show yuri base uniform rdown at s11
-    y "I.."
-    "Yuri gets lost in the middle of her sentence, I decide to step in."
-    mc "I'm really glad, Yuri. Well done."
-    mc "Glad in the sense that you are trying new things."
+    y "Y-Yo.."
+    "Yuri se queda a medias en su frase. Decido intervenir."
+    mc "Me alegro mucho, Yuri. Buen trabajo."
+    mc "Me reconforta que estés probando cosas nuevas."
     show yuri base uniform e1a b1a md rup lup nobl at t11
-    mc "Maybe one day you can see Natsuki to try something with the both of you?"
-    mc "I know your writing styles are vastly different."
-    mc "I'll be very interested to see what the result could be."
+    mc "Quizá, algún día, podrías hablar con Natsuki para escribir algo juntas."
+    mc "Sé que vuestros estilos de escritura son muy diferentes..."
+    mc "pero tengo mucha curiosidad por ver qué saldrá de ahí."
     show yuri base uniform e2a b1b rup ml awkw
     y "Ummh...!"
     mc "Ah.. sorry, I didn't want you to feel obligated to do that!"
