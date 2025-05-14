@@ -837,110 +837,110 @@ label ch3_main:
     mc "Sé que vuestros estilos de escritura son muy diferentes..."
     mc "pero tengo mucha curiosidad por ver qué saldrá de ahí."
     show yuri base uniform e2a b1b rup ml awkw
-    y "Ummh...!"
-    mc "Ah.. sorry, I didn't want you to feel obligated to do that!"
+    y "¡Ah...!"
+    mc "Ah... perdona, no quería que te sintieses obligada a hacer algo que no quieres..."
     show yuri base uniform e2b b1b rup mk blaw
-    mc "It was just... a suggestion like that."
+    mc "Solo... era una sugerencia."
     show yuri base uniform e2b mb ldown b1b awkw at s11
-    y "Umh... I'll see about that.."
+    y "Eh... ya veré qué hacer."
     show yuri shy uniform e2 b1 m1 n1 at t11
-    y "I'd really like to get back on track with Natsuki... I've come to realize that our fight was stupid and should never have happened..."
-    mc "I--"
-    "Not giving me time to answer her, Yuri continues her sentence."
+    y "Me encantaría ponerme al día con Natsuki, ya que me he dado cuenta de que nuestra pelea no tuvo sentido alguno y fue algo muy estúpido..."
+    mc "Yo..."
+    "Sin tiempo para responder, Yuri sigue hablando."
     show yuri shy uniform
-    y "I... I will try to talk to her..."
+    y "Intentaré... Intentaré hablar con ella..."
     show yuri shy uniform e1
-    mc "I'm counting on you Yuri, you can do it."
-    mc "Thank you for sharing your poem."
+    mc "Cuento contigo, Yuri. Sé que puedes."
+    mc "Gracias por compartir tu poema conmigo."
     show yuri base uniform e1a mb rup nobl
-    y "Thanks to you too."
+    y "Gracias a ti también."
     stop music fadeout 2.0
     show bg club_day
     hide yuri
     with wiperight_scene
     play music t3
-    mc "Okay, everyone! Come to the front, Monika would like to talk to you about something."
+    mc "¡Vale, compis! Venid al frente, a Monika le encantaría comentaros algo."
     show natsuki base uniform neut mg rhip at t22
     show monika base uniform neut ma at t21
-    n "We're going to talk about the festival I guess?"
+    n "Supongo que es sobre el festival, ¿me equivoco?"
     show monika base uniform e4b mb rhip
-    m "Exactly!"
+    m "¡En absoluto, Natsuki!"
     show monika base uniform neut e1a ma lpoint
-    m "Last weekend, [player] and I worked together by phone on the organization of the next few days for the festival that will take place this Friday."
+    m "El finde pasado, [player] y yo estuvimos en llamada telefónica organizando los días previos al festival de este viernes."
     show natsuki cross uniform neut mh
     show monika base uniform neut ldown me
-    n "Uugh.. do we really have to do this?"
+    n "Uuuh..., ¿es necesario que hagamos todo esto?"
     show natsuki base uniform neut lhip mg
-    n "I mean, there are only three days left until the festival starts."
-    n "We won't get much done in that amount of time, we'll just get humiliated in front of everyone in this school."
+    n "Me refiero a que solo quedan tres días hasta el viernes."
+    n "En tres días no nos da tiempo a nada y será una humillación. Vamos directos a ser el hazmerreír del instituto."
     $ yref()
     show yuri base uniform e1a rup lup mg at t33
     show natsuki base uniform neut lhip mg at t32
     show monika base uniform b1b at t31
-    y "I-I agree with Natsuki."
+    y "E-Estoy de acuerdo."
     show yuri base uniform e1b rdown ldown b1b mg awkw
-    y "Usually, last minute plans always lead to disaster..."
-    mc "Everyone... please listen to Monika first and then we'll discuss it."
+    y "Suele pasar que las cosas no salen bien cuando se improvisan a última hora..."
+    mc "Chicas, me gustaría... que dejéis a Monika expresarse. Cuando acabe, hablaremos sobre qué hacer."
     show monika base uniform b1a e1a mb rhip
-    m "So, as you know, the festival is coming soon!"
+    m "Pues bien, como sabéis, ¡el festival está al caer!"
     show monika base uniform e1a ma lpoint
-    m "With [player], we want to show that literature which can be something boring for most students in this school.... into something very intensive if I may say so!"
+    m "Con [player], queremos demostrar que la literatura, aunque a muchos en este instituto les parezca aburrida... ¡puede ser algo muy apasionante, si me me permite decirlo!"
     show monika base uniform e4b ma rdown ldown
-    m "That's why we decided we were going to do a poetry performance in front of an audience!"
+    m "¡Es por ello que hemos decidido hacer un recital en público!"
     show monika base uniform e1a
     show natsuki base uniform md
     show yuri base uniform e2a b1b rup ml
-    y "W-What???"
+    y "¿¿¿Q-Qué???"
     show yuri base uniform mk
-    y "A poetry performance??"
+    y "¿¿Un recital??"
     show yuri base uniform e2b mk lup blaw
-    "Yuri puts both hands towards her chest, and I can see her face is starting to turn an anxious red."
+    "Yuri coloca ambas manos en su pecho, y puedo ver que su cara va pasando de color carne a color rojo tomate."
     show monika base uniform e4b mb
-    m "Yes!"
+    m "¡Claro!"
     show monika base uniform e1a ma rhip
-    m "We've already worked on the flyers and started putting them up in the school hallways this morning before the club meeting."
+    m "Hicimos los folletos y los hemos colocado hoy en los pasillos antes de que empezase la reunión del club."
     show monika base uniform e1a md rdown
     show yuri base uniform e2a ml ldown
-    y "Monika-!"
+    y "¡Monika...!"
     show yuri base uniform mk rdown
-    y "T-That's so sudden!"
+    y "¡E-Esto es demasiado repentino!"
     show monika base uniform e1a b1b md rdown
     show yuri shy uniform b1 m1 e2 n2
-    y "I-I could never do that."
+    y "N-No podría hacer algo así."
     show natsuki cross uniform mi e1a b1f
-    n "Me too!"
+    n "¡Ni yo!"
     show natsuki base uniform mh e1b blaw rhip
-    n "You didn't even ask our opinion first!"
+    n "¡Ni siquiera nos has pedido opinión!"
     show monika base uniform e1a b1b me rhip
-    m "Is this a bad idea you think?"
+    m "¿Es que es una mala idea?"
     show monika base uniform e1a b1b ma rdown
-    mc "No, Monika, it's a very good idea."
-    mc "But they are right about one thing; we should have told them before the weekend."
-    mc "It's my fault, sorry."
+    mc "No, Monika, es una gran idea."
+    mc "Pero en una cosa tienen razón: debimos haberles dicho esto antes del fin de semana."
+    mc "Culpa mía. Perdonadme."
     ny "..."
-    "Natsuki and Yuri remain silent."
+    "Natsuki y Yuri se quedan en completo silencio."
     show monika base uniform e1a b1b ma rdown at t41
     show natsuki base uniform at t42
     show yuri shy uniform b1 m1 e2 n2 at t43
     show sayori base uniform rup b1b mb at t44
-    s "Girls, please. Monika and [player] worked very hard last weekend for all of this."
+    s "Chicas, por favor. Se nota que Monika y [player] han trabajado mucho durante el finde."
     show sayori base uniform lup
-    s "And Monika and I know how much [player] cares about this club."
+    s "Monika y yo sabemos cuánto se preocupa [player] por su club."
     show sayori base uniform e4b b1a mc at h44
-    s "And.. thanks to him, I got to be friends with both of you!"
+    s "Y gracias a él... ¡he podido hacerme amiga vuestra!"
     show sayori base uniform e1a b1b ldown mb
-    s "So it's important to give back to him."
+    s "Ya es hora de que le devolvamos el favor..."
     show sayori base uniform e1a b1b mb
-    s "And the least we can do is to participate."
+    s "y lo menos que podemos hacer es aportar nuestro granito de arena participando."
     show sayori base uniform e1a b1b ma
     show yuri base uniform e4a b2b mg rup lup at s43
-    y "-sigh-.. I..."
+    y "-suspiro-... Yo..."
     show yuri shy uniform b1 m1 e1 n1 at t43
-    "Yuri glances at me quickly."
+    "Yuri me mira de reojo."
     window hide
     pause 2
     show yuri shy uniform e2
-    y "I changed my mind, I agree to do the poetry performance..."
+    y "He... cambiado de opinión. Apoyo hacer el recital."
     show sayori base uniform e4b b1a mc at h44
     s "Yaaaaaaayy, thank you, Yuri! You are the best!"
     "Sayori is hopping on the spot."
