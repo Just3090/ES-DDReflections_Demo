@@ -1367,7 +1367,7 @@ label ch3_main:
     m "Did I more or less just say the same sentence?"
     mc "Kind of, yes."
     show monika base uniform e4b awkw ldown
-    m "Ahahaha... sorry."
+    m "Ja, ja, ja... Perdóname."
     show monika base uniform e1a b1a ma nobl rhip
     mc "But otherwise, I understand what you mean, Monika. Thanks for worrying about me."
     mc "I just want, that everything goes perfectly well."
@@ -1448,10 +1448,10 @@ label ch3_main:
     show bg kitchen
     with wiperight_scene
     play sound closet_close
-    "I take off my shoes and head to my room."
+    "Me quito los zapatos y voy hacia mi habitación.I take off my shoes and head to my room."
     show bg bedroom
     with wipeleft_scene
-    "Once in the room, after putting my things down, I sit down on the desk chair."
+    "Ya en la habitación, y después de dejar mis cosas, me siento en mi escritorio."
     window hide
     $ quick_menu = False
     show bg black
@@ -1465,7 +1465,7 @@ label ch3_main:
     with Dissolve(1)
     $ pause (2)
     hide text
-    show text "{=labeltext}{outlinecolor=#ffffff00}{size=40}Mil gracias a SpiritH0F#1283, DeltaOmega17#2949 y Zaun Aura#6946 por usar su tiempo libre en corregir los CIENTOS de errores gramaticales en mi mod debido al mal nivel de inglés que tengo.(Y seguirán habiendo, pero muchísimos menos que antes.){/outinecolor}{/=labeltext}{/size}"
+    show text "{=labeltext}{outlinecolor=#ffffff00}{size=40}Mil gracias a SpiritH0F#1283, DeltaOmega17#2949 y Zaun Aura#6946 por usar su tiempo libre en corregir los CIENTOS de errores gramaticales en mi mod debido al mal nivel de inglés que tengo. (Y seguirán habiendo, pero muchísimos menos que antes.){/outinecolor}{/=labeltext}{/size}"
     with Dissolve(1)
     $ pause (6)
     hide text
@@ -1475,7 +1475,7 @@ label ch3_main:
         with Dissolve (1)
         $ pause (1)
         hide text with Dissolve (2)
-        show text "{=monika_text}{outlinecolor=#ffffff00}{color=#0b5311}{size=80}Te amo.{/outinecolor}{/color}{/=monika_text}{/size}"
+        show text "{=monika_text}{outlinecolor=#ffffff00}{color=#0b5311}{size=80}Te quiero.{/outinecolor}{/color}{/=monika_text}{/size}"
         with Dissolve (2)
         $ pause (1)
         hide text with Dissolve (3)
