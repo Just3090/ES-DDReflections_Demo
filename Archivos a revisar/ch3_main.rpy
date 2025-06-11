@@ -942,114 +942,114 @@ label ch3_main:
     show yuri shy uniform e2
     y "He... cambiado de opinión. Apoyo hacer el recital."
     show sayori base uniform e4b b1a mc at h44
-    s "Yaaaaaaayy, thank you, Yuri! You are the best!"
+    s "¡Bieeen! ¡Gracias, Yuri, eres la mejor!"
     "Sayori is hopping on the spot."
     show yuri e5 b2
-    y "-sigh-... This club is seriously going to kill me..."
+    y "-suspiro- Este club va a acabar conmigo..."
     show monika base uniform e4b b1b mb awkw lpoint
-    m "Oh my-... Everything will be fine, don't worry!"
+    m "Ay, madre... ¡Que no pasa nada, todo irá genial!"
     show monika base uniform e1a b1a ma nobl rhip ldown
-    "Monika looks towards Natsuki."
+    "Monika está esperando a Natsuki."
     show monika base uniform e1a mb rhip ldown
-    m "Natsuki?"
+    m "¿Natsuki?"
     show monika base uniform e1a ma rhip ldown
     show natsuki cross uniform e1a mg b1a nobl
-    n "What?"
+    n "Qué pasa."
     show natsuki cross uniform mi b1f
-    n "You think I'm going to let you do this just because Yuri changed her mind?"
+    n "A ver si te crees que te voy a dejar tranquila solo porque Yuri ha cambiado de parecer."
     show natsuki cross uniform mi b1e blaw
-    n "You're dreaming...!"
-    "The three of us stare intensely at Natsuki with a disappointed look."
+    n "¡Ni lo sueñes...!"
+    "Nos quedamos mirando a Natsuki totalmente decepcionados."
     show sayori base uniform md e1a b1b
     show monika base uniform md e1a b1b
-    "Natsuki looks around, starting to feel unsettled."
+    "Ella nos mira, totalmente incómoda."
     show natsuki base uniform rhip lhip mg b1e nobl
-    n "Why are you all looking at me like that?"
+    n "¿Por qué me miráis así?"
     show natsuki cross uniform e4a mm b3a nobl
-    n "Stop making that face!"
+    n "¡Parad de ponerme esa cara!"
     show natsuki base uniform e1a mg b1f
-    n "You are..."
+    n "Es que sois..."
     window hide
     pause 2
     $ nref
     show natsuki base uniform fs e4 b2 m3 n1 at h42
-    n "Well okay, okay!"
+    n "¡Bueno, vale ya!"
     $ nref()
     show natsuki cross uniform e4a mi b3a
-    n "You're pissing me off, but I changed my mind."
+    n "Me estáis tocando las narices, pero he cambiado de parecer."
     show monika base uniform e1a b1b ldown
     show natsuki cross uniform e1b mm b1e nobl
-    "Natsuki crosses her arms looking away, grinding her teeth."
+    "Natsuki se cruza de brazos y mira hacia otro lado, apretando sus dientes."
     show sayori base uniform e4b b1a mc rup lup
-    s "Hehehehe~, thanks Natsuki! But you're way too cute when you act like that!"
+    s "Je, je, je... ¡Gracias, Natsuki! ¡Eres incluso más cuqui cuando te pones así!"
     show sayori base uniform behind natsuki at t42
-    "Sayori slides in behind Natsuki, taking her in her arms."
+    "Sayori se desliza por detrás de Natsuki y la abraza."
     show natsuki base uniform fs e4 b2 m3
-    n "Stop grabbing me!"
+    n "¡Quítate de encima mía!"
     $ nref()
     show natsuki base uniform e4c ml b1a blaw at h42
-    n "And I'm not CUTE!!"
+    n "¡¡Y no soy CUQUI!!"
     show natsuki cross uniform e1b b1e md nobl
     show sayori base uniform neut ma rdown ldown at t44
     show monika base uniform neut ma e1a b1a
-    m "Great! Now that everything is okay, I can explain how the next few days are going to go!"
+    m "¡Pues genial! Ahora que todos estamos de acuerdo, ¡me encargaré de explicar cómo procederemos durante estos días!"
     show yuri shy uniform e2 b1 m1
-    m "First of all, we'll have to decorate the club room, and for that we'll need someone with a nice handwriting to catch the eye of the guests and also change the atmosphere of the room!"
-    m "Yuri, [player] and I agreed that it will be you who's in charge of this activity."
-    m "In our eyes, you are the person who has the most capacity for this task."
+    m "Antes de nada, hemos de decorar el aula, y necesitamos a alguien con una letra preciosa que también sepa cambiar la atmósfera del lugar."
+    m "Yuri, [player] y yo estamos de acuerdo en que tú eres la más indicada para esto."
+    m "Para nosotros, eres la más capacitada."
     $ yref()
     show yuri base uniform e1b b1a mg nobl
-    y "The atmosphere... speaking of that..."
+    y "Hablando de atmósfera..."
     show yuri base uniform e1a b1e mg rup ldown
-    y "I love atomosphere!"
+    y "¡Me encanta la atmósfera!"
     show monika base uniform e4b mb rhip
     show sayori base uniform e1a b1a
-    m "Perfect then! It's settled for one."
+    m "Entonces mejor."
     show monika base uniform e1a
-    m "Natsuki, you mentioned a few days ago that you were good at baking."
+    m "Natsuki, hace unos días mencionaste lo buena que eres horneando."
     show natsuki base uniform e1a b1a mg rhip
     show yuri base uniform e1a b1a ma rdown ldown
-    n "Yeah, my father is a pastry chef in downtown."
+    n "Claro, mi padre es un pastelero profesional en el centro de la ciudad."
     show monika base uniform e4b ma rdown
-    m "Perfect then! We'll need about fifteen or twenty cupcakes."
+    m "¡Me vale! Necesitaremos como quince o veinte cupcakes."
     show monika base uniform e1a me
-    m "Of course, since we can't make them in class, we'll have to make them at someone's house."
+    m "Claro, como no podemos hacerlos en clase, tendremos que hacerlos en casa de alguien."
     show monika base uniform e1a mb lpoint
-    m "Do you think your parents would agree if you could make them at home?"
+    m "¿Crees que tus padres accederán a hacerlos en tu casa?"
     show natsuki cross uniform mc nobl
     show monika base uniform e1a md ldown
-    n "Of course not, I could show off my baking skills to you all!"
+    n "Pues claro que no, ¡podría enseñaros mis habilidades horneadas!"
     show natsuki base uniform e4b mo b3c rhip
-    n "Ha ha ha, you all won't be ready, believe me."
+    n "Ja, ja, ja. Ha sido un chiste malo, pero no estáis preparados, creedme."
     show natsuki base uniform e1a mc b1a rdown
     show monika base uniform mb rhip
-    m "Do you think we could come over and help you or your parents would not accept?"
+    m "¿Crees que podríamos ayudarte con los cupcakes? ¿O tus padres no te dejan?"
     show monika base uniform ma
     show natsuki base uniform lhip mg
-    n "Mmmh, good question."
+    n "Mmm..., buena pregunta."
     show natsuki base uniform mc ldown
-    n "I'll ask them tonight, I'll let you know tomorrow."
+    n "Les pregunto esta noche y mañana os lo digo."
     show monika base uniform e4b mb lpoint
     show natsuki base uniform ma
-    m "Alright!"
+    m "¡Genial!"
     show monika base uniform e1a ma ldown
-    m "Well, now that everyone knows what they're doing-"
+    m "Ahora que todos tenemos algo que hacer..."
     $ sref()
     show sayori base uniform neut mg rup
-    s "Say Monika.. what are we doing Thursday?"
+    s "Pero, ¿qué vamos a hacer el jueves?"
     show sayori base uniform neut md
-    s "You haven't said anything yet. Shall we write a poem?"
+    s "Aún no has dicho nada. ¿Escribimos poemas?"
     show sayori base uniform neut ma rdown
     show monika base uniform e4b mb awkw rhip
-    m "Oh yes! Thanks for reminding me Sayori!"
+    m "¡Ah, sí! ¡Gracias por recordármelo, Sayori!"
     show monika base uniform e1a ma nobl rdown
-    m "What we're going to do on Thursday is not going to be writing a poem, we're going to recite one of our poems that we've been writing lately for practice..."
+    m "El jueves no escribiremos poemas..., ya que haremos un recital de prácticas en el que cada uno escoge uno de sus poemas ya escritos anteriormente,"
     show monika base uniform lpoint
-    m "...but you can write a new poem for Thursday if you're not satisfied with your old ones."
+    m "aunque podéis escribir uno nuevo si no os gustan los que ya habéis escrito."
     show monika base uniform ldown
-    "Yuri, Natsuki and Sayori nod."
+    "Yuri, Natsuki y Sayori asienten."
     show monika base uniform mb
-    m "We still have a little bit of time left, you can return what you were doing. Thank you all!"
+    m "Nos queda algo de tiempo, así que podéis volver a lo que hacíais antes. ¡Gracias, compis!"
     show monika at thide
     show sayori at thide
     show natsuki at thide
