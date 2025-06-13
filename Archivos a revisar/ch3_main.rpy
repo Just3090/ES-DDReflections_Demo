@@ -47,7 +47,7 @@ label ch3_main:
     pause 2
     $ s_name = "??????"
     s "¡Eeeyyy, [player], espérame!"
-    mc "Huh?"
+    mc "¿Eh?"
     $ s_name = "Sayori"
     play music t2 fadein 3.0
     "Me doy la vuelta para ver a Sayori corriendo en mi dirección, agitando los brazos en el aire."
@@ -74,7 +74,7 @@ label ch3_main:
     mc "Bueno... pues no."
     mc "De todos modos, deberíamos irnos o llegaremos tarde."
     show sayori base uniform e2a ml rup lup at rhide
-    s "¡Aaah! ¡Sí, vamos rápido, [player]!"
+    s "¡Aaah! ¡Sí, vamos tirando, [player]!"
     $ pause (0.4)
     hide sayori
     "Sayori sale corriendo sin decirme nada."
@@ -1058,63 +1058,63 @@ label ch3_main:
     hide monika
     hide natsuki
     hide yuri
-    "The girls each go back to their corners, returning to what they were doing."
-    "I turn to Monika."
+    "Las chicas vuelven a sus respectivos sitios a seguir con lo que hacían antes."
+    "Miro a Monika."
     show monika base uniform neut ma at t11
-    mc "Well done Monika, you were clear with what you said."
-    mc "Yuri didn't really seem ready for this announcement, but at least Sayori was able to convince her."
+    mc "Muy bien, Monika. Has hablado alto y claro."
+    mc "Aunque Yuri no parecía estar muy convencida, Sayori pudo ser capaz de hacer que entre en razón."
     show monika lean uniform ma
-    m "Ahahaha! That's true."
+    m "¡Ja, ja, ja! Pues sí."
     show monika base uniform neut lpoint ma b1b
-    m "Yuri is very shy and introverted, and it seems it's not a habit of hers to talk with people."
+    m "Yuri es muy vergonzosa e introvertida, y parece que eso de hablar con la gente... no es muy típico en ella."
     show monika base uniform neut ldown mb b1a
-    m "Even when we shared the poems, she had a hard time looking me straight in the eye, yet she understood very well what my poem was about."
-    m "But when we had shared for the second time, the tension was less present in her. I'm sure in a few days she will be more comfortable."
+    m "Aunque hayamos compartido nuestros poemas, estuvo un buen rato mirándome fijamente hasta que entendió a la perfección de qué iba mi poema."
+    m "Cuando compartimos poemas la segunda vez, había menos tensión en ella. En unos días, estará como un pececillo en el agua."
     show monika base uniform neut ldown ma
-    mc "She will be, it's just a matter of time."
-    mc "I even suggested to her to talk with Natsuki, so they could try to write a poem on the same theme."
+    mc "Pues sí, es cuestión de tiempo."
+    mc "Incluso le sugerí que hablase con Natsuki para que ambas escriban un poema con la misma temática."
     show monika base uniform neut me rhip
-    m "Oh really, [player]?"
+    m "Ah, ¿sí, [player]?"
     show monika base uniform neut ldown md
-    mc "Yeah, I think it could be interesting, don't you think?"
-    mc "They have two completely different types of writing styles."
+    mc "Claro. ¿No crees que sería interesante verlo?"
+    mc "Sus estilos de escritura son completamente diferentes."
     show monika base uniform neut rdown me
-    m "I'm not sure,[player]."
-    m "I just worry that it's going to start an argument again."
+    m "No estoy muy segura de ello, [player]."
+    m "Me preocupa que vuelvan a discutir."
     show monika base uniform neut md
-    mc "I don't think they'll argue again, Monika. Yuri took responsibility for what she did, and she's not going to make the same mistake again."
-    mc "As for Natsuki, I think her personality is a bit... you know..."
-    mc "... It's all about luck."
+    mc "No creo que discutan, Monika. Yuri se responsabilizó de lo que hizo y no creo que tropiece dos veces con la misma piedra."
+    mc "Por la parte de Natsuki, es un poco..., ya sabes...,As for Natsuki, I think her personality is a bit... you know..."
+    mc "cuestión de suerte."
     show monika base uniform neut me
-    m "What do you mean?"
-    mc "Well, what I mean is it just depends on her mood."
-    mc "I don't really know, but we'll see how it goes."
+    m "¿Suerte?"
+    mc "A ver, depende del ánimo que tenga en ese momento."
+    mc "No tengo ni idea, pero quiero ver qué tal."
     show monika lean uniform neut ma
-    m "Ahahaha! That's just Natsuki, [player]. She's like that."
-    "I just shrug my shoulders."
-    mc "I think we'll stop the meeting in a little while."
+    m "¡Ja, ja, ja! Es que así es Natsuki, [player]. No hay más."
+    "Me encojo de hombros."
+    mc "Creo que falta poco para que acabe la reunión."
     show monika base uniform neut me rhip
-    m "So early?"
-    mc "Yes, we'll give Yuri some time to buy what she needs from the stores for tomorrow."
-    mc "If we stop the meeting at the same time as usual, she won't have much time, plus it's a thirty minute walk downtown to there."
+    m "¿Ya?"
+    mc "Claro. Dejaremos que Yuri tenga suficiente tiempo para comprar lo que necesita para mañana."
+    mc "Si acabamos a la hora de siempre, no tendrá casi nada de tiempo, y añade ese poco tiempo a la caminata de 30 minutos que se va a pegar."
     show monika base uniform ma rdown
-    m "I don't think so, but I won't change your mind, it's your club after all."
+    m "No creo que tenga tan poco tiempo, pero no voy a decirte qué hacer y qué no. Es tu club, después de todo."
     show monika lean uniform neut ma
-    "I flash Monika a smile, and, she flashes me one too."
+    "Le sonrío a Monika y me sonríe al mismo tiempo."
     show monika at thide
     hide monika
-    "I glance around the room."
-    "I see Yuri get up from her chair and start to timidly walk towards Natsuki who is still sitting on the floor towards the closet."
-    "She kneels down placing herself at her level."
-    "I can't hear very well from what she's saying from where I am."
-    "I can just see Natsuki nodding with an embarrassed look on her face."
+    "Echo un vistazo al aula."
+    "Veo a Yuri levantarse y andar con mucha timidez hacia Natsuki, que sigue sentada en el suelo, justo al lado del armario."
+    "Se arrodilla, poniéndose a la misma altura."
+    "No puedo oír con claridad lo que dice..."
+    "Lo único que puedo ver es a Natsuki asintiendo con vergüenza."
     show monika base uniform neut me rhip at t11
-    mc "I think that's a winner."
-    "I nod towards Yuri and Natsuki's direction to signal Monika to look over there."
+    mc "Creo que es un punto para mí."
+    "Hago señas con la cabeza a Monika en dirección a esas dos."
     show monika base uniform b1b ma rdown
-    m "Looks like you were right in the end."
-    m "I'm glad they're starting to get along."
-    mc "Same here."
+    m "Pues es un punto merecido, tenías razón al final."
+    m "Me alegra que empiecen a llevarse bien."
+    mc "Y a mí."
     "We both stay in silence for a little while."
     s "{i}Monika, come and see something!{/i}"
     show monika base uniform mb b1a rhip
@@ -1362,15 +1362,15 @@ label ch3_main:
     mc "What did you want to talk to me about Monika?"
     show monika base uniform e1a b1b
     m "You know, [player], I'm just saying this for you, but please, don't take up all your time for the club."
-    m "I know there is the festival coming up, but I would hate to see you spending all your free time for your club."
+    m "Sé que se acerca el festival, pero odio tener que verte dedicando todo tu tiempo libre al club."
     show monika base uniform e1b mb blaw lpoint
-    m "Did I more or less just say the same sentence?"
-    mc "Kind of, yes."
+    m "¿Acabo de decir lo mismo dos veces?"
+    mc "Más o menos, sí."
     show monika base uniform e4b awkw ldown
     m "Ja, ja, ja... Perdóname."
     show monika base uniform e1a b1a ma nobl rhip
     mc "But otherwise, I understand what you mean, Monika. Thanks for worrying about me."
-    mc "I just want, that everything goes perfectly well."
+    mc "Lo único que quiero es que todo vaya sobre ruedas."
     show monika lean uniform neut ma
     m "Me too, I also want everything to go smoothly, [player]."
     mc "How do you think it will go tomorrow, Monika?"
@@ -1408,41 +1408,41 @@ label ch3_main:
     show monika base uniform neut ma b1b rhip
     m "Ooooh, come on, [player]!"
     show monika base uniform neut ma b1a rdown
-    m "Give yourself a little more credit, you're a very clean guy."
-    mc "If you say so.."
-    m "I mean it."
-    "How we came to talk about cleanliness now??"
-    mc "But otherwise, I'm glad I could get your opinion about tomorrow."
+    m "Valórate un poco más. Eres un tío bastante ordenadito."
+    mc "Si tú lo dices..."
+    m "Que sí, que sí, que voy en serio."
+    "¿¿Cómo hemos acabado hablando de limpieza??"
+    mc "En fin, me ha encantado saber tu opinión sobre lo de mañana."
     show monika lean uniform ma
-    "Monika sketches a big smile."
+    "Monika sonríe."
     show bg residential_e
     hide monika
     with wiperight_scene
-    "The rest of the walk passes without any other incident in particular."
-    "Just like this morning, with Sayori, we talked about various and sundry topics that were each, more or less interesting."
-    "We stop once we arrive in front of the gate to my house."
-    mc "Here I am."
-    "Monika looks at the front of the house."
+    "El resto del camino ocurre sin ningún incidente en particular."
+    "Como esta mañana, con Sayori, estuvimos hablando de varios temas, que fueron más o menos interesantes."
+    "Nos paramos justo al llegar a la puerta de mi casa."
+    mc "Aquí te tengo que abandonar."
+    "Monika mira la parte frontal de la casa con bastante interés."
     show monika base uniform neut ma at t11:
         matrixcolor TintMatrix ("#f5aa87")
-    m "Your parents' house looks nice, [player]."
-    mc "Thanks, Monika. you don't live too far away?"
+    m "La casa de tus padres está guay, [player]."
+    mc "Gracias, Monika. Oye, ¿no te va a pillar un poquito lejos?"
     show monika base uniform neut e4b
-    m "No, no, don't worry."
+    m "No, no, no te preocupes."
     show monika base uniform e1a rhip
-    m "I'll see you tomorrow, [player]. Get some rest, because I wouldn't want to find you asleep on a table again."
+    m "Te veré mañana, [player]. Descansa mucho, que no quiero encontrarte en la mesa otra vez con medio litro de baba fuera."
     show monika lean uniform neut ma at h11
-    m "Ehehehe~"
-    mc "I already told you that I don't----"
+    m "Je, je, je, je, je..."
+    mc "Ya te he dicho que no..."
     show monika base uniform neut ma e4b rhip
-    m "I know, I know. I'm teasing you, [player]."
+    m "Que sí, que sí, que estoy de coña contigo, [player]."
     show monika base uniform neut mb e1a rdown
-    m "Anyway! I'm going to go, thanks for the walk!"
+    m "¡En fin, me voy ya! ¡Gracias por la caminata!"
     show monika at thide
     hide monika
-    "Monika crosses the road, heading across the street."
-    "She then continues on her way, taking the direction of where we came from."
-    "Meanwhile, I open the gate and unlock the door to the house before going inside."
+    "Monika cruza la carretera."
+    "Se despide con la mano y continúa su camino yendo por donde hemos venido."
+    "De mientras, voy abriendo la puerta de mi casa."
     play sound closet_open
     stop music fadeout 2.0
     show bg kitchen
