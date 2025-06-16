@@ -1107,7 +1107,7 @@ label ch3_main:
     "Veo a Yuri levantarse y andar con mucha timidez hacia Natsuki, que sigue sentada en el suelo, justo al lado del armario."
     "Se arrodilla, poniéndose a la misma altura."
     "No puedo oír con claridad lo que dice..."
-    "Lo único que puedo ver es a Natsuki asintiendo con vergüenza."
+    "Lo único que puedo ver desde aquí es a Natsuki asintiendo con vergüenza."
     show monika base uniform neut me rhip at t11
     mc "Creo que es un punto para mí."
     "Hago señas con la cabeza a Monika en dirección a esas dos."
@@ -1115,40 +1115,40 @@ label ch3_main:
     m "Pues es un punto merecido, tenías razón al final."
     m "Me alegra que empiecen a llevarse bien."
     mc "Y a mí."
-    "We both stay in silence for a little while."
-    s "{i}Monika, come and see something!{/i}"
+    "Nos quedamos en silencio un ratito."
+    s "{i}¡Monika, ven un momentito, que tengo que enseñarte algo!{/i}"
     show monika base uniform mb b1a rhip
-    m "I'll need to leave you for a bit, [player]. Sorry about that!"
-    mc "No problem, I'll just read a little."
+    m "Te dejo, [player]. ¡Perdóname!"
+    mc "No pasa nada, me quedaré aquí leyendo un poco."
     show monika at thide
     hide monika
-    "Monika walks over to Sayori, and they begin what seems to be a cheerful discussion."
+    "Monika va a ver qué quiere Sayori, y parece que están hablando de algo divertido."
     "..."
-    "I sit down on a desk and take out a book from my bag."
-    "I look at the cover of the book, giving me a hint."
-    mc "This is the book Yuri lent me."
-    "I open it and resume my reading from last night."
+    "Me siento en uno de los escritorios y saco un libro de mi mochila."
+    "Observo con atención la portada, dándome una pista de su procedencia."
+    mc "Este es el libro que me dio Yuri."
+    "Lo abro y sigo leyendo desde donde lo dejé anoche."
     "..."
     "..."
     "...."
-    "I can't concentrate on the book."
-    "I feel like I'm being watched right now."
-    "I look to my right."
-    "Nothing."
-    "I look to my left."
-    "I see Yuri quietly watching me from behind her book."
+    "No puedo concentrarme en la lectura."
+    "Es que siento como si me estuviesen poniendo el ojo encima."
+    "Miro a mi derecha."
+    "Nada."
+    "Miro a mi izquierda."
+    "Veo a Yuri, observándome cautelosamente cubierta con su libro."
     show yuri base uniform neut mf rup at t11
-    "I have the impression that she is reading the same book that she lent me."
+    "Tengo la sensación de que está leyendo lo mismo que estoy leyendo yo..."
 
 
     show yuri base uniform e2a mk rup blaw b1b
-    "But{nw}{done}as soon as I make eye contact with her, she hides herself again behind her book."
+    "Tan pronto{nw}{done}como hago contacto visual con ella, se cubre la cara con el libro."
     $ yref()
     show yuri shy uniform b1 m1 e2
-    "But as soon{fast} as I make eye contact with her, she hides herself again behind her book."
-    "I get up from the chair and walk towards her, the book in hand."
+    "Tan pronto como{fast} hago contacto visual con ella, se cubre la cara con el libro."
+    "Me levanto y voy hacia ella, libro en mano."
     show yuri base uniform e2b b1b mb rup blaw at s11
-    y "Aah...! Sorry to bother you..."
+    y "¡Aaah! Perdona, no quería molestarte..."
     show yuri base uniform e2b mb rup blaw at t11
     mc "Don't worry Yuri, I just noticed that you were reading the same book as me."
     show yuri base uniform e1b b1a ma rup lup nobl
