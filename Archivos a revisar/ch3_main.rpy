@@ -1150,32 +1150,32 @@ label ch3_main:
     show yuri base uniform e2b b1b mb rup blaw at s11
     y "¡Aaah! Perdona, no quería molestarte..."
     show yuri base uniform e2b mb rup blaw at t11
-    mc "Don't worry Yuri, I just noticed that you were reading the same book as me."
+    mc "No te preocupes, Yuri. Me acabo de dar cuenta de que lees el mismo libro que yo."
     show yuri base uniform e1b b1a ma rup lup nobl
     y "Ah..."
     show yuri base uniform e1a mb ldown rdown
-    y "...Y-Yes, indeed. It's one of my favorite books since I finished it and, from time to time, I start reading it again."
+    y "S-Sí..., y es uno de mis libros favoritos. Como me lo he terminado ya, de vez en cuando, lo empiezo de nuevo."
     show yuri base uniform e2b b1b blaw rup
-    y "J-Just for fun! There's really no other reason or anything..."
-    mc "Mmh, I see. I can tell you that the book you lent me is pretty good. I started reading it last night."
+    y "¡S-Solo por diversión! N-No es que haya alguna otra razón ni nada..."
+    mc "Mmm..., ya veo. Una cosa voy a decir, y es que el libro que me diste es bastante bueno. Anoche empecé a leerlo."
     show yuri base uniform e1a b1a mf nobl rdown
-    y "Oh really?"
-    mc "Yeah, you were right, the beginning of the book wasn't very relevant or at least... interesting."
-    mc "But the rest of it made up for it."
+    y "¿Sí?"
+    mc "Sí, tenías razón. El inicio es algo lento y poco relevante,"
+    mc "pero el resto valió la pena."
     show yuri base uniform e4a ma b1a rup lup
-    y "It relieves me..."
+    y "Me alivia saber eso..."
     show yuri base uniform e1a mb rdown ldown
-    y "... I'm glad you like the book."
+    y "Que... que te guste el libro, digo."
     show yuri shy uniform e1 b1 m1
-    y "If you want, [player]..."
-    "Yuri delicately closes her book with her hand, I can see a little better that the cover of her book looks newer than the one she lent me."
-    mc "Say, Yuri... the book you have next to you, it looks a bit newer than mine, doesn't it?"
-    "I take a quick look at the cover of the book I have in my hand."
-    "And--indeed, the cover of the book looks a little more battered and dusty compared to her."
+    y "Pues si quieres, [player]..."
+    "Yuri cierra su libro con mucha delicadeza, pudiendo observar que la portada de su libro está mejor que la del libro que me ha dado."
+    mc "Oye, Yuri..., ¿no es tu libro un poco más nuevo que el mío?"
+    "Echo un vistazo rápido para no estar equivocándome."
+    "Y, además, mi portada está en peores condiciones. Está mucho más polvorienta y arrugada que la suya."
     show yuri base uniform mk e2a blaw rup lup
-    y "I-...!"
+    y "¡P-Pues...!"
     show yuri shy uniform n2 e2 m1 b1
-    y "Well... it's... I..."
+    y "A ver..., es que, yo..."
     "She can't seem to formulate her sentence completely."
     show yuri shy uniform n5 m2
     "It's obvious that Yuri bought the same examplar last Friday, but I decide not to point it out."
