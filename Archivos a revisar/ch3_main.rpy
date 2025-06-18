@@ -1178,33 +1178,33 @@ label ch3_main:
     y "A ver..., es que, yo..."
     "She can't seem to formulate her sentence completely."
     show yuri shy uniform n5 m2
-    "It's obvious that Yuri bought the same examplar last Friday, but I decide not to point it out."
-    mc "Sorry Yuri... it had just hit me when I saw that, I didn't mean to imply anything strange."
+    "Se nota que Yuri ha comprado el mismo ejemplar dos veces, pero creo que es mejor no decir nada."
+    mc "Perdona, Yuri..., me había impresionado ver dos ejemplares, no quería hacerlo sonar raro."
     show yuri shy uniform n1 m1 e2 b1
     y "..."
-    "Yuri rubs part of her hair with both hands turning her face away."
-    "Finally, she decides to speak."
+    "Yuri se frota el pelo con ambas manos mientras mira hacia otro lado."
+    "Finalmente, decide hablar."
     show yuri base uniform e4a mf b1b rup lup
-    y "I... I just wanted to... introduce to you a whole new kind of story."
+    y "Quería... Quería que experimentases... una historia completamente nueva."
     show yuri base uniform e1b mg b1a
-    y "And I like to reread from time to time, not just for fun only..."
-    y "... But also, to hear what others think, when they have a constructive opinion..."
+    y "Obviando de que me gusta releerlo de vez en cuando y no solamente por diversión..."
+    y "Me gusta escuchar lo que piensan los demás..., si tienen una opinión constructiva, claro."
     show yuri shy uniform m1 e2 b1
-    y "... Especially from someone like you."
-    mc "Ahaha... Yuri, don't you think you are exaggerating?"
+    y "En especial, de alguien como tú."
+    mc "Ja, ja, ja. ¿No crees que estás exagerando un poco, Yuri?"
     show yuri base uniform e1a b1b rup lup
-    y "I mean it sincerely and no... I'm not exaggerating."
+    y "No exagero, ¿sabes? Lo decía en serio."
     show yuri base uniform e1b b1b ldown
-    y "You have always been calm, respectful and patient with me..."
+    y "Has sido paciente conmigo y me has tratado muy bien, con muchísimo respeto..."
     show yuri shy uniform b1 m1 e2
-    y "Even though at times I would end up saying stupid things."
+    y "Incluso cuando digo tonterías."
     show yuri base uniform e4a b1b rup lup mf
-    y "Most people would have ended up laughing at me or just walked away uncomfortable..."
+    y "La mayoría de gente se hubiese reído de mí o se habría largado de mi lado por incomodidad..."
     show yuri base uniform e1a b1b ma ldown rdown
-    y "So just thank you... and thank you for starting this club..."
+    y "Así que..., gracias. Gracias por todo y gracias por empezar este club..."
     show yuri base uniform e1b b1b rup lup
-    y "... I really feel comfortable here..."
-    mc "I... please Yuri, I'm just doing my job as president."
+    y "Me... Me siento muy a gusto viniendo aquí..."
+    mc "Es que..., por favor, Yuri, no digas eso. Hago lo que debo hacer como presidente."
     mc "I try my best to make this club more pleasant."
     "Yuri smiles wistfully."
     mc "I had seen you talking with Natsuki about, what did you talk about?"
