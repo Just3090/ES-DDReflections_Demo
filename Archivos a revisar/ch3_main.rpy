@@ -552,7 +552,7 @@ label ch3_main:
     mc "Sayori, si tuviese que opinar con una sola palabra..."
     mc "Impresionante."
     show sayori base uniform e4b mc rup
-    s "Je, je, je. ¡Te dije que escribiría el mejor poema hasta la fecha!
+    s "Je, je, je. ¡Te dije que escribiría el mejor poema hasta la fecha!"
     show sayori base uniform e1a ma
     mc "No estabas de coña..."
     mc "Tu poema es impresionante, Sayori. Muy bien."
@@ -1205,123 +1205,123 @@ label ch3_main:
     show yuri base uniform e1b b1b rup lup
     y "Me... Me siento muy a gusto viniendo aquí..."
     mc "Es que..., por favor, Yuri, no digas eso. Hago lo que debo hacer como presidente."
-    mc "I try my best to make this club more pleasant."
-    "Yuri smiles wistfully."
-    mc "I had seen you talking with Natsuki about, what did you talk about?"
-    mc "If you don't mind of course..."
+    mc "Intento que este club sea lo más agradable posible."
+    "Yuri sonríe con nostalgia."
+    mc "Te vi hablando con Natsuki antes, ¿de qué hablasteis?"
+    mc "Si no te importa, claro..."
     show yuri base uniform e1a mb b1a rdown ldown
-    y "I don't mind on the contrary, I had quickly thought about your request earlier when we shared our poems and..."
+    y "No me importa, al contrario. Me acordé rápido de lo que me pediste antes cuando compartimos los poemas y..."
     show yuri base uniform e1b ma rup lup
-    y "... We finally settled on writing a poem on the same theme."
-    mc "That's nice, I'm glad you were able to talk to her."
-    mc "And what is the theme?"
+    y "... Al final acordamos escribir un poema sobre el mismo tema."
+    mc "Eso está genial, me alegro de que pudieras hablar con ella."
+    mc "¿Y cuál es el tema?"
     show yuri base uniform e1a mg ldown rdown
-    y "The beach."
-    mc "The beach?"
-    mc "That's great!"
-    mc "It can only be a happy poem."
+    y "La playa."
+    mc "¿La playa?"
+    mc "¡Eso está de lujo!"
+    mc "Solo puede salir un poema alegre de ahí."
     show yuri shy uniform e2 m1 b1
-    y "That's... It's true that I tend to write poems that are a little dark."
+    y "Bueno... Es verdad que suelo escribir poemas un poco oscuros."
     show yuri base uniform neut ma
-    y "I guess a little change wouldn't hurt?"
-    mc "Exactly, you got it all figured out, Yuri."
-    mc "I can't wait to see how you do it."
+    y "Supongo que un cambio no me vendrá mal, ¿no?"
+    mc "Exacto, lo tienes todo controlado, Yuri."
+    mc "Tengo ganas de ver cómo lo haces."
     show yuri base uniform rup lup e1b
-    y "If that's the case.."
+    y "Si es así..."
     show yuri base uniform e1a b1b
-    y "I won't let you down, [player]."
+    y "No te voy a fallar, [player]."
     mc "Ah..."
-    "How am I supposed to answer that?"
-    mc "Well... I think we'll stop the meeting a little early for today."
-    mc "So you can buy everything you need for tomorrow."
+    "¿Cómo se supone que debo responder a eso?"
+    mc "Bueno... Creo que hoy vamos a terminar la reunión un poco antes."
+    mc "Así puedes comprar todo lo que necesites para mañana."
     show yuri base uniform e1b b1a
-    y "Ah yes..."
+    y "Ah, sí..."
     show yuri base uniform e1a mb rdown ldown
-    y "I already have some ideas for tomorrow."
+    y "Ya tengo algunas ideas para mañana."
     show yuri base uniform e4b ma
-    "Yuri smiles happily."
+    "Yuri sonríe feliz."
     show yuri base uniform e1a ma
-    mc "That's perfect then!"
+    mc "¡Pues perfecto entonces!"
     mc "Ah, Yuri..."
     show yuri base uniform e1a mf rup lup
-    y "Ummmh... yes?"
-    "I pull my wallet out of my bag, extracting a few bills holding them to Yuri."
-    mc "Since I was the one who came up with the idea, along with Monika, I figured it was up to me to give you the money so you could buy the necessities without having to use your own money."
-    "To my surprise, Yuri puts her two delicate hands on my wrist and brings it to me."
+    y "¿Ummmh... sí?"
+    "Saco la cartera de la mochila y extraigo unos billetes, tendiéndoselos a Yuri."
+    mc "Como fui yo quien tuvo la idea, junto con Monika, pensé que lo justo era darte el dinero para que pudieras comprar lo necesario sin tener que gastar de tu propio bolsillo."
+    "Para mi sorpresa, Yuri pone sus dos delicadas manos sobre mi muñeca y la acerca hacia ella."
     show yuri base uniform e1a b1b ma
-    y "No [player]..."
+    y "No, [player]..."
     show yuri base uniform e1b
-    y "I don't need you to lend me money."
-    y "You have already done enough for me..."
-    mc "Um... really Yuri, I don't mind."
-    "I hold my hand back towards her."
-    mc "I prefer that you do not--"
+    y "No necesito que me prestes dinero."
+    y "Ya has hecho suficiente por mí..."
+    mc "Eh... de verdad, Yuri, no me importa."
+    "Le vuelvo a acercar la mano."
+    mc "Prefiero que no--"
     show yuri base uniform e1a mh b1e rdown ldown
-    y "No!!"
-    "Suddenly Yuri raises her voice."
+    y "¡No!!"
+    "De repente, Yuri alza la voz."
     $ yref()
     show yuri base uniform e2a b1b mk rup blaw
-    y "I-...!"
+    y "¡Y-...!"
     show yuri base uniform e2a b1b ml rup lup
-    y "I'm sorry-!"
-    y "I'm really sorry!"
+    y "¡Perdón!"
+    y "¡Lo siento mucho!"
     show yuri base uniform e1b mk ldown
-    y "I.. didn't mean to raise my voice...!"
+    y "No... no quería levantar la voz..."
     y "..."
     show yuri shy uniform n5 m2
-    y "{i}(I am so stupid...){/i}"
-    mc "It's okay Yuri, I understand..."
-    mc "... I shouldn't have forced it."
+    y "{i}(Qué tonta soy...){/i}"
+    mc "No pasa nada, Yuri, te entiendo..."
+    mc "... No debería haberte insistido."
     show yuri shy uniform n1 b1 m1 e2
     y "..."
     show yuri base uniform e4a mf b1b
-    y "Sorry again..."
-    mc "I think you apologize a lot, Yuri."
+    y "Perdón otra vez..."
+    mc "Creo que pides perdón demasiado, Yuri."
     $ yref()
     show yuri base uniform e2b b1b mb blaw rup
-    y "Ah... you think so?"
-    mc "Yes, ahaha."
+    y "¿Ah... tú crees?"
+    mc "Sí, jajaja."
     show yuri base uniform e2b b1b mb blaw rdown at s11
-    y "Uuuh... it's-..."
+    y "Uuuh... es que-..."
     show yuri base uniform e2b b1b mb blaw rdown at t11
-    y "Well...{w=1}{nw}{done}I'm-!"
+    y "Bueno...{w=1}{nw}{done}yo-!"
     show yuri shy uniform n5 m2 at h11
-    y "Well...{fast}I'm-!"
-    "Yuri clearly stops in her sentence, understanding her nonsense that she was about to say."
-    "I can't help but blow my nose to express this funny situation."
+    y "Bueno...{fast}¡yo-!"
+    "Yuri se detiene claramente en su frase, dándose cuenta de la tontería que iba a decir."
+    "No puedo evitar sonarme la nariz para expresar lo graciosa que es la situación."
     show yuri base uniform e2b b1b mb blaw rup at s11
-    y "You are right, ahaha.."
-    mc "Thank you for that conversation, Yuri."
+    y "Tienes razón, jajaja..."
+    mc "Gracias por la charla, Yuri."
     show yuri base uniform b1a e1a ma blus rdown at t11
-    y "Thanks to you too, [player]. It was a pleasure."
+    y "Gracias a ti también, [player]. Ha sido un placer."
     show bg club_day1
     hide yuri
     with wiperight_scene
-    mc "Okay everyone!"
-    mc "We're going to stop today's meeting a little early."
+    mc "¡Vale, compis!"
+    mc "Hoy vamos a terminar la reunión un poco antes."
     show sayori base uniform b1b mg rup at t11
-    s "What? Already?"
+    s "¿Cómo? ¿Ya?"
     show sayori base uniform me at t21
     show monika base uniform neut mb lpoint at t22
-    m "Yes Sayori, sorry. But tomorrow the meeting will last a little longer, we promise!"
+    m "Sí, Sayori, lo siento. Pero mañana la reunión durará un poco más, ¡lo prometemos!"
     show sayori base uniform me at t31
     show monika base uniform neut mb lpoint at t32
     show natsuki base uniform rhip lhip mg at t33
-    n "Why are we stopping so early anyway?"
+    n "¿Y por qué cortamos tan pronto?"
     show sayori base uniform me at t41
     show monika base uniform neut ma ldown at t42
     show natsuki base uniform e1a rhip lhip md at t43
     show yuri shy uniform n1 b1 m1 e2 at t44
-    mc "It's so that Yuri has more time so she can buy the necessary supplies tomorrow, and then we already shared our poems."
+    mc "Es para que Yuri tenga más tiempo y pueda comprar lo que necesita mañana, y además ya hemos compartido los poemas."
     show natsuki cross uniform e1b b1e blus mm
-    "Natsuki grunts to express her frustration."
-    mc "Oh yes, Monika forgot to mention this to you, but since we're going to focus fully on the preparations for the festival, there will be no poem sharing for the next few days!"
-    mc "But if you would like to write one and share it to someone in particular, feel free. There's no harm."
+    "Natsuki gruñe para mostrar su frustración."
+    mc "Ah, sí, Monika se olvidó de deciros esto, pero como vamos a centrarnos de lleno en los preparativos del festival, ¡no habrá intercambio de poemas en los próximos días!"
+    mc "Pero si queréis escribir uno y compartirlo con alguien en especial, adelante. No hay problema."
     show monika lean uniform neut ma
-    m "Thanks, [player]."
+    m "Gracias, [player]."
     show monika base uniform neut mb ldown
-    m "Anyway everyone, the meeting is over for today!"
-    m "See you tomorrow, and be in shape!"
+    m "Bueno, chicos, ¡la reunión ha terminado por hoy!"
+    m "¡Nos vemos mañana, y venid con energía!"
     show monika at thide
     show yuri at thide
     show sayori at thide
@@ -1330,38 +1330,38 @@ label ch3_main:
     hide yuri
     hide natsuki
     hide sayori
-    "Once Natsuki and Yuri bid us farewell, only Monika and Sayori are left in the club room."
+    "Cuando Natsuki y Yuri se despiden, solo quedan Monika y Sayori en el aula del club."
     show monika base uniform neut ma at t21
     show sayori base uniform neut at t22
-    m "Sayori, do you mind if I walk home with [player] for today?"
+    m "Sayori, ¿te importa si hoy me voy a casa con [player]?"
     show monika base uniform lpoint b1b
-    m "I'd like to talk to him about something."
-    "I scratch the back of my head, with my heart rate suddenly accelerating, not being ready for what Monika was going to say."
+    m "Quiero hablar con él de una cosa."
+    "Me rasco la nuca, notando cómo se me acelera el corazón, sin estar preparado para lo que Monika va a decir."
     mc "..."
     show sayori base uniform neut mb
-    s "No no, there's no worries!"
-    s "I went home with him on Friday, and I noticed I live not too far from him."
+    s "¡No, no, sin problema!"
+    s "El viernes ya fui con él a casa, y me di cuenta de que vivimos bastante cerca."
     show monika base uniform e4b mb ldown
-    m "Oh, great!"
+    m "¡Ah, genial!"
     show sayori base uniform neut ma rip
-    s "I'm going to go now by the way, see you two tomorrow!"
-    mc "See you tomorrow, Sayori."
+    s "Bueno, yo me voy ya, ¡nos vemos mañana!"
+    mc "¡Hasta mañana, Sayori!"
     stop music fadeout 3.0
     show sayori at lhide
     show monika at thide
     hide sayori
     hide monika
-    "Sayori packs up her things and heads for the exit."
-    "I pack up my things and head for Monika."
-    "She already has her bag on her back, ready to go too."
+    "Sayori recoge sus cosas y se va hacia la puerta."
+    "Recojo mis cosas y me acerco a Monika."
+    "Ya lleva la mochila puesta, lista para irse también."
     show bg re2_e
     with wiperight_scene
     play music evening
     show monika base uniform e1a ma rhip at t11:
         matrixcolor TintMatrix ("#eec7a7")
-    mc "What did you want to talk to me about Monika?"
+    mc "¿De qué querías hablar conmigo, Monika?"
     show monika base uniform e1a b1b
-    m "You know, [player], I'm just saying this for you, but please, don't take up all your time for the club."
+    m "Mira, [player], te lo digo por tu bien, pero por favor, no dediques todo tu tiempo al club."
     m "Sé que se acerca el festival, pero odio tener que verte dedicando todo tu tiempo libre al club."
     show monika base uniform e1b mb blaw lpoint
     m "¿Acabo de decir lo mismo dos veces?"
@@ -1369,44 +1369,44 @@ label ch3_main:
     show monika base uniform e4b awkw ldown
     m "Ja, ja, ja... Perdóname."
     show monika base uniform e1a b1a ma nobl rhip
-    mc "But otherwise, I understand what you mean, Monika. Thanks for worrying about me."
+    mc "Pero bueno, Monika, te entiendo. Gracias por preocuparte por mí."
     mc "Lo único que quiero es que todo vaya sobre ruedas."
     show monika lean uniform neut ma
-    m "Me too, I also want everything to go smoothly, [player]."
-    mc "How do you think it will go tomorrow, Monika?"
+    m "Yo también, [player], quiero que todo salga a pedir de boca."
+    mc "¿Cómo crees que irá mañana, Monika?"
     show monika base uniform neut me
-    m "Tomorrow? Why do you ask that, [player]?"
-    mc "I like to plan things in advance."
+    m "¿Mañana? ¿Por qué lo preguntas, [player]?"
+    mc "Me gusta tenerlo todo planeado con antelación."
     show monika base uniform neut mb rhip
-    m "Ah... you don't like to improvise things too much, do you?"
-    mc "Well... it really depends on the situation."
+    m "Ah... ¿No te mola improvisar mucho, eh?"
+    mc "Bueno... depende de la situación, la verdad."
     show monika base uniform neut e4b mb rdown
-    m "Oh right... I think everything will go as planned!"
+    m "Ya veo... Yo creo que todo irá sobre ruedas."
     show monika base uniform neut e1a ma rhip
-    m "I don't really see what could go wrong."
-    m "We're going to do a lot of work, sure, but it will be for the good of the club."
+    m "No veo qué podría salir mal."
+    m "Vamos a currar un montón, sí, pero será por el bien del club."
     show monika base uniform neut e4b
-    m "I'm sure we'll have good credibility in the eyes of the people at the school."
+    m "Seguro que la gente del insti nos ve con buenos ojos."
     show monika base uniform neut e1a mb rdown
-    m "What about you, [player]? What do you think?"
-    mc "I'm thinking the same thing too, although I am a little stressed about whether Natsuki's parents will accept us coming to their house or not."
+    m "¿Y tú qué piensas, [player]?"
+    mc "Pienso igual, aunque estoy algo rayado por si los padres de Natsuki nos dejan ir a su casa o no."
     show monika base uniform me rhip
-    m "Indeed... That's the only thing that could block us."
+    m "Sí... Eso es lo único que podría fastidiarnos."
     show monika base uniform me lpoint
-    m "We have to think of a plan B."
-    mc "That's easy, we could-"
+    m "Habrá que pensar en un plan B."
+    mc "Eso es fácil, podríamos—"
     show monika lean uniform neut m1
-    m "Yes, we could go to your home."
-    mc "Huh?!"
-    m "Ahahaha! Why not, [player]?"
+    m "Sí, podríamos ir a tu casa."
+    mc "¿¡Cómo!?"
+    m "¡Jajajaja! ¿Por qué no, [player]?"
     show monika lean uniform neut m2
-    m "Are you afraid that four girls will come to your house?"
+    m "¿Te da cosa que vayan cuatro chicas a tu casa?"
     show monika lean uniform neut m1
-    mc "No! Not at all!"
-    mc "But I wasn't thinking about that."
-    mc "I'll just have to do some cleaning before you come, I already know in advance the reactions of some of you."
+    mc "¡No! ¡Para nada!"
+    mc "Pero no lo había pensado."
+    mc "Tendré que pegarle un buen repaso a la casa antes de que vengáis, que ya me imagino las caras de alguna."
     show monika base uniform neut ma b1b rhip
-    m "Ooooh, come on, [player]!"
+    m "¡Ooooh, venga ya, [player]!"
     show monika base uniform neut ma b1a rdown
     m "Valórate un poco más. Eres un tío bastante ordenadito."
     mc "Si tú lo dices..."
